@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_2ABF7" targetNamespace="http://tempuri.org/Ds_2ABF7.xsd" xmlns:mstns="http://tempuri.org/Ds_2ABF7.xsd" xmlns="http://tempuri.org/Ds_2ABF7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="J2BKPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="J2BKPVConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WTERP.Properties.Settings.GlobalReference.Default.J2BKPVConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View2ABF7Tab4_1TableAdapter" GeneratorDataComponentClassName="View2ABF7Tab4_1TableAdapter" Name="View2ABF7Tab4_1" UserDataComponentName="View2ABF7Tab4_1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="J2BKPVConnectionString (Settings)" DbObjectName="J2BKPV.dbo.View2ABF7Tab4_1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>  SELECT * from View2ABF7Tab4_1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="WS_NO" DataSetColumn="WS_NO" />
+              <Mapping SourceColumn="WS_DATE" DataSetColumn="WS_DATE" />
+              <Mapping SourceColumn="BQTY" DataSetColumn="BQTY" />
+              <Mapping SourceColumn="OR_NO" DataSetColumn="OR_NO" />
+              <Mapping SourceColumn="OR_NR" DataSetColumn="OR_NR" />
+              <Mapping SourceColumn="K_NO" DataSetColumn="K_NO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_2ABF7Tap4TableAdapter" GeneratorDataComponentClassName="View_2ABF7Tap4TableAdapter" Name="View_2ABF7Tap4" UserDataComponentName="View_2ABF7Tap4TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="J2BKPVConnectionString (Settings)" DbObjectName="J2BKPV.dbo.View_2ABF7Tap4" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM dbo.View_2ABF7Tap4</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NR" DataSetColumn="NR" />
+              <Mapping SourceColumn="K_NO" DataSetColumn="K_NO" />
+              <Mapping SourceColumn="WS_DATE" DataSetColumn="WS_DATE" />
+              <Mapping SourceColumn="C_NAME_C" DataSetColumn="C_NAME_C" />
+              <Mapping SourceColumn="OR_NO" DataSetColumn="OR_NO" />
+              <Mapping SourceColumn="BRAND" DataSetColumn="BRAND" />
+              <Mapping SourceColumn="P_NAME_E" DataSetColumn="P_NAME_E" />
+              <Mapping SourceColumn="THICK" DataSetColumn="THICK" />
+              <Mapping SourceColumn="QTY" DataSetColumn="QTY" />
+              <Mapping SourceColumn="WS_DATE1" DataSetColumn="WS_DATE1" />
+              <Mapping SourceColumn="SL" DataSetColumn="SL" />
+              <Mapping SourceColumn="CB" DataSetColumn="CB" />
+              <Mapping SourceColumn="DATE1" DataSetColumn="DATE1" />
+              <Mapping SourceColumn="TRU" DataSetColumn="TRU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_2ABF7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Ds_2ABF7" msprop:Generator_UserDSName="Ds_2ABF7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View2ABF7Tab4_1" msprop:Generator_TableClassName="View2ABF7Tab4_1DataTable" msprop:Generator_TableVarName="tableView2ABF7Tab4_1" msprop:Generator_TablePropName="View2ABF7Tab4_1" msprop:Generator_RowDeletingName="View2ABF7Tab4_1RowDeleting" msprop:Generator_RowChangingName="View2ABF7Tab4_1RowChanging" msprop:Generator_RowEvHandlerName="View2ABF7Tab4_1RowChangeEventHandler" msprop:Generator_RowDeletedName="View2ABF7Tab4_1RowDeleted" msprop:Generator_UserTableName="View2ABF7Tab4_1" msprop:Generator_RowChangedName="View2ABF7Tab4_1RowChanged" msprop:Generator_RowEvArgName="View2ABF7Tab4_1RowChangeEvent" msprop:Generator_RowClassName="View2ABF7Tab4_1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WS_NO" msprop:Generator_ColumnVarNameInTable="columnWS_NO" msprop:Generator_ColumnPropNameInRow="WS_NO" msprop:Generator_ColumnPropNameInTable="WS_NOColumn" msprop:Generator_UserColumnName="WS_NO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BQTY" msprop:Generator_ColumnVarNameInTable="columnBQTY" msprop:Generator_ColumnPropNameInRow="BQTY" msprop:Generator_ColumnPropNameInTable="BQTYColumn" msprop:Generator_UserColumnName="BQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="OR_NO" msprop:Generator_ColumnVarNameInTable="columnOR_NO" msprop:Generator_ColumnPropNameInRow="OR_NO" msprop:Generator_ColumnPropNameInTable="OR_NOColumn" msprop:Generator_UserColumnName="OR_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OR_NR" msprop:Generator_ColumnVarNameInTable="columnOR_NR" msprop:Generator_ColumnPropNameInRow="OR_NR" msprop:Generator_ColumnPropNameInTable="OR_NRColumn" msprop:Generator_UserColumnName="OR_NR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="K_NO" msprop:Generator_ColumnVarNameInTable="columnK_NO" msprop:Generator_ColumnPropNameInRow="K_NO" msprop:Generator_ColumnPropNameInTable="K_NOColumn" msprop:Generator_UserColumnName="K_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_2ABF7Tap4" msprop:Generator_TableClassName="View_2ABF7Tap4DataTable" msprop:Generator_TableVarName="tableView_2ABF7Tap4" msprop:Generator_RowChangedName="View_2ABF7Tap4RowChanged" msprop:Generator_TablePropName="View_2ABF7Tap4" msprop:Generator_RowDeletingName="View_2ABF7Tap4RowDeleting" msprop:Generator_RowChangingName="View_2ABF7Tap4RowChanging" msprop:Generator_RowEvHandlerName="View_2ABF7Tap4RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2ABF7Tap4RowDeleted" msprop:Generator_RowClassName="View_2ABF7Tap4Row" msprop:Generator_UserTableName="View_2ABF7Tap4" msprop:Generator_RowEvArgName="View_2ABF7Tap4RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NR" msprop:Generator_ColumnVarNameInTable="columnNR" msprop:Generator_ColumnPropNameInRow="NR" msprop:Generator_ColumnPropNameInTable="NRColumn" msprop:Generator_UserColumnName="NR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="K_NO" msprop:Generator_ColumnVarNameInTable="columnK_NO" msprop:Generator_ColumnPropNameInRow="K_NO" msprop:Generator_ColumnPropNameInTable="K_NOColumn" msprop:Generator_UserColumnName="K_NO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="508" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="C_NAME_C" msprop:Generator_ColumnVarNameInTable="columnC_NAME_C" msprop:Generator_ColumnPropNameInRow="C_NAME_C" msprop:Generator_ColumnPropNameInTable="C_NAME_CColumn" msprop:Generator_UserColumnName="C_NAME_C" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OR_NO" msprop:Generator_ColumnVarNameInTable="columnOR_NO" msprop:Generator_ColumnPropNameInRow="OR_NO" msprop:Generator_ColumnPropNameInTable="OR_NOColumn" msprop:Generator_UserColumnName="OR_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BRAND" msprop:Generator_ColumnVarNameInTable="columnBRAND" msprop:Generator_ColumnPropNameInRow="BRAND" msprop:Generator_ColumnPropNameInTable="BRANDColumn" msprop:Generator_UserColumnName="BRAND" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="P_NAME_E" msprop:Generator_ColumnVarNameInTable="columnP_NAME_E" msprop:Generator_ColumnPropNameInRow="P_NAME_E" msprop:Generator_ColumnPropNameInTable="P_NAME_EColumn" msprop:Generator_UserColumnName="P_NAME_E" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="THICK" msprop:Generator_ColumnVarNameInTable="columnTHICK" msprop:Generator_ColumnPropNameInRow="THICK" msprop:Generator_ColumnPropNameInTable="THICKColumn" msprop:Generator_UserColumnName="THICK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="WS_DATE1" msprop:Generator_ColumnVarNameInTable="columnWS_DATE1" msprop:Generator_ColumnPropNameInRow="WS_DATE1" msprop:Generator_ColumnPropNameInTable="WS_DATE1Column" msprop:Generator_UserColumnName="WS_DATE1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SL" msprop:Generator_ColumnVarNameInTable="columnSL" msprop:Generator_ColumnPropNameInRow="SL" msprop:Generator_ColumnPropNameInTable="SLColumn" msprop:Generator_UserColumnName="SL" type="xs:double" minOccurs="0" />
+              <xs:element name="CB" msprop:Generator_ColumnVarNameInTable="columnCB" msprop:Generator_ColumnPropNameInRow="CB" msprop:Generator_ColumnPropNameInTable="CBColumn" msprop:Generator_UserColumnName="CB">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE1" msprop:Generator_ColumnVarNameInTable="columnDATE1" msprop:Generator_ColumnPropNameInRow="DATE1" msprop:Generator_ColumnPropNameInTable="DATE1Column" msprop:Generator_UserColumnName="DATE1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TRU" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTRU" msprop:Generator_ColumnPropNameInRow="TRU" msprop:Generator_ColumnPropNameInTable="TRUColumn" msprop:Generator_UserColumnName="TRU" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

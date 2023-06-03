@@ -1,0 +1,1845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="f1ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAkhJREFUWEft
+        Vdtu00AQ9Qv0hUtpvOuofY3aejetCgUJ8UUV/RZAIG7iT+ATEAKJmyjP8NQHUBzbBLUyczazkYm3eNdB
+        iIccaWTP5MzMiXd3Nlriv0WhRNXBXo+2N3pcYjE4ivvam9HmesxlusMWZLcVNQFVocWnfCte55+6YQEB
+        L/l5tJAIW5DdVlj+t73VVXrORBSbvQ2mhMEWZLcVdf6ciM+dRNQL+sDyXZYr8ZFp/rDJ7Lai3tBlTPNH
+        58Q5LAUsBfxzAVmaDItU3i1V/J7yj20dxDLV10xrR6iASkfn6Q54RDmns6bzpsUJPR9U+9E5TjsbNond
+        P6IaDFZyLV5Mc+SE/v2TfBhf/75z+Qos170bpZJP6fef4OSpeA7BnO5GiIAylc8MX4svNPWucriBPI2v
+        Ee8ruKWOH3PYDV8B4+1kh3j47OV4KHc5fCbGWuwR9weWY6LXFIeb8BVAnPuGS5uMQ05kg77IlTzAu1eO
+        IXgIwEUDHtaZQxSTB2jIrmleavHW8FJ5u0iTm3gvlXjHlCZ8BRAnA6/S4gJ82oyHpjg1RON6czSEX23F
+        F+GTjUwRF5jgI2AMnhWQ7SYSjRBD49+a02/gVIO1S4iRLS7AtQS0GRNahg+2Bt5tc6AYyluI/60lcG4o
+        nH/a6a9geOewwSxHyTscamJKCLF4Mn8M6cj18TXYNQg+hkFGgwgNuEQDQYMoBBirrlGMET0d03YUywk4
+        XqM4FOYySsVDfNqpEIeFXEZdYa5jLe7xKShh5mqmTdpc8yj6BTpzd6ACNIDUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 33</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F1.查詢</value>
+  </data>
+  <data name="f2ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="f2ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAb5JREFUSEvd
+        lctKAzEUhoPXF5jkCbqZZOkLuPMCgiBFQd/IS72sFAVdiCLqC7jwARSqC1FE7VJU6KI2MzvH/0zPdDrt
+        jFXpLPSDA3P+5OScJJNE/G+CQmHY12rBc+WJp+UjrMpG38e+duapD3f/GRigCKvAAs/I1zCJkSW2U+hv
+        3PbkGTXDYd0JRsUAAtfCYC3LdSPHAyH6uLkJtH6r5QQSX3OiEmncnA06r4cBrlqhZCxnEhZk5GqjIGeR
+        5XQ815n7VscUqCDEfljjTLGUhDYLHSqY8kXWVLEkO9bIbXYTUAziy7D7YEQMshwTVV83aoylDpD8nIzd
+        DqwrJ2kMWJGlGKzjIRqe0zY0olsCnsWLp9U+SzFouEeSA3ZT6ZaAwDhHsFt2YyC+t28urTmSXkbma1kj
+        a9Xa9wTVL2GsGrsxEOvtCXCKN612zlqsytbUELfB3UO+StC7JTLyjt0YiDlvct6/aWDEEBoeaOOoEpYT
+        +K7aon1hNwFXn33QCOuq6UYFOVwVEVi/5TBJHpcdwVONruurnl/XEQiKHxx6XHr14LQS3rD4u3Ba96xW
+        NxjQJ6Nv/DG7SDr76yfzjyDEJ7yaUbawU+5hAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="f2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 33</value>
+  </data>
+  <data name="f2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F2.預覽</value>
+  </data>
+  <data name="f9ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="f9ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvt
+        llsOwiAQRVlEYQ8Ft6IfPuJH3YDbNlZX0DZpjDrgoH1BobZpjJxkkhbmzg2FAiQQ+B8yEa1yTk8qYrrH
+        5l5yQbdaBzWW2OwOCFOIhwpBbwWPEuwyUnB2kLkV3Rm73AHh5V3Awbxl+ooUu90B0a5VyGDeaSrfF2yN
+        KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
+        o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
+        RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="f9ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 33</value>
+  </data>
+  <data name="f9ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F4.關閉</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 37</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 100</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 450</value>
+  </data>
+  <data name="tabPage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>歷史單價動表</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 54</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>報表格式</value>
+  </data>
+  <data name="rd11_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 33</value>
+  </data>
+  <data name="rd11_1.Text" xml:space="preserve">
+    <value>客戶產品</value>
+  </data>
+  <data name="rd11_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 33</value>
+  </data>
+  <data name="rd11_2.Text" xml:space="preserve">
+    <value>產品客戶</value>
+  </data>
+  <data name="txt1_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 188</value>
+  </data>
+  <data name="txt1_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 34</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 188</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>終止產品編號:</value>
+  </data>
+  <data name="txt1_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 144</value>
+  </data>
+  <data name="txt1_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 34</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 147</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>請輸入起始產品編號:</value>
+  </data>
+  <data name="txt1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 101</value>
+  </data>
+  <data name="txt1_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 34</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 102</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>終止客戶編號:</value>
+  </data>
+  <data name="txt1_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 54</value>
+  </data>
+  <data name="txt1_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 34</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 61</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="tabPage2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>贈送作廢表</value>
+  </data>
+  <data name="tb5t2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 253</value>
+  </data>
+  <data name="tb4t2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 202</value>
+  </data>
+  <data name="tb3t2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 151</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 48</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>報表格式</value>
+  </data>
+  <data name="rd3t2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd3t2.Text" xml:space="preserve">
+    <value>改單</value>
+  </data>
+  <data name="rd1t2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd1t2.Text" xml:space="preserve">
+    <value>贈送</value>
+  </data>
+  <data name="rd2t2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd2t2.Text" xml:space="preserve">
+    <value>作廢</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 244</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>請輸入請款月份:</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 193</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>終止日期:</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 145</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>請輸入起始日期:</value>
+  </data>
+  <data name="tb2t2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 101</value>
+  </data>
+  <data name="tb2t2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 34</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 100</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>終止單號:</value>
+  </data>
+  <data name="tb1t2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 51</value>
+  </data>
+  <data name="tb1t2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 34</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 49</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>請輸入起始單號:</value>
+  </data>
+  <data name="tabPage3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>出貨單號記錄本</value>
+  </data>
+  <data name="gb3_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="gb3_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 185</value>
+  </data>
+  <data name="gb3_2.Text" xml:space="preserve">
+    <value>報表格式</value>
+  </data>
+  <data name="rd32_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rd32_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd32_4.Text" xml:space="preserve">
+    <value>空號</value>
+  </data>
+  <data name="rd32_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 33</value>
+  </data>
+  <data name="rd32_3.Text" xml:space="preserve">
+    <value>未出貨</value>
+  </data>
+  <data name="rd32_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd32_1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rd32_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd32_2.Text" xml:space="preserve">
+    <value>出貨</value>
+  </data>
+  <data name="gb3_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="gb3_3.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="rd33_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd33_3.Text" xml:space="preserve">
+    <value>樣品</value>
+  </data>
+  <data name="rd33_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd33_1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rd33_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="rd33_2.Text" xml:space="preserve">
+    <value>量產</value>
+  </data>
+  <data name="gb3_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="gb3_1.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="rdnew2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 33</value>
+  </data>
+  <data name="rdold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="rdnew1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 33</value>
+  </data>
+  <data name="lb37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 245</value>
+  </data>
+  <data name="lb37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="lb37.Text" xml:space="preserve">
+    <value>請輸入查詢月份:</value>
+  </data>
+  <data name="lb36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 209</value>
+  </data>
+  <data name="lb36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="lb36.Text" xml:space="preserve">
+    <value>終止客戶編號:</value>
+  </data>
+  <data name="lb38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 282</value>
+  </data>
+  <data name="lb38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lb38.Text" xml:space="preserve">
+    <value>未出終止日期:</value>
+  </data>
+  <data name="lb34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 139</value>
+  </data>
+  <data name="lb34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="lb34.Text" xml:space="preserve">
+    <value>終止日期:</value>
+  </data>
+  <data name="lb39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 316</value>
+  </data>
+  <data name="lb39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 29</value>
+  </data>
+  <data name="lb39.Text" xml:space="preserve">
+    <value>請輸入品牌:</value>
+  </data>
+  <data name="lb35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 174</value>
+  </data>
+  <data name="lb35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="lb35.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="lb33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 103</value>
+  </data>
+  <data name="lb33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="lb33.Text" xml:space="preserve">
+    <value>請輸入起始日期:</value>
+  </data>
+  <data name="lb32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 69</value>
+  </data>
+  <data name="lb32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="lb32.Text" xml:space="preserve">
+    <value>終止單號:</value>
+  </data>
+  <data name="lb31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 32</value>
+  </data>
+  <data name="lb31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="lb31.Text" xml:space="preserve">
+    <value>請輸入起始單號:</value>
+  </data>
+  <data name="tabPage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>出貨本</value>
+  </data>
+  <data name="txt4_14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>993, 172</value>
+  </data>
+  <data name="txt4_14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 30</value>
+  </data>
+  <data name="txt4_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 58</value>
+  </data>
+  <data name="txt4_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 30</value>
+  </data>
+  <data name="txt4_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 18</value>
+  </data>
+  <data name="txt4_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 30</value>
+  </data>
+  <data name="txt4_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 135</value>
+  </data>
+  <data name="txt4_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 99</value>
+  </data>
+  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1047, 218</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="rd4_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd4_3.Text" xml:space="preserve">
+    <value>榔皮</value>
+  </data>
+  <data name="rd4_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd4_1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rd4_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd4_2.Text" xml:space="preserve">
+    <value>面皮</value>
+  </data>
+  <data name="txt4_16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>807, 302</value>
+  </data>
+  <data name="txt4_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 34</value>
+  </data>
+  <data name="txt4_15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>802, 259</value>
+  </data>
+  <data name="txt4_15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 34</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 222</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 29</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>品 牌:</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 179</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 29</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>請輸入已請款月份:</value>
+  </data>
+  <data name="txt4_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 133</value>
+  </data>
+  <data name="txt4_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 140</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>終止生產編號:</value>
+  </data>
+  <data name="txt4_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 94</value>
+  </data>
+  <data name="txt4_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 101</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>起始生產編號:</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 63</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 29</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>終止交貨日期 :</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 26</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>請輸入起始交貨日期:</value>
+  </data>
+  <data name="txt4_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 327</value>
+  </data>
+  <data name="txt4_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 34</value>
+  </data>
+  <data name="txt4_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 288</value>
+  </data>
+  <data name="txt4_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 34</value>
+  </data>
+  <data name="txt4_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 250</value>
+  </data>
+  <data name="txt4_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 34</value>
+  </data>
+  <data name="txt4_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 213</value>
+  </data>
+  <data name="txt4_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 34</value>
+  </data>
+  <data name="txt4_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 174</value>
+  </data>
+  <data name="txt4_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 34</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 332</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>品名 (英) :</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 294</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>顏色(英) :</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 254</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>顏色(中) :</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 218</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>終止訂單編號:</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 177</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>起始訂單編號:</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 140</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 29</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>終止下單日期 :</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 101</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>請輸入起始下單日期:</value>
+  </data>
+  <data name="txt4_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 59</value>
+  </data>
+  <data name="txt4_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 34</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 64</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>終止客戶編號:</value>
+  </data>
+  <data name="txt4_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 20</value>
+  </data>
+  <data name="txt4_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 34</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 28</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>起始客戶編號:</value>
+  </data>
+  <data name="tabPage5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>接單未出</value>
+  </data>
+  <data name="tb2t5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 99</value>
+  </data>
+  <data name="tb1t5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 59</value>
+  </data>
+  <data name="groupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>981, 178</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 166</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>報表條件</value>
+  </data>
+  <data name="rd3t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd3t5.Text" xml:space="preserve">
+    <value>面皮</value>
+  </data>
+  <data name="rd1t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd1t5.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rd2t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rd2t5.Text" xml:space="preserve">
+    <value>瑯皮</value>
+  </data>
+  <data name="groupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 119</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>報表種類</value>
+  </data>
+  <data name="rdmau.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdmau.Text" xml:space="preserve">
+    <value>樣品</value>
+  </data>
+  <data name="rdsanxuat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="rdsanxuat.Text" xml:space="preserve">
+    <value>量產</value>
+  </data>
+  <data name="tb5t5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 231</value>
+  </data>
+  <data name="tb5t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 34</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 236</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 29</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>請輸入品牌:</value>
+  </data>
+  <data name="tb4t5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 186</value>
+  </data>
+  <data name="tb4t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 34</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 193</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 29</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>終止客戶編號 :</value>
+  </data>
+  <data name="tb3t5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 142</value>
+  </data>
+  <data name="tb3t5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 34</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 150</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 106</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>終止日期 :</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 64</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>請輸入起始日期:</value>
+  </data>
+  <data name="tabPage6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>出貨明細表</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 352</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 33</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>细节</value>
+  </data>
+  <data name="txt2t6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 107</value>
+  </data>
+  <data name="txt2t6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 317</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>缩短列</value>
+  </data>
+  <data name="txt1t6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 63</value>
+  </data>
+  <data name="txt1t6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
+  </data>
+  <data name="groupBox14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 209</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 161</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="rdhsx6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="rdhsx6.Text" xml:space="preserve">
+    <value>量產</value>
+  </data>
+  <data name="rdtatca6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdtatca6.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rdhangmau6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdhangmau6.Text" xml:space="preserve">
+    <value>樣品</value>
+  </data>
+  <data name="groupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 155</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 153</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="rdda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdda.Text" xml:space="preserve">
+    <value>榔皮</value>
+  </data>
+  <data name="rdtatca62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdtatca62.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="rdbot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdbot.Text" xml:space="preserve">
+    <value>面皮</value>
+  </data>
+  <data name="groupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 119</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>報表種類</value>
+  </data>
+  <data name="rdbaocao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="rdbaocao.Text" xml:space="preserve">
+    <value>報表</value>
+  </data>
+  <data name="rdexcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="txt5t6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 238</value>
+  </data>
+  <data name="txt5t6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 34</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 246</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 29</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>請輸入品牌:</value>
+  </data>
+  <data name="txt4t6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 193</value>
+  </data>
+  <data name="txt4t6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 34</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 201</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 29</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>終止客戶編號 :</value>
+  </data>
+  <data name="txt3t6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 149</value>
+  </data>
+  <data name="txt3t6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 34</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 155</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 110</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 29</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>終止交貨日期 :</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 63</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>請輸入起始交貨日期:</value>
+  </data>
+  <data name="tabPage7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>品牌出貨數量</value>
+  </data>
+  <data name="txt5_t7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 262</value>
+  </data>
+  <data name="txt5_t7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 34</value>
+  </data>
+  <data name="txt4_t7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 220</value>
+  </data>
+  <data name="txt4_t7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 34</value>
+  </data>
+  <data name="txt1_t7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 11</value>
+  </data>
+  <data name="txt1_t7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 34</value>
+  </data>
+  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 117</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>樣品</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>量產</value>
+  </data>
+  <data name="groupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 119</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>報表類別</value>
+  </data>
+  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>豬皮</value>
+  </data>
+  <data name="radioButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="radioButton5.Text" xml:space="preserve">
+    <value>榔皮</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 268</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>終止日期:</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 223</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>起始日期:</value>
+  </data>
+  <data name="txt3_t7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 174</value>
+  </data>
+  <data name="txt3_t7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 34</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 178</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 29</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>終止品牌編號 :</value>
+  </data>
+  <data name="txt2_t7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 125</value>
+  </data>
+  <data name="txt2_t7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 34</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 124</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>請輸入起始品牌編號:</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 14</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 29</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>請輸入年月:</value>
+  </data>
+  <data name="tabPage8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>訂單達成率統計表</value>
+  </data>
+  <data name="txt4_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 148</value>
+  </data>
+  <data name="txt4_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 34</value>
+  </data>
+  <data name="txt3_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 104</value>
+  </data>
+  <data name="txt3_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 34</value>
+  </data>
+  <data name="txt2_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 62</value>
+  </data>
+  <data name="txt2_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="txt1_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 18</value>
+  </data>
+  <data name="txt1_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="txt8t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 320</value>
+  </data>
+  <data name="txt8t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="txt7_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 278</value>
+  </data>
+  <data name="txt7_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="txt6_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 234</value>
+  </data>
+  <data name="txt6_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 325</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>終止客戶編號:</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 283</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 240</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>終止品牌:</value>
+  </data>
+  <data name="groupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 234</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>2. 種類</value>
+  </data>
+  <data name="radioButton13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 113</value>
+  </data>
+  <data name="radioButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 33</value>
+  </data>
+  <data name="radioButton13.Text" xml:space="preserve">
+    <value>量產-豬</value>
+  </data>
+  <data name="radioButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 177</value>
+  </data>
+  <data name="radioButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton12.Text" xml:space="preserve">
+    <value>全部-豬</value>
+  </data>
+  <data name="radioButton14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 145</value>
+  </data>
+  <data name="radioButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton14.Text" xml:space="preserve">
+    <value>樣品-豬</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 82</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>全部-牛</value>
+  </data>
+  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 33</value>
+  </data>
+  <data name="radioButton6.Text" xml:space="preserve">
+    <value>量產-牛</value>
+  </data>
+  <data name="radioButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 54</value>
+  </data>
+  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton7.Text" xml:space="preserve">
+    <value>樣品-牛</value>
+  </data>
+  <data name="groupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 6</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>1. 排序</value>
+  </data>
+  <data name="radioButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 120</value>
+  </data>
+  <data name="radioButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="radioButton11.Text" xml:space="preserve">
+    <value>訂單日期</value>
+  </data>
+  <data name="radioButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="radioButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 33</value>
+  </data>
+  <data name="radioButton10.Text" xml:space="preserve">
+    <value>客戶編號</value>
+  </data>
+  <data name="radioButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="radioButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="radioButton8.Text" xml:space="preserve">
+    <value>交貨日期</value>
+  </data>
+  <data name="radioButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 61</value>
+  </data>
+  <data name="radioButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="radioButton9.Text" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="txt5_t8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 192</value>
+  </data>
+  <data name="txt5_t8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 199</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>請輸入起始品牌:</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 154</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>終止訂單日期:</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 110</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>請輸入起始訂單日期:</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 68</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 29</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>終止訂單交貨日期:</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 29</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>請輸入起始訂單交貨日期:</value>
+  </data>
+  <data name="tabPage9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabPage9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1276, 408</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>品質達成率統計表</value>
+  </data>
+  <data name="txt2_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 94</value>
+  </data>
+  <data name="txt2_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 34</value>
+  </data>
+  <data name="txt1_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 49</value>
+  </data>
+  <data name="txt1_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 34</value>
+  </data>
+  <data name="txt6_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 262</value>
+  </data>
+  <data name="txt6_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="txt5_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 218</value>
+  </data>
+  <data name="txt5_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="txt4_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 175</value>
+  </data>
+  <data name="txt4_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 268</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>終止客戶編號:</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 227</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 184</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>終止品牌:</value>
+  </data>
+  <data name="groupBox12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 155</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 241</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>2. 種類</value>
+  </data>
+  <data name="radioButton16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 136</value>
+  </data>
+  <data name="radioButton16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 33</value>
+  </data>
+  <data name="radioButton16.Text" xml:space="preserve">
+    <value>量產-豬</value>
+  </data>
+  <data name="radioButton15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 201</value>
+  </data>
+  <data name="radioButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton15.Text" xml:space="preserve">
+    <value>全部-豬</value>
+  </data>
+  <data name="radioButton17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 168</value>
+  </data>
+  <data name="radioButton17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton17.Text" xml:space="preserve">
+    <value>樣品-豬</value>
+  </data>
+  <data name="radioButton18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 104</value>
+  </data>
+  <data name="radioButton18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton18.Text" xml:space="preserve">
+    <value>全部-牛</value>
+  </data>
+  <data name="radioButton19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 35</value>
+  </data>
+  <data name="radioButton19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 33</value>
+  </data>
+  <data name="radioButton19.Text" xml:space="preserve">
+    <value>量產-牛</value>
+  </data>
+  <data name="radioButton20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="radioButton20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radioButton20.Text" xml:space="preserve">
+    <value>樣品-牛</value>
+  </data>
+  <data name="groupBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>1. 排序</value>
+  </data>
+  <data name="radioButton21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="radioButton21.Text" xml:space="preserve">
+    <value>訂單日期</value>
+  </data>
+  <data name="radioButton22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 61</value>
+  </data>
+  <data name="radioButton22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 33</value>
+  </data>
+  <data name="radioButton22.Text" xml:space="preserve">
+    <value>客戶編號</value>
+  </data>
+  <data name="radioButton24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="radioButton24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 33</value>
+  </data>
+  <data name="radioButton24.Text" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="txt3_t9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 134</value>
+  </data>
+  <data name="txt3_t9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 34</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 142</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>請輸入起始品牌:</value>
+  </data>
+  <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 97</value>
+  </data>
+  <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>終止訂單日期:</value>
+  </data>
+  <data name="label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 52</value>
+  </data>
+  <data name="label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>請輸入起始訂單日期:</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 47</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 48</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>列 印 銷 貨 資 料</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 636</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>訊息</value>
+  </data>
+  <data name="toolStripStatusLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="toolStripStatusLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 23</value>
+  </data>
+  <data name="toolStripStatusLabel6.Text" xml:space="preserve">
+    <value>使用者:</value>
+  </data>
+  <data name="toolStripStatusLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 23</value>
+  </data>
+  <data name="toolStripStatusLabel4.Text" xml:space="preserve">
+    <value>toolStripStatusLabel4</value>
+  </data>
+  <data name="btdong.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvt
+        llsOwiAQRVlEYQ8Ft6IfPuJH3YDbNlZX0DZpjDrgoH1BobZpjJxkkhbmzg2FAiQQ+B8yEa1yTk8qYrrH
+        5l5yQbdaBzWW2OwOCFOIhwpBbwWPEuwyUnB2kLkV3Rm73AHh5V3Awbxl+ooUu90B0a5VyGDeaSrfF2yN
+        KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
+        o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
+        RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btdong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 554</value>
+  </data>
+  <data name="btdong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 64</value>
+  </data>
+  <data name="btdong.Text" xml:space="preserve">
+    <value>關閉[&amp;C]</value>
+  </data>
+  <data name="btxemtruoc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAWlJREFUWEft
+        lM1KxDAQx/XmRWV3M60HkT0I2iTuwYMf4EGvi+8leNdXUXwGTyLe/GDR67KHNkEQupN0unatZaWtXZH8
+        YGjzTyaTdKaz4HD8OSLJTpWAJ8XhMQqgT3JzYOABWpwYeyHZ8qmXN9qqGLz9a8ZhQLIlo5c22qoYmwIO
+        b+Ygc0mBwzF3XCNyjehfoHrtdS3YJaVzaJ52jDot+T0w0IkN+k3+0YZasmNaWj9atDa0gJEJpjlc4/tR
+        KD3fPCMBN1bHebOOXOrFfuYk+BWW+yLJFjNOD4EpuSA5T5VGZPpGEqCzR9IUats7tPMcnknKg5OVG1G8
+        xZbJZYp4s71i1whQJOWhyk03K9eIZnwBrIM7kvJUaUQ/rgEOZyTXy9e/QHF/P+52l1TgH2SCx++yE5BL
+        /czoA4kJuB3trLbIpX4mnTBJ5Yfm7F4Jdh4FbDfi8NDIIYoIBaylhzBpIblZzM1NjYTS640BDqfRiif6
+        xAcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btxemtruoc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 555</value>
+  </data>
+  <data name="btxemtruoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 64</value>
+  </data>
+  <data name="btxemtruoc.Text" xml:space="preserve">
+    <value>預覽 [&amp;V]</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 665</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAIB8AAAAAAACECAAAFgAAACgAAAAgAAAAPgAAAAEACAAAAAAAXAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMwAAAGYAAACZAAAAzAAAAP8AAAAAMwAAMzMAAGYzAACZMwAAzDMAAP8zAAAAZgAAM2YAAGZm
+        AACZZgAAzGYAAP9mAAAAmQAAM5kAAGaZAACZmQAAzJkAAP+ZAAAAzAAAM8wAAGbMAACZzAAAzMwAAP/M
+        AAAA/wAAM/8AAGb/AACZ/wAAzP8AAP//AAAAADMAMwAzAGYAMwCZADMAzAAzAP8AMwAAMzMAMzMzAGYz
+        MwCZMzMAzDMzAP8zMwAAZjMAM2YzAGZmMwCZZjMAzGYzAP9mMwAAmTMAM5kzAGaZMwCZmTMAzJkzAP+Z
+        MwAAzDMAM8wzAGbMMwCZzDMAzMwzAP/MMwAA/zMAM/8zAGb/MwCZ/zMAzP8zAP//MwAAAGYAMwBmAGYA
+        ZgCZAGYAzABmAP8AZgAAM2YAMzNmAGYzZgCZM2YAzDNmAP8zZgAAZmYAM2ZmAGZmZgCZZmYAzGZmAP9m
+        ZgAAmWYAM5lmAGaZZgCZmWYAzJlmAP+ZZgAAzGYAM8xmAGbMZgCZzGYAzMxmAP/MZgAA/2YAM/9mAGb/
+        ZgCZ/2YAzP9mAP//ZgAAAJkAMwCZAGYAmQCZAJkAzACZAP8AmQAAM5kAMzOZAGYzmQCZM5kAzDOZAP8z
+        mQAAZpkAM2aZAGZmmQCZZpkAzGaZAP9mmQAAmZkAM5mZAGaZmQCZmZkAzJmZAP+ZmQAAzJkAM8yZAGbM
+        mQCZzJkAzMyZAP/MmQAA/5kAM/+ZAGb/mQCZ/5kAzP+ZAP//mQAAAMwAMwDMAGYAzACZAMwAzADMAP8A
+        zAAAM8wAMzPMAGYzzACZM8wAzDPMAP8zzAAAZswAM2bMAGZmzACZZswAzGbMAP9mzAAAmcwAM5nMAGaZ
+        zACZmcwAzJnMAP+ZzAAAzMwAM8zMAGbMzACZzMwAzMzMAP/MzAAA/8wAM//MAGb/zACZ/8wAzP/MAP//
+        zAAAAP8AMwD/AGYA/wCZAP8AzAD/AP8A/wAAM/8AMzP/AGYz/wCZM/8AzDP/AP8z/wAAZv8AM2b/AGZm
+        /wCZZv8AzGb/AP9m/wAAmf8AM5n/AGaZ/wCZmf8AzJn/AP+Z/wAAzP8AM8z/AGbM/wCZzP8AzMz/AP/M
+        /wAA//8AM///AGb//wCZ//8AzP//AP///wAAAAAADQ0NABoaGgAoKCgANTU1AENDQwBQUFAAXV1dAGtr
+        awB4eHgAhoaGAJOTkwChoaEArq6uALu7uwDJyckA1tbWAOTk5ADx8fEA////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA19fXybvX19fX19fQu5eXl5eXl5fJ0NfX19fX0MLX19fX17vJwpe7wryXu5eXu9DX19e7l5eX
+        l7u8u5e7u8LX19eX19fQu5eXl5eXl5e70NfX17uXl5eXl5eXl7vXu7vXl9fX19fCl5eXl5eXl7vQ19fX
+        l5eXl5eXl5eX19fXwru70NfX19C7l5eXl5eXu9HX19eXl5eXl5eXl7vX19fQwteX19fX18mXl5eXl5e7
+        0dfX15eXl5eXl5eX19fX15fX18LC19fX18KXl5eXl7vX19fXl5eXl5eXl9DX19fJwtfX0LvJ19fX17uX
+        l5eXu9fX19eXl5eXl5fC19fX0LvX19fXu7vQ19fX17yXl5e719fX15eXl5eXydfX19C7w9fX19fQl5fX
+        19fX0JeXl7vX19fXl5eXl8LX19fXl5fQ19fX19eXl5fQ19fX18K7l9fX19eXl5fQ19fX15eXl9fX19fX
+        17uXl7vQ19fX19C719fX15fC19fX19e7l5fC19fX19fXwpeXl7vQ19fX19fX19fX19fX19fXl5eXl8PX
+        19fX19fJl5eXl5e819fX19fX19fX19fXyZeXl5eXydfX19fX18mXl5eXl5eX0NfX19fX19fQyZeXl5eX
+        l5fQ19fX19fX0JeXl5eXl5eXl9DQ0NDQ0MK7l5eXl5eXu9DX19fX19fQl5eXl5eXl8nX0JeXl5fQ18mX
+        l5eXl5eX0NfX19fX19CXl5eXl8LX19fXybuXydfX19eXu5eXl5fQ19fX19fXyZeXl5fJ19fX19fXl5fX
+        19fX19fJu5eXl8nX19fX19fCl5eXl9fX19fX19fCu9fX19fX19fCu5eXwtfX19fX17uXl7vX19fXwsLX
+        18nJ19fQydfX19fDl5e719fX19fXl5eX19fX18m7l9fX19fX0LuXwtfX19fCl5fX19fX19eXl8nX19fJ
+        l5e70NfX19fQu5eXydfX19eXu9DX19fXyZe719fXybuXl5fQ19fX19CXl5eXwtfX18mXydfX19e8u9DX
+        19C7l5eXl9DX19fX0JeXl5eX19fX17uX19fX17vC19fXwpeXl5eX0NfX19fQl5eXl5fC19fX0LvX19fJ
+        l9fX19C7l5eXl5fK19fX19CXl5eXl7vQ19fXycLX18m7wtfXwpeXl5eXl8nX19fX0JeXl5eXl8LX19C7
+        wtfX19fCl9CXl5eXl5eXydfX19fQl5eXl5eXu9DCu9DX19fX19fXwrvJ0NDJl5fJ19fX19CXl5fCycK7
+        l9DX19fX19fX19fX19fX19fXu5eXl5eXl5fD19fX19fX19fX19cAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>門列印銷貨資料</value>
+  </data>
+</root>

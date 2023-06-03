@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvt
+        llsOwiAQRVlEYQ8Ft6IfPuJH3YDbNlZX0DZpjDrgoH1BobZpjJxkkhbmzg2FAiQQ+B8yEa1yTk8qYrrH
+        5l5yQbdaBzWW2OwOCFOIhwpBbwWPEuwyUnB2kLkV3Rm73AHh5V3Awbxl+ooUu90B0a5VyGDeaSrfF2yN
+        KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
+        o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
+        RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btXemtruwowc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAfdJREFUWEft
+        ls1OwkAQx+vNixqgCwSMIYbw0QUOHvxIPOjNu/GdPHnTV9HoKxATNTHqRQ96JQTolhgTnKmzWNrFbktD
+        PPBLJt3578zsdNm2GAv+LcJioxh226sVM1RiNhTF9YyzJ7tqFqhMfGRBckOZaKLO7nqVgklT8YjbgMPZ
+        PY2fZ9oJWZDcUGR8v5xn3iZEJVOkkGjIguSG4o33NfESqwlvQR1kvMpsiz1SmD4ymdxQvAuqjML0iZ3o
+        Y9FAog1ILcwo3EWlafFXsTCjcBeVpkXsRB9Q42TYzG2Sq09SDcRG1YDUwozCDdFKrzvcvIAv5DvoHby6
+        PugUMh1/MURqYYaxsNAhjDv+ObKO0zAP3KLTkMHkRsLhqQ34FnQx37HYFYz3B41sDq82Z9euDvMYRylB
+        ZmsAtvln8UsosESyC/qyCfhJzkkOompAan6j6THCMt/cOZ7ZJmkCUcvuUe4rSUFUxaXmN5oeA5qD+qhq
+        rpA0waicXqXcIUlBKCBQXAf8/Lr5Se+ALqKePcPcxM+ALn0rz2U+PgXCyu2MSqVlUc/tRn4KNO1T8Owx
+        5nWbaym4s7Yixmv67wENcwacHWGOd3E8B3bd3IK/6KewCw+gf4H+of0mjAo0kf89fKyNzdDUfLAt80be
+        Ob71SJ4fsGgLD1y0OzeMb3+1elmgYaoFAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAADAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRP5KSQV9lUkFfZVJBX2VSQV9lUkFfZVJBX2VSQV
+        9lUkFfZVJRP5KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUV93skFPZwJBX2VSQV9lUkFfZVJBX2VSQV
+        9lUkFfZVJBT2cCUV93sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFfd7JRP5KSQT94UmFPiqJhT4qiYU
+        +KomFPiqJBP3hSUT+SklFfd7AAAAAAAAAAAAAAAAJCT/ByQU9nAkE/Z3JRP1uSgS9jklFfdgJBP2dyQT
+        9nckE/Z3JBT3PwAAAAAoEvY5JRP1uSQT9nclFfhvKwD/BiQV9lUlFPf/JRT3/yUU9/8lFPxLJhX3PSQV
+        9lUkFfZVJBX2VSYT9jYmE/YbJRT8SyUU9/8lFPf/JRT3/yQV9lUkE/dcJRT3/yUU9/8lFPf/JRT8SyYT
+        918kE/Z3JBP2dyQT9nckE/Z3JhP3XyUU/EslFPf/JRT3/yUU9/8kE/dcJBP3XCUU9/8lFPf/JRT3/yUT
+        9+IlFPfWJRT31iUU99YlFPfWJRT31iUU99YlE/fiJRT3/yUU9/8lFPf/JBP3XCQT91wlFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yQT91wkE/dcJRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPfBJRT3mSUU9/8kE/dcJBP3XCUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3yiUU96YlFPf/JBP3XCYV
+        9zwlFPf+JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYT
+        90MAAAAAIxL2HSMU9TMkFfaVJBL2VCMU9TMjFPUzIxT1MyMU9TMjFPUzIxT1MyQS9lQkFfaVIxT1MyQW
+        +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
+        9ooAAAAAJRP2kCYU+O4mFPjuJhT47iYU+O4mFPjuJhT47iYU+O4mFPjuJhT47iYU+O4lE/aQAAAAACUS
+        9oolFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8mFPe3AAAAAAAAAAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRL2igAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJRL2iiUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU97cAAAAAAAAAACYU97clFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPenJBj7PyQY+z8kGPs/JBj7PyQY+z8kGPs/JBj7PyQY+z8kGPs/JBj7PyQY
+        +z8kGPs/JBj7PyQY+z8lFPenJRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8mFPe3AAAAAAAA
+        AAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU
+        97cAAAAAAAAAACYU97clFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT34iUU
+        97slFPf+JRT3/yUU9/8mFPe3AAAAAAAAAAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/0pFPUZAAAAACUT950lFPf/JRT3/yYU97cAAAAAAAAAACYU97clFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUT+SkAAP8BJBT4ryUU9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT39CUU9+QlFPf/JRT3/yUU9/8mFPe3AAAAAAAAAAAlFPaxJRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU9rAAAAAAAAAAACYT
+        914lFPf+JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf+JBP3XAAA
+        AAAAAAAAAAAAACMU9TMkFfdjJhT4ZiYU+GYmFPhmJhP3+SUU95cmFPhmJhT4ZiYU+GYmFPhmJhT4ZiYU
+        +GYmFPhmJhT4ZiYU+GYmFPhmJhT4ZiYU+GYmFPhmJhT4ZiUU95cmE/f5JhT4ZiYU+GYmFPhmJBX3YyQU
+        9TIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFPf1JRP2UgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRP2UiUU9/UAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUU9/UlE/ZSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlE/ZSJRT39QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRT39SUT
+        9lIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUT
+        9lIlFPf1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAlFPf1JRP2UgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJRP2UiUU9/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACUU9/UlE/ZSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAlE/ZSJRT39QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAJRT39SUT9lIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACUT9lIlFPf1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFPf1JRX4riYV+IgmFfiIJhX4iCYV+IgmFfiIJhX4iCYV
+        +IgmFfiIJhX4iCYV+IgmFfiIJhX4iCYV+IgmFfiIJRX4riUU9/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUU97QlFPe7JRT3uyUU97slFPe7JRT3uyUU
+        97slFPe7JRT3uyUU97slFPe7JRT3uyUU97slFPe7JRT3uyUU97slFPe7JRT3tAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////+AAB//gAAf/7//3/+//9//uAHf/7//3/AQB4DgH/+AYB/
+        /gGAQAIBgH/+AYB//gGAAAABgAAAAYAAAAGAAAABgAAAYYAAAGGAAAABgAAAAcAAAAP+f/5//v//f/7/
+        /3/+//9//v//f/7//3/+//9//gAAf/4AAH//////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>    In Thông Tin Yêu Cầu</value>
+  </data>
+  <data name="btXemtruwowc.Text" xml:space="preserve">
+    <value>Xem Trước [&amp;V]</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Đóng [&amp;C]</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Loại </value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Quốc gia</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Hợp nhất</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Tên màu sắc</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Loại Báo Cáo </value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Số khách hàng không được chấm dứt:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ngày bắt đầu:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Ngày kết thúc:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Số phiếu chiết khấu trả lại ban đầu:</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Số Khách hàng ban đâu:</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Ngày bắt đầu giao hàng:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Tháng không mong muốn:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>IN THÔNG TIN YÊU CẦU</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Số khách hàng ban đâu:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nhập tháng thanh toán:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Nhập khách hàng thanh toán:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Số phiếu giao hàng ban đầu:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Số phiếu giao hàng kết thúc:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Giá trị thập phân:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Ngày kết thúc giao hàng:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Tháng không mong muốn:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Số khách hàng kết thúc:</value>
+  </data>
+  <data name="lbIP.Text" xml:space="preserve">
+    <value>xxx.xxx.xxxx.xxxx</value>
+  </data>
+  <data name="lbNamePC.Text" xml:space="preserve">
+    <value>xxxxxxxxx</value>
+  </data>
+  <data name="lbUserName.Text" xml:space="preserve">
+    <value>XXXXXX</value>
+  </data>
+  <data name="rdBTT.Text" xml:space="preserve">
+    <value>Bảng tóm Tắt</value>
+  </data>
+  <data name="rdCOLOR_C.Text" xml:space="preserve">
+    <value>Tiếng Trung</value>
+  </data>
+  <data name="rdCOLOR_C_E.Text" xml:space="preserve">
+    <value>Tiếng Trung Và Anh</value>
+  </data>
+  <data name="rdCOLOR_E.Text" xml:space="preserve">
+    <value>Tiếng  Anh</value>
+  </data>
+  <data name="rdDate.Text" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="rdDDBN.Text" xml:space="preserve">
+    <value>Định dạng bên ngoài</value>
+  </data>
+  <data name="rdDDNB.Text" xml:space="preserve">
+    <value>Định dạng nội bộ</value>
+  </data>
+  <data name="rdDS.Text" xml:space="preserve">
+    <value>Danh sách</value>
+  </data>
+  <data name="rdHN.Text" xml:space="preserve">
+    <value>Hợp nhất</value>
+  </data>
+  <data name="rdKHN.Text" xml:space="preserve">
+    <value>Không hợp nhất</value>
+  </data>
+  <data name="rdOR_NO.Text" xml:space="preserve">
+    <value>Đơn đặt hàng</value>
+  </data>
+  <data name="rdPC.Text" xml:space="preserve">
+    <value>Phổ cập</value>
+  </data>
+  <data name="rdP_NO_C.Text" xml:space="preserve">
+    <value>Tiếng Trung</value>
+  </data>
+  <data name="rdP_NO_C_E.Text" xml:space="preserve">
+    <value>Tiếng Trung Và Anh</value>
+  </data>
+  <data name="rdP_NO_E.Text" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="rdTQ.Text" xml:space="preserve">
+    <value>Trung Quốc</value>
+  </data>
+  <data name="rdVN.Text" xml:space="preserve">
+    <value>Việt Nam</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>YÊU CẦU THANH TOÁN   ||</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>SỐ PHIẾU GIAO HÀNG BAN ĐÂU   ||</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>TRẢ LẠI KHÔNG ĐẠT YÊU CẦU, THÔNG TIN GIẢM GIÁ</value>
+  </data>
+  <data name="Tap_contro.Text" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>    Người Sử Dụng: </value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>    Computer Name: </value>
+  </data>
+  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
+    <value>     IP Add: </value>
+  </data>
+  <data name="toolStripStatusLabel5.Text" xml:space="preserve">
+    <value>toolStxxxxxxxxxxxccccccccccccxxxxxxxxxxxxripStatusLabel5xxxxxxx</value>
+  </data>
+  <data name="toolStripStatusLabel6.Text" xml:space="preserve">
+    <value>Được sữa đổi bởi :</value>
+  </data>
+  <data name="txtDate1.Mask" xml:space="preserve">
+    <value>0000/00</value>
+  </data>
+  <data name="txtDate1_2.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="txtDate1_3.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="txtDate2_2.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="txtDate2_3.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="txtDate3_2.Mask" xml:space="preserve">
+    <value>0000/00</value>
+  </data>
+  <data name="txtDate3_3.Mask" xml:space="preserve">
+    <value>0000/00</value>
+  </data>
+  <data name="txtSCK2.Text" xml:space="preserve">
+    <value>Chấm dứt số đơn hàng chiết khấu trả lại:</value>
+  </data>
+</root>

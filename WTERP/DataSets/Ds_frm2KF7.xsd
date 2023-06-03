@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_frm2KF7" targetNamespace="http://tempuri.org/Ds_frm2KF7.xsd" xmlns:mstns="http://tempuri.org/Ds_frm2KF7.xsd" xmlns="http://tempuri.org/Ds_frm2KF7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="J2BKPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="J2BKPVConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WTERP.Properties.Settings.GlobalReference.Default.J2BKPVConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CARHTableAdapter" GeneratorDataComponentClassName="CARHTableAdapter" Name="CARH" UserDataComponentName="CARHTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="J2BKPVConnectionString (Settings)" DbObjectName="J2BKPV.dbo.CARH" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT CARH.C_NO,CARH.C_NAME,SUM(CARB.BQTY) AS BQTY,SUM(CARB.AMOUNT) AS AMOUNT 
+FROM CARH,CARB 
+WHERE CARH.WS_NO=CARB.WS_NO AND CARH.OR_NO NOT LIKE'%作廢%' AND CARH.WS_DATE&lt;&gt;'' 
+GROUP BY CARH.C_NO,CARH.C_NAME ORDER BY CARH.C_NO
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="C_NO" DataSetColumn="C_NO" />
+              <Mapping SourceColumn="C_NAME" DataSetColumn="C_NAME" />
+              <Mapping SourceColumn="BQTY" DataSetColumn="BQTY" />
+              <Mapping SourceColumn="AMOUNT" DataSetColumn="AMOUNT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_frm2KF7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Ds_frm2KF7" msprop:Generator_UserDSName="Ds_frm2KF7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CARH" msprop:Generator_TableClassName="CARHDataTable" msprop:Generator_TableVarName="tableCARH" msprop:Generator_RowChangedName="CARHRowChanged" msprop:Generator_TablePropName="CARH" msprop:Generator_RowDeletingName="CARHRowDeleting" msprop:Generator_RowChangingName="CARHRowChanging" msprop:Generator_RowEvHandlerName="CARHRowChangeEventHandler" msprop:Generator_RowDeletedName="CARHRowDeleted" msprop:Generator_RowClassName="CARHRow" msprop:Generator_UserTableName="CARH" msprop:Generator_RowEvArgName="CARHRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C_NO" msprop:Generator_ColumnVarNameInTable="columnC_NO" msprop:Generator_ColumnPropNameInRow="C_NO" msprop:Generator_ColumnPropNameInTable="C_NOColumn" msprop:Generator_UserColumnName="C_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="C_NAME" msprop:Generator_ColumnVarNameInTable="columnC_NAME" msprop:Generator_ColumnPropNameInRow="C_NAME" msprop:Generator_ColumnPropNameInTable="C_NAMEColumn" msprop:Generator_UserColumnName="C_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BQTY" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBQTY" msprop:Generator_ColumnPropNameInRow="BQTY" msprop:Generator_ColumnPropNameInTable="BQTYColumn" msprop:Generator_UserColumnName="BQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="AMOUNT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

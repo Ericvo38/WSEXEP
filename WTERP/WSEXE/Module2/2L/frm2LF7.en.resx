@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 42</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>PRINT STATISTICS REPORT DATA</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAkhJREFUWEft
+        Vdtu00AQ9Qv0hUtpvOuofY3aejetCgUJ8UUV/RZAIG7iT+ATEAKJmyjP8NQHUBzbBLUyczazkYm3eNdB
+        iIccaWTP5MzMiXd3Nlriv0WhRNXBXo+2N3pcYjE4ivvam9HmesxlusMWZLcVNQFVocWnfCte55+6YQEB
+        L/l5tJAIW5DdVlj+t73VVXrORBSbvQ2mhMEWZLcVdf6ciM+dRNQL+sDyXZYr8ZFp/rDJ7Lai3tBlTPNH
+        58Q5LAUsBfxzAVmaDItU3i1V/J7yj20dxDLV10xrR6iASkfn6Q54RDmns6bzpsUJPR9U+9E5TjsbNond
+        P6IaDFZyLV5Mc+SE/v2TfBhf/75z+Qos170bpZJP6fef4OSpeA7BnO5GiIAylc8MX4svNPWucriBPI2v
+        Ee8ruKWOH3PYDV8B4+1kh3j47OV4KHc5fCbGWuwR9weWY6LXFIeb8BVAnPuGS5uMQ05kg77IlTzAu1eO
+        IXgIwEUDHtaZQxSTB2jIrmleavHW8FJ5u0iTm3gvlXjHlCZ8BRAnA6/S4gJ82oyHpjg1RON6czSEX23F
+        F+GTjUwRF5jgI2AMnhWQ7SYSjRBD49+a02/gVIO1S4iRLS7AtQS0GRNahg+2Bt5tc6AYyluI/60lcG4o
+        nH/a6a9geOewwSxHyTscamJKCLF4Mn8M6cj18TXYNQg+hkFGgwgNuEQDQYMoBBirrlGMET0d03YUywk4
+        XqM4FOYySsVDfNqpEIeFXEZdYa5jLe7xKShh5mqmTdpc8yj6BTpzd6ACNIDUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 28</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F1. Check</value>
+  </data>
+  <data name="f6ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAfdJREFUWEft
+        ls1OwkAQx+vNixqgCwSMIYbw0QUOHvxIPOjNu/GdPHnTV9HoKxATNTHqRQ96JQTolhgTnKmzWNrFbktD
+        PPBLJt3578zsdNm2GAv+LcJioxh226sVM1RiNhTF9YyzJ7tqFqhMfGRBckOZaKLO7nqVgklT8YjbgMPZ
+        PY2fZ9oJWZDcUGR8v5xn3iZEJVOkkGjIguSG4o33NfESqwlvQR1kvMpsiz1SmD4ymdxQvAuqjML0iZ3o
+        Y9FAog1ILcwo3EWlafFXsTCjcBeVpkXsRB9Q42TYzG2Sq09SDcRG1YDUwozCDdFKrzvcvIAv5DvoHby6
+        PugUMh1/MURqYYaxsNAhjDv+ObKO0zAP3KLTkMHkRsLhqQ34FnQx37HYFYz3B41sDq82Z9euDvMYRylB
+        ZmsAtvln8UsosESyC/qyCfhJzkkOompAan6j6THCMt/cOZ7ZJmkCUcvuUe4rSUFUxaXmN5oeA5qD+qhq
+        rpA0waicXqXcIUlBKCBQXAf8/Lr5Se+ALqKePcPcxM+ALn0rz2U+PgXCyu2MSqVlUc/tRn4KNO1T8Owx
+        5nWbaym4s7Yixmv67wENcwacHWGOd3E8B3bd3IK/6KewCw+gf4H+of0mjAo0kf89fKyNzdDUfLAt80be
+        Ob71SJ4fsGgLD1y0OzeMb3+1elmgYaoFAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="f6ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 28</value>
+  </data>
+  <data name="f6ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F2. Preview</value>
+  </data>
+  <data name="f10ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAhZJREFUSEvd
+        lctqFEEYhVtjvCS40aqKSBZZBIauGtzkBQKCuFEUFRNwH0IuKuQtRIIirnWh6NtEVJQQDIi+gKa7ZhKw
+        cv7uM1OZTE8m7U4/KOg6578U3VXVyf9NmJo66615wGmSWx1kcJqIF6anz3Baj9ypeRT7ebDg4QbF3Okf
+        earvUxoOske8Uy87xTA2aFU12OhoaPJCcmkNBsHPiwSn88yqBSSdoNXXQLwsNYvQPHPWaVWTp+Y2i3jf
+        VLOUu9DrNujg7cRV6C3xMqduUu4luOQ0Ar6XQXqJcg/iyeC0B+gr9LfDTDJKOSI7oghI9QdUOEm5Bxao
+        bABxxFv9sayh5ihHYLwXU94ppT6OaiDgGyyXDcxbShGY38RsNVSDUh/DGrTdBcuYLUoR2TVihsnJc5T6
+        GNYgzFweY0xGKQJxR8xwZWKcUm1CQ51ng1+UIhA3xWw3L6aUavPbXnJFA6e/UopAfMfuq5Rqg+vlcVnD
+        vKEUka0lprfqk2w5yscmzCankP+Fi7xHOcKDtlUEpPoh5WODVa+x+GblQRNwBm4xaLfVNNcoD2XH6evI
+        2cP4g6viBuVqsJKnZRPTlivjqNclHmJXZUFljnpCazBMelYmyDfB8U/VIzlE8gOSUewWfNDMms+dOGyS
+        9VrfDgl3kbjdLTBoyA3gzB2m1UN+h7K78Kpec7Vy73t5zlL9Sv5kf/3L/EdIkn2dvFIhV1oIJgAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="f10ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 28</value>
+  </data>
+  <data name="f10ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F4. Close</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>CUSTOMER ORDERED MATERIALS ONLY</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="rbtHangMau1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 28</value>
+  </data>
+  <data name="rbtHangMau1.Text" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="rbtHangSX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 28</value>
+  </data>
+  <data name="rbtHangSX1.Text" xml:space="preserve">
+    <value>Produced goods</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="rbtDaHeo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 28</value>
+  </data>
+  <data name="rbtDaHeo1.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="rbtDaHat1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 28</value>
+  </data>
+  <data name="rbtDaHat1.Text" xml:space="preserve">
+    <value>Cowhide</value>
+  </data>
+  <data name="rbtTatCa1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 28</value>
+  </data>
+  <data name="rbtTatCa1.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Business:</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 24</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Select Year Month:</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>MATERIAL</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="radioButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 24</value>
+  </data>
+  <data name="radioButton11.Text" xml:space="preserve">
+    <value>Goat skin</value>
+  </data>
+  <data name="radioButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 24</value>
+  </data>
+  <data name="radioButton12.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 129</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 20</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Number of Starting Materials:</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 167</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 20</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Finishing Ingredients:</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Year month:</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>BRAND</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 24</value>
+  </data>
+  <data name="radioButton7.Text" xml:space="preserve">
+    <value>Grain leather</value>
+  </data>
+  <data name="radioButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="radioButton9.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Business:</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>End Brand Number:</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 20</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Original Brand Number:</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Enter Year Month:</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>AVERAGE PRICE</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Classify</value>
+  </data>
+  <data name="radioButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="radioButton8.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="radioButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 24</value>
+  </data>
+  <data name="radioButton13.Text" xml:space="preserve">
+    <value>Grain Leather</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Customer Start Code:</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 20</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Starting Material Code:</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Finishing Material Code:</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>End Brand Number:</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 20</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Ending Customer Code:</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 20</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Starting Brand Number:</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Enter Year Month:</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>1.263 / 5.000
+Kết quả dịch
+PRINT STATISTICS REPORT DATA
+  Close C]
+ View [&amp;V]
+yy/MM/dd
+yy/MM
+yy/MM/dd
+yy/MM
+yy
+yy
+yy/MM/dd
+yy/MM/dd
+yy/MM
+yy/MM/dd
+yy/MM/dd
+yy/MM
+yy/MM/dd
+yy/MM/dd
+F4. End
+F1. Test
+F2. Preview
+Category
+Production methods
+Category
+Category
+Category
+Classify
+Type of report
+Category
+Category
+Category
+PRINT STATISTICS REPORT DATA
+Five months:
+Number of Starting Materials:
+Business:
+End date:
+Original Brand Number:
+Start day:
+Enter Year Month:
+End Brand Number:
+End Brand Number:
+End date:
+Finishing Material Code:
+Starting Brand Number:
+Start day:
+Enter Year Month:
+Ending Customer Code:
+Starting Material Code:
+Customer Start Code:
+Start day:
+End date:
+The final year:
+Year Started:
+Select Year Month:
+End date:
+Start day:
+Enter Year Month:
+Business:
+End date:
+Area:
+Start day:
+Enter Year Month:
+Start day:
+End date:
+Business:
+Finishing Ingredients:
+menuStrip1
+Goat skin
+Pig skin
+Grain Leather
+Material
+Brand
+Customer
+Coconut Skin
+Pig skin
+Discount, Return
+Quantitative
+Pig skin
+Grain leather
+All
+Recalculation
+No recalculation
+Grain leather
+Pig skin
+Pig skin
+Cowhide
+Pig skin
+EXCEL
+Sample
+Produced goods
+All
+CUSTOMER ORDERED MATERIALS ONLY
+MATERIAL, SUBSTANCE
+BRAND
+AVERAGE PRICE
+OTHER STATISTICS</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Type of report</value>
+  </data>
+  <data name="radioButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 24</value>
+  </data>
+  <data name="radioButton14.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="radioButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="radioButton15.Text" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="radioButton16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="radioButton16.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>The final year:</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Year Started:</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>OTHER BRAND</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Business:</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="radioButton18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
+  </data>
+  <data name="radioButton18.Text" xml:space="preserve">
+    <value>Coconut Skin</value>
+  </data>
+  <data name="radioButton19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 24</value>
+  </data>
+  <data name="radioButton19.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Enter Year Month:</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>AREA</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Production methods</value>
+  </data>
+  <data name="radioButton26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="radioButton26.Text" xml:space="preserve">
+    <value>Recalculation</value>
+  </data>
+  <data name="radioButton28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 24</value>
+  </data>
+  <data name="radioButton28.Text" xml:space="preserve">
+    <value>No recalculation</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="radioButton21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="radioButton21.Text" xml:space="preserve">
+    <value>Discount, Return</value>
+  </data>
+  <data name="radioButton22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 24</value>
+  </data>
+  <data name="radioButton22.Text" xml:space="preserve">
+    <value>Quantitative</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="radioButton23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 24</value>
+  </data>
+  <data name="radioButton23.Text" xml:space="preserve">
+    <value>Pig skin</value>
+  </data>
+  <data name="radioButton24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 24</value>
+  </data>
+  <data name="radioButton24.Text" xml:space="preserve">
+    <value>Grain leather</value>
+  </data>
+  <data name="radioButton25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="radioButton25.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Start day:</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Enter Year Month:</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAMFJREFUSEvt
+        kk0KwjAQRnsDK0l/cCEV03o1xZuqK7GLnkKhLclO89URW41ITTZCHswinfQN+ZjA4xlFnYpI8XxNR7dA
+        Lpk4Sp5fFRMb+uyGlq9mkosKcl27c5iF1LLHy40M5WI/So41w0bQ8Y3+tug61ckyptZ3FCu23Y9aYBpi
+        JQd4Kp58F4gKUVDLLpY+piGv8stkPqXrv9HEi0TLyk6ISJ6xlOjRNTsGQ1zLHyAKxYsDyjqWTzRRlqLo
+        6Pk7guAGSAeV9Dj9TI4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value> Close [&amp;C]</value>
+  </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAfdJREFUWEft
+        ls1OwkAQx+vNixqgCwSMIYbw0QUOHvxIPOjNu/GdPHnTV9HoKxATNTHqRQ96JQTolhgTnKmzWNrFbktD
+        PPBLJt3578zsdNm2GAv+LcJioxh226sVM1RiNhTF9YyzJ7tqFqhMfGRBckOZaKLO7nqVgklT8YjbgMPZ
+        PY2fZ9oJWZDcUGR8v5xn3iZEJVOkkGjIguSG4o33NfESqwlvQR1kvMpsiz1SmD4ymdxQvAuqjML0iZ3o
+        Y9FAog1ILcwo3EWlafFXsTCjcBeVpkXsRB9Q42TYzG2Sq09SDcRG1YDUwozCDdFKrzvcvIAv5DvoHby6
+        PugUMh1/MURqYYaxsNAhjDv+ObKO0zAP3KLTkMHkRsLhqQ34FnQx37HYFYz3B41sDq82Z9euDvMYRylB
+        ZmsAtvln8UsosESyC/qyCfhJzkkOompAan6j6THCMt/cOZ7ZJmkCUcvuUe4rSUFUxaXmN5oeA5qD+qhq
+        rpA0waicXqXcIUlBKCBQXAf8/Lr5Se+ALqKePcPcxM+ALn0rz2U+PgXCyu2MSqVlUc/tRn4KNO1T8Owx
+        5nWbaym4s7Yixmv67wENcwacHWGOd3E8B3bd3IK/6KewCw+gf4H+of0mjAo0kf89fKyNzdDUfLAt80be
+        Ob71SJ4fsGgLD1y0OzeMb3+1elmgYaoFAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAADAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRP5KSQV9lUkFfZVJBX2VSQV9lUkFfZVJBX2VSQV
+        9lUkFfZVJRP5KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUV93skFPZwJBX2VSQV9lUkFfZVJBX2VSQV
+        9lUkFfZVJBT2cCUV93sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFfd7JRP5KSQT94UmFPiqJhT4qiYU
+        +KomFPiqJBP3hSUT+SklFfd7AAAAAAAAAAAAAAAAJCT/ByQU9nAkE/Z3JRP1uSgS9jklFfdgJBP2dyQT
+        9nckE/Z3JBT3PwAAAAAoEvY5JRP1uSQT9nclFfhvKwD/BiQV9lUlFPf/JRT3/yUU9/8lFPxLJhX3PSQV
+        9lUkFfZVJBX2VSYT9jYmE/YbJRT8SyUU9/8lFPf/JRT3/yQV9lUkE/dcJRT3/yUU9/8lFPf/JRT8SyYT
+        918kE/Z3JBP2dyQT9nckE/Z3JhP3XyUU/EslFPf/JRT3/yUU9/8kE/dcJBP3XCUU9/8lFPf/JRT3/yUT
+        9+IlFPfWJRT31iUU99YlFPfWJRT31iUU99YlE/fiJRT3/yUU9/8lFPf/JBP3XCQT91wlFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yQT91wkE/dcJRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPfBJRT3mSUU9/8kE/dcJBP3XCUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3yiUU96YlFPf/JBP3XCYV
+        9zwlFPf+JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYT
+        90MAAAAAIxL2HSMU9TMkFfaVJBL2VCMU9TMjFPUzIxT1MyMU9TMjFPUzIxT1MyQS9lQkFfaVIxT1MyQW
+        +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
+        9ooAAAAAJRP2kCYU+O4mFPjuJhT47iYU+O4mFPjuJhT47iYU+O4mFPjuJhT47iYU+O4lE/aQAAAAACUS
+        9oolFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8mFPe3AAAAAAAAAAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRL2igAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJRL2iiUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU97cAAAAAAAAAACYU97clFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPenJBj7PyQY+z8kGPs/JBj7PyQY+z8kGPs/JBj7PyQY+z8kGPs/JBj7PyQY
+        +z8kGPs/JBj7PyQY+z8lFPenJRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8mFPe3AAAAAAAA
+        AAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU
+        97cAAAAAAAAAACYU97clFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT34iUU
+        97slFPf+JRT3/yUU9/8mFPe3AAAAAAAAAAAmFPe3JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/0pFPUZAAAAACUT950lFPf/JRT3/yYU97cAAAAAAAAAACYU97clFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUT+SkAAP8BJBT4ryUU9/8lFPf/JhT3twAAAAAAAAAAJhT3tyUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT39CUU9+QlFPf/JRT3/yUU9/8mFPe3AAAAAAAAAAAlFPaxJRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yYU9rAAAAAAAAAAACYT
+        914lFPf+JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU
+        9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf/JRT3/yUU9/8lFPf+JBP3XAAA
+        AAAAAAAAAAAAACMU9TMkFfdjJhT4ZiYU+GYmFPhmJhP3+SUU95cmFPhmJhT4ZiYU+GYmFPhmJhT4ZiYU
+        +GYmFPhmJhT4ZiYU+GYmFPhmJhT4ZiYU+GYmFPhmJhT4ZiUU95cmE/f5JhT4ZiYU+GYmFPhmJBX3YyQU
+        9TIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFPf1JRP2UgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRP2UiUU9/UAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUU9/UlE/ZSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlE/ZSJRT39QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJRT39SUT
+        9lIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUT
+        9lIlFPf1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAlFPf1JRP2UgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJRP2UiUU9/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACUU9/UlE/ZSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAlE/ZSJRT39QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAJRT39SUT9lIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACUT9lIlFPf1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlFPf1JRX4riYV+IgmFfiIJhX4iCYV+IgmFfiIJhX4iCYV
+        +IgmFfiIJhX4iCYV+IgmFfiIJhX4iCYV+IgmFfiIJRX4riUU9/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUU97QlFPe7JRT3uyUU97slFPe7JRT3uyUU
+        97slFPe7JRT3uyUU97slFPe7JRT3uyUU97slFPe7JRT3uyUU97slFPe7JRT3tAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////+AAB//gAAf/7//3/+//9//uAHf/7//3/AQB4DgH/+AYB/
+        /gGAQAIBgH/+AYB//gGAAAABgAAAAYAAAAGAAAABgAAAYYAAAGGAAAABgAAAAcAAAAP+f/5//v//f/7/
+        /3/+//9//v//f/7//3/+//9//gAAf/4AAH//////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PRINT STATISTICS REPORT DATA</value>
+  </data>
+</root>
