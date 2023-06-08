@@ -7594,6 +7594,8 @@ G:\WSEXEP(New)\WSEXEP\WTERP\obj\Debug\WTERP.application
 G:\WSEXEP(New)\WSEXEP\WTERP\obj\Debug\WTERP.csproj.CopyComplete
 G:\WSEXEP(New)\WSEXEP\WTERP\obj\Debug\WTERP.exe
 G:\WSEXEP(New)\WSEXEP\WTERP\obj\Debug\WTERP.pdb
+G:\WSEXEP\WTERP\obj\Debug\WTERP.frmLogin.zh-TW.resources
+G:\WSEXEP\WTERP\obj\Debug\WTERP.pdb
 G:\WSEXEP\WTERP\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 G:\WSEXEP\WTERP\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 G:\WSEXEP\WTERP\bin\Debug\SqlServerTypes\x86\msvcr120.dll
@@ -7611,7 +7613,6 @@ G:\WSEXEP\WTERP\bin\Debug\WTERP.pdb
 G:\WSEXEP\WTERP\bin\Debug\en\WTERP.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\vi\WTERP.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\zh-TW\WTERP.resources.dll
-G:\WSEXEP\WTERP\bin\Debug\zh\WTERP.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\Aspose.Cells.dll
 G:\WSEXEP\WTERP\bin\Debug\AxShockwaveFlashObjects.dll
 G:\WSEXEP\WTERP\bin\Debug\BarcodeLib.dll
@@ -7695,7 +7696,6 @@ G:\WSEXEP\WTERP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 G:\WSEXEP\WTERP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-G:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.AssemblyReference.cache
 G:\WSEXEP\WTERP\obj\Debug\WTERP.FormCenter.BackUpDatabase.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.FormMainMenu.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmLogin.resources
@@ -7758,6 +7758,7 @@ G:\WSEXEP\WTERP\obj\Debug\WTERP.frm2QF5.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.frm2R.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module3._3D.FrmChoiceType.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module3._3D.FrmViewReport3D.resources
+G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module3._3E.FrmChoiceTypeE.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module3._3E.FrmViewProduct3E.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.frm3FF7.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.frm3FF7_Tab1.resources
@@ -7913,7 +7914,6 @@ G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3FF5.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3H.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3I.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF2.resources
-G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7_Tab1.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7_Tab2.resources
@@ -7952,7 +7952,6 @@ G:\WSEXEP\WTERP\obj\Debug\WTERP.Form1AF7_Tab3.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm2EF7_Tab2_2.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmLogin.en.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmLogin.vi.resources
-G:\WSEXEP\WTERP\obj\Debug\WTERP.frmLogin.zh-TW.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmWSEXE.en.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmWSEXE.vi.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frmWSEXE.zh-TW.resources
@@ -8290,10 +8289,7 @@ G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3I.zh-TW.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF2.en.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF2.vi.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF2.zh-TW.resources
-G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.en.resources
-G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.vi.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.zh-TW.resources
-G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.zh.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7.en.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7.vi.resources
 G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF7.zh-TW.resources
@@ -8408,10 +8404,13 @@ G:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.CoreCompileInputs.cache
 G:\WSEXEP\WTERP\obj\Debug\en\WTERP.resources.dll
 G:\WSEXEP\WTERP\obj\Debug\vi\WTERP.resources.dll
 G:\WSEXEP\WTERP\obj\Debug\zh-TW\WTERP.resources.dll
-G:\WSEXEP\WTERP\obj\Debug\zh\WTERP.resources.dll
 G:\WSEXEP\WTERP\obj\Debug\WTERP.exe.manifest
 G:\WSEXEP\WTERP\obj\Debug\WTERP.application
 G:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.CopyComplete
 G:\WSEXEP\WTERP\obj\Debug\WTERP.exe
-G:\WSEXEP\WTERP\obj\Debug\WTERP.pdb
-G:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module3._3E.FrmChoiceTypeE.resources
+G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.resources
+G:\WSEXEP\WTERP\bin\Debug\vi-VN\WTERP.resources.dll
+G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.en.resources
+G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.vi-VN.resources
+G:\WSEXEP\WTERP\obj\Debug\WTERP.frm3IF5.vi.resources
+G:\WSEXEP\WTERP\obj\Debug\vi-VN\WTERP.resources.dll

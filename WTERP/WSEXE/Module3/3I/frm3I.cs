@@ -53,6 +53,8 @@ namespace WTERP
             btnMoveNext.Enabled = true;
             btnMoveLast.Enabled = true;
 
+            DGV1.ReadOnly = true;
+
             LoadData();
         }
         private void EnableFunction()
@@ -135,26 +137,11 @@ namespace WTERP
             btnMovePrevious.Enabled = false;
             btnMoveNext.Enabled = false;
 
+            DGV1.ReadOnly = false;
 
             string sql = "SELECT NR,P_NO,P_NAME, QTY, BQTY, UNIT, BUNIT, PRICE, AMOUNT, M_TRAN, BMEMO, W_CHK FROM COSTB WHERE WS_NO=N''";
             table_DGV = con.readdata(sql);
             DGV1.DataSource = table_DGV;
-
-            //string sql1 = "SELECT top 1 WS_NO FROM COSTH WHERE WS_NO LIKE N'" + txtWS_DATE.Text.Replace("/", "") + "%' ORDER BY WS_NO desc";
-            //DataTable dt1 = new DataTable();
-            //dt1 = con.readdata(sql1);
-            //if (dt1.Rows.Count > 0)
-            //{
-            //    int NR = 0;
-            //    NR = int.Parse(dt1.Rows[0]["WS_NO"].ToString().Substring(8, 2));
-            //    txtWS_NO.Text = txtWS_DATE.Text.Replace("/", "") + NR.ToString("D" + 3).ToString();
-            //}
-            //else
-            //{
-            //    txtWS_NO.Text = txtWS_DATE.Text.Replace("/", "") + "001";
-            //}
-            //txtWS_NO.Text = CreateWS_NO();
-            //DGV1.AllowUserToAddRows = true;
             DGV1.DataGridViewFormat();
         }
         private void f3ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -175,6 +162,7 @@ namespace WTERP
         {
             Function = 4;
             DisableFunction();
+            DGV1.ReadOnly = false;
 
             btnOk.Show();
             btnDong.Show();
@@ -291,8 +279,7 @@ namespace WTERP
             string SQL2 = "SELECT NR,P_NO,P_NAME, QTY, BQTY, UNIT, BUNIT, PRICE, AMOUNT, M_TRAN, BMEMO, W_CHK FROM COSTB WHERE WS_NO = '" + WS_NO + "' ";
             table_DGV = con.readdata(SQL2);
             DGV1.DataSource = table_DGV;
-            DGV1.DataGridViewFormat();
-            DGV1.ForeColor = Color.Black ;
+            DataGridViewFormat(DGV1);
         }
         private void ShowRecord()
         {
@@ -336,6 +323,24 @@ namespace WTERP
             float x = 0;
             float.TryParse(s, out x);
             return x;
+        }
+        public void DataGridViewFormat(DataGridView DGV)
+        {
+            DGV.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            //DGV.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+            //DGV.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
+            DGV.RowHeadersWidth = 15;
+            DGV.EnableHeadersVisualStyles = false;
+            DGV.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            DGV.ColumnHeadersDefaultCellStyle.Font = new Font("Tahoma", 10F, FontStyle.Bold);
+            DGV.DefaultCellStyle.Font = new Font("Tahoma", 17F);
+            DGV.BackgroundColor = Color.White;
+            DGV.ForeColor = Color.MidnightBlue;
+            DGV.BorderStyle = BorderStyle.FixedSingle;
+            //DGV.ColumnHeadersHeight = 52;
+            DGV.DefaultCellStyle.Format = "#,##0.000";
+            // DGV.RowTemplate.Height = 30;
+            //DGV.Refresh();
         }
         #endregion
 
@@ -563,7 +568,6 @@ namespace WTERP
                 return;
             }
         }
-
         public bool DeleteData()
         {
             bool Result = false;
@@ -598,7 +602,6 @@ namespace WTERP
             }
             return Result;
         }
-
         public void ModifyData()
         {
             bool Result = false;

@@ -98,12 +98,12 @@ namespace WTERP
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lbUserName = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.txtUSR_NAME = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lbNamePC = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lbIP = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.txtUSR_NAME = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnTimeNow = new System.Windows.Forms.Button();
             this.btndateNow = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -595,12 +595,12 @@ namespace WTERP
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.lbUserName,
-            this.toolStripStatusLabel5,
-            this.txtUSR_NAME,
             this.toolStripStatusLabel2,
             this.lbNamePC,
             this.toolStripStatusLabel3,
-            this.lbIP});
+            this.lbIP,
+            this.toolStripStatusLabel5,
+            this.txtUSR_NAME});
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             // 
@@ -614,17 +614,6 @@ namespace WTERP
             resources.ApplyResources(this.lbUserName, "lbUserName");
             this.lbUserName.ForeColor = System.Drawing.Color.Brown;
             this.lbUserName.Name = "lbUserName";
-            // 
-            // toolStripStatusLabel5
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
-            this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            // 
-            // txtUSR_NAME
-            // 
-            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
-            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
-            this.txtUSR_NAME.Name = "txtUSR_NAME";
             // 
             // toolStripStatusLabel2
             // 
@@ -647,6 +636,17 @@ namespace WTERP
             resources.ApplyResources(this.lbIP, "lbIP");
             this.lbIP.ForeColor = System.Drawing.Color.Brown;
             this.lbIP.Name = "lbIP";
+            // 
+            // toolStripStatusLabel5
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
+            this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
+            // 
+            // txtUSR_NAME
+            // 
+            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
+            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
+            this.txtUSR_NAME.Name = "txtUSR_NAME";
             // 
             // btnTimeNow
             // 

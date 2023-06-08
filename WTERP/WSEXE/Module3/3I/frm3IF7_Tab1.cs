@@ -28,13 +28,13 @@ namespace WTERP
         {
             if (valuerdb == 1)
             {
-                ROWID = "ROWID between 1 and 31";
-                ROWID1 = "ROWID between 32 and 62";
+                ROWID = "ROWID between 1 and 36";
+                ROWID1 = "ROWID between 37 and 72";
             }
             else
             {
-                ROWID = "ROWID between 63 and 93";
-                ROWID1 = "ROWID between 94 and 124";
+                ROWID = "ROWID between 73 and 108";
+                ROWID1 = "ROWID between 109 and 144";
             }
 
             string sql = "SELECT MK_NOA,WS_DATE,C_NAME,COSTH.P_NAME,SOURCE,THICK,CAST(WKG AS VARCHAR(Max))+ 'KG' AS WKG,PSF,SUM(BQTY) AS BQTY,K_NO,USR_NAME,CLRCARD,CAST(YEAR(WS_DATE) AS INT) AS Years," +
@@ -61,7 +61,8 @@ namespace WTERP
             DataTable dt2 = new DataTable();
             dt2 = con.readdata(st2);
 
-            reportViewer1.LocalReport.ReportEmbeddedResource = "WTERP.WSEXE.Module3._3I.ReportView.rv_Form3I_Tab1.rdlc";
+            //reportViewer1.LocalReport.ReportEmbeddedResource = "WTERP.WSEXE.Module3._3I.ReportView.rv_Form3I_Tab1.rdlc";
+            reportViewer1.LocalReport.ReportEmbeddedResource = "WTERP.WSEXE.Module3._3I.ReportView.Report_Tab1.rdlc";
 
             ReportDataSource rdb = new ReportDataSource("DataSet1", dt);
             ReportDataSource rdb1 = new ReportDataSource("DataSet2", dt1);
@@ -75,7 +76,7 @@ namespace WTERP
 
             reportViewer1.SetDisplayMode(Microsoft.Reporting.WinForms.DisplayMode.PrintLayout);
             reportViewer1.ZoomMode = ZoomMode.Percent;
-            reportViewer1.ZoomPercent = 100;
+            reportViewer1.ZoomPercent = 50;
             this.reportViewer1.RefreshReport();
         }
     }

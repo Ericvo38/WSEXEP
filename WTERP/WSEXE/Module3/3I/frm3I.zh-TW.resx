@@ -363,7 +363,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NR.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>48</value>
   </data>
   <data name="P_NO.HeaderText" xml:space="preserve">
     <value>產品編號</value>
@@ -378,55 +378,55 @@
     <value>百分</value>
   </data>
   <data name="QTY.Width" type="System.Int32, mscorlib">
-    <value>89</value>
+    <value>63</value>
   </data>
   <data name="BQTY.HeaderText" xml:space="preserve">
     <value>數量</value>
   </data>
   <data name="BQTY.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>63</value>
   </data>
   <data name="UNIT.HeaderText" xml:space="preserve">
     <value>水溫</value>
   </data>
   <data name="UNIT.Width" type="System.Int32, mscorlib">
-    <value>89</value>
+    <value>63</value>
   </data>
   <data name="BUNIT.HeaderText" xml:space="preserve">
     <value>時間</value>
   </data>
   <data name="BUNIT.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>63</value>
   </data>
   <data name="PRICE.HeaderText" xml:space="preserve">
     <value>單價</value>
   </data>
   <data name="PRICE.Width" type="System.Int32, mscorlib">
-    <value>89</value>
+    <value>63</value>
   </data>
   <data name="AMOUNT.HeaderText" xml:space="preserve">
     <value>全部的</value>
   </data>
   <data name="AMOUNT.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>78</value>
   </data>
   <data name="M_TRAN.HeaderText" xml:space="preserve">
     <value>貨幣</value>
   </data>
   <data name="M_TRAN.Width" type="System.Int32, mscorlib">
-    <value>89</value>
+    <value>63</value>
   </data>
   <data name="BMEMO.HeaderText" xml:space="preserve">
     <value>評論</value>
   </data>
   <data name="BMEMO.Width" type="System.Int32, mscorlib">
-    <value>90</value>
+    <value>63</value>
   </data>
   <data name="W_CHK.HeaderText" xml:space="preserve">
     <value>確認</value>
   </data>
   <data name="W_CHK.Width" type="System.Int32, mscorlib">
-    <value>89</value>
+    <value>63</value>
   </data>
   <data name="txtCARNO.Location" type="System.Drawing.Point, System.Drawing">
     <value>746, 160</value>

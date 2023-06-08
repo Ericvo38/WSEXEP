@@ -777,12 +777,6 @@
   <data name="toolStripStatusLabel1.Text" xml:space="preserve">
     <value>User:</value>
   </data>
-  <data name="toolStripStatusLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 21</value>
-  </data>
-  <data name="toolStripStatusLabel5.Text" xml:space="preserve">
-    <value>Modified by :</value>
-  </data>
   <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 21</value>
   </data>
@@ -794,6 +788,12 @@
   </data>
   <data name="toolStripStatusLabel3.Text" xml:space="preserve">
     <value>IP Add:</value>
+  </data>
+  <data name="toolStripStatusLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 21</value>
+  </data>
+  <data name="toolStripStatusLabel5.Text" xml:space="preserve">
+    <value>Modified by :</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 593</value>

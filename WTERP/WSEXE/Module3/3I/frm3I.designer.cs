@@ -31,10 +31,10 @@ namespace WTERP
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm3I));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -276,6 +276,7 @@ namespace WTERP
             // 
             resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.AllowUserToAddRows = false;
+            this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -293,7 +294,7 @@ namespace WTERP
             this.BMEMO,
             this.W_CHK});
             this.DGV1.Name = "DGV1";
-            this.DGV1.RowTemplate.Height = 28;
+            this.DGV1.RowTemplate.Height = 15;
             this.DGV1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellClick);
             this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit);
             this.DGV1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseClick);
@@ -328,9 +329,9 @@ namespace WTERP
             // BQTY
             // 
             this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle1.Format = "N3";
-            dataGridViewCellStyle1.NullValue = null;
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Format = "N3";
+            dataGridViewCellStyle5.NullValue = null;
+            this.BQTY.DefaultCellStyle = dataGridViewCellStyle5;
             resources.ApplyResources(this.BQTY, "BQTY");
             this.BQTY.Name = "BQTY";
             // 
@@ -343,25 +344,25 @@ namespace WTERP
             // BUNIT
             // 
             this.BUNIT.DataPropertyName = "BUNIT";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = null;
-            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Format = "d";
+            dataGridViewCellStyle6.NullValue = null;
+            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle6;
             resources.ApplyResources(this.BUNIT, "BUNIT");
             this.BUNIT.Name = "BUNIT";
             // 
             // PRICE
             // 
             this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle3.Format = "N3";
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Format = "N3";
+            this.PRICE.DefaultCellStyle = dataGridViewCellStyle7;
             resources.ApplyResources(this.PRICE, "PRICE");
             this.PRICE.Name = "PRICE";
             // 
             // AMOUNT
             // 
             this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle4.Format = "N3";
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Format = "N3";
+            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle8;
             resources.ApplyResources(this.AMOUNT, "AMOUNT");
             this.AMOUNT.Name = "AMOUNT";
             // 

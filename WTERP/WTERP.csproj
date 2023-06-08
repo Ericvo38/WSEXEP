@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>38</ApplicationRevision>
+    <ApplicationRevision>40</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -684,6 +684,12 @@
     </Compile>
     <Compile Include="WSEXE\Module3\3H\frm3H_Tap2.designer.cs">
       <DependentUpon>frm3H_Tap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSEXE\Module3\3I\frm3IF5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WSEXE\Module3\3I\frm3IF5.designer.cs">
+      <DependentUpon>frm3IF5.cs</DependentUpon>
     </Compile>
     <Compile Include="WSEXE\Module3\3I\frm3IF7_Tab4.cs">
       <SubType>Form</SubType>
@@ -1626,12 +1632,6 @@
     </Compile>
     <Compile Include="WSEXE\Module3\3I\frm3IF2.designer.cs">
       <DependentUpon>frm3IF2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WSEXE\Module3\3I\frm3IF5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WSEXE\Module3\3I\frm3IF5.designer.cs">
-      <DependentUpon>frm3IF5.cs</DependentUpon>
     </Compile>
     <Compile Include="WSEXE\Module3\3I\frm3IF7.cs">
       <SubType>Form</SubType>
@@ -3806,13 +3806,16 @@
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.en.resx">
       <DependentUpon>frm3IF5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.resx">
+      <DependentUpon>frm3IF5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.vi-VN.resx">
+      <DependentUpon>frm3IF5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.vi.resx">
       <DependentUpon>frm3IF5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.zh-TW.resx">
-      <DependentUpon>frm3IF5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.zh.resx">
       <DependentUpon>frm3IF5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF7.en.resx">
@@ -3839,8 +3842,8 @@
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3I_SearchSample.zh-TW.resx">
       <DependentUpon>frm3I_SearchSample.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\Report_Tab1.rdlc" />
     <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\Report_Tab4.rdlc" />
-    <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\rv_Form3I_Tab1.rdlc" />
     <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\rv_Form3I_Tab2.rdlc" />
     <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\rv_Form3I_Tab2_2.rdlc" />
     <EmbeddedResource Include="WSEXE\Module3\3I\ReportView\rv_Form3I_Tab4.rdlc" />
@@ -4624,9 +4627,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF2.resx">
       <DependentUpon>frm3IF2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF5.resx">
-      <DependentUpon>frm3IF5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module3\3I\frm3IF7.resx">
       <DependentUpon>frm3IF7.cs</DependentUpon>

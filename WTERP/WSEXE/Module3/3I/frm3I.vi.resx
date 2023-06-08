@@ -274,26 +274,11 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 84</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1029, 509</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1021, 478</value>
-  </data>
   <data name="txtWS_DATE.Location" type="System.Drawing.Point, System.Drawing">
     <value>125, 10</value>
   </data>
   <data name="txtWS_DATE.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 26</value>
-  </data>
-  <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 213</value>
-  </data>
-  <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1017, 264</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="P_NAME.Width" type="System.Int32, mscorlib">
@@ -304,6 +289,12 @@
   </data>
   <data name="AMOUNT.Width" type="System.Int32, mscorlib">
     <value>97</value>
+  </data>
+  <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 213</value>
+  </data>
+  <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1017, 264</value>
   </data>
   <data name="txtCARNO.Location" type="System.Drawing.Point, System.Drawing">
     <value>656, 173</value>
@@ -489,6 +480,15 @@
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 0, 1, 0</value>
   </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1021, 478</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 84</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1029, 509</value>
+  </data>
   <data name="btnTimeNow.Location" type="System.Drawing.Point, System.Drawing">
     <value>512, 40</value>
   </data>
@@ -613,9 +613,6 @@
   </data>
   <data name="btnMoveFirst.Location" type="System.Drawing.Point, System.Drawing">
     <value>104, 40</value>
-  </data>
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 184</value>
   </data>
   <data name="新增明細UToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -754,6 +751,9 @@
   </data>
   <data name="放弃ZToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Hủy bỏ mọi thông tin </value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 184</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
