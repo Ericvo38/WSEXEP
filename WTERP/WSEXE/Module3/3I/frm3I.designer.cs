@@ -31,10 +31,10 @@ namespace WTERP
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm3I));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -329,9 +329,9 @@ namespace WTERP
             // BQTY
             // 
             this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle5.Format = "N3";
-            dataGridViewCellStyle5.NullValue = null;
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Format = "N3";
+            dataGridViewCellStyle1.NullValue = null;
+            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.BQTY, "BQTY");
             this.BQTY.Name = "BQTY";
             // 
@@ -344,25 +344,25 @@ namespace WTERP
             // BUNIT
             // 
             this.BUNIT.DataPropertyName = "BUNIT";
-            dataGridViewCellStyle6.Format = "d";
-            dataGridViewCellStyle6.NullValue = null;
-            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Format = "d";
+            dataGridViewCellStyle2.NullValue = null;
+            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.BUNIT, "BUNIT");
             this.BUNIT.Name = "BUNIT";
             // 
             // PRICE
             // 
             this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle7.Format = "N3";
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Format = "N3";
+            this.PRICE.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.PRICE, "PRICE");
             this.PRICE.Name = "PRICE";
             // 
             // AMOUNT
             // 
             this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle8.Format = "N3";
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Format = "N3";
+            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle4;
             resources.ApplyResources(this.AMOUNT, "AMOUNT");
             this.AMOUNT.Name = "AMOUNT";
             // 

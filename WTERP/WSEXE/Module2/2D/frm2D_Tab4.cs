@@ -34,6 +34,9 @@ namespace WTERP
             string COLOR_E = Form2D.Tab4.t8;
             string P_NAME1 = Form2D.Tab4.t9;
 
+            string WS_DATE1_1 = Form2D.Tab4.t10;
+            string WS_DATE1_2 = Form2D.Tab4.t11;
+
             bool rd4_1 = Form2D.Tab4.rd4_1;
             bool rd4_2 = Form2D.Tab4.rd4_2;
             bool rd4_3 = Form2D.Tab4.rd4_3;
@@ -43,12 +46,11 @@ namespace WTERP
             string BRAND = Form2D.Tab4.t15;
             string T_NAME = Form2D.Tab4.t16;
 
-            string WS_DATE1_1 = Form2D.Tab4.t10;
-            string WS_DATE1_2 = Form2D.Tab4.t11;
+           
 
-            string STQ3 = "SELECT ORDB.WS_DATE, ORDB.NR, ORDB.MODEL_E,ORDB.C_NO, ORDB.T_NAME, ORDB.OR_NO, PATT_C, CA_GI.COLOR_C, ORDB.COLOR_E,(ORDB.COLOR_C + ORDB.COLOR_E) AS COLOR," +
-                " ORDB.THICK, ORDB.P_NAME_E, ORDB.PRICE, ORDB.OVER0, ORDB.WS_DATE1, ORDB.CLRCARD, ORDB.QTY, ISNULL(PRDM.WS_NO,ORDB.WS_DATE + '-'+ '0'+ORDB.NR) WS_NO,CASE WHEN PRDM.C_NAME = '' THEN CUST.C_NAME ELSE PRDM.C_NAME END AS C_NAME, " +
-                " CA_GI.WS_DATE, CA_GI.WS_NO, isnull(CA_GI.BQTY,0) as BQTY, CA_GI.MEMO, CA_GI.OVER0, '' AS TOTAL,REMARKS FROM ORDB " +
+            string STQ3 = "SELECT dbo.FormatString1(ORDB.WS_DATE) AS WS_DATE, ORDB.NR, ORDB.MODEL_E,ORDB.C_NO, ORDB.T_NAME, ORDB.OR_NO, PATT_C, CA_GI.COLOR_C, ORDB.COLOR_E,(ORDB.COLOR_C + ORDB.COLOR_E) AS COLOR," +
+                " ORDB.THICK, ORDB.P_NAME_E, ORDB.PRICE, ORDB.OVER0, dbo.FormatString2(ORDB.WS_DATE1) AS WS_DATE1, ORDB.CLRCARD, ORDB.QTY, ISNULL(PRDM.WS_NO,ORDB.WS_DATE + '-'+ '0'+ORDB.NR) WS_NO,CASE WHEN PRDM.C_NAME = '' THEN CUST.C_NAME ELSE PRDM.C_NAME END AS C_NAME, " +
+                " dbo.FormatString2(CA_GI.WS_DATE) AS WS_DATE, CA_GI.WS_NO, isnull(CA_GI.BQTY,0) as BQTY, CA_GI.MEMO, CA_GI.OVER0, '' AS TOTAL,REMARKS FROM ORDB " +
                 " lEFT JOIN PRDM ON ORDB.OR_NO = PRDM.OR_NO AND ORDB.NR = PRDM.NR " +
                 " LEFT JOIN dbo.CUST ON CUST.C_NO = ORDB.C_NO " +
                 "LEFT JOIN CA_GI ON ORDB.OR_NO = CA_GI.OR_NO AND ORDB.NR = CA_GI.OR_NR WHERE 1=1";
@@ -116,12 +118,12 @@ namespace WTERP
 
             string TS = "TV";
             string CV = "CV";
-            foreach (DataRow dr in dt.Rows)
-            {
-                dr["WS_DATE"] = con.formatstr1(dr["WS_DATE"].ToString());
-                dr["WS_DATE1"] = con.formatstr2(dr["WS_DATE1"].ToString());
-                dr["WS_DATE2"] = con.formatstr2(dr["WS_DATE2"].ToString());
-            }
+            //foreach (DataRow dr in dt.Rows)
+            //{
+            //    dr["WS_DATE"] = con.formatstr1(dr["WS_DATE"].ToString());
+            //    dr["WS_DATE1"] = con.formatstr2(dr["WS_DATE1"].ToString());
+            //    dr["WS_DATE2"] = con.formatstr2(dr["WS_DATE2"].ToString());
+            //}
 
             foreach (DataRow dr in dt.Rows)
             {

@@ -68,7 +68,8 @@ namespace WTERP
         }
         public void Load_DGV()
         {
-            string SQL = "select TOP 100 NR, P_NO, P_NAME, COLOR, P_NAME3, BQTY, PRICE,ROUND(AMOUNT,2) as AMOUNT, OR_NO, CAL_YM, OR_NR, MEMO, COLOR_c, P_NAME1, QTY,N'' as WS_DATE,N'' as C_NO,N'' as K_NO  from GIBB where WS_NO = '" + tb3.Text + "' ";
+            //string SQL = "select TOP 100 NR, P_NO, P_NAME, COLOR, P_NAME3, BQTY, PRICE,ROUND(AMOUNT,2) as AMOUNT, OR_NO, CAL_YM, OR_NR, MEMO, COLOR_c, P_NAME1, QTY,N'' as WS_DATE,N'' as C_NO,N'' as K_NO  from GIBB where WS_NO = '" + tb3.Text + "' ";
+            string SQL = "select TOP 100 *  from GIBB where WS_NO = '" + tb3.Text + "' ";
             dt = conn.readdata(SQL);
             DGV1.DataSource = dt;
             conn.DGV(DGV1);
@@ -422,7 +423,7 @@ namespace WTERP
                         NR = dataTable.Rows.Count + 1;
                         string AA = NR.ToString("D" + 3);
                         dataTable.Rows.Add(AA, dr["P_NO"].ToString(), dr["P_NAME_C"].ToString(), dr["COLOR_E"].ToString(), dr["THICK"].ToString(), dr["QTY"].ToString(), dr["PRICE"].ToString(), dr["TOTAL"].ToString(),
-                            dr["OR_NO"].ToString(), key, dr["NR"].ToString(), " ", dr["COLOR_C"].ToString(), dr["P_NAME_E"].ToString(), "0", dr["WS_DATE"].ToString(), dr["C_NO"].ToString(), dr["K_NO"].ToString());
+                                           dr["OR_NO"].ToString(), key, dr["NR"].ToString(), " ", dr["COLOR_C"].ToString(), dr["P_NAME_E"].ToString(), "0", dr["WS_DATE"].ToString(), dr["C_NO"].ToString(), dr["K_NO"].ToString());
                     }
                     tb6.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00");
                     tb7.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00"); 
@@ -545,7 +546,7 @@ namespace WTERP
             bool checktransaction = false;
             try
             {
-                if (tb2.Text == "T" || tb2.Text == "C")
+                if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
                 {
                     for (int i = 0; i < DGV1.Rows.Count; i++)
                     {
@@ -571,7 +572,7 @@ namespace WTERP
                         }
                     }
                 }
-                else if (tb2.Text == "B")
+                else if (tb2.Text == "B") // CONG NO
                 {
                     for (int i = 0; i < DGV1.RowCount; i++)
                     {
@@ -596,7 +597,41 @@ namespace WTERP
                 MessageBox.Show(ex.Message);
             }
         }
+        private void UPDATE_DGV()
+        {
+            try
+            {
+                for (int i = 0; i < DGV1.Rows.Count; i++)
+                {
+                    if(string.IsNullOrEmpty(conn.ExecuteScalar("SELECT WS_NO FROM dbo.GIBB WHERE WS_NO='"+ tb3.Text+ "' AND NR='"+ DGV1.Rows[i].Cells["NR"].Value.ToString()+ "'"))) //Adding New Item
+                    {
+                        if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
+                        {
 
+                        }
+                        else if (tb2.Text == "B")
+                        {
+
+                        }
+                    }
+                    else//Update Items
+                    {
+                        if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
+                        {
+
+                        }
+                        else if (tb2.Text == "B")
+                        {
+
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, conn.MessaError(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         public void DELETE_DATA()
         {
             bool check1 = false;

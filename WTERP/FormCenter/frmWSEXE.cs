@@ -386,6 +386,7 @@ namespace WTERP
             else
             {
                 Form2D fm = new Form2D();
+                
                 fm.ShowDialog();
             }
 
@@ -400,7 +401,8 @@ namespace WTERP
             }
             else
             {
-                Form2E fm = new Form2E();
+                //Form2E fm = new Form2E();
+                WSEXE.Module2._2E.FrmMain2E fm = new WSEXE.Module2._2E.FrmMain2E();
                 fm.ShowDialog();
             }
 

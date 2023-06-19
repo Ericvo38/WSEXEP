@@ -441,7 +441,7 @@ WHERE NOT EXISTS (
   <xs:element name="Ds_F2C" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Ds_F2C" msprop:Generator_UserDSName="Ds_F2C">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="ORDB" msprop:Generator_TableClassName="ORDBDataTable" msprop:Generator_TableVarName="tableORDB" msprop:Generator_TablePropName="ORDB" msprop:Generator_RowDeletingName="ORDBRowDeleting" msprop:Generator_RowChangingName="ORDBRowChanging" msprop:Generator_RowEvHandlerName="ORDBRowChangeEventHandler" msprop:Generator_RowDeletedName="ORDBRowDeleted" msprop:Generator_UserTableName="ORDB" msprop:Generator_RowChangedName="ORDBRowChanged" msprop:Generator_RowEvArgName="ORDBRowChangeEvent" msprop:Generator_RowClassName="ORDBRow">
+        <xs:element name="ORDB" msprop:Generator_TableClassName="ORDBDataTable" msprop:Generator_TableVarName="tableORDB" msprop:Generator_RowChangedName="ORDBRowChanged" msprop:Generator_TablePropName="ORDB" msprop:Generator_RowDeletingName="ORDBRowDeleting" msprop:Generator_RowChangingName="ORDBRowChanging" msprop:Generator_RowEvHandlerName="ORDBRowChangeEventHandler" msprop:Generator_RowDeletedName="ORDBRowDeleted" msprop:Generator_RowClassName="ORDBRow" msprop:Generator_UserTableName="ORDB" msprop:Generator_RowEvArgName="ORDBRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE">
@@ -611,7 +611,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="CARH" msprop:Generator_TableClassName="CARHDataTable" msprop:Generator_TableVarName="tableCARH" msprop:Generator_RowChangedName="CARHRowChanged" msprop:Generator_TablePropName="CARH" msprop:Generator_RowDeletingName="CARHRowDeleting" msprop:Generator_RowChangingName="CARHRowChanging" msprop:Generator_RowEvHandlerName="CARHRowChangeEventHandler" msprop:Generator_RowDeletedName="CARHRowDeleted" msprop:Generator_RowClassName="CARHRow" msprop:Generator_UserTableName="CARH" msprop:Generator_RowEvArgName="CARHRowChangeEvent">
+        <xs:element name="CARH" msprop:Generator_TableClassName="CARHDataTable" msprop:Generator_TableVarName="tableCARH" msprop:Generator_TablePropName="CARH" msprop:Generator_RowDeletingName="CARHRowDeleting" msprop:Generator_RowChangingName="CARHRowChanging" msprop:Generator_RowEvHandlerName="CARHRowChangeEventHandler" msprop:Generator_RowDeletedName="CARHRowDeleted" msprop:Generator_UserTableName="CARH" msprop:Generator_RowChangedName="CARHRowChanged" msprop:Generator_RowEvArgName="CARHRowChangeEvent" msprop:Generator_RowClassName="CARHRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="C_ANAME_O" msprop:Generator_ColumnVarNameInTable="columnC_ANAME_O" msprop:Generator_ColumnPropNameInRow="C_ANAME_O" msprop:Generator_ColumnPropNameInTable="C_ANAME_OColumn" msprop:Generator_UserColumnName="C_ANAME_O" minOccurs="0">
@@ -638,7 +638,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="CARB" msprop:Generator_TableClassName="CARBDataTable" msprop:Generator_TableVarName="tableCARB" msprop:Generator_RowChangedName="CARBRowChanged" msprop:Generator_TablePropName="CARB" msprop:Generator_RowDeletingName="CARBRowDeleting" msprop:Generator_RowChangingName="CARBRowChanging" msprop:Generator_RowEvHandlerName="CARBRowChangeEventHandler" msprop:Generator_RowDeletedName="CARBRowDeleted" msprop:Generator_RowClassName="CARBRow" msprop:Generator_UserTableName="CARB" msprop:Generator_RowEvArgName="CARBRowChangeEvent">
+        <xs:element name="CARB" msprop:Generator_TableClassName="CARBDataTable" msprop:Generator_TableVarName="tableCARB" msprop:Generator_TablePropName="CARB" msprop:Generator_RowDeletingName="CARBRowDeleting" msprop:Generator_RowChangingName="CARBRowChanging" msprop:Generator_RowEvHandlerName="CARBRowChangeEventHandler" msprop:Generator_RowDeletedName="CARBRowDeleted" msprop:Generator_UserTableName="CARB" msprop:Generator_RowChangedName="CARBRowChanged" msprop:Generator_RowEvArgName="CARBRowChangeEvent" msprop:Generator_RowClassName="CARBRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="C_ANAME2" msprop:Generator_ColumnVarNameInTable="columnC_ANAME2" msprop:Generator_ColumnPropNameInRow="C_ANAME2" msprop:Generator_ColumnPropNameInTable="C_ANAME2Column" msprop:Generator_UserColumnName="C_ANAME2" minOccurs="0">
@@ -680,7 +680,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="_x0032_DF7Tab5" msprop:Generator_TableClassName="_2DF7Tab5DataTable" msprop:Generator_TableVarName="table2DF7Tab5" msprop:Generator_RowChangedName="_2DF7Tab5RowChanged" msprop:Generator_TablePropName="_2DF7Tab5" msprop:Generator_RowDeletingName="_2DF7Tab5RowDeleting" msprop:Generator_RowChangingName="_2DF7Tab5RowChanging" msprop:Generator_RowEvHandlerName="_2DF7Tab5RowChangeEventHandler" msprop:Generator_RowDeletedName="_2DF7Tab5RowDeleted" msprop:Generator_RowClassName="_2DF7Tab5Row" msprop:Generator_UserTableName="2DF7Tab5" msprop:Generator_RowEvArgName="_2DF7Tab5RowChangeEvent">
+        <xs:element name="_x0032_DF7Tab5" msprop:Generator_TableClassName="_2DF7Tab5DataTable" msprop:Generator_TableVarName="table2DF7Tab5" msprop:Generator_TablePropName="_2DF7Tab5" msprop:Generator_RowDeletingName="_2DF7Tab5RowDeleting" msprop:Generator_RowChangingName="_2DF7Tab5RowChanging" msprop:Generator_RowEvHandlerName="_2DF7Tab5RowChangeEventHandler" msprop:Generator_RowDeletedName="_2DF7Tab5RowDeleted" msprop:Generator_UserTableName="2DF7Tab5" msprop:Generator_RowChangedName="_2DF7Tab5RowChanged" msprop:Generator_RowEvArgName="_2DF7Tab5RowChangeEvent" msprop:Generator_RowClassName="_2DF7Tab5Row">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="C_ANAME2" msprop:Generator_ColumnVarNameInTable="columnC_ANAME2" msprop:Generator_ColumnPropNameInRow="C_ANAME2" msprop:Generator_ColumnPropNameInTable="C_ANAME2Column" msprop:Generator_UserColumnName="C_ANAME2" minOccurs="0">
@@ -745,7 +745,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="View_CARB_2D" msprop:Generator_TableClassName="View_CARB_2DDataTable" msprop:Generator_TableVarName="tableView_CARB_2D" msprop:Generator_RowChangedName="View_CARB_2DRowChanged" msprop:Generator_TablePropName="View_CARB_2D" msprop:Generator_RowDeletingName="View_CARB_2DRowDeleting" msprop:Generator_RowChangingName="View_CARB_2DRowChanging" msprop:Generator_RowEvHandlerName="View_CARB_2DRowChangeEventHandler" msprop:Generator_RowDeletedName="View_CARB_2DRowDeleted" msprop:Generator_RowClassName="View_CARB_2DRow" msprop:Generator_UserTableName="View_CARB_2D" msprop:Generator_RowEvArgName="View_CARB_2DRowChangeEvent">
+        <xs:element name="View_CARB_2D" msprop:Generator_TableClassName="View_CARB_2DDataTable" msprop:Generator_TableVarName="tableView_CARB_2D" msprop:Generator_TablePropName="View_CARB_2D" msprop:Generator_RowDeletingName="View_CARB_2DRowDeleting" msprop:Generator_RowChangingName="View_CARB_2DRowChanging" msprop:Generator_RowEvHandlerName="View_CARB_2DRowChangeEventHandler" msprop:Generator_RowDeletedName="View_CARB_2DRowDeleted" msprop:Generator_UserTableName="View_CARB_2D" msprop:Generator_RowChangedName="View_CARB_2DRowChanged" msprop:Generator_RowEvArgName="View_CARB_2DRowChangeEvent" msprop:Generator_RowClassName="View_CARB_2DRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE" minOccurs="0">
@@ -872,7 +872,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="CRB_BRD" msprop:Generator_TableClassName="CRB_BRDDataTable" msprop:Generator_TableVarName="tableCRB_BRD" msprop:Generator_TablePropName="CRB_BRD" msprop:Generator_RowDeletingName="CRB_BRDRowDeleting" msprop:Generator_RowChangingName="CRB_BRDRowChanging" msprop:Generator_RowEvHandlerName="CRB_BRDRowChangeEventHandler" msprop:Generator_RowDeletedName="CRB_BRDRowDeleted" msprop:Generator_UserTableName="CRB_BRD" msprop:Generator_RowChangedName="CRB_BRDRowChanged" msprop:Generator_RowEvArgName="CRB_BRDRowChangeEvent" msprop:Generator_RowClassName="CRB_BRDRow">
+        <xs:element name="CRB_BRD" msprop:Generator_TableClassName="CRB_BRDDataTable" msprop:Generator_TableVarName="tableCRB_BRD" msprop:Generator_RowChangedName="CRB_BRDRowChanged" msprop:Generator_TablePropName="CRB_BRD" msprop:Generator_RowDeletingName="CRB_BRDRowDeleting" msprop:Generator_RowChangingName="CRB_BRDRowChanging" msprop:Generator_RowEvHandlerName="CRB_BRDRowChangeEventHandler" msprop:Generator_RowDeletedName="CRB_BRDRowDeleted" msprop:Generator_RowClassName="CRB_BRDRow" msprop:Generator_UserTableName="CRB_BRD" msprop:Generator_RowEvArgName="CRB_BRDRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="O_YEAR" msprop:Generator_ColumnVarNameInTable="columnO_YEAR" msprop:Generator_ColumnPropNameInRow="O_YEAR" msprop:Generator_ColumnPropNameInTable="O_YEARColumn" msprop:Generator_UserColumnName="O_YEAR">
@@ -926,7 +926,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="View_2DTab8" msprop:Generator_TableClassName="View_2DTab8DataTable" msprop:Generator_TableVarName="tableView_2DTab8" msprop:Generator_RowChangedName="View_2DTab8RowChanged" msprop:Generator_TablePropName="View_2DTab8" msprop:Generator_RowDeletingName="View_2DTab8RowDeleting" msprop:Generator_RowChangingName="View_2DTab8RowChanging" msprop:Generator_RowEvHandlerName="View_2DTab8RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2DTab8RowDeleted" msprop:Generator_RowClassName="View_2DTab8Row" msprop:Generator_UserTableName="View_2DTab8" msprop:Generator_RowEvArgName="View_2DTab8RowChangeEvent">
+        <xs:element name="View_2DTab8" msprop:Generator_TableClassName="View_2DTab8DataTable" msprop:Generator_TableVarName="tableView_2DTab8" msprop:Generator_TablePropName="View_2DTab8" msprop:Generator_RowDeletingName="View_2DTab8RowDeleting" msprop:Generator_RowChangingName="View_2DTab8RowChanging" msprop:Generator_RowEvHandlerName="View_2DTab8RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2DTab8RowDeleted" msprop:Generator_UserTableName="View_2DTab8" msprop:Generator_RowChangedName="View_2DTab8RowChanged" msprop:Generator_RowEvArgName="View_2DTab8RowChangeEvent" msprop:Generator_RowClassName="View_2DTab8Row">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="T_NAME" msprop:Generator_ColumnVarNameInTable="columnT_NAME" msprop:Generator_ColumnPropNameInRow="T_NAME" msprop:Generator_ColumnPropNameInTable="T_NAMEColumn" msprop:Generator_UserColumnName="T_NAME" minOccurs="0">
@@ -996,7 +996,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="View_2DTab9" msprop:Generator_TableClassName="View_2DTab9DataTable" msprop:Generator_TableVarName="tableView_2DTab9" msprop:Generator_TablePropName="View_2DTab9" msprop:Generator_RowDeletingName="View_2DTab9RowDeleting" msprop:Generator_RowChangingName="View_2DTab9RowChanging" msprop:Generator_RowEvHandlerName="View_2DTab9RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2DTab9RowDeleted" msprop:Generator_UserTableName="View_2DTab9" msprop:Generator_RowChangedName="View_2DTab9RowChanged" msprop:Generator_RowEvArgName="View_2DTab9RowChangeEvent" msprop:Generator_RowClassName="View_2DTab9Row">
+        <xs:element name="View_2DTab9" msprop:Generator_TableClassName="View_2DTab9DataTable" msprop:Generator_TableVarName="tableView_2DTab9" msprop:Generator_RowChangedName="View_2DTab9RowChanged" msprop:Generator_TablePropName="View_2DTab9" msprop:Generator_RowDeletingName="View_2DTab9RowDeleting" msprop:Generator_RowChangingName="View_2DTab9RowChanging" msprop:Generator_RowEvHandlerName="View_2DTab9RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2DTab9RowDeleted" msprop:Generator_RowClassName="View_2DTab9Row" msprop:Generator_UserTableName="View_2DTab9" msprop:Generator_RowEvArgName="View_2DTab9RowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="BRAND" msprop:Generator_ColumnVarNameInTable="columnBRAND" msprop:Generator_ColumnPropNameInRow="BRAND" msprop:Generator_ColumnPropNameInTable="BRANDColumn" msprop:Generator_UserColumnName="BRAND" minOccurs="0">
@@ -1066,7 +1066,7 @@ WHERE NOT EXISTS (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Form2CF7" msprop:Generator_TableClassName="Form2CF7DataTable" msprop:Generator_TableVarName="tableForm2CF7" msprop:Generator_TablePropName="Form2CF7" msprop:Generator_RowDeletingName="Form2CF7RowDeleting" msprop:Generator_RowChangingName="Form2CF7RowChanging" msprop:Generator_RowEvHandlerName="Form2CF7RowChangeEventHandler" msprop:Generator_RowDeletedName="Form2CF7RowDeleted" msprop:Generator_UserTableName="Form2CF7" msprop:Generator_RowChangedName="Form2CF7RowChanged" msprop:Generator_RowEvArgName="Form2CF7RowChangeEvent" msprop:Generator_RowClassName="Form2CF7Row">
+        <xs:element name="Form2CF7" msprop:Generator_TableClassName="Form2CF7DataTable" msprop:Generator_TableVarName="tableForm2CF7" msprop:Generator_RowChangedName="Form2CF7RowChanged" msprop:Generator_TablePropName="Form2CF7" msprop:Generator_RowDeletingName="Form2CF7RowDeleting" msprop:Generator_RowChangingName="Form2CF7RowChanging" msprop:Generator_RowEvHandlerName="Form2CF7RowChangeEventHandler" msprop:Generator_RowDeletedName="Form2CF7RowDeleted" msprop:Generator_RowClassName="Form2CF7Row" msprop:Generator_UserTableName="Form2CF7" msprop:Generator_RowEvArgName="Form2CF7RowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="WS_NO" msprop:Generator_ColumnVarNameInTable="columnWS_NO" msprop:Generator_ColumnPropNameInRow="WS_NO" msprop:Generator_ColumnPropNameInTable="WS_NOColumn" msprop:Generator_UserColumnName="WS_NO">
@@ -1126,6 +1126,38 @@ WHERE NOT EXISTS (
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="_x0032_D_Tab4" msprop:Generator_TableClassName="_2D_Tab4DataTable" msprop:Generator_TableVarName="table2D_Tab4" msprop:Generator_TablePropName="_2D_Tab4" msprop:Generator_RowDeletingName="_2D_Tab4RowDeleting" msprop:Generator_RowChangingName="_2D_Tab4RowChanging" msprop:Generator_RowEvHandlerName="_2D_Tab4RowChangeEventHandler" msprop:Generator_RowDeletedName="_2D_Tab4RowDeleted" msprop:Generator_UserTableName="2D_Tab4" msprop:Generator_RowChangedName="_2D_Tab4RowChanged" msprop:Generator_RowEvArgName="_2D_Tab4RowChangeEvent" msprop:Generator_RowClassName="_2D_Tab4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="NR" msprop:Generator_ColumnVarNameInTable="columnNR" msprop:Generator_ColumnPropNameInRow="NR" msprop:Generator_ColumnPropNameInTable="NRColumn" msprop:Generator_UserColumnName="NR" type="xs:string" minOccurs="0" />
+              <xs:element name="MODEL_E" msprop:Generator_ColumnVarNameInTable="columnMODEL_E" msprop:Generator_ColumnPropNameInRow="MODEL_E" msprop:Generator_ColumnPropNameInTable="MODEL_EColumn" msprop:Generator_UserColumnName="MODEL_E" type="xs:string" minOccurs="0" />
+              <xs:element name="C_NO" msprop:Generator_ColumnVarNameInTable="columnC_NO" msprop:Generator_ColumnPropNameInRow="C_NO" msprop:Generator_ColumnPropNameInTable="C_NOColumn" msprop:Generator_UserColumnName="C_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="T_NAME" msprop:Generator_ColumnVarNameInTable="columnT_NAME" msprop:Generator_ColumnPropNameInRow="T_NAME" msprop:Generator_ColumnPropNameInTable="T_NAMEColumn" msprop:Generator_UserColumnName="T_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="OR_NO" msprop:Generator_ColumnVarNameInTable="columnOR_NO" msprop:Generator_ColumnPropNameInRow="OR_NO" msprop:Generator_ColumnPropNameInTable="OR_NOColumn" msprop:Generator_UserColumnName="OR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="PATT_C" msprop:Generator_ColumnVarNameInTable="columnPATT_C" msprop:Generator_ColumnPropNameInRow="PATT_C" msprop:Generator_ColumnPropNameInTable="PATT_CColumn" msprop:Generator_UserColumnName="PATT_C" type="xs:string" minOccurs="0" />
+              <xs:element name="COLOR_C" msprop:Generator_ColumnVarNameInTable="columnCOLOR_C" msprop:Generator_ColumnPropNameInRow="COLOR_C" msprop:Generator_ColumnPropNameInTable="COLOR_CColumn" msprop:Generator_UserColumnName="COLOR_C" type="xs:string" minOccurs="0" />
+              <xs:element name="COLOR_E" msprop:Generator_ColumnVarNameInTable="columnCOLOR_E" msprop:Generator_ColumnPropNameInRow="COLOR_E" msprop:Generator_ColumnPropNameInTable="COLOR_EColumn" msprop:Generator_UserColumnName="COLOR_E" type="xs:string" minOccurs="0" />
+              <xs:element name="COLOR" msprop:Generator_ColumnVarNameInTable="columnCOLOR" msprop:Generator_ColumnPropNameInRow="COLOR" msprop:Generator_ColumnPropNameInTable="COLORColumn" msprop:Generator_UserColumnName="COLOR" type="xs:string" minOccurs="0" />
+              <xs:element name="THICK" msprop:Generator_ColumnVarNameInTable="columnTHICK" msprop:Generator_ColumnPropNameInRow="THICK" msprop:Generator_ColumnPropNameInTable="THICKColumn" msprop:Generator_UserColumnName="THICK" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME_E" msprop:Generator_ColumnVarNameInTable="columnP_NAME_E" msprop:Generator_ColumnPropNameInRow="P_NAME_E" msprop:Generator_ColumnPropNameInTable="P_NAME_EColumn" msprop:Generator_UserColumnName="P_NAME_E" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" msprop:Generator_UserColumnName="PRICE" type="xs:double" minOccurs="0" />
+              <xs:element name="OVER0" msprop:Generator_ColumnVarNameInTable="columnOVER0" msprop:Generator_ColumnPropNameInRow="OVER0" msprop:Generator_ColumnPropNameInTable="OVER0Column" msprop:Generator_UserColumnName="OVER0" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_DATE1" msprop:Generator_ColumnVarNameInTable="columnWS_DATE1" msprop:Generator_ColumnPropNameInRow="WS_DATE1" msprop:Generator_ColumnPropNameInTable="WS_DATE1Column" msprop:Generator_UserColumnName="WS_DATE1" type="xs:string" minOccurs="0" />
+              <xs:element name="CLRCARD" msprop:Generator_ColumnVarNameInTable="columnCLRCARD" msprop:Generator_ColumnPropNameInRow="CLRCARD" msprop:Generator_ColumnPropNameInTable="CLRCARDColumn" msprop:Generator_UserColumnName="CLRCARD" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_NO" msprop:Generator_ColumnVarNameInTable="columnWS_NO" msprop:Generator_ColumnPropNameInRow="WS_NO" msprop:Generator_ColumnPropNameInTable="WS_NOColumn" msprop:Generator_UserColumnName="WS_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="C_NAME" msprop:Generator_ColumnVarNameInTable="columnC_NAME" msprop:Generator_ColumnPropNameInRow="C_NAME" msprop:Generator_ColumnPropNameInTable="C_NAMEColumn" msprop:Generator_UserColumnName="C_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_DATE2" msprop:Generator_ColumnVarNameInTable="columnWS_DATE2" msprop:Generator_ColumnPropNameInRow="WS_DATE2" msprop:Generator_ColumnPropNameInTable="WS_DATE2Column" msprop:Generator_UserColumnName="WS_DATE2" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_NO1" msprop:Generator_ColumnVarNameInTable="columnWS_NO1" msprop:Generator_ColumnPropNameInRow="WS_NO1" msprop:Generator_ColumnPropNameInTable="WS_NO1Column" msprop:Generator_UserColumnName="WS_NO1" type="xs:string" minOccurs="0" />
+              <xs:element name="BQTY" msprop:Generator_ColumnVarNameInTable="columnBQTY" msprop:Generator_ColumnPropNameInRow="BQTY" msprop:Generator_ColumnPropNameInTable="BQTYColumn" msprop:Generator_UserColumnName="BQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMO" msprop:Generator_ColumnVarNameInTable="columnMEMO" msprop:Generator_ColumnPropNameInRow="MEMO" msprop:Generator_ColumnPropNameInTable="MEMOColumn" msprop:Generator_UserColumnName="MEMO" type="xs:string" minOccurs="0" />
+              <xs:element name="OVER01" msprop:Generator_ColumnVarNameInTable="columnOVER01" msprop:Generator_ColumnPropNameInRow="OVER01" msprop:Generator_ColumnPropNameInTable="OVER01Column" msprop:Generator_UserColumnName="OVER01" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARKS" msprop:Generator_ColumnVarNameInTable="columnREMARKS" msprop:Generator_ColumnPropNameInRow="REMARKS" msprop:Generator_ColumnPropNameInTable="REMARKSColumn" msprop:Generator_UserColumnName="REMARKS" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

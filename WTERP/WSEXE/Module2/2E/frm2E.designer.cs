@@ -31,9 +31,9 @@ namespace WTERP
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2E));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tb16 = new System.Windows.Forms.MaskedTextBox();
             this.tb1 = new System.Windows.Forms.MaskedTextBox();
@@ -56,21 +56,30 @@ namespace WTERP
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.DGV1 = new System.Windows.Forms.DataGridView();
+            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COLOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OR_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CAL_YM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OR_NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COLOR_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WS_DATE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.C_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.f8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -96,24 +105,15 @@ namespace WTERP
             this.btsau = new System.Windows.Forms.Button();
             this.bttruoc = new System.Windows.Forms.Button();
             this.btdau = new System.Windows.Forms.Button();
-            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.COLOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OR_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CAL_YM = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OR_NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.COLOR_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.WS_DATE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.C_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -125,6 +125,7 @@ namespace WTERP
             // 
             // tabPage2
             // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Controls.Add(this.tb16);
             this.tabPage2.Controls.Add(this.tb1);
             this.tabPage2.Controls.Add(this.tb13);
@@ -150,7 +151,6 @@ namespace WTERP
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label4);
-            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
@@ -291,6 +291,7 @@ namespace WTERP
             // 
             // DGV1
             // 
+            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.AllowUserToAddRows = false;
             this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -313,284 +314,12 @@ namespace WTERP
             this.WS_DATE,
             this.C_NO,
             this.K_NO});
-            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.Name = "DGV1";
             this.DGV1.RowTemplate.Height = 28;
             this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit);
             this.DGV1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseDoubleClick);
             this.DGV1.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseUp);
             this.DGV1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DGV1_MouseClick);
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.ForeColor = System.Drawing.Color.Brown;
-            this.label8.Name = "label8";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.Color.Brown;
-            this.label2.Name = "label2";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.ForeColor = System.Drawing.Color.Brown;
-            this.label3.Name = "label3";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.ForeColor = System.Drawing.Color.Brown;
-            this.label4.Name = "label4";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage2);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.f1ToolStripMenuItem,
-            this.f2ToolStripMenuItem,
-            this.f3ToolStripMenuItem,
-            this.f4ToolStripMenuItem,
-            this.f5ToolStripMenuItem,
-            this.f6ToolStripMenuItem,
-            this.f7ToolStripMenuItem,
-            this.f10ToolStripMenuItem,
-            this.f12ToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.f8ToolStripMenuItem,
-            this.f9ToolStripMenuItem,
-            this.f11ToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Name = "menuStrip1";
-            // 
-            // f1ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
-            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
-            // 
-            // f2ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
-            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
-            this.f2ToolStripMenuItem.Click += new System.EventHandler(this.f2ThêmToolStripMenuItem_Click);
-            // 
-            // f3ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f3ToolStripMenuItem, "f3ToolStripMenuItem");
-            this.f3ToolStripMenuItem.Name = "f3ToolStripMenuItem";
-            this.f3ToolStripMenuItem.Click += new System.EventHandler(this.f3ToolStripMenuItem_Click);
-            // 
-            // f4ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
-            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
-            this.f4ToolStripMenuItem.Click += new System.EventHandler(this.f4ToolStripMenuItem_Click);
-            // 
-            // f5ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f5ToolStripMenuItem, "f5ToolStripMenuItem");
-            this.f5ToolStripMenuItem.Name = "f5ToolStripMenuItem";
-            this.f5ToolStripMenuItem.Click += new System.EventHandler(this.f5ToolStripMenuItem_Click);
-            // 
-            // f6ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f6ToolStripMenuItem, "f6ToolStripMenuItem");
-            this.f6ToolStripMenuItem.Name = "f6ToolStripMenuItem";
-            this.f6ToolStripMenuItem.Click += new System.EventHandler(this.f6ToolStripMenuItem_Click);
-            // 
-            // f7ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f7ToolStripMenuItem, "f7ToolStripMenuItem");
-            this.f7ToolStripMenuItem.Name = "f7ToolStripMenuItem";
-            this.f7ToolStripMenuItem.Click += new System.EventHandler(this.f7ToolStripMenuItem_Click);
-            // 
-            // f10ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f10ToolStripMenuItem, "f10ToolStripMenuItem");
-            this.f10ToolStripMenuItem.Name = "f10ToolStripMenuItem";
-            this.f10ToolStripMenuItem.Click += new System.EventHandler(this.f10ToolStripMenuItem_Click);
-            // 
-            // f12ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f12ToolStripMenuItem, "f12ToolStripMenuItem");
-            this.f12ToolStripMenuItem.Name = "f12ToolStripMenuItem";
-            this.f12ToolStripMenuItem.Click += new System.EventHandler(this.f12ToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            // 
-            // f8ToolStripMenuItem
-            // 
-            this.f8ToolStripMenuItem.Name = "f8ToolStripMenuItem";
-            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
-            // 
-            // f9ToolStripMenuItem
-            // 
-            this.f9ToolStripMenuItem.Name = "f9ToolStripMenuItem";
-            resources.ApplyResources(this.f9ToolStripMenuItem, "f9ToolStripMenuItem");
-            // 
-            // f11ToolStripMenuItem
-            // 
-            this.f11ToolStripMenuItem.Name = "f11ToolStripMenuItem";
-            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
-            // 
-            // btnTimeNow
-            // 
-            resources.ApplyResources(this.btnTimeNow, "btnTimeNow");
-            this.btnTimeNow.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.btnTimeNow.Name = "btnTimeNow";
-            this.btnTimeNow.UseVisualStyleBackColor = true;
-            // 
-            // btndateNow
-            // 
-            resources.ApplyResources(this.btndateNow, "btndateNow");
-            this.btndateNow.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btndateNow.Name = "btndateNow";
-            this.btndateNow.UseVisualStyleBackColor = true;
-            // 
-            // bt
-            // 
-            resources.ApplyResources(this.bt, "bt");
-            this.bt.ForeColor = System.Drawing.Color.Green;
-            this.bt.Name = "bt";
-            this.bt.UseVisualStyleBackColor = true;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // contextMenuStrip2
-            // 
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thêmMớiToolStripMenuItem,
-            this.xóaXToolStripMenuItem});
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            resources.ApplyResources(this.contextMenuStrip2, "contextMenuStrip2");
-            // 
-            // thêmMớiToolStripMenuItem
-            // 
-            this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            resources.ApplyResources(this.thêmMớiToolStripMenuItem, "thêmMớiToolStripMenuItem");
-            this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
-            // 
-            // xóaXToolStripMenuItem
-            // 
-            this.xóaXToolStripMenuItem.Name = "xóaXToolStripMenuItem";
-            resources.ApplyResources(this.xóaXToolStripMenuItem, "xóaXToolStripMenuItem");
-            this.xóaXToolStripMenuItem.Click += new System.EventHandler(this.xóaXToolStripMenuItem_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.contextMenuStrip1.Name = "contextMenuStrip2";
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
-            // 
-            // toolStripMenuItem2
-            // 
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.BackColor = System.Drawing.Color.LightBlue;
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.lbUserName,
-            this.toolStripStatusLabel6,
-            this.txtUSR_NAME});
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            // 
-            // toolStripStatusLabel1
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            // 
-            // lbUserName
-            // 
-            this.lbUserName.ForeColor = System.Drawing.Color.Brown;
-            this.lbUserName.Name = "lbUserName";
-            resources.ApplyResources(this.lbUserName, "lbUserName");
-            // 
-            // toolStripStatusLabel6
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
-            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            // 
-            // txtUSR_NAME
-            // 
-            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
-            this.txtUSR_NAME.Name = "txtUSR_NAME";
-            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
-            // 
-            // btok
-            // 
-            resources.ApplyResources(this.btok, "btok");
-            this.btok.Name = "btok";
-            this.btok.UseVisualStyleBackColor = true;
-            this.btok.Click += new System.EventHandler(this.btok_Click);
-            // 
-            // btdong
-            // 
-            resources.ApplyResources(this.btdong, "btdong");
-            this.btdong.Name = "btdong";
-            this.btdong.UseVisualStyleBackColor = true;
-            this.btdong.Click += new System.EventHandler(this.btdong_Click);
-            // 
-            // btketthuc
-            // 
-            resources.ApplyResources(this.btketthuc, "btketthuc");
-            this.btketthuc.Name = "btketthuc";
-            this.btketthuc.UseVisualStyleBackColor = true;
-            this.btketthuc.Click += new System.EventHandler(this.btnMoveLast_Click);
-            // 
-            // btsau
-            // 
-            resources.ApplyResources(this.btsau, "btsau");
-            this.btsau.Name = "btsau";
-            this.btsau.UseVisualStyleBackColor = true;
-            this.btsau.Click += new System.EventHandler(this.btnMoveNext_Click);
-            // 
-            // bttruoc
-            // 
-            resources.ApplyResources(this.bttruoc, "bttruoc");
-            this.bttruoc.Name = "bttruoc";
-            this.bttruoc.UseVisualStyleBackColor = true;
-            this.bttruoc.Click += new System.EventHandler(this.btnMovePrevious_Click);
-            // 
-            // btdau
-            // 
-            resources.ApplyResources(this.btdau, "btdau");
-            this.btdau.Name = "btdau";
-            this.btdau.UseVisualStyleBackColor = true;
-            this.btdau.Click += new System.EventHandler(this.btnMoveFirst_Click);
             // 
             // NR
             // 
@@ -625,26 +354,26 @@ namespace WTERP
             // BQTY
             // 
             this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle1.Format = "N2";
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Format = "N2";
+            this.BQTY.DefaultCellStyle = dataGridViewCellStyle7;
             resources.ApplyResources(this.BQTY, "BQTY");
             this.BQTY.Name = "BQTY";
             // 
             // PRICE
             // 
             this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle2.Format = "N2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = null;
+            this.PRICE.DefaultCellStyle = dataGridViewCellStyle8;
             resources.ApplyResources(this.PRICE, "PRICE");
             this.PRICE.Name = "PRICE";
             // 
             // AMOUNT
             // 
             this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle3.Format = "N2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Format = "N2";
+            dataGridViewCellStyle9.NullValue = null;
+            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle9;
             resources.ApplyResources(this.AMOUNT, "AMOUNT");
             this.AMOUNT.Name = "AMOUNT";
             // 
@@ -707,6 +436,277 @@ namespace WTERP
             this.K_NO.DataPropertyName = "K_NO";
             resources.ApplyResources(this.K_NO, "K_NO");
             this.K_NO.Name = "K_NO";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.ForeColor = System.Drawing.Color.Brown;
+            this.label8.Name = "label8";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.Color.Brown;
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.Color.Brown;
+            this.label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.ForeColor = System.Drawing.Color.Brown;
+            this.label4.Name = "label4";
+            // 
+            // tabControl1
+            // 
+            resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            // 
+            // menuStrip1
+            // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.f1ToolStripMenuItem,
+            this.f2ToolStripMenuItem,
+            this.f3ToolStripMenuItem,
+            this.f4ToolStripMenuItem,
+            this.f5ToolStripMenuItem,
+            this.f6ToolStripMenuItem,
+            this.f7ToolStripMenuItem,
+            this.f10ToolStripMenuItem,
+            this.f12ToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.f8ToolStripMenuItem,
+            this.f9ToolStripMenuItem,
+            this.f11ToolStripMenuItem});
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            // 
+            // f8ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
+            this.f8ToolStripMenuItem.Name = "f8ToolStripMenuItem";
+            // 
+            // f9ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f9ToolStripMenuItem, "f9ToolStripMenuItem");
+            this.f9ToolStripMenuItem.Name = "f9ToolStripMenuItem";
+            // 
+            // f11ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
+            this.f11ToolStripMenuItem.Name = "f11ToolStripMenuItem";
+            // 
+            // btnTimeNow
+            // 
+            resources.ApplyResources(this.btnTimeNow, "btnTimeNow");
+            this.btnTimeNow.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.btnTimeNow.Name = "btnTimeNow";
+            this.btnTimeNow.UseVisualStyleBackColor = true;
+            // 
+            // btndateNow
+            // 
+            resources.ApplyResources(this.btndateNow, "btndateNow");
+            this.btndateNow.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btndateNow.Name = "btndateNow";
+            this.btndateNow.UseVisualStyleBackColor = true;
+            // 
+            // bt
+            // 
+            resources.ApplyResources(this.bt, "bt");
+            this.bt.ForeColor = System.Drawing.Color.Green;
+            this.bt.Name = "bt";
+            this.bt.UseVisualStyleBackColor = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // contextMenuStrip2
+            // 
+            resources.ApplyResources(this.contextMenuStrip2, "contextMenuStrip2");
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmMớiToolStripMenuItem,
+            this.xóaXToolStripMenuItem});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            // 
+            // thêmMớiToolStripMenuItem
+            // 
+            resources.ApplyResources(this.thêmMớiToolStripMenuItem, "thêmMớiToolStripMenuItem");
+            this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
+            this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
+            // 
+            // xóaXToolStripMenuItem
+            // 
+            resources.ApplyResources(this.xóaXToolStripMenuItem, "xóaXToolStripMenuItem");
+            this.xóaXToolStripMenuItem.Name = "xóaXToolStripMenuItem";
+            this.xóaXToolStripMenuItem.Click += new System.EventHandler(this.xóaXToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3});
+            this.contextMenuStrip1.Name = "contextMenuStrip2";
+            // 
+            // toolStripMenuItem2
+            // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // statusStrip1
+            // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.BackColor = System.Drawing.Color.LightBlue;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.lbUserName,
+            this.toolStripStatusLabel6,
+            this.txtUSR_NAME});
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            // 
+            // toolStripStatusLabel1
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            // 
+            // lbUserName
+            // 
+            resources.ApplyResources(this.lbUserName, "lbUserName");
+            this.lbUserName.ForeColor = System.Drawing.Color.Brown;
+            this.lbUserName.Name = "lbUserName";
+            // 
+            // toolStripStatusLabel6
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
+            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
+            // 
+            // txtUSR_NAME
+            // 
+            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
+            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
+            this.txtUSR_NAME.Name = "txtUSR_NAME";
+            // 
+            // btok
+            // 
+            resources.ApplyResources(this.btok, "btok");
+            this.btok.Name = "btok";
+            this.btok.UseVisualStyleBackColor = true;
+            this.btok.Click += new System.EventHandler(this.btok_Click);
+            // 
+            // btdong
+            // 
+            resources.ApplyResources(this.btdong, "btdong");
+            this.btdong.Name = "btdong";
+            this.btdong.UseVisualStyleBackColor = true;
+            this.btdong.Click += new System.EventHandler(this.btdong_Click);
+            // 
+            // btketthuc
+            // 
+            resources.ApplyResources(this.btketthuc, "btketthuc");
+            this.btketthuc.Name = "btketthuc";
+            this.btketthuc.UseVisualStyleBackColor = true;
+            this.btketthuc.Click += new System.EventHandler(this.btnMoveLast_Click);
+            // 
+            // btsau
+            // 
+            resources.ApplyResources(this.btsau, "btsau");
+            this.btsau.Name = "btsau";
+            this.btsau.UseVisualStyleBackColor = true;
+            this.btsau.Click += new System.EventHandler(this.btnMoveNext_Click);
+            // 
+            // bttruoc
+            // 
+            resources.ApplyResources(this.bttruoc, "bttruoc");
+            this.bttruoc.Name = "bttruoc";
+            this.bttruoc.UseVisualStyleBackColor = true;
+            this.bttruoc.Click += new System.EventHandler(this.btnMovePrevious_Click);
+            // 
+            // btdau
+            // 
+            resources.ApplyResources(this.btdau, "btdau");
+            this.btdau.Name = "btdau";
+            this.btdau.UseVisualStyleBackColor = true;
+            this.btdau.Click += new System.EventHandler(this.btnMoveFirst_Click);
+            // 
+            // f1ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
+            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
+            // 
+            // f2ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
+            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
+            this.f2ToolStripMenuItem.Click += new System.EventHandler(this.f2ThêmToolStripMenuItem_Click);
+            // 
+            // f3ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f3ToolStripMenuItem, "f3ToolStripMenuItem");
+            this.f3ToolStripMenuItem.Name = "f3ToolStripMenuItem";
+            this.f3ToolStripMenuItem.Click += new System.EventHandler(this.f3ToolStripMenuItem_Click);
+            // 
+            // f4ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
+            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
+            this.f4ToolStripMenuItem.Click += new System.EventHandler(this.f4ToolStripMenuItem_Click);
+            // 
+            // f5ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f5ToolStripMenuItem, "f5ToolStripMenuItem");
+            this.f5ToolStripMenuItem.Name = "f5ToolStripMenuItem";
+            this.f5ToolStripMenuItem.Click += new System.EventHandler(this.f5ToolStripMenuItem_Click);
+            // 
+            // f6ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f6ToolStripMenuItem, "f6ToolStripMenuItem");
+            this.f6ToolStripMenuItem.Name = "f6ToolStripMenuItem";
+            this.f6ToolStripMenuItem.Click += new System.EventHandler(this.f6ToolStripMenuItem_Click);
+            // 
+            // f7ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f7ToolStripMenuItem, "f7ToolStripMenuItem");
+            this.f7ToolStripMenuItem.Name = "f7ToolStripMenuItem";
+            this.f7ToolStripMenuItem.Click += new System.EventHandler(this.f7ToolStripMenuItem_Click);
+            // 
+            // f10ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f10ToolStripMenuItem, "f10ToolStripMenuItem");
+            this.f10ToolStripMenuItem.Name = "f10ToolStripMenuItem";
+            this.f10ToolStripMenuItem.Click += new System.EventHandler(this.f10ToolStripMenuItem_Click);
+            // 
+            // f12ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f12ToolStripMenuItem, "f12ToolStripMenuItem");
+            this.f12ToolStripMenuItem.Name = "f12ToolStripMenuItem";
+            this.f12ToolStripMenuItem.Click += new System.EventHandler(this.f12ToolStripMenuItem_Click);
             // 
             // Form2E
             // 

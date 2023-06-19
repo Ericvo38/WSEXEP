@@ -291,8 +291,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Số đơn:</value>
   </data>
-  <data name="&gt;&gt;txtSOURCE.Name" xml:space="preserve">
-    <value>txtSOURCE</value>
+  <data name="&gt;&gt;txtUSR_NAME.Name" xml:space="preserve">
+    <value>txtUSR_NAME</value>
   </data>
   <data name="txtP_NAME.Location" type="System.Drawing.Point, System.Drawing">
     <value>131, 79</value>
@@ -519,52 +519,8 @@
   <data name="&gt;&gt;txtW_KIND.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="f4ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;W_CHK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1030, 520</value>
@@ -625,8 +581,52 @@
   <data name="&gt;&gt;插入明細VToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="f4ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
   <data name="删除明細WToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -849,6 +849,9 @@
   <data name="$this.Text" xml:space="preserve">
     <value>QUẢN LÝ THÔNG TIN LINH VỰC NƯỚC - [3I]</value>
   </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="f4ToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F4</value>
   </data>
@@ -894,8 +897,8 @@
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="txtTHICK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 26</value>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtK_NO.Location" type="System.Drawing.Point, System.Drawing">
     <value>583, 110</value>
@@ -1044,8 +1047,8 @@
   <data name="&gt;&gt;UNIT.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtC_NAME.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>19</value>
@@ -1170,11 +1173,8 @@
         6yokYu/amX/SHDjAL92xbyw/PcgS4+D0AH5pUwcJzhiYAqDR/AK1MZyr0vIa2QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;txtPSF.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="txtCARNO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 1, 2, 1</value>
+  <data name="btnDuyet.TabIndex" type="System.Int32, mscorlib">
+    <value>284</value>
   </data>
   <data name="txtCLRCARD.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 185</value>
@@ -1376,8 +1376,8 @@
   <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
     <value>contextMenuStrip1</value>
   </data>
-  <data name="&gt;&gt;f4ToolStripMenuItem.Name" xml:space="preserve">
-    <value>f4ToolStripMenuItem</value>
+  <data name="&gt;&gt;f11ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;新增明細UToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1414,9 +1414,6 @@
   </data>
   <data name="&gt;&gt;f5ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;W_CHK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnOk.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 0, 0, 0</value>
@@ -1683,8 +1680,8 @@
   <data name="btndateNow.TabIndex" type="System.Int32, mscorlib">
     <value>289</value>
   </data>
-  <data name="&gt;&gt;f11ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtCARNO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 1</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -1712,9 +1709,6 @@
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 18</value>
-  </data>
-  <data name="btnDuyet.TabIndex" type="System.Int32, mscorlib">
-    <value>284</value>
   </data>
   <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 38</value>
@@ -1806,6 +1800,9 @@
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="W_CHK.Width" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
   <data name="&gt;&gt;rowsToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1817,9 +1814,6 @@
   </data>
   <data name="&gt;&gt;txtSOURCE.ZOrder" xml:space="preserve">
     <value>16</value>
-  </data>
-  <data name="btnDong.Location" type="System.Drawing.Point, System.Drawing">
-    <value>924, 33</value>
   </data>
   <data name="f2ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1912,9 +1906,6 @@
         6Pk7guAGSAeV9Dj9TI4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
   </data>
@@ -1948,8 +1939,8 @@
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="W_CHK.Width" type="System.Int32, mscorlib">
-    <value>98</value>
+  <data name="btnDong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>924, 33</value>
   </data>
   <data name="btnMovePrevious.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2005,8 +1996,8 @@
   <data name="f3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 28</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;txtPSF.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="f6ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 28</value>
@@ -2036,6 +2027,9 @@
   </data>
   <data name="txtP_NAME.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 1, 2, 1</value>
+  </data>
+  <data name="txtTHICK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
   </data>
   <data name="lbUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 21</value>
@@ -2139,11 +2133,14 @@
   <data name="txtCARNO.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
   </data>
+  <data name="&gt;&gt;f4ToolStripMenuItem.Name" xml:space="preserve">
+    <value>f4ToolStripMenuItem</value>
+  </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="&gt;&gt;txtUSR_NAME.Name" xml:space="preserve">
-    <value>txtUSR_NAME</value>
+  <data name="&gt;&gt;txtC_NAME.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>1046, 659</value>
@@ -2154,8 +2151,8 @@
   <data name="f7ToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F7</value>
   </data>
-  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="DGV1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 1, 2, 1</value>
@@ -2288,6 +2285,9 @@
   </data>
   <data name="&gt;&gt;btnDuyet.Name" xml:space="preserve">
     <value>btnDuyet</value>
+  </data>
+  <data name="&gt;&gt;txtSOURCE.Name" xml:space="preserve">
+    <value>txtSOURCE</value>
   </data>
   <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
@@ -2467,28 +2467,109 @@
   <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
     <value>toolStripStatusLabel2</value>
   </data>
-  <metadata name="AMOUNT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 30</value>
-  </metadata>
-  <metadata name="PRICE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>26, 26</value>
+  </metadata>
+  <metadata name="txtP_NAME.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnDuyet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UNIT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BUNIT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="M_TRAN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMoveLast.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="QTY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>299, 33</value>
   </metadata>
-  <metadata name="BMEMO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="txtK_NO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label16.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtWKG.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>457, 33</value>
   </metadata>
-  <metadata name="W_CHK.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="label12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NR.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtMK_NOA.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtMK_NOA1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PRICE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtW_KIND.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtWS_DATE.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DGV1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="P_NAME.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tabControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtSOURCE.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label24.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2497,31 +2578,79 @@
   <metadata name="P_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="UNIT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>vi</value>
-  </metadata>
-  <metadata name="BUNIT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="BMEMO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="QTY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="tabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="P_NAME.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="statusStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="txtPSF.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtTHICK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtC_NAME.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="BQTY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="NR.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="btnDong.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="M_TRAN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="txtWS_NO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AMOUNT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCLRCARD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTimeNow.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnOk.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMovePrevious.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMoveFirst.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMoveNext.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCARNO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 30</value>
+  </metadata>
+  <metadata name="W_CHK.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btndateNow.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

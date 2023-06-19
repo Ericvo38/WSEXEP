@@ -639,6 +639,127 @@
   <data name="新增明細UToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Thêm dòng hóa chất cuối danh sách</value>
   </data>
+  <data name="toolStripMenuItem2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAK6SURBVFhH7Zc5ixRBFMcbr5k+RvGKRVC88Ii8AlEQdcMVqqtnP4AfQUyENVTxTAQRvBIxVwMD
+        FY1c8I6NXANBYWelq3p23fb/el7PtHZPHyPSIP7gMcO/Xr16dcyrGuM/IyFCp9UONjdddYCMvpPGrX+H
+        xoTeaEl1BjYFW4CFv9kP2EvLU5MNoTdwtz+nNd5ZbUn/KoJ348FMqTr4/IDPJ2T8nbQ4mcCW+tJyMbOK
+        w4yGKf29CDbNQedgt21XH8VyL2OXAWNhw27rY0jkDvtSn0+m8HezRzVM13cRQHOgB7QF3FRIS+hNlqse
+        cV+FiQhuKgey3hcPbkp91pgMF3FTeUS42HT1+X4SZVfCEbNrkf1nHvwcyyODs3CBk5im88TycGzXvxJ1
+        wBLmzdxpB9tsqU7h1F9fKcIVLKfBSiDeY4qJ83OR1WyaQq2HYwDrDttzJHgS7R8pYGym549zcyaODLbA
+        jw6mbk6odSynod8wB73BUgpL6m/s8xX2hb6XOWTwuxn189RpltLA4T05Oa46xFIKqnqY8R5aWuzv/bIJ
+        YPkPRwlI/w1Lv9Jqd9b0HNSMcSJcynIuVRKg2gHfWdhCZoGyxfddvQT0a5YKqZQAwOzfkr/dDnawNAAD
+        j/USUA9ZKqRyAlycqGKyNKD2BGzZ3dlLYMghyaD6Fqh3UQIi2M7SgNoPIYFteEUBEfgIS7lUSSCxxVMs
+        pSlTiJJUSsBTt6LYeYUoUYrnHBFsZXkouAvucQLHWcqE9hx+87D8UkzEl5HtqafGwXAJy5mgIu7HjK7l
+        XkY4T/B5HsUsuoyI5HVcqkMB/du17HVMJB8kURIFK5EJZm5L/zIPXv5BEpN8kmGvn2X+dofANeVFf/CS
+        dSIFOiYfpfP04MSK5D9KPXUXvvREpz6jP0pjan2WJ6ntj0kmdfw1+0cxjJ8Q/0xKGTdMfgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="toolStripMenuItem3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAMjSURBVFhH7ZdLa9RQFMdTH8wkmbFU+gV8PxYqrlyIigufxQeY3JkpioIP9APoRksR3KoIFty6
+        0JUoKIhF0Y0i4k6kPjYq1SpVkLHNvamL6/8kp804k0wytjIg/uAw4Zz/Ofcm9znGf1rBdsbWWEL2Wa4c
+        xO8L/H4JLHwetEryDGlYPlPoDrPkCVPIV2hIZzHSmq7nUi4X+TNyFbXEKqnnU8Vd+ckS3mVbqC0F4a8o
+        lqvdZPRsu2orNAOwkSm9kM9yQi3icq1hCdWDN6lyobem8ByjX8/icDLQkJZyKDesoXo4mo28Izci2Q8b
+        VzeM/drmUHYcXUDuzbCG9POu3MCR5uQraiEm01dKxGc9P61xxNewhXeROzGKF1vAkSR0B4RPwwTvVqZP
+        ngZqoNZt7sTjpi+E2b6PhcPdu3SR3dOmy9Gd4QTGnCh5e9ldD5abkEMksoU8xM5YTEeuN135ANpvsBEU
+        v4PZvpTDsUBzhGrDXrLrdywxvpYF7zCBZrO7gYLjr4RmgrXjNSvl/fxePY9ljaAmNB9Ia4uJ1eyNQA/P
+        hUF1gV2J2CV5DdrDxiY9J1x28irlWu74HpbEgrlwKdTJs+yKQJGHQQfKahu7kqmbnBiyA0FhoU6wKxbL
+        VTtIR8PHrggUeUNB2v3YlRn+IrpQlpvZFUvRUcuCDmCrZlcEAj8oSBsIu1Kxy/4q5NyjPOwdT9KWLa0s
+        7kCVXRGtdSDYL/pgPykHY3q3s/K9i4OJNO0AhuA1BdOWE4EGTwcNYwkir5fdqRTL/nLuwBC7IjCOjyiY
+        NglpqUHnwcZyjlrM7kzgZN0ZdCBuEmIM+ykIG2BXLJbwd5MOb36dXZlB3pWgDVxc2BVRsxENB+s7ASy1
+        44GObkJ0V6gxWo4sa+SonoucYDuO3Yhqt2I0coydDdiud5I72mAUY1kDtEewLn4rJmoOo48zfhjxTanJ
+        YUS0+Tgm2nwhCWnrlWwSXCzXIfEzFxi1S94p46DOczgZR5uknfyKsBGqxdHWaHYtp6EytuscGT3P+LU8
+        oo1/TOqZ/GuGBu7z8a3I6Jl8tMP9hb9m/zSG8QtNJIb0L+l4WAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="toolStripMenuItem4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAKySURBVFhH7ZbLixNBEMbHgyQzkyCCoKKCii/8G9SDZ1FRZnoSnydhRXyBiN59nLwJogcPCoqi
+        gqLoP6KiKHsQkfWyuNnpzu6641edL2tmtZNMssf8oGDyVXV1ZaYf5Y0YUYTg6PTaQJnTgdLvYO9hP2ny
+        /Ba+sTBqrGH40uEn6YYg0XcxyQws62ESc8eP0nUcPhx+nB5GwgaTGz/RD3yVHirXzeYV9cmVYvIscb7S
+        DyWGsVNBPH2QaQYD//wCEs3bhLF5Wk70RrqclCO9CZ/iGYv47Stzjq5iBKp5QBLAZv3EnKXcNyx+rpXD
+        7KPcH/6RdD1e5y8MziQR5cKEKr0kOWCTsoAp9wYD7tuBsXlOaUCyZYFKX7GIexS7I98ZwfLqm7K4KP/l
+        VLYcb+cG/ONMLDaOXXJdfIxaoFQ3W+GXnTEnu4myG1k0kjRU+hGlHH5sbnLSf02K+A+hMk/Ej9xnKLlB
+        IA4U++0VpRxBrL+LvxzrPZS8Sk3vtQUo/Y1SjjDRdfrfUHKDoM8SXIrMFko5wiS9LMafFinGToDiKOWo
+        Rma7+PHpPlJyg8ApCfairELJiZ2002J9ja4cq/ZnVfHLzqLkBoH21POOZSElJwsT08LY3KIrR6ECsPg+
+        SXBJmW2UcsgiFONPC3bObhbxg1KOaq25gwV8oOQGgd0XISax/kjvotRzDXQswteU3Ay1DR1roL0N5bqm
+        5KbAQTTRSmptoo+DaKbv4xjBraNYmRdynFIeAHsUv2zlSm9T7E3nZYR/dpVyYTovo7DWWE25P6SZwED5
+        FPNhrK9Q7hs0LRcxdrDruA2TFGtIsG7yDUl6nq7BWNySye6AHa9EzZ3eyayME9OXZ7ylE9AfI6bJ2OFb
+        sjZyjbIpnWXybra0TWkni9ryrzBpQMW+tDQzVqjzGTHC87w/5rIpUP2E64AAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="rowsToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAALlSURBVFhH7VdLi9RAEM76mkmygyzsH1DxdVI8eVJPPhdBMOnMgqCCCuLdk7IIHryoLLjgjxAF
+        b6uiF0FFTyLrA0F0dZX1NO6mewa0/apTMxnHSabjjgyIHxQJX1VXf+mufsT5jyLwg4WtnpDnvVBO4/kc
+        zy/GkvdpL5LnKIbD+wU95EaxcIV8iY60jVGsG8YhteUkf4bSuFrvReppK3koP3kivuYLtXtY1DdXqrVR
+        Mnr3Q7UHMVOwuVa8kE9KQq3jdMXgCTWGL6lxojeuiANnQi9jdzYQQ7HUhtomOdQYe+1QDuRONK4nnasb
+        zhHts8segR5G25tJDlkvh3IHe/JRHldrUUxfqSGG9fKS5hGj4Yv4KouYx4etYU8W9BACHyUN4ltWQ94L
+        yIFct1nEw9wPQrUf5sDZ0YO6wvSSMRLo1UkBoyai+BDTncByE3KGgnwhjzGZC1eoM0ZwJB8zlQkIOMEf
+        94KpX+GJxW0c8A4FtJzpTJglKuSiaWMhgHIi9j3F+6KxhdkUUHgxcaorTOXA1ModWAP23UoAgFqYpD7Q
+        1wWmUmD47xsBVbWXqUxgeZ02ibD14hlbCwjVfmrnhvIeUykw76/JSUPLVFeYZSrkAkQ8c3bpFUUEVAK1
+        0QjAVs1UCji+kZM2EKa6AIUK9YhrNA+dIgJoZbGAGlMpbARg7o4nCdQlpvonAFPwipw4PDYw9RvgN1UM
+        IR/wfMv2A6boHeJXcWhXVKr1TYgjATNMpfAj+YCceUVI804ddZi1AJysBxDXvQgxjBPkhE0xZQXE268C
+        Ia+bPrB6mErRthHNUnUz3RPWAk7qlZg6sx133Yjat2IM9Skme8JWQGvvyNqKCW2H0ce+H0Z8U8o5jAgD
+        Po4JA76QJBjolawJXCy3o+FnTjDvR/FZ56guszsbgXYptjmKsDnKxd5iyLuW01Q5+3SJjN77fi1PMcAf
+        k040f83QwV0+vmkLVvROHO1wf+HX7J+G4/wEe6x8PW4ABp4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="rowsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="rowsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="rowsToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAMqSURBVFhH7ZdLaNRAGMdTH3ST7CpK8eBBfOALD4onD6KC4LMKgslkKwU9+EC8C4KlCl5VBCte
+        vXgQUfRWnxdBRE8qrXqxslqlXuwjMyvq+P+Sb5ttd7JNbWVB/MHHJt8r38x+M5NY/5kMrje8zhGyw/Fl
+        N35f4vdLJPF1txPI0+TD7tOFbrKDUNhC9uJBOouQr+2HPsVykj+juU0tdwL1fDS5Lz85IrzsCrUtL8qr
+        C8XBFhK6dn21HT5dkP5RfyGfNQu1jNNNDkeoVoxkkBO9s0XoWZ16BpvTgQ/5UgzFxjlUK1uzkfPkZgSX
+        44erm1a7dtmUHU/nEXsrziHLOV9uYkt9cm1qKZrpKwViWs9P6X/EbLgivMhFDGBgS9iShm6C49M4ILyd
+        aconAjmQ6y4X8aTugNDt+9mx1LJXF1g9ZeZ5em7cwOiJINzH6vFguQnZQ06ukIdYWcP8A3oOFzlGqNnY
+        xQgKOMy+r1k1FkeMrGeH92igmayugZYV+/VB7iUS3mEXM8gJvw8QDPD7WtYmoMJzsVFdYJURLLEN5Afp
+        YFVmUOSlKNaXZ1mVgCl8FBVQVDtYZYTWdJxEHaM+yQVycdZmRcwuirV9+YBVCfjf35KRdj9WGaH+iAoQ
+        6gV+f8TXss/25EZ2SaXgqZXkj8H2sioBhiEy0gbCKiNVzfQLiR6S8P03JxhZyG5GaMbI19iwMGQqgKAT
+        zw3kVr6l2DNxYnWCVUbqFoCpfUNGdPkKVmUG07+IYqnJWGWkUCyv4gJ6WJWAET0m40RNaCI6NamAQF5h
+        lRGcrLujAkxNiODOeBSyi1UpYLsO5Kl8+9CC6HaPdjB716Pi62xgBHyuRs/AiwurEqo2opK1Rc9idQ1V
+        2/VPCG1Gw3z/ytqpm9mtliN6dmU7Nm5E1VsxlthRVtaQL5bXYD3fgF8JQkWUEHdtdEZSQM7jce6UrZio
+        Gt3HaT+M+E2pzmFENPg4Jhr8QhLT0FeyCnzqfeYEA24QnrQO6hyb0/G0Tb6VWYT0Uy62To56r+X0V0XL
+        DkLX0/5antDAD5PxVD7N8ID7fHwrEromHe1wf+HT7J/Gsn4DQZOP1Y/Wos4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="rowsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 30</value>
+  </data>
+  <data name="rowsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
   <data name="插入明細VToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOVJREFUWEft

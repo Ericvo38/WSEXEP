@@ -168,7 +168,7 @@
 </value>
   </data>
   <data name="Module1A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1A.Text" xml:space="preserve">
     <value>客戶資料管理</value>
@@ -214,7 +214,7 @@
 </value>
   </data>
   <data name="Module1B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1B.Text" xml:space="preserve">
     <value>廠商資料</value>
@@ -264,7 +264,7 @@
 </value>
   </data>
   <data name="Module1C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1C.Text" xml:space="preserve">
     <value>產品 (客戶) 資料管理</value>
@@ -315,7 +315,7 @@
 </value>
   </data>
   <data name="Module1D.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1D.Text" xml:space="preserve">
     <value>產品(廠商)資料管理</value>
@@ -360,7 +360,7 @@
 </value>
   </data>
   <data name="Module1E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1E.Text" xml:space="preserve">
     <value>產品類別 (客戶) 建立</value>
@@ -409,7 +409,7 @@
 </value>
   </data>
   <data name="Module1F.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1F.Text" xml:space="preserve">
     <value>產品類別(廠商)建立</value>
@@ -460,7 +460,7 @@
 </value>
   </data>
   <data name="Module1G.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1G.Text" xml:space="preserve">
     <value>片語資料管理</value>
@@ -509,7 +509,7 @@
 </value>
   </data>
   <data name="Module1H.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1H.Text" xml:space="preserve">
     <value>倉庫資料管理</value>
@@ -561,7 +561,7 @@
 </value>
   </data>
   <data name="Module1I.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1I.Text" xml:space="preserve">
     <value>客戶報價管理</value>
@@ -614,7 +614,7 @@
 </value>
   </data>
   <data name="Module1J.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1J.Text" xml:space="preserve">
     <value>詢價資料管理</value>
@@ -667,7 +667,7 @@
 </value>
   </data>
   <data name="Module1K.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1K.Text" xml:space="preserve">
     <value>品牌資料管理</value>
@@ -717,7 +717,7 @@
 </value>
   </data>
   <data name="Module1L.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1L.Text" xml:space="preserve">
     <value>員工資料管理</value>
@@ -772,7 +772,7 @@
 </value>
   </data>
   <data name="Module1M.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1M.Text" xml:space="preserve">
     <value>業績資料管理</value>
@@ -825,7 +825,7 @@
 </value>
   </data>
   <data name="Module1N.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1N.Text" xml:space="preserve">
     <value>成品級數管理</value>
@@ -875,7 +875,7 @@
 </value>
   </data>
   <data name="Module1O.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1O.Text" xml:space="preserve">
     <value>厚度資料管理</value>
@@ -924,7 +924,7 @@
 </value>
   </data>
   <data name="Module1P.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1P.Text" xml:space="preserve">
     <value>C/NO資料管理</value>
@@ -973,7 +973,7 @@
 </value>
   </data>
   <data name="Module1Q.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1Q.Text" xml:space="preserve">
     <value>匯率資料管理</value>
@@ -1024,7 +1024,7 @@
 </value>
   </data>
   <data name="Module1R.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1R.Text" xml:space="preserve">
     <value>紋路資料管理</value>
@@ -1073,7 +1073,7 @@
 </value>
   </data>
   <data name="Module1S.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1S.Text" xml:space="preserve">
     <value> 總化料盤點</value>
@@ -1125,7 +1125,7 @@
 </value>
   </data>
   <data name="Module1T.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 30</value>
+    <value>284, 26</value>
   </data>
   <data name="Module1T.Text" xml:space="preserve">
     <value>成品盤點管理</value>
@@ -2040,7 +2040,7 @@
 </value>
   </data>
   <data name="Module3D.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3D.Text" xml:space="preserve">
     <value>樣品指令管理</value>
@@ -2085,7 +2085,7 @@
 </value>
   </data>
   <data name="Module3E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3E.Text" xml:space="preserve">
     <value>生產指令管理</value>
@@ -2134,7 +2134,7 @@
 </value>
   </data>
   <data name="Module3F.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3F.Text" xml:space="preserve">
     <value> 加工指令管理</value>
@@ -2183,7 +2183,7 @@
 </value>
   </data>
   <data name="Module3H.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3H.Text" xml:space="preserve">
     <value>生產報表</value>
@@ -2235,7 +2235,7 @@
 </value>
   </data>
   <data name="Module3I.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3I.Text" xml:space="preserve">
     <value>水場處方管理</value>
@@ -2288,7 +2288,7 @@
 </value>
   </data>
   <data name="Module3J.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3J.Text" xml:space="preserve">
     <value>水場皮源管理</value>
@@ -2341,7 +2341,7 @@
 </value>
   </data>
   <data name="Module3K.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="Module3K.Text" xml:space="preserve">
     <value>有效使用率管理</value>
@@ -2391,7 +2391,7 @@
 </value>
   </data>
   <data name="xUẤTPACKINGLISTINVOICEToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="xUẤTPACKINGLISTINVOICEToolStripMenuItem.Text" xml:space="preserve">
     <value>出口装箱单，发票</value>
@@ -2404,7 +2404,7 @@
     <value>Ctrl+M</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>出口销量三马里</value>
@@ -2416,7 +2416,7 @@
     <value>Ctrl+N</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>出口装箱单、发票（KTKD）</value>
@@ -2428,7 +2428,7 @@
     <value>Ctrl+P</value>
   </data>
   <data name="pACKINGLIST2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 30</value>
+    <value>316, 26</value>
   </data>
   <data name="pACKINGLIST2ToolStripMenuItem.Text" xml:space="preserve">
     <value>装箱单 2</value>
@@ -2502,7 +2502,7 @@
 </value>
   </data>
   <data name="Module4B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
+    <value>262, 26</value>
   </data>
   <data name="Module4B.Text" xml:space="preserve">
     <value>採購管理</value>
@@ -2552,7 +2552,7 @@
 </value>
   </data>
   <data name="Module4C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
+    <value>262, 26</value>
   </data>
   <data name="Module4C.Text" xml:space="preserve">
     <value> 進貨管理</value>
@@ -2603,7 +2603,7 @@
 </value>
   </data>
   <data name="Module4D.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
+    <value>262, 26</value>
   </data>
   <data name="Module4D.Text" xml:space="preserve">
     <value>進貨退出管理</value>
@@ -2648,7 +2648,7 @@
 </value>
   </data>
   <data name="Module4E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
+    <value>262, 26</value>
   </data>
   <data name="Module4E.Text" xml:space="preserve">
     <value>應付帳款資料管理</value>
@@ -2697,7 +2697,7 @@
 </value>
   </data>
   <data name="Module4F.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
+    <value>262, 26</value>
   </data>
   <data name="Module4F.Text" xml:space="preserve">
     <value>採購管理(雲端)</value>
@@ -2773,7 +2773,7 @@
 </value>
   </data>
   <data name="Module6A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6A.Text" xml:space="preserve">
     <value>系統權限設定</value>
@@ -2819,7 +2819,7 @@
 </value>
   </data>
   <data name="Module6B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6B.Text" xml:space="preserve">
     <value>系統密碼設置</value>
@@ -2869,7 +2869,7 @@
 </value>
   </data>
   <data name="Module6C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6C.Text" xml:space="preserve">
     <value>公司名稱設定</value>
@@ -2920,7 +2920,7 @@
 </value>
   </data>
   <data name="Module6D.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6D.Text" xml:space="preserve">
     <value>系統參數設定</value>
@@ -2965,7 +2965,7 @@
 </value>
   </data>
   <data name="Module6E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6E.Text" xml:space="preserve">
     <value>報表參數設定</value>
@@ -3014,7 +3014,7 @@
 </value>
   </data>
   <data name="Module6F.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6F.Text" xml:space="preserve">
     <value>客戶代號轉換</value>
@@ -3065,7 +3065,7 @@
 </value>
   </data>
   <data name="Module6G.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6G.Text" xml:space="preserve">
     <value>產品代號轉換</value>
@@ -3114,7 +3114,7 @@
 </value>
   </data>
   <data name="Module6H.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6H.Text" xml:space="preserve">
     <value>出貨編號產生</value>
@@ -3166,7 +3166,7 @@
 </value>
   </data>
   <data name="Module6I.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 30</value>
+    <value>234, 26</value>
   </data>
   <data name="Module6I.Text" xml:space="preserve">
     <value>庫存調整</value>
@@ -3248,7 +3248,7 @@
 </value>
   </data>
   <data name="Module8A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 30</value>
+    <value>248, 26</value>
   </data>
   <data name="Module8A.Text" xml:space="preserve">
     <value>總化料領料管理</value>
@@ -3294,7 +3294,7 @@
 </value>
   </data>
   <data name="Module8B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 30</value>
+    <value>248, 26</value>
   </data>
   <data name="Module8B.Text" xml:space="preserve">
     <value>部門資料管理</value>
@@ -3344,7 +3344,7 @@
 </value>
   </data>
   <data name="Module8C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 30</value>
+    <value>248, 26</value>
   </data>
   <data name="Module8C.Text" xml:space="preserve">
     <value>國別資料管理</value>
@@ -3443,7 +3443,7 @@
 </value>
   </data>
   <data name="đăngXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 30</value>
+    <value>106, 24</value>
   </data>
   <data name="đăngXuấtToolStripMenuItem.Text" xml:space="preserve">
     <value>登出</value>
@@ -3488,7 +3488,7 @@
 </value>
   </data>
   <data name="thoátChươngTrìnhToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 30</value>
+    <value>106, 24</value>
   </data>
   <data name="thoátChươngTrìnhToolStripMenuItem.Text" xml:space="preserve">
     <value>出口</value>

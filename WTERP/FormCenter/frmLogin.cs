@@ -19,6 +19,8 @@ namespace WTERP
     public partial class frmLogin : Form
     {
         DataProvider con = new DataProvider();
+        public static int Lang_ID = 1;
+        public static string ID_USER, ID_NAME;
         public frmLogin()
         {
             con.choose_languege();
@@ -87,8 +89,7 @@ namespace WTERP
             directorySecurity.AddAccessRule(fileSystemRule);
             directoryInfo.SetAccessControl(directorySecurity);
         }
-        public static string ID_USER, ID_NAME;
-        public static int Lang_ID;
+        
         int dem = 0;
         string txtThongBao = "";
         string txtText = "";
@@ -156,6 +157,7 @@ namespace WTERP
         {
             txtUser.Text = GetRememberUser();
             LoadCombobox();
+            Lang_ID = SetLangID();
             if (System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed)
             {
                 System.Deployment.Application.ApplicationDeployment add = System.Deployment.Application.ApplicationDeployment.CurrentDeployment;

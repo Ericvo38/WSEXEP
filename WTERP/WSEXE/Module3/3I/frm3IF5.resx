@@ -555,36 +555,6 @@
   <data name="&gt;&gt;txtMK_NOA.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="txtWS_DATE.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="txtWS_DATE.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="txtWS_DATE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 63</value>
-  </data>
-  <data name="txtWS_DATE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="txtWS_DATE.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 26</value>
-  </data>
-  <data name="txtWS_DATE.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtWS_DATE.Name" xml:space="preserve">
-    <value>txtWS_DATE</value>
-  </data>
-  <data name="&gt;&gt;txtWS_DATE.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtWS_DATE.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtWS_DATE.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="btnClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -682,6 +652,36 @@
   <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="txtWS_DATE.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtWS_DATE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txtWS_DATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 62</value>
+  </data>
+  <data name="txtWS_DATE.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="txtWS_DATE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="txtWS_DATE.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtWS_DATE.Name" xml:space="preserve">
+    <value>txtWS_DATE</value>
+  </data>
+  <data name="&gt;&gt;txtWS_DATE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWS_DATE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtWS_DATE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="DGV2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -696,9 +696,6 @@
   </data>
   <data name="WS_NO.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="WS_NO.Width" type="System.Int32, mscorlib">
-    <value>82</value>
   </data>
   <metadata name="WS_DATE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -723,9 +720,6 @@
   </data>
   <data name="C_NO.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="C_NO.Width" type="System.Int32, mscorlib">
-    <value>101</value>
   </data>
   <metadata name="P_NAME.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -857,6 +851,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>1058, 674</value>

@@ -24,6 +24,8 @@ namespace WTERP
     public partial class Form2D : Form
     {
         DataProvider con = new DataProvider();
+        public static string Share_SQL = string.Empty;
+        public static int Tab_Select = 0;
         public Form2D()
         {
             this.ShowInTaskbar = false;
@@ -475,9 +477,10 @@ namespace WTERP
             }
             else if (tabControl1.SelectedIndex == 3)
             {
-                Get_DLTab4();
-                Form2D_Tab4 fm = new Form2D_Tab4();
-                fm.ShowDialog();
+                Tab4Process();
+                //Get_DLTab4();
+                //Form2D_Tab4 fm = new Form2D_Tab4();
+                //fm.ShowDialog();
             }
             else if (tabControl1.SelectedIndex == 4)
             {
@@ -1263,6 +1266,98 @@ namespace WTERP
             Share2D.SQL4 = SQL;
             Form2D_Tab4 fm = new Form2D_Tab4();
             fm.ShowDialog();
+        }
+        private void Tab4Process()
+        {
+            Tab_Select = 4;
+            try
+            {
+                Creat_PRDM();
+                Creat_CA_GI();
+
+                string SQL4 = "SELECT dbo.FormatString1(ORDB.WS_DATE) AS WS_DATE, ORDB.NR, ORDB.MODEL_E,ORDB.C_NO, ORDB.T_NAME, ORDB.OR_NO, PATT_C, CA_GI.COLOR_C, ORDB.COLOR_E,(ORDB.COLOR_C + ORDB.COLOR_E) AS COLOR," +
+                " ORDB.THICK, ORDB.P_NAME_E, ORDB.PRICE, ORDB.OVER0, dbo.FormatString2(ORDB.WS_DATE1) AS WS_DATE1, ORDB.CLRCARD, ORDB.QTY, ISNULL(PRDM.WS_NO,ORDB.WS_DATE + '-'+ '0'+ORDB.NR) WS_NO,CASE WHEN PRDM.C_NAME = '' THEN CUST.C_NAME ELSE PRDM.C_NAME END AS C_NAME, " +
+                " dbo.FormatString2(CA_GI.WS_DATE) AS WS_DATE2, CA_GI.WS_NO  AS WS_NO1, isnull(CA_GI.BQTY,0) as BQTY, CA_GI.MEMO, CA_GI.OVER0, '' AS TOTAL,REMARKS FROM ORDB " +
+                " lEFT JOIN PRDM ON ORDB.OR_NO = PRDM.OR_NO AND ORDB.NR = PRDM.NR " +
+                " LEFT JOIN dbo.CUST ON CUST.C_NO = ORDB.C_NO " +
+                "LEFT JOIN CA_GI ON ORDB.OR_NO = CA_GI.OR_NO AND ORDB.NR = CA_GI.OR_NR WHERE 1=1" + GetType4();
+
+                if(!string.IsNullOrEmpty(txt4_1.Text)) SQL4 = SQL4 + " AND ORDB.C_NO >= '"+txt4_1.Text+ "'";
+                if(!string.IsNullOrEmpty(txt4_2.Text)) SQL4 = SQL4 + " AND ORDB.C_NO <= '"+txt4_2.Text+ "'";
+
+                if(txt4_3.MaskCompleted) SQL4 = SQL4 + " AND ORDB.WS_DATE >= '" + txt4_3.Text.Replace("/","") + "'";
+                if(txt4_4.MaskCompleted) SQL4 = SQL4 + " AND ORDB.WS_DATE <= '" + txt4_4.Text.Replace("/","") + "'";
+
+                if (!string.IsNullOrEmpty(txt4_5.Text)) SQL4 = SQL4 + " AND ORDB.OR_NO >= '" + txt4_5.Text + "'";
+                if (!string.IsNullOrEmpty(txt4_6.Text)) SQL4 = SQL4 + " AND ORDB.OR_NO <= '" + txt4_6.Text + "'";
+
+                if (!string.IsNullOrEmpty(txt4_7.Text)) SQL4 = SQL4 + " AND ORDB.COLOR_C LIKE '%" + txt4_7.Text + "%'";
+                if (!string.IsNullOrEmpty(txt4_8.Text)) SQL4 = SQL4 + " AND ORDB.COLOR_E LIKE '%" + txt4_8.Text + "%'";
+
+                if (!string.IsNullOrEmpty(txt4_9.Text)) SQL4 = SQL4 + " AND ORDB.P_NAME_E LIKE '%" + txt4_9.Text + "%'";
+
+                if (txt4_10.MaskCompleted) SQL4 = SQL4 + " AND ORDB.WS_DATE1 >= '" + txt4_10.Text.Replace("/", "") + "'";
+                if (txt4_11.MaskCompleted) SQL4 = SQL4 + " AND ORDB.WS_DATE1 <= '" + txt4_11.Text.Replace("/", "") + "'";
+
+                if(!string.IsNullOrEmpty(txt4_12.Text)) SQL4 = SQL4 + " AND ORDB.NR >= '" + txt4_12.Text + "'"; 
+                if(!string.IsNullOrEmpty(txt4_13.Text)) SQL4 = SQL4 + " AND ORDB.NR <= '" + txt4_13.Text + "'";
+
+                //con 1 DK
+
+                if (!string.IsNullOrEmpty(txt4_15.Text)) SQL4 = SQL4 + " AND  AND ORDB.BRAND  LIKE '%" + txt4_15.Text + "%'";
+                if (!string.IsNullOrEmpty(txt4_16.Text)) SQL4 = SQL4 + "  AND ORDB.T_NAME LIKE '%" + txt4_16.Text + "%'";
+
+                Share_SQL = SQL4 + "  ORDER BY ORDB.OR_NO,ORDB.WS_DATE,PRDM.WS_NO,CA_GI.WS_DATE";
+                WTERP.WSEXE.Module2._2D.FrmViewsReport fm = new WSEXE.Module2._2D.FrmViewsReport();
+                fm.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error\n"+ex);
+            }
+        }
+        public void Creat_PRDM()
+        {
+            string SQL = "SELECT top 1 * FROM PRDM";
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+            dataTable = con.readdata(SQL);
+            if (dataTable != null)
+            {
+                string SQL_Delete = "DROP TABLE PRDM";
+                con.exedata(SQL_Delete);
+            }
+            string STQ1 = "SELECT * INTO PRDM FROM (SELECT OR_NO, NR, WS_NO, C_NAME,MEMO03 FROM PRDMK1 UNION ALL SELECT OR_NO, NR, WS_NO, C_NAME,MEMO03 FROM PRDMK2) LU ";
+            con.readdata(STQ1);
+        }
+        public void Creat_CA_GI()
+        {
+            string SQL = "SELECT top 1 * FROM CA_GI";
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+            dataTable = con.readdata(SQL);
+            if (dataTable != null)
+            {
+                string SQL_Delete = "DROP TABLE CA_GI";
+                con.exedata(SQL_Delete);
+            }
+            string STQ2 = "SELECT * INTO CA_GI FROM (SELECT CARB.OR_NO, OR_NR,CARB. WS_DATE, CARB.WS_NO, BQTY, MEMO, CARB.OVER0,CARH.OR_NO AS COLOR_C FROM CARB,dbo.CARH WHERE CARH.WS_NO = CARB.WS_NO UNION ALL SELECT OR_NO, OR_NR, WS_DATE, WS_NO, BQTY, MEMO, OVER0,'' AS COLOR_C  FROM GIBB) LU";
+            con.readdata(STQ2);
+        }
+        private string GetType4()
+        {
+            string Result = string.Empty;
+            if (rd4_2.Checked)
+            {
+                Result = " AND ORDB.K_NO IN (1,3) ";
+            }
+            else if (rd4_3.Checked)
+            {
+                Result = " AND ORDB.K_NO IN (2,4) ";
+            }
+            else
+            {
+                Result = string.Empty;
+            }
+            return Result;
         }
         #endregion
 

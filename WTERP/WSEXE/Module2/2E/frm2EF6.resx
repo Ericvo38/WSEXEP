@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -133,13 +130,10 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 14</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 11</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>64, 18</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -159,20 +153,14 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <metadata name="txtP_NO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtP_NO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 14</value>
-  </data>
-  <data name="txtP_NO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>219, 11</value>
   </data>
   <data name="txtP_NO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 29</value>
+    <value>221, 24</value>
   </data>
   <data name="txtP_NO.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -189,9 +177,6 @@
   <data name="&gt;&gt;txtP_NO.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -202,13 +187,10 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 50</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 41</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 24</value>
+    <value>120, 18</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -228,20 +210,14 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <metadata name="txtOR_NO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtOR_NO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtOR_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 50</value>
-  </data>
-  <data name="txtOR_NO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>219, 41</value>
   </data>
   <data name="txtOR_NO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 29</value>
+    <value>221, 24</value>
   </data>
   <data name="txtOR_NO.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -258,9 +234,6 @@
   <data name="&gt;&gt;txtOR_NO.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -271,13 +244,10 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 89</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 72</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 24</value>
+    <value>59, 18</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -297,20 +267,14 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <metadata name="txtTHICK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtTHICK.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtTHICK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 94</value>
-  </data>
-  <data name="txtTHICK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>219, 76</value>
   </data>
   <data name="txtTHICK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 29</value>
+    <value>221, 24</value>
   </data>
   <data name="txtTHICK.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -327,9 +291,6 @@
   <data name="&gt;&gt;txtTHICK.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -340,13 +301,10 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 134</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 109</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 24</value>
+    <value>129, 18</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -366,20 +324,14 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <metadata name="txtP_NAME_C.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtP_NAME_C.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NAME_C.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 135</value>
-  </data>
-  <data name="txtP_NAME_C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>218, 110</value>
   </data>
   <data name="txtP_NAME_C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 29</value>
+    <value>221, 24</value>
   </data>
   <data name="txtP_NAME_C.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -396,9 +348,6 @@
   <data name="&gt;&gt;txtP_NAME_C.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <metadata name="label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -409,13 +358,10 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 17</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>445, 14</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 24</value>
+    <value>120, 18</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -435,20 +381,14 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <metadata name="txtP_NAME_E.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtP_NAME_E.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NAME_E.Location" type="System.Drawing.Point, System.Drawing">
-    <value>830, 17</value>
-  </data>
-  <data name="txtP_NAME_E.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>622, 14</value>
   </data>
   <data name="txtP_NAME_E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 29</value>
+    <value>220, 24</value>
   </data>
   <data name="txtP_NAME_E.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -465,9 +405,6 @@
   <data name="&gt;&gt;txtP_NAME_E.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <metadata name="label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -478,13 +415,10 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 53</value>
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>448, 43</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 24</value>
+    <value>110, 18</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -504,20 +438,14 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <metadata name="txtCOLOR_C.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtCOLOR_C.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtCOLOR_C.Location" type="System.Drawing.Point, System.Drawing">
-    <value>830, 57</value>
-  </data>
-  <data name="txtCOLOR_C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>622, 46</value>
   </data>
   <data name="txtCOLOR_C.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 29</value>
+    <value>220, 24</value>
   </data>
   <data name="txtCOLOR_C.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -534,9 +462,6 @@
   <data name="&gt;&gt;txtCOLOR_C.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <metadata name="label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -547,13 +472,10 @@
     <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 99</value>
-  </data>
-  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>448, 80</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 24</value>
+    <value>97, 18</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -573,20 +495,14 @@
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <metadata name="txtCOLOR_E.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtCOLOR_E.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtCOLOR_E.Location" type="System.Drawing.Point, System.Drawing">
-    <value>830, 98</value>
-  </data>
-  <data name="txtCOLOR_E.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>622, 80</value>
   </data>
   <data name="txtCOLOR_E.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 29</value>
+    <value>220, 24</value>
   </data>
   <data name="txtCOLOR_E.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -603,9 +519,6 @@
   <data name="&gt;&gt;txtCOLOR_E.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <metadata name="label8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -616,13 +529,10 @@
     <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 138</value>
-  </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>448, 112</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 24</value>
+    <value>113, 18</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -642,20 +552,14 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="txtC_NO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtC_NO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtC_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>830, 136</value>
-  </data>
-  <data name="txtC_NO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>622, 110</value>
   </data>
   <data name="txtC_NO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 29</value>
+    <value>220, 24</value>
   </data>
   <data name="txtC_NO.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -672,9 +576,6 @@
   <data name="&gt;&gt;txtC_NO.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="DGV1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -856,16 +757,13 @@
     <value>200</value>
   </data>
   <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 217</value>
-  </data>
-  <data name="DGV1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>15, 176</value>
   </data>
   <data name="DGV1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1248, 563</value>
+    <value>936, 457</value>
   </data>
   <data name="DGV1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -882,9 +780,6 @@
   <data name="&gt;&gt;DGV1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="label9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -895,13 +790,10 @@
     <value>NoControl</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 178</value>
-  </data>
-  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 145</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 24</value>
+    <value>82, 18</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -921,20 +813,20 @@
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="txtDate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="txtDate.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 174</value>
+    <value>218, 141</value>
+  </data>
+  <data name="txtDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="txtDate.Mask" xml:space="preserve">
     <value>0000/00/00</value>
   </data>
   <data name="txtDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 30</value>
+    <value>222, 26</value>
   </data>
   <data name="txtDate.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -951,9 +843,6 @@
   <data name="&gt;&gt;txtDate.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="button2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -974,13 +863,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1133, 86</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>850, 70</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 55</value>
+    <value>101, 45</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1000,9 +886,6 @@
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="btok.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btok.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -1022,13 +905,10 @@
     <value>NoControl</value>
   </data>
   <data name="btok.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1130, 17</value>
-  </data>
-  <data name="btok.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>848, 14</value>
   </data>
   <data name="btok.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 55</value>
+    <value>104, 45</value>
   </data>
   <data name="btok.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -1051,17 +931,14 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1283, 811</value>
+    <value>962, 659</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1103,9 +980,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

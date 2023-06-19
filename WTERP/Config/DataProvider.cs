@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Windows.Forms;
@@ -338,6 +340,17 @@ namespace WTERP
                 timenow = "Bây Giờ: " + DateTime.Now.Hour.ToString() + " Phút: " + DateTime.Now.Minute.ToString() + " Giây: " + DateTime.Now.Second.ToString();
             }
             return timenow;
+        }
+        public string GetIPAddrees()// Get Ip Address Local 
+        {
+            string IP = "";
+            IPAddress[] localIP = Dns.GetHostAddresses(Dns.GetHostName());
+            foreach (IPAddress address in localIP)
+            {
+                if (address.AddressFamily == AddressFamily.InterNetwork)
+                    IP = address.ToString();
+            }
+            return IP;
         }
         public string formatstr1(string str1) // Format YY  
         {

@@ -171,6 +171,7 @@ namespace WTERP
             btnMoveLast.Enabled = false;
             btnMovePrevious.Enabled = false;
             btnMoveNext.Enabled = false;
+            DGV1.ReadOnly = false;
         }
         private void f5ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -214,6 +215,8 @@ namespace WTERP
             btnMoveLast.Enabled = false;
             btnMovePrevious.Enabled = false;
             btnMoveNext.Enabled = false;
+
+            DGV1.ReadOnly = false;
         }
         private void f7ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -327,8 +330,6 @@ namespace WTERP
         public void DataGridViewFormat(DataGridView DGV)
         {
             DGV.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            //DGV.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-            //DGV.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
             DGV.RowHeadersWidth = 15;
             DGV.EnableHeadersVisualStyles = false;
             DGV.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
@@ -337,10 +338,7 @@ namespace WTERP
             DGV.BackgroundColor = Color.White;
             DGV.ForeColor = Color.MidnightBlue;
             DGV.BorderStyle = BorderStyle.FixedSingle;
-            //DGV.ColumnHeadersHeight = 52;
             DGV.DefaultCellStyle.Format = "#,##0.000";
-            // DGV.RowTemplate.Height = 30;
-            //DGV.Refresh();
         }
         #endregion
 
