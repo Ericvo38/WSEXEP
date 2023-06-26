@@ -477,10 +477,10 @@ namespace WTERP
             }
             else if (tabControl1.SelectedIndex == 3)
             {
-                Tab4Process();
-                //Get_DLTab4();
-                //Form2D_Tab4 fm = new Form2D_Tab4();
-                //fm.ShowDialog();
+                //Tab4Process();
+                Get_DLTab4();
+                Form2D_Tab4 fm = new Form2D_Tab4();
+                fm.ShowDialog();
             }
             else if (tabControl1.SelectedIndex == 4)
             {

@@ -118,16 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVJJREFUSEvd
-        lM9Kw0AQxnMURETc2YpeepBqNrWPUHwGEcT3qHopVTz5MHoRfYleBN/CkzUxu7fGmfhRmpYlSTEI/cFA
-        8jF/d5IN1pOk19LOqFtraMz2ARu7SI2Swz2C22rYSF1yspQt81hiQ7qAez1sROecYJonCunJhdSfnGzv
-        iMmzaCgytV19hrBqyOipoS9JwMmGkJewob5Ckc/4+GAXcjlpqO/zQO4SkhcX0Yv4pkbfQSqHg97RfR+S
-        F9dVp5jiDVI57PwtQVmvtQnJS3aktlAghlRO4wUaP6LZkg09Q/LiDL2Kb60lx519xVNMfovoAeQl+DO9
-        Fh/xlRjI1Sj8aIYe5biydntDbOFH4wJqhLB64KrIF+6xRJLP3iO6QWh1Fi47uZfECpddnhxWaxdV4eN6
-        mC+y0iRlSOfzRRqZZH2KFHbCz5D/Fum8ke7/kSD4AYZUE9neA+11AAAAAElFTkSuQmCC
-</value>
+  <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
   </data>
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -137,6 +129,17 @@
         KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
         o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
         RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVJJREFUSEvd
+        lM9Kw0AQxnMURETc2YpeepBqNrWPUHwGEcT3qHopVTz5MHoRfYleBN/CkzUxu7fGmfhRmpYlSTEI/cFA
+        8jF/d5IN1pOk19LOqFtraMz2ARu7SI2Swz2C22rYSF1yspQt81hiQ7qAez1sROecYJonCunJhdSfnGzv
+        iMmzaCgytV19hrBqyOipoS9JwMmGkJewob5Ckc/4+GAXcjlpqO/zQO4SkhcX0Yv4pkbfQSqHg97RfR+S
+        F9dVp5jiDVI57PwtQVmvtQnJS3aktlAghlRO4wUaP6LZkg09Q/LiDL2Kb60lx519xVNMfovoAeQl+DO9
+        Fh/xlRjI1Sj8aIYe5biydntDbOFH4wJqhLB64KrIF+6xRJLP3iO6QWh1Fi47uZfECpddnhxWaxdV4eN6
+        mC+y0iRlSOfzRRqZZH2KFHbCz5D/Fum8ke7/kSD4AYZUE9neA+11AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -179,86 +182,5 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Tìm Kiếm Truy Vấn Đơn Hàng Trả Lại</value>
-  </data>
-  <data name="AMOUNT.HeaderText" xml:space="preserve">
-    <value>Tổng</value>
-  </data>
-  <data name="BQTY.HeaderText" xml:space="preserve">
-    <value>Số Lượng</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>TÌM KIẾM</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>ĐÓNG</value>
-  </data>
-  <data name="COST.HeaderText" xml:space="preserve">
-    <value>Giá Cả</value>
-  </data>
-  <data name="C_NAME.HeaderText" xml:space="preserve">
-    <value>Tên KH</value>
-  </data>
-  <data name="C_NO.HeaderText" xml:space="preserve">
-    <value>Mã Số KH</value>
-  </data>
-  <data name="DISCOUNT.HeaderText" xml:space="preserve">
-    <value>Chiết Khấu</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Số văn bản:</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Tên khách hàng:</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Mã số KH:</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Ngày lập:</value>
-  </data>
-  <data name="MEMO.HeaderText" xml:space="preserve">
-    <value>Nhận Xét</value>
-  </data>
-  <data name="NR.HeaderText" xml:space="preserve">
-    <value>STT</value>
-  </data>
-  <data name="NRCV_MON.HeaderText" xml:space="preserve">
-    <value>Chưa được Thánh Toán</value>
-  </data>
-  <data name="PRICE.HeaderText" xml:space="preserve">
-    <value>Đơn Giá</value>
-  </data>
-  <data name="P_NAME.HeaderText" xml:space="preserve">
-    <value>Tên Sản Phẩm</value>
-  </data>
-  <data name="P_NO.HeaderText" xml:space="preserve">
-    <value>Mã Sản Phẩm</value>
-  </data>
-  <data name="RCV_MON.HeaderText" xml:space="preserve">
-    <value>Được Thanh Toán</value>
-  </data>
-  <data name="TAX.HeaderText" xml:space="preserve">
-    <value>Thuế</value>
-  </data>
-  <data name="tb4.Mask" xml:space="preserve">
-    <value>0000/00/00</value>
-  </data>
-  <data name="TOT.HeaderText" xml:space="preserve">
-    <value>Tổng Số TK</value>
-  </data>
-  <data name="TOTAL.HeaderText" xml:space="preserve">
-    <value>Tổng</value>
-  </data>
-  <data name="UNIT.HeaderText" xml:space="preserve">
-    <value>Đơn Vị</value>
-  </data>
-  <data name="WS_DATE.HeaderText" xml:space="preserve">
-    <value>Ngày lập</value>
-  </data>
-  <data name="WS_NO.HeaderText" xml:space="preserve">
-    <value>Số Văn Bản</value>
   </data>
 </root>

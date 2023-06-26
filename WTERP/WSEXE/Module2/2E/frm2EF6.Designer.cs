@@ -77,6 +77,7 @@ namespace WTERP
             // 
             // txtP_NO
             // 
+            this.txtP_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NO, "txtP_NO");
             this.txtP_NO.Name = "txtP_NO";
             this.txtP_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NO_KeyDown);
@@ -89,6 +90,7 @@ namespace WTERP
             // 
             // txtOR_NO
             // 
+            this.txtOR_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtOR_NO, "txtOR_NO");
             this.txtOR_NO.Name = "txtOR_NO";
             this.txtOR_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtOR_NO_KeyDown);
@@ -101,6 +103,7 @@ namespace WTERP
             // 
             // txtTHICK
             // 
+            this.txtTHICK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtTHICK, "txtTHICK");
             this.txtTHICK.Name = "txtTHICK";
             this.txtTHICK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTHICK_KeyDown);
@@ -113,6 +116,7 @@ namespace WTERP
             // 
             // txtP_NAME_C
             // 
+            this.txtP_NAME_C.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NAME_C, "txtP_NAME_C");
             this.txtP_NAME_C.Name = "txtP_NAME_C";
             this.txtP_NAME_C.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME_C_KeyDown);
@@ -125,6 +129,7 @@ namespace WTERP
             // 
             // txtP_NAME_E
             // 
+            this.txtP_NAME_E.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NAME_E, "txtP_NAME_E");
             this.txtP_NAME_E.Name = "txtP_NAME_E";
             this.txtP_NAME_E.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME_E_KeyDown);
@@ -137,6 +142,7 @@ namespace WTERP
             // 
             // txtCOLOR_C
             // 
+            this.txtCOLOR_C.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtCOLOR_C, "txtCOLOR_C");
             this.txtCOLOR_C.Name = "txtCOLOR_C";
             this.txtCOLOR_C.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCOLOR_C_KeyDown);
@@ -149,6 +155,7 @@ namespace WTERP
             // 
             // txtCOLOR_E
             // 
+            this.txtCOLOR_E.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtCOLOR_E, "txtCOLOR_E");
             this.txtCOLOR_E.Name = "txtCOLOR_E";
             this.txtCOLOR_E.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCOLOR_E_KeyDown);
@@ -161,6 +168,7 @@ namespace WTERP
             // 
             // txtC_NO
             // 
+            this.txtC_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtC_NO, "txtC_NO");
             this.txtC_NO.Name = "txtC_NO";
             this.txtC_NO.ReadOnly = true;
@@ -169,6 +177,8 @@ namespace WTERP
             // DGV1
             // 
             this.DGV1.AllowUserToAddRows = false;
+            this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -290,6 +300,7 @@ namespace WTERP
             // 
             // txtDate
             // 
+            this.txtDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtDate, "txtDate");
             this.txtDate.Name = "txtDate";
             this.txtDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDate_KeyDown);
@@ -361,7 +372,6 @@ namespace WTERP
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtCOLOR_E;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtC_NO;
         private System.Windows.Forms.DataGridView DGV1;
         private System.Windows.Forms.Button btok;
         private System.Windows.Forms.Button button2;
@@ -382,5 +392,6 @@ namespace WTERP
         private System.Windows.Forms.DataGridViewTextBoxColumn PATT_C;
         private System.Windows.Forms.DataGridViewTextBoxColumn PATT_E;
         private System.Windows.Forms.DataGridViewTextBoxColumn MODEL_E;
+        public System.Windows.Forms.TextBox txtC_NO;
     }
 }

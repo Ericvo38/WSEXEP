@@ -125,11 +125,20 @@
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 14</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 36</value>
+    <value>96, 24</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>單據編號:</value>
+  </data>
+  <data name="tb1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="tb1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
@@ -138,13 +147,19 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>528, 17</value>
+    <value>301, 14</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 29</value>
+    <value>91, 24</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>客戶名稱:</value>
+  </data>
+  <data name="tb2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 14</value>
+  </data>
+  <data name="tb2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
@@ -152,11 +167,20 @@
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 52</value>
+  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 36</value>
+    <value>91, 24</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>客戶編號:</value>
+  </data>
+  <data name="tb3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 52</value>
+  </data>
+  <data name="tb3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 24</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
@@ -165,13 +189,137 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>528, 64</value>
+    <value>296, 52</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 29</value>
+    <value>96, 24</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>單據日期:</value>
+  </data>
+  <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="WS_NO.HeaderText" xml:space="preserve">
+    <value>單據編號</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WS_NO.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="WS_DATE.HeaderText" xml:space="preserve">
+    <value>單據日期</value>
+  </data>
+  <data name="WS_DATE.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="C_NO.HeaderText" xml:space="preserve">
+    <value>客戶編號</value>
+  </data>
+  <data name="C_NO.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="C_NAME.HeaderText" xml:space="preserve">
+    <value>客戶名稱</value>
+  </data>
+  <data name="C_NAME.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="TOTAL.HeaderText" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="TOTAL.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="TAX.HeaderText" xml:space="preserve">
+    <value>税額</value>
+  </data>
+  <data name="TAX.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="DISCOUNT.HeaderText" xml:space="preserve">
+    <value>折讓</value>
+  </data>
+  <data name="DISCOUNT.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="TOT.HeaderText" xml:space="preserve">
+    <value>帳款合計</value>
+  </data>
+  <data name="TOT.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="RCV_MON.HeaderText" xml:space="preserve">
+    <value>已收帳款</value>
+  </data>
+  <data name="RCV_MON.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="NRCV_MON.HeaderText" xml:space="preserve">
+    <value>未收款</value>
+  </data>
+  <data name="NRCV_MON.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="NR.HeaderText" xml:space="preserve">
+    <value>序</value>
+  </data>
+  <data name="NR.Width" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="P_NO.HeaderText" xml:space="preserve">
+    <value>產品編號</value>
+  </data>
+  <data name="P_NO.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="P_NAME.HeaderText" xml:space="preserve">
+    <value>產品名稱</value>
+  </data>
+  <data name="P_NAME.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="BQTY.HeaderText" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="BQTY.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="UNIT.HeaderText" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="UNIT.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="PRICE.HeaderText" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="PRICE.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="AMOUNT.HeaderText" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="AMOUNT.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="COST.HeaderText" xml:space="preserve">
+    <value>成本</value>
+  </data>
+  <data name="COST.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="MEMO.HeaderText" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="MEMO.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="tb4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 51</value>
+  </data>
+  <data name="tb4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 26</value>
   </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -190,10 +338,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1047, 65</value>
+    <value>770, 48</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 48</value>
+    <value>161, 41</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>放棄 [&amp;C]</value>
@@ -216,70 +364,13 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1047, 8</value>
+    <value>770, 5</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 49</value>
+    <value>161, 42</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>取回 [&amp;○]</value>
-  </data>
-  <data name="WS_NO.HeaderText" xml:space="preserve">
-    <value>單據編號</value>
-  </data>
-  <data name="WS_DATE.HeaderText" xml:space="preserve">
-    <value>單據日期</value>
-  </data>
-  <data name="C_NO.HeaderText" xml:space="preserve">
-    <value>客戶編號</value>
-  </data>
-  <data name="C_NAME.HeaderText" xml:space="preserve">
-    <value>客戶名稱</value>
-  </data>
-  <data name="TOTAL.HeaderText" xml:space="preserve">
-    <value>合計</value>
-  </data>
-  <data name="TAX.HeaderText" xml:space="preserve">
-    <value>税額</value>
-  </data>
-  <data name="DISCOUNT.HeaderText" xml:space="preserve">
-    <value>折讓</value>
-  </data>
-  <data name="TOT.HeaderText" xml:space="preserve">
-    <value>帳款合計</value>
-  </data>
-  <data name="RCV_MON.HeaderText" xml:space="preserve">
-    <value>已收帳款</value>
-  </data>
-  <data name="NRCV_MON.HeaderText" xml:space="preserve">
-    <value>未收款</value>
-  </data>
-  <data name="NR.HeaderText" xml:space="preserve">
-    <value>序</value>
-  </data>
-  <data name="P_NO.HeaderText" xml:space="preserve">
-    <value>產品編號</value>
-  </data>
-  <data name="P_NAME.HeaderText" xml:space="preserve">
-    <value>產品名稱</value>
-  </data>
-  <data name="BQTY.HeaderText" xml:space="preserve">
-    <value>數量</value>
-  </data>
-  <data name="UNIT.HeaderText" xml:space="preserve">
-    <value>單位</value>
-  </data>
-  <data name="PRICE.HeaderText" xml:space="preserve">
-    <value>單價</value>
-  </data>
-  <data name="AMOUNT.HeaderText" xml:space="preserve">
-    <value>小計</value>
-  </data>
-  <data name="COST.HeaderText" xml:space="preserve">
-    <value>成本</value>
-  </data>
-  <data name="MEMO.HeaderText" xml:space="preserve">
-    <value>備註</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -321,9 +412,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>查詢退貨單單據</value>

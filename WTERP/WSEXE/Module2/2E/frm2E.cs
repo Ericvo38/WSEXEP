@@ -52,7 +52,7 @@ namespace WTERP
             btsau.Enabled = true;
             btketthuc.Enabled = true;
 
-            tb3.Enabled = true;
+            txtWS_NO.Enabled = true;
         }
         public void getInfo() //Method getIP,ID, User...  
         {
@@ -69,7 +69,7 @@ namespace WTERP
         public void Load_DGV()
         {
             //string SQL = "select TOP 100 NR, P_NO, P_NAME, COLOR, P_NAME3, BQTY, PRICE,ROUND(AMOUNT,2) as AMOUNT, OR_NO, CAL_YM, OR_NR, MEMO, COLOR_c, P_NAME1, QTY,N'' as WS_DATE,N'' as C_NO,N'' as K_NO  from GIBB where WS_NO = '" + tb3.Text + "' ";
-            string SQL = "select TOP 100 *  from GIBB where WS_NO = '" + tb3.Text + "' ";
+            string SQL = "select TOP 100 *  from GIBB where WS_NO = '" + txtWS_NO.Text + "' ";
             dt = conn.readdata(SQL);
             DGV1.DataSource = dt;
             conn.DGV(DGV1);
@@ -91,28 +91,28 @@ namespace WTERP
         }
         public void Show_data()
         {
-            tb1.Text = conn.formatstr2(currenRow["WS_DATE"].ToString());
-            tb2.Text = currenRow["WS_KIND"].ToString();
-            tb3.Text = currenRow["WS_NO"].ToString();
-            tb4.Text = currenRow["C_NO"].ToString();
-            tb5.Text = currenRow["C_NAME"].ToString();
-            tb6.Text = string.Format("{0:#,##0.00}", double.Parse(currenRow["TOT"].ToString()));
-            tb7.Text = string.Format("{0:#,##0.00}", double.Parse(currenRow["TOTAL"].ToString()));
-            tb8.Text = currenRow["MEMO1"].ToString();
-            tb9.Text = currenRow["MEMO2"].ToString();
-            tb10.Text = currenRow["MEMO3"].ToString();
-            tb11.Text = currenRow["MEMO4"].ToString();
-            tb12.Text = currenRow["MEMO5"].ToString();
-            tb13.Text = currenRow["MEMO6"].ToString();
-            tb14.Text = currenRow["MEMO7"].ToString();
-            tb15.Text = currenRow["MEMO8"].ToString();
+            txtWS_DATE.Text = conn.formatstr2(currenRow["WS_DATE"].ToString());
+            txtWS_KIND.Text = currenRow["WS_KIND"].ToString();
+            txtWS_NO.Text = currenRow["WS_NO"].ToString();
+            txtC_NO.Text = currenRow["C_NO"].ToString();
+            txtC_NAME.Text = currenRow["C_NAME"].ToString();
+            txtTOT.Text = string.Format("{0:#,##0.00}", double.Parse(currenRow["TOT"].ToString()));
+            txtTOTAL.Text = string.Format("{0:#,##0.00}", double.Parse(currenRow["TOTAL"].ToString()));
+            txtMEMO1.Text = currenRow["MEMO1"].ToString();
+            txtMEMO2.Text = currenRow["MEMO2"].ToString();
+            txtMEMO3.Text = currenRow["MEMO3"].ToString();
+            txtMEMO4.Text = currenRow["MEMO4"].ToString();
+            txtMEMO5.Text = currenRow["MEMO5"].ToString();
+            txtMEMO6.Text = currenRow["MEMO6"].ToString();
+            txtMEMO7.Text = currenRow["MEMO7"].ToString();
+            txtMEMO8.Text = currenRow["MEMO8"].ToString();
             txtUSR_NAME.Text = currenRow["USR_NAME"].ToString();
-            tb16.Text = conn.formatstr2(currenRow["CAL_YM"].ToString());
+            txtCAL_YM.Text = conn.formatstr2(currenRow["CAL_YM"].ToString());
         }
         public bool Checktb3()
         {
             bool chk = false;
-            string SQL = "select NR, P_NO, P_NAME, COLOR, P_NAME3, BQTY, PRICE, ROUND(AMOUNT,2) AMOUNT, OR_NO, CAL_YM, OR_NR, MEMO, COLOR_c, P_NAME1, QTY from GIBB where WS_NO = '" + tb3.Text + "' ";
+            string SQL = "select NR, P_NO, P_NAME, COLOR, P_NAME3, BQTY, PRICE, ROUND(AMOUNT,2) AMOUNT, OR_NO, CAL_YM, OR_NR, MEMO, COLOR_c, P_NAME1, QTY from GIBB where WS_NO = '" + txtWS_NO.Text + "' ";
             dt = conn.readdata(SQL);
             if (dt.Rows.Count > 0)
             {
@@ -260,23 +260,23 @@ namespace WTERP
             bt.Text = "" + txtThem + "";
 
             DateTime date = DateTime.Now;
-            tb1.Text = date.ToString("yyyy/MM/dd");
+            txtWS_DATE.Text = date.ToString("yyyy/MM/dd");
 
-            tb2.Text = "";
-            tb3.Text = "";
-            tb4.Text = "";
-            tb5.Text = "";
-            tb6.Text = "0.00";
-            tb7.Text = "0.00";
-            tb8.Text = "";
-            tb9.Text = "";
-            tb10.Text = "";
-            tb11.Text = "";
-            tb12.Text = "";
-            tb13.Text = "";
-            tb14.Text = "";
-            tb15.Text = "";
-            tb16.Text = "";
+            txtWS_KIND.Text = "";
+            txtWS_NO.Text = "";
+            txtC_NO.Text = "";
+            txtC_NAME.Text = "";
+            txtTOT.Text = "0.00";
+            txtTOTAL.Text = "0.00";
+            txtMEMO1.Text = "";
+            txtMEMO2.Text = "";
+            txtMEMO3.Text = "";
+            txtMEMO4.Text = "";
+            txtMEMO5.Text = "";
+            txtMEMO6.Text = "";
+            txtMEMO7.Text = "";
+            txtMEMO8.Text = "";
+            txtCAL_YM.Text = "";
 
             f1ToolStripMenuItem.Enabled = false;
             f2ToolStripMenuItem.Enabled = false;
@@ -336,7 +336,7 @@ namespace WTERP
             f10ToolStripMenuItem.Enabled = true;
             f12ToolStripMenuItem.Enabled = false;
 
-            tb3.Enabled = false;
+            txtWS_NO.Enabled = false;
 
             btdau.Enabled = false;
             bttruoc.Enabled = false;
@@ -349,38 +349,38 @@ namespace WTERP
             frm2EF5 fr = new frm2EF5();
             fr.ShowDialog();
 
-            string DL = frm2EF5.DT.G1;
-            if (DL != string.Empty)
-            {
-                string SQL = "SELECT WS_DATE, WS_KIND, WS_NO, C_NO, C_NAME, TOT, TOTAL, MEMO1, MEMO2, MEMO3, MEMO4, MEMO5, MEMO6, MEMO7, MEMO8, CAL_YM,USR_NAME FROM GIBH where WS_NO = '" + DL + "' ";
-                dt = conn.readdata(SQL);
-                foreach (DataRow row in dt.Rows)
-                {
-                    tb1.Text = conn.formatstr2(row["WS_DATE"].ToString());
-                    tb2.Text = row["WS_KIND"].ToString();
-                    tb3.Text = row["WS_NO"].ToString();
-                    tb4.Text = row["C_NO"].ToString();
-                    tb5.Text = row["C_NAME"].ToString();
-                    tb6.Text = string.Format("{0:#,##0.00}", double.Parse(row["TOT"].ToString()));
-                    tb7.Text = string.Format("{0:#,##0.00}", double.Parse(row["TOTAL"].ToString()));
-                    tb8.Text = row["MEMO1"].ToString();
-                    tb9.Text = row["MEMO2"].ToString();
-                    tb10.Text = row["MEMO3"].ToString();
-                    tb11.Text = row["MEMO4"].ToString();
-                    tb12.Text = row["MEMO5"].ToString();
-                    tb13.Text = row["MEMO6"].ToString();
-                    tb14.Text = row["MEMO7"].ToString();
-                    tb15.Text = row["MEMO8"].ToString();
-                    tb16.Text = conn.formatstr2(row["CAL_YM"].ToString());
-                }
-                Load_DGV();
-            }
-            else
-            {
-                Load_Data();
-                Show_data();
-            }
-            f5ToolStripMenuItem.Checked = false;
+            //string DL = frm2EF5.DT.G1;
+            //if (DL != string.Empty)
+            //{
+            //    string SQL = "SELECT WS_DATE, WS_KIND, WS_NO, C_NO, C_NAME, TOT, TOTAL, MEMO1, MEMO2, MEMO3, MEMO4, MEMO5, MEMO6, MEMO7, MEMO8, CAL_YM,USR_NAME FROM GIBH where WS_NO = '" + DL + "' ";
+            //    dt = conn.readdata(SQL);
+            //    foreach (DataRow row in dt.Rows)
+            //    {
+            //        txtWS_DATE.Text = conn.formatstr2(row["WS_DATE"].ToString());
+            //        txtWS_KIND.Text = row["WS_KIND"].ToString();
+            //        txtWS_NO.Text = row["WS_NO"].ToString();
+            //        txtC_NO.Text = row["C_NO"].ToString();
+            //        txtC_NAME.Text = row["C_NAME"].ToString();
+            //        txtTOT.Text = string.Format("{0:#,##0.00}", double.Parse(row["TOT"].ToString()));
+            //        txtTOTAL.Text = string.Format("{0:#,##0.00}", double.Parse(row["TOTAL"].ToString()));
+            //        txtMEMO1.Text = row["MEMO1"].ToString();
+            //        txtMEMO2.Text = row["MEMO2"].ToString();
+            //        txtMEMO3.Text = row["MEMO3"].ToString();
+            //        txtMEMO4.Text = row["MEMO4"].ToString();
+            //        txtMEMO5.Text = row["MEMO5"].ToString();
+            //        txtMEMO6.Text = row["MEMO6"].ToString();
+            //        txtMEMO7.Text = row["MEMO7"].ToString();
+            //        txtMEMO8.Text = row["MEMO8"].ToString();
+            //        txtCAL_YM.Text = conn.formatstr2(row["CAL_YM"].ToString());
+            //    }
+            //    Load_DGV();
+            //}
+            //else
+            //{
+            //    Load_Data();
+            //    Show_data();
+            //}
+            //f5ToolStripMenuItem.Checked = false;
         }
         public class F2E
         {
@@ -389,7 +389,7 @@ namespace WTERP
         private void f6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
-                F2E.MaKH = tb4.Text;
+                F2E.MaKH = txtC_NO.Text;
                 f1ToolStripMenuItem.Checked = false;
                 //f4ToolStripMenuItem.Checked = true;
                 f5ToolStripMenuItem.Checked = false;
@@ -425,16 +425,16 @@ namespace WTERP
                         dataTable.Rows.Add(AA, dr["P_NO"].ToString(), dr["P_NAME_C"].ToString(), dr["COLOR_E"].ToString(), dr["THICK"].ToString(), dr["QTY"].ToString(), dr["PRICE"].ToString(), dr["TOTAL"].ToString(),
                                            dr["OR_NO"].ToString(), key, dr["NR"].ToString(), " ", dr["COLOR_C"].ToString(), dr["P_NAME_E"].ToString(), "0", dr["WS_DATE"].ToString(), dr["C_NO"].ToString(), dr["K_NO"].ToString());
                     }
-                    tb6.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00");
-                    tb7.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00"); 
+                    txtTOT.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00");
+                    txtTOTAL.Text = string.Format(dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString(), "#,##0.00"); 
                 }
                 NR++;
             }
         }
-        public static string txtWS_NO;
+        //public static string WS_NO;
         private void f7ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            txtWS_NO = tb3.Text;
+            //WS_NO = txtWS_NO.Text;
             frm2EF7 fr = new frm2EF7();
             fr.ShowDialog();
         }
@@ -453,12 +453,12 @@ namespace WTERP
                 }
                 else
                 {
-                    string sql = "SELECT 1 FROM GIBH WHERE WS_NO = '" + tb3.Text + "'";
+                    string sql = "SELECT 1 FROM GIBH WHERE WS_NO = '" + txtWS_NO.Text + "'";
                     DataTable data = new DataTable();
                     data = conn.readdata(sql);
                     if (data.Rows.Count > 0)
                     {
-                        MessageBox.Show("Đã tồn tại mã '" + tb3.Text + "'");
+                        MessageBox.Show("Đã tồn tại mã '" + txtWS_NO.Text + "'");
                     }
                     else
                     {
@@ -482,7 +482,7 @@ namespace WTERP
             string D3 = "";
             string D1_1 = "";
             bool checkTransaction = false;
-            string ST = " select C_NO, C_ANAME2, ADR3,DEFA_MONEY from CUST where C_NO = '" + tb4.Text + "'";
+            string ST = " select C_NO, C_ANAME2, ADR3,DEFA_MONEY from CUST where C_NO = '" + txtC_NO.Text + "'";
             DataTable dt4 = conn.readdata(ST);
             if (dt4.Rows.Count > 0)
             {
@@ -508,12 +508,13 @@ namespace WTERP
             string st1 = "insert into dbo.GIBH(WS_DATE, WS_KIND, WS_NO, C_NO, C_NAME, C_ANAME, ADDR," +
                 " C_NO_O, C_NAME_O, C_ANAME_O, ADDR_O, TAX, DISCOUNT, RCV_MON,  TOT, TOTAL, NRCV_MON," +
                 " MEMO1, MEMO2, MEMO3, MEMO4, MEMO5, MEMO6, MEMO7, MEMO8, COSTTOT, PACK_NO ,CAL_YM, M_TRAN, M_TRAN_R,OR_NO,USR_NAME) " +
-                "SELECT '" + a + "', '" + tb2.Text + "', '" + tb3.Text + "', '" + tb4.Text + "', N'" + tb5.Text + "', N'" + D1_1 +
-                "', N'" + D2 + "', '" + tb4.Text + "', '" + tb5.Text + "', '" + D1_1 + "', '" + D2 + "', 0, 0, 0, ROUND('" + tb6.Text +
-                "',2), '" + tb7.Text + "', '" + tb6.Text + "', N'" + tb8.Text + "', N'" + tb9.Text + "', N'" + tb10.Text +
-                "', N'" + tb11.Text + "', N'" + tb12.Text + "', N'" + tb13.Text + "', N'" + tb14.Text + "', N'" + tb15.Text + "', 0, 0, '" + conn.formatstr2(tb16.Text) + "', '" + D3 + "', 31.6,'',N'" + lbUserName.Text + "'";
+                "SELECT '" + a + "', '" + txtWS_KIND.Text + "', '" + txtWS_NO.Text + "', '" + txtC_NO.Text + "', N'" + txtC_NAME.Text + "', N'" + D1_1 +
+                "', N'" + D2 + "', '" + txtC_NO.Text + "', '" + txtC_NAME.Text + "', '" + D1_1 + "', '" + D2 + "', 0, 0, 0, ROUND('" + txtTOT.Text +
+                "',2), '" + txtTOTAL.Text + "', '" + txtTOT.Text + "', N'" + txtMEMO1.Text + "', N'" + txtMEMO2.Text + "', N'" + txtMEMO3.Text +
+                "', N'" + txtMEMO4.Text + "', N'" + txtMEMO5.Text + "', N'" + txtMEMO6.Text + "', N'" + txtMEMO7.Text + "', N'" + txtMEMO8.Text + "', 0, 0, '" + conn.formatstr2(txtCAL_YM.Text) + "', '" + D3 + "', 31.6,'',N'" + lbUserName.Text + "'";
+
             checkTransaction = conn.ExecuteTransaction(st1);
-            if (tb2.Text == string.Empty)
+            if (txtWS_KIND.Text == string.Empty)
             {
                 MessageBox.Show("" + txtText + "");
                 return;
@@ -537,7 +538,7 @@ namespace WTERP
             }
             loadfirts();
             Load_Data();
-            bindingsource.Find("WS_NO", tb3.Text);
+            bindingsource.Find("WS_NO", txtWS_NO.Text);
             Load_DGV();
             //btdong.PerformClick();
         }
@@ -546,7 +547,7 @@ namespace WTERP
             bool checktransaction = false;
             try
             {
-                if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
+                if (txtWS_KIND.Text == "T" || txtWS_KIND.Text == "C") // HANG BU, TRA
                 {
                     for (int i = 0; i < DGV1.Rows.Count; i++)
                     {
@@ -558,12 +559,12 @@ namespace WTERP
                         string st2 = "insert into dbo.GIBB(WS_NO, NR, WS_DATE, C_NO, OR_NO, OR_NR, P_NO, P_NAME, P_NAME1, P_NAME3," +
                                      " QTY, TRANS, BQTY, PRICE, AMOUNT, COST, C_OR_NO, COLOR, COLOR_c," +
                                      " CAL_YM, WS_KIND, K_NO, ORD_DATE, WS_ORNO, HOVER1,MEMO)" +
-                                     " SELECT N'" + tb3.Text + "', N'" + DGV1.Rows[i].Cells["NR"].Value + "', '" + a + "', N'" + tb4.Text + "', N'" + DGV1.Rows[i].Cells["OR_NO"].Value +
+                                     " SELECT N'" + txtWS_NO.Text + "', N'" + DGV1.Rows[i].Cells["NR"].Value + "', '" + a + "', N'" + txtC_NO.Text + "', N'" + DGV1.Rows[i].Cells["OR_NO"].Value +
                                      "', '" + D4 + "', '" + DGV1.Rows[i].Cells["P_NO"].Value + "', N'" + DGV1.Rows[i].Cells["P_NAME"].Value +"'," +
                                      " N'" + DGV1.Rows[i].Cells["P_NAME1"].Value + "', '" + DGV1.Rows[i].Cells["P_NAME3"].Value + "',ROUND( '" + DGV1.Rows[i].Cells["QTY"].Value + "',2), 0, ROUND('" + DGV1.Rows[i].Cells["BQTY"].Value +
                                      "',2), ROUND('" + DGV1.Rows[i].Cells["PRICE"].Value + "',2),ROUND('" + DGV1.Rows[i].Cells["AMOUNT"].Value + "',2), 0, '" + DGV1.Rows[i].Cells["OR_NO"].Value +
                                      "', N'" + DGV1.Rows[i].Cells["COLOR"].Value + "', N'" + DGV1.Rows[i].Cells["COLOR_C"].Value + "', '" + DGV1.Rows[i].Cells["CAL_YM"].Value +
-                                     "', '" + tb2.Text + "', '" + D3 + "',(SELECT WS_DATE FROM ORDB WHERE WS_DATE = '" + D1 + "' AND C_NO = '" + D2 + "' AND K_NO = '" + D3 + "' AND NR= '" + D4 + "'),(SELECT WS_RNO FROM ORDB WHERE WS_DATE = '" + D1 + "' AND C_NO = '" + D2 + "' AND K_NO = '" + D3 + "' AND NR= '" + D4 + "'),'N','" + DGV1.Rows[i].Cells["MEMO"].Value+ "' ";
+                                     "', '" + txtWS_KIND.Text + "', '" + D3 + "',(SELECT WS_DATE FROM ORDB WHERE WS_DATE = '" + D1 + "' AND C_NO = '" + D2 + "' AND K_NO = '" + D3 + "' AND NR= '" + D4 + "'),(SELECT WS_RNO FROM ORDB WHERE WS_DATE = '" + D1 + "' AND C_NO = '" + D2 + "' AND K_NO = '" + D3 + "' AND NR= '" + D4 + "'),'N','" + DGV1.Rows[i].Cells["MEMO"].Value+ "' ";
                         checktransaction = conn.ExecuteTransaction(st2);
                         if (checktransaction == false)
                         {
@@ -572,16 +573,16 @@ namespace WTERP
                         }
                     }
                 }
-                else if (tb2.Text == "B") // CONG NO
+                else if (txtWS_KIND.Text == "B") // CONG NO
                 {
                     for (int i = 0; i < DGV1.RowCount; i++)
                     {
                         string st2 = "insert into dbo.GIBB(WS_NO, NR, WS_DATE, C_NO, P_NO, P_NAME, P_NAME1, UNIT, BUNIT," +
                             " QTY, TRANS, CUNIT, BQTY, PRICE, AMOUNT, COST, SH_NO, CAL_YM, WS_KIND, OVER0, WS_ORNO, HOVER1, OR_NO)" +
-                            " SELECT '" + tb3.Text + "', '" + DGV1.Rows[i].Cells["NR"].Value + "', '" + a + "', '" + tb4.Text + "', '" + DGV1.Rows[i].Cells["P_NO"].Value +
+                            " SELECT '" + txtWS_NO.Text + "', '" + DGV1.Rows[i].Cells["NR"].Value + "', '" + a + "', '" + txtC_NO.Text + "', '" + DGV1.Rows[i].Cells["P_NO"].Value +
                             "', N'" + DGV1.Rows[i].Cells["P_NAME"].Value + "', N'" + DGV1.Rows[i].Cells["P_NAME1"].Value + "', 'SF', 'SF' " +
                             ",ROUND( '" + DGV1.Rows[i].Cells["QTY"].Value + "',2), 1, 2, ROUND('" + DGV1.Rows[i].Cells["BQTY"].Value + "',2), ROUND('" + DGV1.Rows[i].Cells["PRICE"].Value + "',2), ROUND('" + DGV1.Rows[i].Cells["AMOUNT"].Value +
-                            "',2), 0, 'A', '" + DGV1.Rows[i].Cells["CAL_YM"].Value + "', '" + tb2.Text + "','Y', 0, 'N',''";
+                            "',2), 0, 'A', '" + DGV1.Rows[i].Cells["CAL_YM"].Value + "', '" + txtWS_KIND.Text + "','Y', 0, 'N',''";
                         checktransaction = conn.ExecuteTransaction(st2);
                         if (checktransaction == false)
                         {
@@ -597,47 +598,13 @@ namespace WTERP
                 MessageBox.Show(ex.Message);
             }
         }
-        private void UPDATE_DGV()
-        {
-            try
-            {
-                for (int i = 0; i < DGV1.Rows.Count; i++)
-                {
-                    if(string.IsNullOrEmpty(conn.ExecuteScalar("SELECT WS_NO FROM dbo.GIBB WHERE WS_NO='"+ tb3.Text+ "' AND NR='"+ DGV1.Rows[i].Cells["NR"].Value.ToString()+ "'"))) //Adding New Item
-                    {
-                        if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
-                        {
-
-                        }
-                        else if (tb2.Text == "B")
-                        {
-
-                        }
-                    }
-                    else//Update Items
-                    {
-                        if (tb2.Text == "T" || tb2.Text == "C") // HANG BU, TRA
-                        {
-
-                        }
-                        else if (tb2.Text == "B")
-                        {
-
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, conn.MessaError(), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+        
         public void DELETE_DATA()
         {
             bool check1 = false;
             conn.OpentTransaction();
             DELETE_DGV();
-            string MaTL = tb3.Text;
+            string MaTL = txtWS_NO.Text;
             if (MaTL == "")
             {
                 MessageBox.Show("" + txtNodata + "");
@@ -669,7 +636,7 @@ namespace WTERP
             for (int i = 0; i < DGV1.RowCount; i++)
             {
                 string A1 = DGV1.Rows[i].Cells["NR"].Value.ToString();
-                check1 = conn.ExecuteTransaction("delete from GIBB where WS_NO = '" + tb3.Text + "' AND NR = '" + A1 + "'");
+                check1 = conn.ExecuteTransaction("delete from GIBB where WS_NO = '" + txtWS_NO.Text + "' AND NR = '" + A1 + "'");
                 if (check1 == false)
                 {
                     conn.CloseTransaction(false);
@@ -681,11 +648,11 @@ namespace WTERP
         public void UPDATE_DATA()
         {
             conn.OpentTransaction();
-            string st1 = "update dbo.GIBH set WS_DATE='" + a + "', WS_KIND='" + tb2.Text + "', WS_NO='" + tb3.Text + "'," +
-                " C_NO='" + tb4.Text + "', C_NAME=N'" + tb5.Text + "', TOT='" + tb6.Text + "', TOTAL='" + tb7.Text + "', MEMO1=N'" + tb8.Text + "', MEMO2=N'" + tb9.Text + "'," +
-                " MEMO3=N'" + tb10.Text + "', MEMO4=N'" + tb11.Text + "', MEMO5=N'" + tb12.Text + "', MEMO6=N'" + tb13.Text + "', MEMO7=N'" + tb14.Text + "', MEMO8=N'" + tb15.Text + "', " +
-                "CAL_YM='" + conn.formatstr2(tb16.Text) + "', USR_NAME = N'" + lbUserName.Text + "' where WS_NO= '" + tb3.Text + "'";
-            if (tb2.Text == string.Empty)
+            string st1 = "update dbo.GIBH set WS_DATE='" + a + "', WS_KIND='" + txtWS_KIND.Text + "', WS_NO='" + txtWS_NO.Text + "'," +
+                " C_NO='" + txtC_NO.Text + "', C_NAME=N'" + txtC_NAME.Text + "', TOT='" + txtTOT.Text + "', TOTAL='" + txtTOTAL.Text + "', MEMO1=N'" + txtMEMO1.Text + "', MEMO2=N'" + txtMEMO2.Text + "'," +
+                " MEMO3=N'" + txtMEMO3.Text + "', MEMO4=N'" + txtMEMO4.Text + "', MEMO5=N'" + txtMEMO5.Text + "', MEMO6=N'" + txtMEMO6.Text + "', MEMO7=N'" + txtMEMO7.Text + "', MEMO8=N'" + txtMEMO8.Text + "', " +
+                "CAL_YM='" + conn.formatstr2(txtCAL_YM.Text) + "', USR_NAME = N'" + lbUserName.Text + "' where WS_NO= '" + txtWS_NO.Text + "'";
+            if (txtWS_KIND.Text == string.Empty)
             {
                 MessageBox.Show("" + txtText + "");
                 return;
@@ -701,10 +668,6 @@ namespace WTERP
                 {
                     conn.CloseTransaction(false);
                 }
-
-                //Update_DGV();
-                //con.Close();
-
             }
             catch (Exception ex)
             {
@@ -717,7 +680,7 @@ namespace WTERP
         { 
             try
             {
-                bool check = conn.ExecuteTransaction("delete from GIBB where WS_NO = '" + tb3.Text + "'");
+                bool check = conn.ExecuteTransaction("delete from GIBB where WS_NO = '" + txtWS_NO.Text + "'");
                 if (check == true)
                 {
                     Insert_DGV();
@@ -754,7 +717,7 @@ namespace WTERP
             f3ToolStripMenuItem.Checked = false;
             f4ToolStripMenuItem.Checked = false;
 
-            tb3.Enabled = true;
+            txtWS_NO.Enabled = true;
 
             btdau.Enabled = true;
             bttruoc.Enabled = true;
@@ -771,21 +734,21 @@ namespace WTERP
         {
             if (f2ToolStripMenuItem.Checked == true)
             {
-                if (tb2.Text == "")
-                    tb2.Text = "B";
-                else if (tb2.Text == "B")
-                    tb2.Text = "T";
-                else if (tb2.Text == "T")
-                    tb2.Text = "C";
-                else if (tb2.Text == "C")
-                    tb2.Text = "B";
+                if (txtWS_KIND.Text == "")
+                    txtWS_KIND.Text = "B";
+                else if (txtWS_KIND.Text == "B")
+                    txtWS_KIND.Text = "T";
+                else if (txtWS_KIND.Text == "T")
+                    txtWS_KIND.Text = "C";
+                else if (txtWS_KIND.Text == "C")
+                    txtWS_KIND.Text = "B";
 
                 bool chk = false;
                 chk = Checktb3();
                 if (chk)
                 {
                     MessageBox.Show(txt3);
-                    tb3.Focus();
+                    txtWS_NO.Focus();
                 }
             }
         }
@@ -794,21 +757,21 @@ namespace WTERP
         {
             if (f2ToolStripMenuItem.Checked == true)
             {
-                string sql = "EXEC dbo.CreateWS_NO_2E @WS_KIND = N'" + tb2.Text + "',@WS_DATE = N'" + conn.formatstr2(tb1.Text) + "'";
+                string sql = "EXEC dbo.CreateWS_NO_2E @WS_KIND = N'" + txtWS_KIND.Text + "',@WS_DATE = N'" + conn.formatstr2(txtWS_DATE.Text) + "'";
                 DataTable dt23 = new DataTable();
                 dt23 = conn.readdata(sql);
                 if (dt23.Rows.Count > 0)
                 {
-                    tb3.Text = dt23.Rows[0]["WS_NO_NEW"].ToString();
+                    txtWS_NO.Text = dt23.Rows[0]["WS_NO_NEW"].ToString();
                 }
                 Load_DGV();
             }
         }
         public void check()
         {
-            if (conn.Check_MaskedText(tb1) == true)
+            if (conn.Check_MaskedText(txtWS_DATE) == true)
             {
-                a = conn.formatstr2(tb1.Text);
+                a = conn.formatstr2(txtWS_DATE.Text);
             }
         }
         void tab(TextBox txtUp, TextBox txtDown, object sender, KeyEventArgs e)
@@ -820,83 +783,83 @@ namespace WTERP
         }
         private void tb1_KeyDown_1(object sender, KeyEventArgs e)
         {
-            conn.tab_UP(tb16, tb2, sender, e);
+            conn.tab_UP(txtCAL_YM, txtWS_KIND, sender, e);
         }
 
         private void tb2_KeyDown(object sender, KeyEventArgs e)
         {
-            conn.tab_UP(tb1, tb3, sender, e);
+            conn.tab_UP(txtWS_DATE, txtWS_NO, sender, e);
         }
 
         private void tb3_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb2, tb4, sender, e);
+            tab(txtWS_KIND, txtC_NO, sender, e);
         }
 
         private void tb4_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb3, tb5, sender, e);
+            tab(txtWS_NO, txtC_NAME, sender, e);
         }
 
         private void tb5_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb4, tb6, sender, e);
+            tab(txtC_NO, txtTOT, sender, e);
         }
 
         private void tb6_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb5, tb7, sender, e);
+            tab(txtC_NAME, txtTOTAL, sender, e);
         }
 
         private void tb7_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb6, tb8, sender, e);
+            tab(txtTOT, txtMEMO1, sender, e);
         }
 
         private void tb8_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb7, tb9, sender, e);
+            tab(txtTOTAL, txtMEMO2, sender, e);
         }
 
         private void tb9_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb8, tb10, sender, e);
+            tab(txtMEMO1, txtMEMO3, sender, e);
         }
 
         private void tb10_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb9, tb11, sender, e);
+            tab(txtMEMO2, txtMEMO4, sender, e);
         }
 
         private void tb11_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb10, tb12, sender, e);
+            tab(txtMEMO3, txtMEMO5, sender, e);
         }
 
         private void tb12_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb11, tb13, sender, e);
+            tab(txtMEMO4, txtMEMO6, sender, e);
         }
 
         private void tb13_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb12, tb14, sender, e);
+            tab(txtMEMO5, txtMEMO7, sender, e);
         }
 
         private void tb14_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb13, tb15, sender, e);
+            tab(txtMEMO6, txtMEMO8, sender, e);
         }
 
         private void tb15_KeyDown(object sender, KeyEventArgs e)
         {
 
-            conn.tab_DOWN(tb14, tb16, sender, e);
+            conn.tab_DOWN(txtMEMO7, txtCAL_YM, sender, e);
         }
 
         private void tb16_KeyDown(object sender, KeyEventArgs e)
         {
-            tab(tb15, tb11, sender, e);
+            tab(txtMEMO8, txtMEMO4, sender, e);
         }
 
         private void tb4_TextChanged(object sender, EventArgs e)
@@ -910,12 +873,12 @@ namespace WTERP
         string key = "";
         private void getDataCust()
         {
-            string ST = "Exec getRCV_DATE_2E '" + conn.formatstr2(tb1.Text) + "', '" + tb4.Text + "'";
+            string ST = "Exec getRCV_DATE_2E '" + conn.formatstr2(txtWS_DATE.Text) + "', '" + txtC_NO.Text + "'";
             dt = conn.readdata(ST);
             foreach (DataRow dr in dt.Rows)
             {
-                tb4.Text = dr["C_NO"].ToString();
-                tb5.Text = dr["C_NAME2"].ToString();
+                txtC_NO.Text = dr["C_NO"].ToString();
+                txtC_NAME.Text = dr["C_NAME2"].ToString();
                 DateTime date = DateTime.Parse(dr["RCV_DATE"].ToString());
                 if (date.Month <= 9)
                 {
@@ -925,7 +888,7 @@ namespace WTERP
                 {
                     key = date.Year.ToString() + date.Month.ToString();
                 }
-                tb16.Text = key;
+                txtCAL_YM.Text = key;
             }
         }
         private void tb4_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -942,15 +905,15 @@ namespace WTERP
                     dt = conn.readdata(ST);
                     foreach (DataRow dr in dt.Rows)
                     {
-                        tb4.Text = dr["C_NO"].ToString();
-                        tb5.Text = dr["C_NAME2"].ToString();
+                        txtC_NO.Text = dr["C_NO"].ToString();
+                        txtC_NAME.Text = dr["C_NAME2"].ToString();
                     }
 
                 }
                 else
                 {
-                    tb4.Text = "";
-                    tb5.Text = "";
+                    txtC_NO.Text = "";
+                    txtC_NAME.Text = "";
                 }
             }
 
@@ -985,10 +948,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb8.Text = DL;
+                    txtMEMO1.Text = DL;
                 }
                 else
-                    tb8.Text = "";
+                    txtMEMO1.Text = "";
             }
         }
 
@@ -1002,10 +965,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb9.Text = DL;
+                    txtMEMO2.Text = DL;
                 }
                 else
-                    tb9.Text = "";
+                    txtMEMO2.Text = "";
             }
         }
 
@@ -1019,10 +982,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb10.Text = DL;
+                    txtMEMO3.Text = DL;
                 }
                 else
-                    tb10.Text = "";
+                    txtMEMO3.Text = "";
             }
         }
 
@@ -1036,10 +999,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb11.Text = DL;
+                    txtMEMO4.Text = DL;
                 }
                 else
-                    tb11.Text = "";
+                    txtMEMO4.Text = "";
             }
         }
 
@@ -1053,10 +1016,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb12.Text = DL;
+                    txtMEMO5.Text = DL;
                 }
                 else
-                    tb12.Text = "";
+                    txtMEMO5.Text = "";
             }
         }
 
@@ -1070,10 +1033,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb13.Text = DL;
+                    txtMEMO6.Text = DL;
                 }
                 else
-                    tb13.Text = "";
+                    txtMEMO6.Text = "";
             }
         }
 
@@ -1087,10 +1050,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb14.Text = DL;
+                    txtMEMO7.Text = DL;
                 }
                 else
-                    tb14.Text = "";
+                    txtMEMO7.Text = "";
             }
         }
 
@@ -1104,10 +1067,10 @@ namespace WTERP
                 string DL = FormSearchLeather2.ID.M_NAME;
                 if (DL != string.Empty)
                 {
-                    tb15.Text = DL;
+                    txtMEMO8.Text = DL;
                 }
                 else
-                    tb15.Text = "";
+                    txtMEMO8.Text = "";
             }
         }
 
@@ -1117,7 +1080,7 @@ namespace WTERP
             {
                 LibraryCalender.FromCalender fm = new FromCalender();
                 fm.ShowDialog();
-                tb16.Text = FromCalender.getDate.ToString("yyyy/MM");
+                txtCAL_YM.Text = FromCalender.getDate.ToString("yyyy/MM");
                 //frmDateTime fm = new frmDateTime();
                 //fm.ShowDialog();
                 //tb16.Text = frmDateTime.Date.ToString("yyyy/MM");
@@ -1166,14 +1129,14 @@ namespace WTERP
             {
                 if (f2ToolStripMenuItem.Checked == true)
                 {
-                    if (!string.IsNullOrEmpty(tb2.Text))
+                    if (!string.IsNullOrEmpty(txtWS_KIND.Text))
                     {
-                        string sql = "EXEC dbo.CreateWS_NO_2E @WS_KIND = N'" + tb2.Text + "',@WS_DATE = N'" + conn.formatstr2(tb1.Text) + "'";
+                        string sql = "EXEC dbo.CreateWS_NO_2E @WS_KIND = N'" + txtWS_KIND.Text + "',@WS_DATE = N'" + conn.formatstr2(txtWS_DATE.Text) + "'";
                         DataTable dt23 = new DataTable();
                         dt23 = conn.readdata(sql);
                         if (dt23.Rows.Count > 0)
                         {
-                            tb3.Text = dt23.Rows[0]["WS_NO_NEW"].ToString();
+                            txtWS_NO.Text = dt23.Rows[0]["WS_NO_NEW"].ToString();
                         }
                         Load_DGV();
                     }
@@ -1228,7 +1191,7 @@ namespace WTERP
         {
             FromCalender fm = new FromCalender();
             fm.ShowDialog();
-            tb1.Text = FromCalender.getDate.ToString("yyyyMMdd");
+            txtWS_DATE.Text = FromCalender.getDate.ToString("yyyyMMdd");
         }
 
         private void DGV1_MouseClick(object sender, MouseEventArgs e)
@@ -1257,7 +1220,7 @@ namespace WTERP
                 case "Insert":
                     try
                     {
-                        if (!string.IsNullOrEmpty(tb3.Text))
+                        if (!string.IsNullOrEmpty(txtWS_NO.Text))
                         {
                             frm2E_DGV fr1 = new frm2E_DGV();
                             fr1.ShowDialog();
@@ -1277,8 +1240,8 @@ namespace WTERP
                                 //NR++;
                             }
                             DGV1.DataSource = dataTable;
-                            tb6.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
-                            tb7.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
+                            txtTOT.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
+                            txtTOTAL.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
                         }
                         else
                         {
@@ -1317,7 +1280,7 @@ namespace WTERP
                 if (chk)
                 {
                     MessageBox.Show(txt3);
-                    tb3.Focus();
+                    txtWS_NO.Focus();
                 }
             }
         }
@@ -1331,7 +1294,7 @@ namespace WTERP
                 if (chk)
                 {
                     MessageBox.Show(txt3);
-                    tb3.Focus();
+                    txtWS_NO.Focus();
                 }
             }
         }
@@ -1345,7 +1308,7 @@ namespace WTERP
                 if (chk)
                 {
                     MessageBox.Show(txt3);
-                    tb3.Focus();
+                    txtWS_NO.Focus();
                 }
             }
         }
@@ -1366,13 +1329,13 @@ namespace WTERP
                     {
                         A = A + float.Parse(DGV1.Rows[i].Cells[7].Value.ToString());
                     }
-                    tb6.Text = Math.Round(A, 2).ToString();
-                    tb7.Text = Math.Round(A, 2).ToString();
+                    txtTOT.Text = Math.Round(A, 2).ToString();
+                    txtTOTAL.Text = Math.Round(A, 2).ToString();
                 }
                 else
                 {
-                    tb6.Text = "0";
-                    tb7.Text = "0";
+                    txtTOT.Text = "0";
+                    txtTOTAL.Text = "0";
                 }
 
                 

@@ -130,7 +130,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 11</value>
+    <value>76, 11</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 18</value>
@@ -157,7 +157,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 11</value>
+    <value>145, 11</value>
   </data>
   <data name="txtP_NO.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 24</value>
@@ -187,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 41</value>
+    <value>20, 41</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 18</value>
@@ -214,13 +214,13 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtOR_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 41</value>
+    <value>145, 41</value>
   </data>
   <data name="txtOR_NO.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 24</value>
   </data>
   <data name="txtOR_NO.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtOR_NO.Name" xml:space="preserve">
     <value>txtOR_NO</value>
@@ -244,7 +244,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 72</value>
+    <value>81, 72</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 18</value>
@@ -271,7 +271,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtTHICK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 76</value>
+    <value>145, 76</value>
   </data>
   <data name="txtTHICK.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 24</value>
@@ -301,7 +301,7 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 109</value>
+    <value>11, 109</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 18</value>
@@ -328,7 +328,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NAME_C.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 110</value>
+    <value>144, 110</value>
   </data>
   <data name="txtP_NAME_C.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 24</value>
@@ -358,7 +358,7 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>445, 14</value>
+    <value>412, 14</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 18</value>
@@ -385,7 +385,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtP_NAME_E.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 14</value>
+    <value>536, 14</value>
   </data>
   <data name="txtP_NAME_E.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 24</value>
@@ -415,7 +415,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 43</value>
+    <value>422, 43</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 18</value>
@@ -442,7 +442,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtCOLOR_C.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 46</value>
+    <value>536, 46</value>
   </data>
   <data name="txtCOLOR_C.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 24</value>
@@ -472,7 +472,7 @@
     <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 80</value>
+    <value>435, 80</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 18</value>
@@ -499,7 +499,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtCOLOR_E.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 80</value>
+    <value>536, 80</value>
   </data>
   <data name="txtCOLOR_E.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 24</value>
@@ -529,7 +529,7 @@
     <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 112</value>
+    <value>419, 112</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 18</value>
@@ -556,7 +556,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="txtC_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 110</value>
+    <value>536, 110</value>
   </data>
   <data name="txtC_NO.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 24</value>
@@ -586,7 +586,7 @@
     <value>6</value>
   </data>
   <data name="Column1.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>57</value>
   </data>
   <metadata name="NR.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -598,7 +598,7 @@
     <value>6</value>
   </data>
   <data name="NR.Width" type="System.Int32, mscorlib">
-    <value>50</value>
+    <value>48</value>
   </data>
   <metadata name="OR_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -610,7 +610,7 @@
     <value>6</value>
   </data>
   <data name="OR_NO.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>89</value>
   </data>
   <metadata name="C_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -622,7 +622,7 @@
     <value>6</value>
   </data>
   <data name="C_NO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>47</value>
   </data>
   <metadata name="C_NAME_E.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -634,7 +634,7 @@
     <value>6</value>
   </data>
   <data name="C_NAME_E.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>107</value>
   </data>
   <metadata name="COLOR_E.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -646,7 +646,7 @@
     <value>6</value>
   </data>
   <data name="COLOR_E.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>75</value>
   </data>
   <metadata name="WS_DATE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -658,7 +658,7 @@
     <value>6</value>
   </data>
   <data name="WS_DATE.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>87</value>
   </data>
   <metadata name="P_NAME_E.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -670,7 +670,7 @@
     <value>6</value>
   </data>
   <data name="P_NAME_E.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>94</value>
   </data>
   <metadata name="THICK.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -682,7 +682,7 @@
     <value>6</value>
   </data>
   <data name="THICK.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>63</value>
   </data>
   <metadata name="QTY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -694,7 +694,7 @@
     <value>6</value>
   </data>
   <data name="QTY.Width" type="System.Int32, mscorlib">
-    <value>50</value>
+    <value>72</value>
   </data>
   <metadata name="P_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -706,7 +706,7 @@
     <value>6</value>
   </data>
   <data name="P_NO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>65</value>
   </data>
   <metadata name="K_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -718,7 +718,7 @@
     <value>6</value>
   </data>
   <data name="K_NO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>64</value>
   </data>
   <metadata name="PATT_C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -730,7 +730,7 @@
     <value>6</value>
   </data>
   <data name="PATT_C.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>89</value>
   </data>
   <metadata name="PATT_E.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -742,7 +742,7 @@
     <value>6</value>
   </data>
   <data name="PATT_E.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>81</value>
   </data>
   <metadata name="MODEL_E.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -754,16 +754,19 @@
     <value>6</value>
   </data>
   <data name="MODEL_E.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>92</value>
+  </data>
+  <data name="DGV1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 176</value>
+    <value>0, 187</value>
   </data>
   <data name="DGV1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>936, 457</value>
+    <value>962, 472</value>
   </data>
   <data name="DGV1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -790,7 +793,7 @@
     <value>NoControl</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 145</value>
+    <value>58, 145</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 18</value>
@@ -817,7 +820,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 141</value>
+    <value>144, 141</value>
   </data>
   <data name="txtDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -863,10 +866,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>850, 70</value>
+    <value>817, 70</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 45</value>
+    <value>134, 43</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -905,10 +908,10 @@
     <value>NoControl</value>
   </data>
   <data name="btok.Location" type="System.Drawing.Point, System.Drawing">
-    <value>848, 14</value>
+    <value>815, 14</value>
   </data>
   <data name="btok.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 45</value>
+    <value>137, 43</value>
   </data>
   <data name="btok.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>

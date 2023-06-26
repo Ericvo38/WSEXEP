@@ -31,27 +31,27 @@ namespace WTERP
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2E));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tb16 = new System.Windows.Forms.MaskedTextBox();
-            this.tb1 = new System.Windows.Forms.MaskedTextBox();
-            this.tb13 = new System.Windows.Forms.TextBox();
-            this.tb7 = new System.Windows.Forms.TextBox();
-            this.tb6 = new System.Windows.Forms.TextBox();
+            this.txtCAL_YM = new System.Windows.Forms.MaskedTextBox();
+            this.txtWS_DATE = new System.Windows.Forms.MaskedTextBox();
+            this.txtMEMO6 = new System.Windows.Forms.TextBox();
+            this.txtTOTAL = new System.Windows.Forms.TextBox();
+            this.txtTOT = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.tb15 = new System.Windows.Forms.TextBox();
-            this.tb14 = new System.Windows.Forms.TextBox();
-            this.tb12 = new System.Windows.Forms.TextBox();
-            this.tb11 = new System.Windows.Forms.TextBox();
-            this.tb10 = new System.Windows.Forms.TextBox();
-            this.tb9 = new System.Windows.Forms.TextBox();
-            this.tb8 = new System.Windows.Forms.TextBox();
-            this.tb5 = new System.Windows.Forms.TextBox();
-            this.tb4 = new System.Windows.Forms.TextBox();
-            this.tb3 = new System.Windows.Forms.TextBox();
-            this.tb2 = new System.Windows.Forms.TextBox();
+            this.txtMEMO8 = new System.Windows.Forms.TextBox();
+            this.txtMEMO7 = new System.Windows.Forms.TextBox();
+            this.txtMEMO5 = new System.Windows.Forms.TextBox();
+            this.txtMEMO4 = new System.Windows.Forms.TextBox();
+            this.txtMEMO3 = new System.Windows.Forms.TextBox();
+            this.txtMEMO2 = new System.Windows.Forms.TextBox();
+            this.txtMEMO1 = new System.Windows.Forms.TextBox();
+            this.txtC_NAME = new System.Windows.Forms.TextBox();
+            this.txtC_NO = new System.Windows.Forms.TextBox();
+            this.txtWS_NO = new System.Windows.Forms.TextBox();
+            this.txtWS_KIND = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -80,6 +80,15 @@ namespace WTERP
             this.label4 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.f8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -105,15 +114,6 @@ namespace WTERP
             this.btsau = new System.Windows.Forms.Button();
             this.bttruoc = new System.Windows.Forms.Button();
             this.btdau = new System.Windows.Forms.Button();
-            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -125,24 +125,23 @@ namespace WTERP
             // 
             // tabPage2
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.Controls.Add(this.tb16);
-            this.tabPage2.Controls.Add(this.tb1);
-            this.tabPage2.Controls.Add(this.tb13);
-            this.tabPage2.Controls.Add(this.tb7);
-            this.tabPage2.Controls.Add(this.tb6);
+            this.tabPage2.Controls.Add(this.txtCAL_YM);
+            this.tabPage2.Controls.Add(this.txtWS_DATE);
+            this.tabPage2.Controls.Add(this.txtMEMO6);
+            this.tabPage2.Controls.Add(this.txtTOTAL);
+            this.tabPage2.Controls.Add(this.txtTOT);
             this.tabPage2.Controls.Add(this.label14);
-            this.tabPage2.Controls.Add(this.tb15);
-            this.tabPage2.Controls.Add(this.tb14);
-            this.tabPage2.Controls.Add(this.tb12);
-            this.tabPage2.Controls.Add(this.tb11);
-            this.tabPage2.Controls.Add(this.tb10);
-            this.tabPage2.Controls.Add(this.tb9);
-            this.tabPage2.Controls.Add(this.tb8);
-            this.tabPage2.Controls.Add(this.tb5);
-            this.tabPage2.Controls.Add(this.tb4);
-            this.tabPage2.Controls.Add(this.tb3);
-            this.tabPage2.Controls.Add(this.tb2);
+            this.tabPage2.Controls.Add(this.txtMEMO8);
+            this.tabPage2.Controls.Add(this.txtMEMO7);
+            this.tabPage2.Controls.Add(this.txtMEMO5);
+            this.tabPage2.Controls.Add(this.txtMEMO4);
+            this.tabPage2.Controls.Add(this.txtMEMO3);
+            this.tabPage2.Controls.Add(this.txtMEMO2);
+            this.tabPage2.Controls.Add(this.txtMEMO1);
+            this.tabPage2.Controls.Add(this.txtC_NAME);
+            this.tabPage2.Controls.Add(this.txtC_NO);
+            this.tabPage2.Controls.Add(this.txtWS_NO);
+            this.tabPage2.Controls.Add(this.txtWS_KIND);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label11);
@@ -151,39 +150,40 @@ namespace WTERP
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label4);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tb16
+            // txtCAL_YM
             // 
-            resources.ApplyResources(this.tb16, "tb16");
-            this.tb16.Name = "tb16";
+            resources.ApplyResources(this.txtCAL_YM, "txtCAL_YM");
+            this.txtCAL_YM.Name = "txtCAL_YM";
             // 
-            // tb1
+            // txtWS_DATE
             // 
-            resources.ApplyResources(this.tb1, "tb1");
-            this.tb1.Name = "tb1";
-            this.tb1.Click += new System.EventHandler(this.tb1_Click);
-            this.tb1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb1_KeyDown_1);
+            resources.ApplyResources(this.txtWS_DATE, "txtWS_DATE");
+            this.txtWS_DATE.Name = "txtWS_DATE";
+            this.txtWS_DATE.Click += new System.EventHandler(this.tb1_Click);
+            this.txtWS_DATE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb1_KeyDown_1);
             // 
-            // tb13
+            // txtMEMO6
             // 
-            resources.ApplyResources(this.tb13, "tb13");
-            this.tb13.Name = "tb13";
-            this.tb13.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb13_KeyDown);
-            this.tb13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb13_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO6, "txtMEMO6");
+            this.txtMEMO6.Name = "txtMEMO6";
+            this.txtMEMO6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb13_KeyDown);
+            this.txtMEMO6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb13_MouseDoubleClick);
             // 
-            // tb7
+            // txtTOTAL
             // 
-            resources.ApplyResources(this.tb7, "tb7");
-            this.tb7.Name = "tb7";
-            this.tb7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb7_KeyDown);
+            resources.ApplyResources(this.txtTOTAL, "txtTOTAL");
+            this.txtTOTAL.Name = "txtTOTAL";
+            this.txtTOTAL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb7_KeyDown);
             // 
-            // tb6
+            // txtTOT
             // 
-            resources.ApplyResources(this.tb6, "tb6");
-            this.tb6.Name = "tb6";
-            this.tb6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb6_KeyDown);
+            resources.ApplyResources(this.txtTOT, "txtTOT");
+            this.txtTOT.Name = "txtTOT";
+            this.txtTOT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb6_KeyDown);
             // 
             // label14
             // 
@@ -191,85 +191,85 @@ namespace WTERP
             this.label14.ForeColor = System.Drawing.Color.Brown;
             this.label14.Name = "label14";
             // 
-            // tb15
+            // txtMEMO8
             // 
-            resources.ApplyResources(this.tb15, "tb15");
-            this.tb15.Name = "tb15";
-            this.tb15.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb15_KeyDown);
-            this.tb15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb15_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO8, "txtMEMO8");
+            this.txtMEMO8.Name = "txtMEMO8";
+            this.txtMEMO8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb15_KeyDown);
+            this.txtMEMO8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb15_MouseDoubleClick);
             // 
-            // tb14
+            // txtMEMO7
             // 
-            resources.ApplyResources(this.tb14, "tb14");
-            this.tb14.Name = "tb14";
-            this.tb14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb14_KeyDown);
-            this.tb14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb14_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO7, "txtMEMO7");
+            this.txtMEMO7.Name = "txtMEMO7";
+            this.txtMEMO7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb14_KeyDown);
+            this.txtMEMO7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb14_MouseDoubleClick);
             // 
-            // tb12
+            // txtMEMO5
             // 
-            resources.ApplyResources(this.tb12, "tb12");
-            this.tb12.Name = "tb12";
-            this.tb12.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb12_KeyDown);
-            this.tb12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb12_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO5, "txtMEMO5");
+            this.txtMEMO5.Name = "txtMEMO5";
+            this.txtMEMO5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb12_KeyDown);
+            this.txtMEMO5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb12_MouseDoubleClick);
             // 
-            // tb11
+            // txtMEMO4
             // 
-            resources.ApplyResources(this.tb11, "tb11");
-            this.tb11.Name = "tb11";
-            this.tb11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb11_KeyDown);
-            this.tb11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb11_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO4, "txtMEMO4");
+            this.txtMEMO4.Name = "txtMEMO4";
+            this.txtMEMO4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb11_KeyDown);
+            this.txtMEMO4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb11_MouseDoubleClick);
             // 
-            // tb10
+            // txtMEMO3
             // 
-            resources.ApplyResources(this.tb10, "tb10");
-            this.tb10.Name = "tb10";
-            this.tb10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb10_KeyDown);
-            this.tb10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb10_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO3, "txtMEMO3");
+            this.txtMEMO3.Name = "txtMEMO3";
+            this.txtMEMO3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb10_KeyDown);
+            this.txtMEMO3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb10_MouseDoubleClick);
             // 
-            // tb9
+            // txtMEMO2
             // 
-            resources.ApplyResources(this.tb9, "tb9");
-            this.tb9.Name = "tb9";
-            this.tb9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb9_KeyDown);
-            this.tb9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb9_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO2, "txtMEMO2");
+            this.txtMEMO2.Name = "txtMEMO2";
+            this.txtMEMO2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb9_KeyDown);
+            this.txtMEMO2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb9_MouseDoubleClick);
             // 
-            // tb8
+            // txtMEMO1
             // 
-            resources.ApplyResources(this.tb8, "tb8");
-            this.tb8.Name = "tb8";
-            this.tb8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb8_KeyDown);
-            this.tb8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb8_MouseDoubleClick);
+            resources.ApplyResources(this.txtMEMO1, "txtMEMO1");
+            this.txtMEMO1.Name = "txtMEMO1";
+            this.txtMEMO1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb8_KeyDown);
+            this.txtMEMO1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb8_MouseDoubleClick);
             // 
-            // tb5
+            // txtC_NAME
             // 
-            resources.ApplyResources(this.tb5, "tb5");
-            this.tb5.Name = "tb5";
-            this.tb5.Click += new System.EventHandler(this.tb5_Click);
-            this.tb5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb5_KeyDown);
+            resources.ApplyResources(this.txtC_NAME, "txtC_NAME");
+            this.txtC_NAME.Name = "txtC_NAME";
+            this.txtC_NAME.Click += new System.EventHandler(this.tb5_Click);
+            this.txtC_NAME.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb5_KeyDown);
             // 
-            // tb4
+            // txtC_NO
             // 
-            resources.ApplyResources(this.tb4, "tb4");
-            this.tb4.Name = "tb4";
-            this.tb4.Click += new System.EventHandler(this.tb4_Click);
-            this.tb4.TextChanged += new System.EventHandler(this.tb4_TextChanged);
-            this.tb4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb4_KeyDown);
-            this.tb4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb4_MouseDoubleClick);
+            resources.ApplyResources(this.txtC_NO, "txtC_NO");
+            this.txtC_NO.Name = "txtC_NO";
+            this.txtC_NO.Click += new System.EventHandler(this.tb4_Click);
+            this.txtC_NO.TextChanged += new System.EventHandler(this.tb4_TextChanged);
+            this.txtC_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb4_KeyDown);
+            this.txtC_NO.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tb4_MouseDoubleClick);
             // 
-            // tb3
+            // txtWS_NO
             // 
-            resources.ApplyResources(this.tb3, "tb3");
-            this.tb3.Name = "tb3";
-            this.tb3.Click += new System.EventHandler(this.tb3_Click);
-            this.tb3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb3_KeyDown);
+            resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
+            this.txtWS_NO.Name = "txtWS_NO";
+            this.txtWS_NO.Click += new System.EventHandler(this.tb3_Click);
+            this.txtWS_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb3_KeyDown);
             // 
-            // tb2
+            // txtWS_KIND
             // 
-            resources.ApplyResources(this.tb2, "tb2");
-            this.tb2.Name = "tb2";
-            this.tb2.Click += new System.EventHandler(this.tb2_Click);
-            this.tb2.TextChanged += new System.EventHandler(this.tb2_TextChanged);
-            this.tb2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb2_KeyDown);
+            resources.ApplyResources(this.txtWS_KIND, "txtWS_KIND");
+            this.txtWS_KIND.Name = "txtWS_KIND";
+            this.txtWS_KIND.Click += new System.EventHandler(this.tb2_Click);
+            this.txtWS_KIND.TextChanged += new System.EventHandler(this.tb2_TextChanged);
+            this.txtWS_KIND.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb2_KeyDown);
             // 
             // label13
             // 
@@ -291,7 +291,6 @@ namespace WTERP
             // 
             // DGV1
             // 
-            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.AllowUserToAddRows = false;
             this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -314,6 +313,7 @@ namespace WTERP
             this.WS_DATE,
             this.C_NO,
             this.K_NO});
+            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.Name = "DGV1";
             this.DGV1.RowTemplate.Height = 28;
             this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit);
@@ -354,26 +354,26 @@ namespace WTERP
             // BQTY
             // 
             this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle7.Format = "N2";
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Format = "N2";
+            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.BQTY, "BQTY");
             this.BQTY.Name = "BQTY";
             // 
             // PRICE
             // 
             this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle8.Format = "N2";
-            dataGridViewCellStyle8.NullValue = null;
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.PRICE.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.PRICE, "PRICE");
             this.PRICE.Name = "PRICE";
             // 
             // AMOUNT
             // 
             this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle9.Format = "N2";
-            dataGridViewCellStyle9.NullValue = null;
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Format = "N2";
+            dataGridViewCellStyle3.NullValue = null;
+            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.AMOUNT, "AMOUNT");
             this.AMOUNT.Name = "AMOUNT";
             // 
@@ -463,14 +463,13 @@ namespace WTERP
             // 
             // tabControl1
             // 
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage2);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -487,173 +486,8 @@ namespace WTERP
             this.f8ToolStripMenuItem,
             this.f9ToolStripMenuItem,
             this.f11ToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            // 
-            // toolStripMenuItem1
-            // 
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            // 
-            // f8ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
-            this.f8ToolStripMenuItem.Name = "f8ToolStripMenuItem";
-            // 
-            // f9ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f9ToolStripMenuItem, "f9ToolStripMenuItem");
-            this.f9ToolStripMenuItem.Name = "f9ToolStripMenuItem";
-            // 
-            // f11ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
-            this.f11ToolStripMenuItem.Name = "f11ToolStripMenuItem";
-            // 
-            // btnTimeNow
-            // 
-            resources.ApplyResources(this.btnTimeNow, "btnTimeNow");
-            this.btnTimeNow.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.btnTimeNow.Name = "btnTimeNow";
-            this.btnTimeNow.UseVisualStyleBackColor = true;
-            // 
-            // btndateNow
-            // 
-            resources.ApplyResources(this.btndateNow, "btndateNow");
-            this.btndateNow.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btndateNow.Name = "btndateNow";
-            this.btndateNow.UseVisualStyleBackColor = true;
-            // 
-            // bt
-            // 
-            resources.ApplyResources(this.bt, "bt");
-            this.bt.ForeColor = System.Drawing.Color.Green;
-            this.bt.Name = "bt";
-            this.bt.UseVisualStyleBackColor = true;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // contextMenuStrip2
-            // 
-            resources.ApplyResources(this.contextMenuStrip2, "contextMenuStrip2");
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thêmMớiToolStripMenuItem,
-            this.xóaXToolStripMenuItem});
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            // 
-            // thêmMớiToolStripMenuItem
-            // 
-            resources.ApplyResources(this.thêmMớiToolStripMenuItem, "thêmMớiToolStripMenuItem");
-            this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
-            // 
-            // xóaXToolStripMenuItem
-            // 
-            resources.ApplyResources(this.xóaXToolStripMenuItem, "xóaXToolStripMenuItem");
-            this.xóaXToolStripMenuItem.Name = "xóaXToolStripMenuItem";
-            this.xóaXToolStripMenuItem.Click += new System.EventHandler(this.xóaXToolStripMenuItem_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.contextMenuStrip1.Name = "contextMenuStrip2";
-            // 
-            // toolStripMenuItem2
-            // 
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // statusStrip1
-            // 
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.BackColor = System.Drawing.Color.LightBlue;
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.lbUserName,
-            this.toolStripStatusLabel6,
-            this.txtUSR_NAME});
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            // 
-            // toolStripStatusLabel1
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            // 
-            // lbUserName
-            // 
-            resources.ApplyResources(this.lbUserName, "lbUserName");
-            this.lbUserName.ForeColor = System.Drawing.Color.Brown;
-            this.lbUserName.Name = "lbUserName";
-            // 
-            // toolStripStatusLabel6
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
-            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            // 
-            // txtUSR_NAME
-            // 
-            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
-            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
-            this.txtUSR_NAME.Name = "txtUSR_NAME";
-            // 
-            // btok
-            // 
-            resources.ApplyResources(this.btok, "btok");
-            this.btok.Name = "btok";
-            this.btok.UseVisualStyleBackColor = true;
-            this.btok.Click += new System.EventHandler(this.btok_Click);
-            // 
-            // btdong
-            // 
-            resources.ApplyResources(this.btdong, "btdong");
-            this.btdong.Name = "btdong";
-            this.btdong.UseVisualStyleBackColor = true;
-            this.btdong.Click += new System.EventHandler(this.btdong_Click);
-            // 
-            // btketthuc
-            // 
-            resources.ApplyResources(this.btketthuc, "btketthuc");
-            this.btketthuc.Name = "btketthuc";
-            this.btketthuc.UseVisualStyleBackColor = true;
-            this.btketthuc.Click += new System.EventHandler(this.btnMoveLast_Click);
-            // 
-            // btsau
-            // 
-            resources.ApplyResources(this.btsau, "btsau");
-            this.btsau.Name = "btsau";
-            this.btsau.UseVisualStyleBackColor = true;
-            this.btsau.Click += new System.EventHandler(this.btnMoveNext_Click);
-            // 
-            // bttruoc
-            // 
-            resources.ApplyResources(this.bttruoc, "bttruoc");
-            this.bttruoc.Name = "bttruoc";
-            this.bttruoc.UseVisualStyleBackColor = true;
-            this.bttruoc.Click += new System.EventHandler(this.btnMovePrevious_Click);
-            // 
-            // btdau
-            // 
-            resources.ApplyResources(this.btdau, "btdau");
-            this.btdau.Name = "btdau";
-            this.btdau.UseVisualStyleBackColor = true;
-            this.btdau.Click += new System.EventHandler(this.btnMoveFirst_Click);
             // 
             // f1ToolStripMenuItem
             // 
@@ -708,6 +542,172 @@ namespace WTERP
             this.f12ToolStripMenuItem.Name = "f12ToolStripMenuItem";
             this.f12ToolStripMenuItem.Click += new System.EventHandler(this.f12ToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            // 
+            // f8ToolStripMenuItem
+            // 
+            this.f8ToolStripMenuItem.Name = "f8ToolStripMenuItem";
+            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
+            // 
+            // f9ToolStripMenuItem
+            // 
+            this.f9ToolStripMenuItem.Name = "f9ToolStripMenuItem";
+            resources.ApplyResources(this.f9ToolStripMenuItem, "f9ToolStripMenuItem");
+            // 
+            // f11ToolStripMenuItem
+            // 
+            this.f11ToolStripMenuItem.Name = "f11ToolStripMenuItem";
+            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
+            // 
+            // btnTimeNow
+            // 
+            resources.ApplyResources(this.btnTimeNow, "btnTimeNow");
+            this.btnTimeNow.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.btnTimeNow.Name = "btnTimeNow";
+            this.btnTimeNow.UseVisualStyleBackColor = true;
+            // 
+            // btndateNow
+            // 
+            resources.ApplyResources(this.btndateNow, "btndateNow");
+            this.btndateNow.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btndateNow.Name = "btndateNow";
+            this.btndateNow.UseVisualStyleBackColor = true;
+            // 
+            // bt
+            // 
+            resources.ApplyResources(this.bt, "bt");
+            this.bt.ForeColor = System.Drawing.Color.Green;
+            this.bt.Name = "bt";
+            this.bt.UseVisualStyleBackColor = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmMớiToolStripMenuItem,
+            this.xóaXToolStripMenuItem});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            resources.ApplyResources(this.contextMenuStrip2, "contextMenuStrip2");
+            // 
+            // thêmMớiToolStripMenuItem
+            // 
+            this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
+            resources.ApplyResources(this.thêmMớiToolStripMenuItem, "thêmMớiToolStripMenuItem");
+            this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
+            // 
+            // xóaXToolStripMenuItem
+            // 
+            this.xóaXToolStripMenuItem.Name = "xóaXToolStripMenuItem";
+            resources.ApplyResources(this.xóaXToolStripMenuItem, "xóaXToolStripMenuItem");
+            this.xóaXToolStripMenuItem.Click += new System.EventHandler(this.xóaXToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3});
+            this.contextMenuStrip1.Name = "contextMenuStrip2";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            // 
+            // toolStripMenuItem2
+            // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.LightBlue;
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.lbUserName,
+            this.toolStripStatusLabel6,
+            this.txtUSR_NAME});
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            // 
+            // toolStripStatusLabel1
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            // 
+            // lbUserName
+            // 
+            this.lbUserName.ForeColor = System.Drawing.Color.Brown;
+            this.lbUserName.Name = "lbUserName";
+            resources.ApplyResources(this.lbUserName, "lbUserName");
+            // 
+            // toolStripStatusLabel6
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
+            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
+            // 
+            // txtUSR_NAME
+            // 
+            this.txtUSR_NAME.ForeColor = System.Drawing.Color.Brown;
+            this.txtUSR_NAME.Name = "txtUSR_NAME";
+            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
+            // 
+            // btok
+            // 
+            resources.ApplyResources(this.btok, "btok");
+            this.btok.Name = "btok";
+            this.btok.UseVisualStyleBackColor = true;
+            this.btok.Click += new System.EventHandler(this.btok_Click);
+            // 
+            // btdong
+            // 
+            resources.ApplyResources(this.btdong, "btdong");
+            this.btdong.Name = "btdong";
+            this.btdong.UseVisualStyleBackColor = true;
+            this.btdong.Click += new System.EventHandler(this.btdong_Click);
+            // 
+            // btketthuc
+            // 
+            resources.ApplyResources(this.btketthuc, "btketthuc");
+            this.btketthuc.Name = "btketthuc";
+            this.btketthuc.UseVisualStyleBackColor = true;
+            this.btketthuc.Click += new System.EventHandler(this.btnMoveLast_Click);
+            // 
+            // btsau
+            // 
+            resources.ApplyResources(this.btsau, "btsau");
+            this.btsau.Name = "btsau";
+            this.btsau.UseVisualStyleBackColor = true;
+            this.btsau.Click += new System.EventHandler(this.btnMoveNext_Click);
+            // 
+            // bttruoc
+            // 
+            resources.ApplyResources(this.bttruoc, "bttruoc");
+            this.bttruoc.Name = "bttruoc";
+            this.bttruoc.UseVisualStyleBackColor = true;
+            this.bttruoc.Click += new System.EventHandler(this.btnMovePrevious_Click);
+            // 
+            // btdau
+            // 
+            resources.ApplyResources(this.btdau, "btdau");
+            this.btdau.Name = "btdau";
+            this.btdau.UseVisualStyleBackColor = true;
+            this.btdau.Click += new System.EventHandler(this.btnMoveFirst_Click);
+            // 
             // Form2E
             // 
             resources.ApplyResources(this, "$this");
@@ -747,19 +747,19 @@ namespace WTERP
 
         #endregion
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TextBox tb6;
+        private System.Windows.Forms.TextBox txtTOT;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox tb15;
-        private System.Windows.Forms.TextBox tb14;
-        private System.Windows.Forms.TextBox tb12;
-        private System.Windows.Forms.TextBox tb11;
-        private System.Windows.Forms.TextBox tb10;
-        private System.Windows.Forms.TextBox tb9;
-        private System.Windows.Forms.TextBox tb8;
-        private System.Windows.Forms.TextBox tb5;
-        private System.Windows.Forms.TextBox tb4;
-        private System.Windows.Forms.TextBox tb3;
-        private System.Windows.Forms.TextBox tb2;
+        private System.Windows.Forms.TextBox txtMEMO8;
+        private System.Windows.Forms.TextBox txtMEMO7;
+        private System.Windows.Forms.TextBox txtMEMO5;
+        private System.Windows.Forms.TextBox txtMEMO4;
+        private System.Windows.Forms.TextBox txtMEMO3;
+        private System.Windows.Forms.TextBox txtMEMO2;
+        private System.Windows.Forms.TextBox txtMEMO1;
+        private System.Windows.Forms.TextBox txtC_NAME;
+        private System.Windows.Forms.TextBox txtC_NO;
+        private System.Windows.Forms.TextBox txtWS_NO;
+        private System.Windows.Forms.TextBox txtWS_KIND;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -769,7 +769,7 @@ namespace WTERP
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TextBox tb7;
+        private System.Windows.Forms.TextBox txtTOTAL;
         public System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem f1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem f3ToolStripMenuItem;
@@ -780,7 +780,7 @@ namespace WTERP
         private System.Windows.Forms.ToolStripMenuItem f10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem f12ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.TextBox tb13;
+        private System.Windows.Forms.TextBox txtMEMO6;
         private System.Windows.Forms.Button btok;
         private System.Windows.Forms.Button btdong;
         private System.Windows.Forms.Button btnTimeNow;
@@ -798,7 +798,7 @@ namespace WTERP
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.MaskedTextBox tb1;
+        private System.Windows.Forms.MaskedTextBox txtWS_DATE;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel lbUserName;
@@ -807,7 +807,7 @@ namespace WTERP
         private System.Windows.Forms.ToolStripMenuItem f8ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem f9ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem f11ToolStripMenuItem;
-        private System.Windows.Forms.MaskedTextBox tb16;
+        private System.Windows.Forms.MaskedTextBox txtCAL_YM;
         private System.Windows.Forms.DataGridViewTextBoxColumn NR;
         private System.Windows.Forms.DataGridViewTextBoxColumn P_NO;
         private System.Windows.Forms.DataGridViewTextBoxColumn P_NAME;

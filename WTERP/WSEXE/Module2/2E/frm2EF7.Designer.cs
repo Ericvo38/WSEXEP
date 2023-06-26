@@ -76,6 +76,7 @@ namespace WTERP
             // 
             // label1
             // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Name = "label1";
@@ -171,11 +172,13 @@ namespace WTERP
             // 
             // txtIn
             // 
+            this.txtIn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtIn, "txtIn");
             this.txtIn.Name = "txtIn";
             // 
             // txtWS_NO1
             // 
+            this.txtWS_NO1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtWS_NO1, "txtWS_NO1");
             this.txtWS_NO1.Name = "txtWS_NO1";
             this.txtWS_NO1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_NO1_KeyDown);
@@ -183,6 +186,7 @@ namespace WTERP
             // 
             // txtWS_NO
             // 
+            this.txtWS_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
             this.txtWS_NO.Name = "txtWS_NO";
             this.txtWS_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_NO_KeyDown);
@@ -209,6 +213,7 @@ namespace WTERP
             // 
             // txtDate2
             // 
+            this.txtDate2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDate2.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtDate2, "txtDate2");
             this.txtDate2.Name = "txtDate2";
@@ -217,6 +222,7 @@ namespace WTERP
             // 
             // txtDate1
             // 
+            this.txtDate1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDate1.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtDate1, "txtDate1");
             this.txtDate1.Name = "txtDate1";
@@ -273,6 +279,7 @@ namespace WTERP
             // 
             // txtC_NO2
             // 
+            this.txtC_NO2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtC_NO2, "txtC_NO2");
             this.txtC_NO2.Name = "txtC_NO2";
             this.txtC_NO2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtC_NO2_KeyDown);
@@ -280,6 +287,7 @@ namespace WTERP
             // 
             // txtC_NO1
             // 
+            this.txtC_NO1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtC_NO1, "txtC_NO1");
             this.txtC_NO1.Name = "txtC_NO1";
             this.txtC_NO1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtC_NO1_KeyDown);
@@ -311,6 +319,7 @@ namespace WTERP
             // 
             // txt2
             // 
+            this.txt2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt2, "txt2");
             this.txt2.Name = "txt2";
             this.txt2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt2_KeyDown);
@@ -318,6 +327,7 @@ namespace WTERP
             // 
             // txt1
             // 
+            this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1, "txt1");
             this.txt1.Name = "txt1";
             this.txt1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_KeyDown);
@@ -384,8 +394,6 @@ namespace WTERP
         private System.Windows.Forms.RadioButton rdK;
         private System.Windows.Forms.RadioButton rdMK;
         private System.Windows.Forms.TextBox txtIn;
-        private System.Windows.Forms.TextBox txtWS_NO1;
-        private System.Windows.Forms.TextBox txtWS_NO;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btxemtruoc;
         private System.Windows.Forms.TabPage tabPage2;
@@ -406,5 +414,7 @@ namespace WTERP
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.TextBox txt1;
+        public System.Windows.Forms.TextBox txtWS_NO1;
+        public System.Windows.Forms.TextBox txtWS_NO;
     }
 }

@@ -25,9 +25,6 @@ namespace WTERP
         }
         private void frm2EF7_Load(object sender, EventArgs e)
         {
-            txtWS_NO.Text = Form2E.txtWS_NO;
-            txtWS_NO1.Text = Form2E.txtWS_NO;
-            txtIn.Text = "Y";
         }
        
         private void txt1_MouseDoubleClick(object sender, MouseEventArgs e)

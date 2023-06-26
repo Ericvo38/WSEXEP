@@ -73,6 +73,7 @@ namespace WTERP
             // 
             // tb1
             // 
+            this.tb1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb1, "tb1");
             this.tb1.Name = "tb1";
             this.tb1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb1_KeyDown);
@@ -85,6 +86,7 @@ namespace WTERP
             // 
             // tb2
             // 
+            this.tb2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb2, "tb2");
             this.tb2.Name = "tb2";
             this.tb2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb2_KeyDown);
@@ -97,6 +99,7 @@ namespace WTERP
             // 
             // tb3
             // 
+            this.tb3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb3, "tb3");
             this.tb3.Name = "tb3";
             this.tb3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb3_KeyDown);
@@ -109,6 +112,10 @@ namespace WTERP
             // 
             // DGV1
             // 
+            this.DGV1.AllowUserToAddRows = false;
+            this.DGV1.AllowUserToDeleteRows = false;
+            this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -124,6 +131,7 @@ namespace WTERP
             this.NRCV_MON});
             resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.Name = "DGV1";
+            this.DGV1.ReadOnly = true;
             this.DGV1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGV1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellClick);
             this.DGV1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseDoubleClick);
@@ -133,63 +141,77 @@ namespace WTERP
             this.WS_NO.DataPropertyName = "WS_NO";
             resources.ApplyResources(this.WS_NO, "WS_NO");
             this.WS_NO.Name = "WS_NO";
+            this.WS_NO.ReadOnly = true;
             // 
             // WS_DATE
             // 
             this.WS_DATE.DataPropertyName = "WS_DATE";
             resources.ApplyResources(this.WS_DATE, "WS_DATE");
             this.WS_DATE.Name = "WS_DATE";
+            this.WS_DATE.ReadOnly = true;
             // 
             // C_NO
             // 
             this.C_NO.DataPropertyName = "C_NO";
             resources.ApplyResources(this.C_NO, "C_NO");
             this.C_NO.Name = "C_NO";
+            this.C_NO.ReadOnly = true;
             // 
             // C_NAME
             // 
             this.C_NAME.DataPropertyName = "C_NAME";
             resources.ApplyResources(this.C_NAME, "C_NAME");
             this.C_NAME.Name = "C_NAME";
+            this.C_NAME.ReadOnly = true;
             // 
             // TOTAL
             // 
             this.TOTAL.DataPropertyName = "TOTAL";
             resources.ApplyResources(this.TOTAL, "TOTAL");
             this.TOTAL.Name = "TOTAL";
+            this.TOTAL.ReadOnly = true;
             // 
             // TAX
             // 
             this.TAX.DataPropertyName = "TAX";
             resources.ApplyResources(this.TAX, "TAX");
             this.TAX.Name = "TAX";
+            this.TAX.ReadOnly = true;
             // 
             // DISCOUNT
             // 
             this.DISCOUNT.DataPropertyName = "DISCOUNT";
             resources.ApplyResources(this.DISCOUNT, "DISCOUNT");
             this.DISCOUNT.Name = "DISCOUNT";
+            this.DISCOUNT.ReadOnly = true;
             // 
             // TOT
             // 
             this.TOT.DataPropertyName = "TOT";
             resources.ApplyResources(this.TOT, "TOT");
             this.TOT.Name = "TOT";
+            this.TOT.ReadOnly = true;
             // 
             // RCV_MON
             // 
             this.RCV_MON.DataPropertyName = "RCV_MON";
             resources.ApplyResources(this.RCV_MON, "RCV_MON");
             this.RCV_MON.Name = "RCV_MON";
+            this.RCV_MON.ReadOnly = true;
             // 
             // NRCV_MON
             // 
             this.NRCV_MON.DataPropertyName = "NRCV_MON";
             resources.ApplyResources(this.NRCV_MON, "NRCV_MON");
             this.NRCV_MON.Name = "NRCV_MON";
+            this.NRCV_MON.ReadOnly = true;
             // 
             // DGV2
             // 
+            this.DGV2.AllowUserToAddRows = false;
+            this.DGV2.AllowUserToDeleteRows = false;
+            this.DGV2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DGV2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DGV2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -204,6 +226,7 @@ namespace WTERP
             this.MEMO});
             resources.ApplyResources(this.DGV2, "DGV2");
             this.DGV2.Name = "DGV2";
+            this.DGV2.ReadOnly = true;
             this.DGV2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
             // NR
@@ -211,57 +234,67 @@ namespace WTERP
             this.NR.DataPropertyName = "NR";
             resources.ApplyResources(this.NR, "NR");
             this.NR.Name = "NR";
+            this.NR.ReadOnly = true;
             // 
             // P_NO
             // 
             this.P_NO.DataPropertyName = "P_NO";
             resources.ApplyResources(this.P_NO, "P_NO");
             this.P_NO.Name = "P_NO";
+            this.P_NO.ReadOnly = true;
             // 
             // P_NAME
             // 
             this.P_NAME.DataPropertyName = "P_NAME";
             resources.ApplyResources(this.P_NAME, "P_NAME");
             this.P_NAME.Name = "P_NAME";
+            this.P_NAME.ReadOnly = true;
             // 
             // BQTY
             // 
             this.BQTY.DataPropertyName = "BQTY";
             resources.ApplyResources(this.BQTY, "BQTY");
             this.BQTY.Name = "BQTY";
+            this.BQTY.ReadOnly = true;
             // 
             // UNIT
             // 
             this.UNIT.DataPropertyName = "UNIT";
             resources.ApplyResources(this.UNIT, "UNIT");
             this.UNIT.Name = "UNIT";
+            this.UNIT.ReadOnly = true;
             // 
             // PRICE
             // 
             this.PRICE.DataPropertyName = "PRICE";
             resources.ApplyResources(this.PRICE, "PRICE");
             this.PRICE.Name = "PRICE";
+            this.PRICE.ReadOnly = true;
             // 
             // AMOUNT
             // 
             this.AMOUNT.DataPropertyName = "AMOUNT";
             resources.ApplyResources(this.AMOUNT, "AMOUNT");
             this.AMOUNT.Name = "AMOUNT";
+            this.AMOUNT.ReadOnly = true;
             // 
             // COST
             // 
             this.COST.DataPropertyName = "COST";
             resources.ApplyResources(this.COST, "COST");
             this.COST.Name = "COST";
+            this.COST.ReadOnly = true;
             // 
             // MEMO
             // 
             this.MEMO.DataPropertyName = "MEMO";
             resources.ApplyResources(this.MEMO, "MEMO");
             this.MEMO.Name = "MEMO";
+            this.MEMO.ReadOnly = true;
             // 
             // tb4
             // 
+            this.tb4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb4, "tb4");
             this.tb4.Name = "tb4";
             this.tb4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb4_KeyDown);

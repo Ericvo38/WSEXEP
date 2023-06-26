@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -126,14 +129,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 29</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>9, 17</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 29</value>
+    <value>86, 18</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -153,17 +152,17 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <metadata name="tb1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tb1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="tb1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 21</value>
-  </data>
-  <data name="tb1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>100, 14</value>
   </data>
   <data name="tb1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 33</value>
+    <value>159, 24</value>
   </data>
   <data name="tb1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -180,6 +179,9 @@
   <data name="&gt;&gt;tb1.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -187,13 +189,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 25</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>339, 17</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 29</value>
+    <value>117, 18</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -213,17 +212,17 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <metadata name="tb2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tb2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="tb2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>803, 21</value>
-  </data>
-  <data name="tb2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>461, 14</value>
   </data>
   <data name="tb2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>365, 33</value>
+    <value>180, 24</value>
   </data>
   <data name="tb2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -240,6 +239,9 @@
   <data name="&gt;&gt;tb2.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -247,13 +249,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 89</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>16, 58</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 29</value>
+    <value>79, 18</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -273,17 +272,17 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <metadata name="tb3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tb3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="tb3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 82</value>
-  </data>
-  <data name="tb3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>100, 53</value>
   </data>
   <data name="tb3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>327, 33</value>
+    <value>158, 24</value>
   </data>
   <data name="tb3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -300,6 +299,9 @@
   <data name="&gt;&gt;tb3.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -307,13 +309,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 84</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>387, 55</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 29</value>
+    <value>69, 18</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -333,6 +332,9 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <metadata name="DGV1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="WS_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -343,7 +345,7 @@
     <value>6</value>
   </data>
   <data name="WS_NO.Width" type="System.Int32, mscorlib">
-    <value>150</value>
+    <value>82</value>
   </data>
   <metadata name="WS_DATE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -355,7 +357,7 @@
     <value>6</value>
   </data>
   <data name="WS_DATE.Width" type="System.Int32, mscorlib">
-    <value>150</value>
+    <value>69</value>
   </data>
   <metadata name="C_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -367,7 +369,7 @@
     <value>6</value>
   </data>
   <data name="C_NO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>75</value>
   </data>
   <metadata name="C_NAME.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -379,7 +381,7 @@
     <value>6</value>
   </data>
   <data name="C_NAME.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>51</value>
   </data>
   <metadata name="TOTAL.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -391,7 +393,7 @@
     <value>6</value>
   </data>
   <data name="TOTAL.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>57</value>
   </data>
   <metadata name="TAX.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -403,7 +405,7 @@
     <value>6</value>
   </data>
   <data name="TAX.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>57</value>
   </data>
   <metadata name="DISCOUNT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -415,7 +417,7 @@
     <value>6</value>
   </data>
   <data name="DISCOUNT.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>78</value>
   </data>
   <metadata name="TOT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -427,7 +429,7 @@
     <value>6</value>
   </data>
   <data name="TOT.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>70</value>
   </data>
   <metadata name="RCV_MON.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -439,7 +441,7 @@
     <value>6</value>
   </data>
   <data name="RCV_MON.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>110</value>
   </data>
   <metadata name="NRCV_MON.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -451,19 +453,16 @@
     <value>6</value>
   </data>
   <data name="NRCV_MON.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>112</value>
   </data>
   <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 151</value>
-  </data>
-  <data name="DGV1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>3, 105</value>
   </data>
   <data name="DGV1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1389, 355</value>
+    <value>946, 221</value>
   </data>
   <data name="DGV1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -480,6 +479,9 @@
   <data name="&gt;&gt;DGV1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <metadata name="DGV2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="NR.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -490,7 +492,7 @@
     <value>6</value>
   </data>
   <data name="NR.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>53</value>
   </data>
   <metadata name="P_NO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -502,7 +504,7 @@
     <value>6</value>
   </data>
   <data name="P_NO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>91</value>
   </data>
   <metadata name="P_NAME.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -514,7 +516,7 @@
     <value>6</value>
   </data>
   <data name="P_NAME.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+    <value>95</value>
   </data>
   <metadata name="BQTY.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -526,7 +528,7 @@
     <value>6</value>
   </data>
   <data name="BQTY.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>72</value>
   </data>
   <metadata name="UNIT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -538,7 +540,7 @@
     <value>6</value>
   </data>
   <data name="UNIT.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>60</value>
   </data>
   <metadata name="PRICE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -550,7 +552,7 @@
     <value>6</value>
   </data>
   <data name="PRICE.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>66</value>
   </data>
   <metadata name="AMOUNT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -562,7 +564,7 @@
     <value>6</value>
   </data>
   <data name="AMOUNT.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>57</value>
   </data>
   <metadata name="COST.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -574,7 +576,7 @@
     <value>6</value>
   </data>
   <data name="COST.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>48</value>
   </data>
   <metadata name="MEMO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -586,19 +588,16 @@
     <value>6</value>
   </data>
   <data name="MEMO.Width" type="System.Int32, mscorlib">
-    <value>125</value>
+    <value>71</value>
   </data>
   <data name="DGV2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 531</value>
-  </data>
-  <data name="DGV2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>3, 332</value>
   </data>
   <data name="DGV2.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="DGV2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1389, 340</value>
+    <value>946, 254</value>
   </data>
   <data name="DGV2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -615,20 +614,24 @@
   <data name="&gt;&gt;DGV2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="tb4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tb4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="tb4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>803, 85</value>
+    <value>461, 55</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tb4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="tb4.Mask" xml:space="preserve">
     <value>0000/00/00</value>
   </data>
   <data name="tb4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>365, 35</value>
+    <value>118, 26</value>
   </data>
   <data name="tb4.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -645,6 +648,9 @@
   <data name="&gt;&gt;tb4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="button2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -662,13 +668,10 @@
     <value>MiddleLeft</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1198, 89</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>799, 58</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 51</value>
+    <value>140, 33</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -688,6 +691,9 @@
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
@@ -706,13 +712,10 @@
     <value>MiddleLeft</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1198, 15</value>
-  </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>799, 10</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 58</value>
+    <value>140, 38</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -735,14 +738,17 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1423, 902</value>
+    <value>949, 586</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -785,8 +791,11 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>965, 625</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>965, 625</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

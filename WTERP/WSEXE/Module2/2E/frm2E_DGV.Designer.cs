@@ -76,24 +76,28 @@ namespace WTERP
             // 
             // txtP_NO
             // 
+            this.txtP_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NO, "txtP_NO");
             this.txtP_NO.Name = "txtP_NO";
             this.txtP_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NO_KeyDown);
             // 
             // txtP_NAME
             // 
+            this.txtP_NAME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NAME, "txtP_NAME");
             this.txtP_NAME.Name = "txtP_NAME";
             this.txtP_NAME.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME_KeyDown);
             // 
             // txtP_NAME3
             // 
+            this.txtP_NAME3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NAME3, "txtP_NAME3");
             this.txtP_NAME3.Name = "txtP_NAME3";
             this.txtP_NAME3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME3_KeyDown);
             // 
             // txtP_NAME1
             // 
+            this.txtP_NAME1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtP_NAME1, "txtP_NAME1");
             this.txtP_NAME1.Name = "txtP_NAME1";
             this.txtP_NAME1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME1_KeyDown);

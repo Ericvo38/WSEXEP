@@ -338,13 +338,13 @@
     <value>43, 28</value>
   </data>
   <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 19</value>
+    <value>41, 19</value>
   </data>
   <data name="toolStripStatusLabel1.Text" xml:space="preserve">
     <value>用戶： </value>
   </data>
   <data name="toolStripStatusLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 19</value>
+    <value>49, 19</value>
   </data>
   <data name="toolStripStatusLabel6.Text" xml:space="preserve">
     <value>修改者：</value>
@@ -373,7 +373,7 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>放棄</value>
   </data>
-  <data name="btketthuc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMoveLast.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAArpJREFUOE99
         k2tIU2EYx/dBvxiRsyZOvKAUQhDmQa3o8kH2IZqlorKMlem6kWUDk7QvCpFmZUtTwULzVpaTvNt02TDS
@@ -396,7 +396,7 @@
   <data name="bt.Text" xml:space="preserve">
     <value>瀏覽器</value>
   </data>
-  <data name="btsau.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMoveNext.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAjBJREFUOE+d
         kGtI01EYxv8J5tQUMipbQUT3EiPsYnjJKJA+FBjNIrooItaXIisD6UPQp0wKkyLoopiWZkFSSYTTipnO
@@ -411,7 +411,7 @@
         JMXLacAhhcBJYUn6Aa0XlfBBvzPUAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bttruoc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMovePrevious.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAklJREFUOE+d
         kVtIVFEUhqcLNU6iRVe7YPNgEEKUUSKRERSBgRjpg1SUlaRGOfriIImhVGYPYSaCVpOEBWYaWD4klRVd
@@ -426,7 +426,7 @@
         6yokYu/amX/SHDjAL92xbyw/PcgS4+D0AH5pUwcJzhiYAqDR/AK1MZyr0vIa2QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btdau.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMoveFirst.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAp9JREFUOE99
         k2tIk2EYhj+hqCVldFZIscJDo6Zhulx5GprWRC1NIwWjMCUq80doEoQEaYL2w7VclpramrjU0JypM4em
@@ -445,6 +445,79 @@
   </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>第一頁</value>
+  </data>
+  <data name="NR.HeaderText" xml:space="preserve">
+    <value>序</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NR.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="P_NO.HeaderText" xml:space="preserve">
+    <value>產品編號</value>
+  </data>
+  <data name="P_NO.Width" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="P_NAME.HeaderText" xml:space="preserve">
+    <value>產品名稱</value>
+  </data>
+  <data name="P_NAME.Width" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="COLOR.HeaderText" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="COLOR.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="P_NAME3.HeaderText" xml:space="preserve">
+    <value>規格</value>
+  </data>
+  <data name="P_NAME3.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="BQTY.HeaderText" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="BQTY.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="PRICE.HeaderText" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="PRICE.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="AMOUNT.HeaderText" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="AMOUNT.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="OR_NO.HeaderText" xml:space="preserve">
+    <value>客戶採購單號</value>
+  </data>
+  <data name="OR_NO.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="CAL_YM.HeaderText" xml:space="preserve">
+    <value>退款月份</value>
+  </data>
+  <data name="CAL_YM.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="MEMO.HeaderText" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="MEMO.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="QTY.HeaderText" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="QTY.Width" type="System.Int32, mscorlib">
+    <value>59</value>
   </data>
   <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
@@ -497,48 +570,6 @@
   <data name="label11.Text" xml:space="preserve">
     <value>合計:</value>
   </data>
-  <data name="NR.HeaderText" xml:space="preserve">
-    <value>序</value>
-  </data>
-  <data name="P_NO.HeaderText" xml:space="preserve">
-    <value>產品編號</value>
-  </data>
-  <data name="P_NAME.HeaderText" xml:space="preserve">
-    <value>產品名稱</value>
-  </data>
-  <data name="COLOR.HeaderText" xml:space="preserve">
-    <value>顏色</value>
-  </data>
-  <data name="P_NAME3.HeaderText" xml:space="preserve">
-    <value>規格</value>
-  </data>
-  <data name="BQTY.HeaderText" xml:space="preserve">
-    <value>數量</value>
-  </data>
-  <data name="PRICE.HeaderText" xml:space="preserve">
-    <value>單價</value>
-  </data>
-  <data name="AMOUNT.HeaderText" xml:space="preserve">
-    <value>小計</value>
-  </data>
-  <data name="OR_NO.HeaderText" xml:space="preserve">
-    <value>客戶採購單號</value>
-  </data>
-  <data name="CAL_YM.HeaderText" xml:space="preserve">
-    <value>退款月份</value>
-  </data>
-  <data name="MEMO.HeaderText" xml:space="preserve">
-    <value>備註</value>
-  </data>
-  <data name="COLOR_c.HeaderText" xml:space="preserve">
-    <value>顏色(中)</value>
-  </data>
-  <data name="P_NAME1.HeaderText" xml:space="preserve">
-    <value>(英文)產品名稱</value>
-  </data>
-  <data name="QTY.HeaderText" xml:space="preserve">
-    <value>重量</value>
-  </data>
   <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
@@ -586,6 +617,122 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>折扣日期 : </value>
+  </data>
+  <data name="新增明細TToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAbtJREFUSEvd
+        lTtLxEAQxxefbXY/g52du+ntfIAgiCjoN/Kt1YmCFqIc6hewuA9wSdTiUHyWosIVp2Dn+Z+9SXKPhKhc
+        Cv3BQGZ2Hju7m13xv7kdEoO+Kxd9o058I+/xXbVC38Y5xvcC+bD7z/C0mvW1fESyOuSlUUStWdHqFLZX
+        GvOMfAiMmuGwbEqjoi9w1QYHn/uuGq8L0cPDEcVZ0RsYOQG/S/KlwmTj4XSQdLMR4KxSMTanQj7oaN3G
+        aLnE5mQwo/lvOSZAE0LsJ/Zlik2t2A21a67Kaa0iya5nnB1WW6AYu6Ra3Xha9LM5Jpr9iBpjUwfwKZGw
+        2kHZyEnKQQeETTEYOII8JW1oSFYB6gKH4jlw5QGbYqg1FDhkNZGsAgSSF5HnitUYGN/aN5fWHDPymqTG
+        Etna9yRwnWXkqrEaA+N7ZwFZQJGzSLRTtdJsM3KL3S3pBbq7RNesxsCY7yYjMN9jWhkWAxi8o41L/dG0
+        3IZPgdUWMn80wtPOtO0ij6siBMduxRbJ47IjqNXwukbABZasu9d1SNuDg8elSw9OM3TD0ulCkn0UqyDh
+        hxV8o8s9dDf36yfzjyDEF2KWONAEZ3FoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="新增明細TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="新增明細TToolStripMenuItem.Text" xml:space="preserve">
+    <value>新增明細</value>
+  </data>
+  <data name="插入明細UToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAIpJREFUOE9j
+        GAHgki6/4FkTwRwol3RwzkQoCWjA/3PGgm1QIdLBWROBApAhZ02E+qFCpAOChpwxEVhNCJ81FbwAMUSg
+        D6oNAbBpwILPnzMR/HfOVGjifwYGRqhW4sAZY4FacGCaCjVBhYgHQCfXQ2JCqBEqRDw4ayqQAPG3YBdU
+        iDRAcUIa7ICBAQAyKE+Z7lw9/AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="插入明細UToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="插入明細UToolStripMenuItem.Text" xml:space="preserve">
+    <value>插入明細</value>
+  </data>
+  <data name="刪除明細VToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAANtJREFUOE+1
+        kD0KwkAQRhcE7TSTM9gJCtmsdp5Ay4AeQEEPohfRJiew1sYi2c4qgp5DAzrBgfzMCCn0wWuS94XdqL8R
+        G3cZGzh8dBf0+DuxD1f0VdOEZjnWOONIu0Eds5ZmOUlXtaRY8tJTTZrlhIFq4NGelaNKPrKWZmXw5b0S
+        czXcKOdgcGKDqgaOlHOsgb04KqphRzkHP7AVRwWthg3lnMjAWhoVjTSsKOfg/abSqKQHE8o5dugMxFFR
+        D/qUc/B4HYxSNspNzyO3TbmM9WGOPzMU9WFG2a9Q6g2+YQCLLxfzBgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="刪除明細VToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="刪除明細VToolStripMenuItem.Text" xml:space="preserve">
+    <value>刪除明細</value>
+  </data>
+  <data name="訂單明細WToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT9JREFUOE9j
+        OHPmGdfhS3eMYfjQ1bvOuPjockeu3pVjADFeffj8//O3H2D88OU7OBudjy534/HLVWADQBwYePHuE5QF
+        Ach8dLnbT18vodyAxbsve2848fj/zgvPwXjDqUdwNjofXW7t0bunGaZtPBuz6cbn/4de/CcZLz10/x5e
+        A1aeevh/4trDWOVAmKABc3df+l/ZvxSrHAiDDShtm5LZPm/H/8krD4Hx3M0n/s/ZevZ/Zd+S/2mV/WCc
+        VTfl/7SNJ/7P33ISrg6EG6esfMlQ0tQds//kxf8PX38C42uPXoHp+y8//p+yZMv/opaZ/8/feowiB8MT
+        Zy25h9MAEL7/8sP/E9fuY5UDYbgBXZPn/V+4chMYL9+8G85G56PLNfZMfTAIUiLFBoCyJChXgTggDGSv
+        hrHR+ehyl+89zQUAcnhwnziUBcEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="訂單明細WToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="訂單明細WToolStripMenuItem.Text" xml:space="preserve">
+    <value>訂單明細</value>
+  </data>
+  <data name="產品挑選XToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAPVJREFUSEtj
+        GAUgUDLtyH9qYqixhAFI8aEX/6mCRy3GC0YtpgTTzeKWtdf/H3z+D86fvf8RfSz2q9r6P2/mqf+7H/2G
+        i0GNJQwotRiEk3oP/d9y+xtYDGosYUANi0E4snXP/9WXPpBvMbJhpOLg+h3//Sq3+EGNxg+oaTEU/wHi
+        fKjxuAENLP4LxKVQ43EDaloc2rDzv3/VFneo0fgBtRJXTPu+/+uufqJvqk6dcOT/tjvfwWJQYwkDSi0u
+        nHPm/97Hf+BiUGMJA0osblh59f/BZ4gic+6hx/SxGB2DzIIaSxiMWkwJHrUYLwAppiaGGjuiAQMDABoo
+        12NsEXqlAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="產品挑選XToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="產品挑選XToolStripMenuItem.Text" xml:space="preserve">
+    <value>產品挑選</value>
+  </data>
+  <data name="儲ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVBJREFUSEvt
+        VT1LxEAUTGHnB7cb0N9gc4XZVbCy8J8Iop2draVoo1banOJvsLO4QgUPsiv3D8RSRS+IxYGg87JPMZc1
+        Zm3NwHBv35t5QziyiRoE4XpBThklO0aJB/C9Jg+7S9EYr6gGxKfgq0nErlXynBbYRGx6yXPmWb89M85r
+        fgaEmUnknqvlFpnzgQef8zQR6/h9s6rV67cnpnnsBxnI6Op6AVRbHS+jzsBbMxfP5gIfigGtDXcWO6kW
+        26NE/8po8ZQbgRstF9F7BO+4VYZb6AJ685Mxzheu5+UA/8NKbmT89tSFgL/gnwUYLVdxvne9SmZ4L9ac
+        PySAjEp0Sy/YKKGBduA8YQFfdRW+L20CvAgNyKyW+1wHB6RKHKB+zgc+YEjX9RA8IhMMl757qEBoSMue
+        IW7jY15XBn1w8AQnEL6wKYTwyA7t4HUN6iCKPgC0U2j4DjbhKwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="儲ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="儲ToolStripMenuItem.Text" xml:space="preserve">
+    <value>儲   存</value>
+  </data>
+  <data name="放ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAALNJREFUSEtj
+        GAWDE5wzFsw4Z8gjCuUSBCC1ID1QLn5wxlQw66yJ4H8gvkSMJSA1ILUgPWeMBTOhwrjBeQMBgbMmAqfA
+        GkwEbp4zFJGCSmEAkBxIDcRBAqdAeqFS+AExlpBtOAzgs4Riw2EAmyVUMxwGkCMRSsPZpKQ0vADNEuoa
+        DgKowUI4dZEEaBpE2CIUX+oiCeBLLRRbgs9wGCDbEmIMhwGyLKF5YQcCNC2uRwGdAQMDAFoF1xP6WAxw
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="放ToolStripMenuItem.Text" xml:space="preserve">
+    <value>放  棄</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 158</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

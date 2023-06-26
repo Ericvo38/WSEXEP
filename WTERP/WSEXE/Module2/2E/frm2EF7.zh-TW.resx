@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 32pt, style=Bold</value>
@@ -126,345 +130,22 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 40</value>
+    <value>0, 29</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 63</value>
+    <value>845, 72</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>列印退貨資料</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1236, 36</value>
-  </data>
-  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 104</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1191, 530</value>
-  </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 488</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>退貨單</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 137</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 29</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>是否列印單價:</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 84</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 29</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>終止退貨單編號:</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 32</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 29</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>請輸入起始退貨單編號:</value>
-  </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>863, 121</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>報表格式</value>
-  </data>
-  <data name="rdK.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 88</value>
-  </data>
-  <data name="rdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 33</value>
-  </data>
-  <data name="rdK.Text" xml:space="preserve">
-    <value>套表</value>
-  </data>
-  <data name="rdMK.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdMK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdMK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 33</value>
-  </data>
-  <data name="rdMK.Text" xml:space="preserve">
-    <value>非套表</value>
-  </data>
-  <data name="txtWS_NO1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 85</value>
-  </data>
-  <data name="txtWS_NO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 34</value>
-  </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 488</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>退折明細表</value>
-  </data>
-  <data name="txtDate2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 179</value>
-  </data>
-  <data name="txtDate2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 34</value>
-  </data>
-  <data name="txtDate1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 131</value>
-  </data>
-  <data name="txtDate1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 34</value>
-  </data>
-  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>報表格式</value>
-  </data>
-  <data name="rdB.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 41</value>
-  </data>
-  <data name="rdB.Text" xml:space="preserve">
-    <value>沖帳單-B</value>
-  </data>
-  <data name="rdT.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdT.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 41</value>
-  </data>
-  <data name="rdT.Text" xml:space="preserve">
-    <value>折扣單-T</value>
-  </data>
-  <data name="rdC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 41</value>
-  </data>
-  <data name="rdC.Text" xml:space="preserve">
-    <value>退料單-C</value>
-  </data>
-  <data name="rdAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="rdAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rdAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 41</value>
-  </data>
-  <data name="rdAll.Text" xml:space="preserve">
-    <value>全部</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 279</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 29</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>終止客戶編號 :</value>
-  </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 227</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 29</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>請輸入起始客戶編號:</value>
-  </data>
-  <data name="txtC_NO2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 283</value>
-  </data>
-  <data name="txtC_NO1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 231</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 176</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 29</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>終止日期:</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 127</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 29</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>請輸入起始日期:</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 76</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 29</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>終止單號:</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 24</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 29</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>請輸入起始單號:</value>
-  </data>
-  <data name="txt2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 81</value>
-  </data>
-  <data name="txt1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 29</value>
-  </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvt
-        llsOwiAQRVlEYQ8Ft6IfPuJH3YDbNlZX0DZpjDrgoH1BobZpjJxkkhbmzg2FAiQQ+B8yEa1yTk8qYrrH
-        5l5yQbdaBzWW2OwOCFOIhwpBbwWPEuwyUnB2kLkV3Rm73AHh5V3Awbxl+ooUu90B0a5VyGDeaSrfF2yN
-        KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
-        o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
-        RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 638</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 54</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>關閉 [&amp;C]</value>
-  </data>
-  <data name="btxemtruoc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAOxJREFUOE9j
-        +KVgsfSXgvlMUvBvRfM1/xkcWBhA4Je8+WIwgwQAtLTvv5qxCJRj/uC3gsUqUjBQz02EARS7AGrAD0UT
-        9a+y1lIg/EvO3Bgb/ilnqg3Wg90AC79fSqamYKxonoYN/1S0CAPrwWbATwXzRiCOAGFs/gZhoN/7wXqw
-        GUAKwGrAb0WzUqDt/iAMi290/FPBogGsh9QwABpuC1YMBb8VzNz/q3iygzkIA3DHwndFK3mgpjIsYTKP
-        6DDApg4s9kve4vJPBbMOfBjkZJwG/FcwEPgvZyOIFwP9i9MAYgHlBiiYz8cMRPNjAFKeDNIs6sD0AAAA
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="btxemtruoc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btxemtruoc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 638</value>
-  </data>
-  <data name="btxemtruoc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 54</value>
-  </data>
-  <data name="btxemtruoc.Text" xml:space="preserve">
-    <value>預覽 [&amp;V]</value>
+    <value>845, 29</value>
   </data>
   <data name="f1ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -482,7 +163,7 @@
 </value>
   </data>
   <data name="f1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 32</value>
+    <value>98, 25</value>
   </data>
   <data name="f1ToolStripMenuItem.Text" xml:space="preserve">
     <value>F1.查詢</value>
@@ -500,7 +181,7 @@
 </value>
   </data>
   <data name="f2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 32</value>
+    <value>97, 25</value>
   </data>
   <data name="f2ToolStripMenuItem.Text" xml:space="preserve">
     <value>F2.預覽</value>
@@ -521,13 +202,342 @@
 </value>
   </data>
   <data name="f4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 32</value>
+    <value>97, 25</value>
   </data>
   <data name="f4ToolStripMenuItem.Text" xml:space="preserve">
     <value>F4.關閉</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1236, 713</value>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 104</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 370</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>837, 335</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>退貨單</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 124</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>是否列印單價:</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 77</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>終止退貨單編號:</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 30</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>請輸入起始退貨單編號:</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 124</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>報表格式</value>
+  </data>
+  <data name="rdK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 88</value>
+  </data>
+  <data name="rdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="rdK.Text" xml:space="preserve">
+    <value>套表</value>
+  </data>
+  <data name="rdMK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdMK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdMK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 28</value>
+  </data>
+  <data name="rdMK.Text" xml:space="preserve">
+    <value>非套表</value>
+  </data>
+  <data name="txtIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 123</value>
+  </data>
+  <data name="txtWS_NO1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 78</value>
+  </data>
+  <data name="txtWS_NO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 27</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>837, 335</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>退折明細表</value>
+  </data>
+  <data name="txtDate2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 153</value>
+  </data>
+  <data name="txtDate2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="txtDate1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 114</value>
+  </data>
+  <data name="txtDate1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 67</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>報表格式</value>
+  </data>
+  <data name="rdB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 28</value>
+  </data>
+  <data name="rdB.Text" xml:space="preserve">
+    <value>沖帳單-B</value>
+  </data>
+  <data name="rdT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 28</value>
+  </data>
+  <data name="rdT.Text" xml:space="preserve">
+    <value>折扣單-T</value>
+  </data>
+  <data name="rdC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 28</value>
+  </data>
+  <data name="rdC.Text" xml:space="preserve">
+    <value>退料單-C</value>
+  </data>
+  <data name="rdAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="rdAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="rdAll.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 257</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>終止客戶編號 :</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 220</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 24</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>請輸入起始客戶編號:</value>
+  </data>
+  <data name="txtC_NO2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 255</value>
+  </data>
+  <data name="txtC_NO1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 218</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 155</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>終止日期:</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 116</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>請輸入起始日期:</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 65</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>終止單號:</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>請輸入起始單號:</value>
+  </data>
+  <data name="txt2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 63</value>
+  </data>
+  <data name="txt1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvt
+        llsOwiAQRVlEYQ8Ft6IfPuJH3YDbNlZX0DZpjDrgoH1BobZpjJxkkhbmzg2FAiQQ+B8yEa1yTk8qYrrH
+        5l5yQbdaBzWW2OwOCFOIhwpBbwWPEuwyUnB2kLkV3Rm73AHh5V3Awbxl+ooUu90B0a5VyGDeaSrfF2yN
+        KX7kgm2gSFkryOk9i9kRU4h8lm2NnFJqMWUYNvPJTDXGT9nR5rIIvTCMvBrjjbSJYeVOM9IqhjmVUVtw
+        o2Ix1TG++SyLy/bL2H41lA/DZoopTpuMFyCeZ8sE8ed0wkK2+TOYf3k69ZhqOsz9Tye8CFxV+F8ElG7Q
+        RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 482</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 38</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>關閉 [&amp;C]</value>
+  </data>
+  <data name="btxemtruoc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAOxJREFUOE9j
+        +KVgsfSXgvlMUvBvRfM1/xkcWBhA4Je8+WIwgwQAtLTvv5qxCJRj/uC3gsUqUjBQz02EARS7AGrAD0UT
+        9a+y1lIg/EvO3Bgb/ilnqg3Wg90AC79fSqamYKxonoYN/1S0CAPrwWbATwXzRiCOAGFs/gZhoN/7wXqw
+        GUAKwGrAb0WzUqDt/iAMi290/FPBogGsh9QwABpuC1YMBb8VzNz/q3iygzkIA3DHwndFK3mgpjIsYTKP
+        6DDApg4s9kve4vJPBbMOfBjkZJwG/FcwEPgvZyOIFwP9i9MAYgHlBiiYz8cMRPNjAFKeDNIs6sD0AAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btxemtruoc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btxemtruoc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 482</value>
+  </data>
+  <data name="btxemtruoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 38</value>
+  </data>
+  <data name="btxemtruoc.Text" xml:space="preserve">
+    <value>預覽 [&amp;V]</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -569,9 +579,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>列印退貨資料</value>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="WTERP.exe" version="2.0.0.44" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="WTERP.exe" version="2.0.0.47" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="WeiTai.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -991,38 +991,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WTERP.exe" size="38519696">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WTERP.exe" size="38818704">
       <assemblyIdentity name="WTERP" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VShnhgE8uB4WorbpIaEzOXTOczHzyzOFFws4gcJdTDU=</dsig:DigestValue>
+        <dsig:DigestValue>+QCBxuepGkfHbc4sjwKvIZihMaprFNWg+bUhnNqYNe0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\WTERP.resources.dll" size="5062656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\WTERP.resources.dll" size="5082112">
       <assemblyIdentity name="WTERP.resources" version="1.0.0.2" language="en" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jVWIONuzYW8qY/uEEHcQxJXUmmDtcK/ul2g97cchMKk=</dsig:DigestValue>
+        <dsig:DigestValue>i+ye5dAR7hC7lEETuvHfIB4g0LAarX+6vgBKTBOpCDI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vi\WTERP.resources.dll" size="4470784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vi\WTERP.resources.dll" size="4476928">
       <assemblyIdentity name="WTERP.resources" version="1.0.0.2" language="vi" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Dkzph/43LorQexzsN0bkaFkKRN40nCk0ifpmw06bwtM=</dsig:DigestValue>
+        <dsig:DigestValue>IuhWiPILRL+PubjbSvOzoRIb2EyGKjU0STJEFRi3WUU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1034,19 +1034,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SR/2kOtIWPfZHcxB4feM7gM5ee9fHikXV4BNTg8+tcw=</dsig:DigestValue>
+        <dsig:DigestValue>XzAyXly9sUxM5HGz/n+uKxjGEML4eK5TfOZDICwqemw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-TW\WTERP.resources.dll" size="6757376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-TW\WTERP.resources.dll" size="6764544">
       <assemblyIdentity name="WTERP.resources" version="1.0.0.2" language="zh-TW" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iFPxZIwGaLMNRxlw+3ft8+S/HEwpnE0ToesP5Ovom54=</dsig:DigestValue>
+        <dsig:DigestValue>ZNNM+dqi9bgPaKffkAzMFEx94v7dtviN2mRr04nFAP8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

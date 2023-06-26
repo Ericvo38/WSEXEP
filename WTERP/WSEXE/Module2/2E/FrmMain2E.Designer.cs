@@ -31,9 +31,6 @@ namespace WTERP.WSEXE.Module2._2E
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain2E));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,6 +67,21 @@ namespace WTERP.WSEXE.Module2._2E
             this.btnMoveFirst = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.DGV1 = new System.Windows.Forms.DataGridView();
+            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COLOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OR_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CAL_YM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COLOR_C = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COLOR_E = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtCAL_YM = new System.Windows.Forms.MaskedTextBox();
             this.txtWS_DATE = new System.Windows.Forms.MaskedTextBox();
             this.txtMEMO6 = new System.Windows.Forms.TextBox();
@@ -90,32 +102,26 @@ namespace WTERP.WSEXE.Module2._2E
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.DGV1 = new System.Windows.Forms.DataGridView();
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.COLOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OR_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CAL_YM = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.COLOR_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.新增明細TToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.插入明細UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.刪除明細VToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.訂單明細WToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.產品挑選XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.儲ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV1)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -368,6 +374,7 @@ namespace WTERP.WSEXE.Module2._2E
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.DGV1);
             this.tabPage2.Controls.Add(this.txtCAL_YM);
             this.tabPage2.Controls.Add(this.txtWS_DATE);
             this.tabPage2.Controls.Add(this.txtMEMO6);
@@ -388,7 +395,6 @@ namespace WTERP.WSEXE.Module2._2E
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.DGV1);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label3);
@@ -397,17 +403,132 @@ namespace WTERP.WSEXE.Module2._2E
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // DGV1
+            // 
+            this.DGV1.AllowUserToAddRows = false;
+            this.DGV1.AllowUserToDeleteRows = false;
+            this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NR,
+            this.P_NO,
+            this.P_NAME,
+            this.COLOR,
+            this.P_NAME3,
+            this.BQTY,
+            this.PRICE,
+            this.AMOUNT,
+            this.OR_NO,
+            this.CAL_YM,
+            this.MEMO,
+            this.COLOR_C,
+            this.COLOR_E,
+            this.QTY});
+            resources.ApplyResources(this.DGV1, "DGV1");
+            this.DGV1.Name = "DGV1";
+            this.DGV1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellClick);
+            this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit_1);
+            this.DGV1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DGV1_MouseClick);
+            this.DGV1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.DGV1_MouseDoubleClick);
+            // 
+            // NR
+            // 
+            this.NR.DataPropertyName = "NR";
+            resources.ApplyResources(this.NR, "NR");
+            this.NR.Name = "NR";
+            // 
+            // P_NO
+            // 
+            this.P_NO.DataPropertyName = "P_NO";
+            resources.ApplyResources(this.P_NO, "P_NO");
+            this.P_NO.Name = "P_NO";
+            // 
+            // P_NAME
+            // 
+            this.P_NAME.DataPropertyName = "P_NAME";
+            resources.ApplyResources(this.P_NAME, "P_NAME");
+            this.P_NAME.Name = "P_NAME";
+            // 
+            // COLOR
+            // 
+            this.COLOR.DataPropertyName = "COLOR";
+            resources.ApplyResources(this.COLOR, "COLOR");
+            this.COLOR.Name = "COLOR";
+            // 
+            // P_NAME3
+            // 
+            this.P_NAME3.DataPropertyName = "P_NAME3";
+            resources.ApplyResources(this.P_NAME3, "P_NAME3");
+            this.P_NAME3.Name = "P_NAME3";
+            // 
+            // BQTY
+            // 
+            this.BQTY.DataPropertyName = "BQTY";
+            resources.ApplyResources(this.BQTY, "BQTY");
+            this.BQTY.Name = "BQTY";
+            // 
+            // PRICE
+            // 
+            this.PRICE.DataPropertyName = "PRICE";
+            resources.ApplyResources(this.PRICE, "PRICE");
+            this.PRICE.Name = "PRICE";
+            // 
+            // AMOUNT
+            // 
+            this.AMOUNT.DataPropertyName = "AMOUNT";
+            resources.ApplyResources(this.AMOUNT, "AMOUNT");
+            this.AMOUNT.Name = "AMOUNT";
+            // 
+            // OR_NO
+            // 
+            this.OR_NO.DataPropertyName = "OR_NO";
+            resources.ApplyResources(this.OR_NO, "OR_NO");
+            this.OR_NO.Name = "OR_NO";
+            // 
+            // CAL_YM
+            // 
+            this.CAL_YM.DataPropertyName = "CAL_YM";
+            resources.ApplyResources(this.CAL_YM, "CAL_YM");
+            this.CAL_YM.Name = "CAL_YM";
+            // 
+            // MEMO
+            // 
+            this.MEMO.DataPropertyName = "MEMO";
+            resources.ApplyResources(this.MEMO, "MEMO");
+            this.MEMO.Name = "MEMO";
+            // 
+            // COLOR_C
+            // 
+            this.COLOR_C.DataPropertyName = "COLOR_C";
+            resources.ApplyResources(this.COLOR_C, "COLOR_C");
+            this.COLOR_C.Name = "COLOR_C";
+            // 
+            // COLOR_E
+            // 
+            this.COLOR_E.DataPropertyName = "COLOR_E";
+            resources.ApplyResources(this.COLOR_E, "COLOR_E");
+            this.COLOR_E.Name = "COLOR_E";
+            // 
+            // QTY
+            // 
+            this.QTY.DataPropertyName = "QTY";
+            resources.ApplyResources(this.QTY, "QTY");
+            this.QTY.Name = "QTY";
+            // 
             // txtCAL_YM
             // 
             this.txtCAL_YM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtCAL_YM, "txtCAL_YM");
             this.txtCAL_YM.Name = "txtCAL_YM";
+            this.txtCAL_YM.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCAL_YM_MouseDoubleClick);
             // 
             // txtWS_DATE
             // 
             this.txtWS_DATE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtWS_DATE, "txtWS_DATE");
             this.txtWS_DATE.Name = "txtWS_DATE";
+            this.txtWS_DATE.TextChanged += new System.EventHandler(this.txtWS_DATE_TextChanged);
             this.txtWS_DATE.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtWS_DATE_MouseDoubleClick);
             // 
             // txtMEMO6
@@ -487,12 +608,15 @@ namespace WTERP.WSEXE.Module2._2E
             this.txtC_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtC_NO, "txtC_NO");
             this.txtC_NO.Name = "txtC_NO";
+            this.txtC_NO.TextChanged += new System.EventHandler(this.txtC_NO_TextChanged);
+            this.txtC_NO.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtC_NO_MouseDoubleClick);
             // 
             // txtWS_NO
             // 
             this.txtWS_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
             this.txtWS_NO.Name = "txtWS_NO";
+            this.txtWS_NO.ReadOnly = true;
             this.txtWS_NO.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtWS_NO_MouseClick);
             this.txtWS_NO.TextChanged += new System.EventHandler(this.txtWS_NO_TextChanged);
             // 
@@ -521,36 +645,6 @@ namespace WTERP.WSEXE.Module2._2E
             resources.ApplyResources(this.label11, "label11");
             this.label11.ForeColor = System.Drawing.Color.Brown;
             this.label11.Name = "label11";
-            // 
-            // DGV1
-            // 
-            this.DGV1.AllowUserToAddRows = false;
-            this.DGV1.AllowUserToDeleteRows = false;
-            this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.DGV1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NR,
-            this.P_NO,
-            this.P_NAME,
-            this.COLOR,
-            this.P_NAME3,
-            this.BQTY,
-            this.PRICE,
-            this.AMOUNT,
-            this.OR_NO,
-            this.CAL_YM,
-            this.MEMO,
-            this.COLOR_c,
-            this.P_NAME1,
-            this.QTY});
-            resources.ApplyResources(this.DGV1, "DGV1");
-            this.DGV1.Name = "DGV1";
-            this.DGV1.ReadOnly = true;
-            this.DGV1.RowTemplate.Height = 15;
-            this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit);
-            this.DGV1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DGV1_MouseClick);
             // 
             // label8
             // 
@@ -582,110 +676,60 @@ namespace WTERP.WSEXE.Module2._2E
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // NR
+            // contextMenuStrip1
             // 
-            this.NR.DataPropertyName = "NR";
-            resources.ApplyResources(this.NR, "NR");
-            this.NR.Name = "NR";
-            this.NR.ReadOnly = true;
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.新增明細TToolStripMenuItem,
+            this.插入明細UToolStripMenuItem,
+            this.刪除明細VToolStripMenuItem,
+            this.訂單明細WToolStripMenuItem,
+            this.產品挑選XToolStripMenuItem,
+            this.儲ToolStripMenuItem,
+            this.放ToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
-            // P_NO
+            // 新增明細TToolStripMenuItem
             // 
-            this.P_NO.DataPropertyName = "P_NO";
-            resources.ApplyResources(this.P_NO, "P_NO");
-            this.P_NO.Name = "P_NO";
-            this.P_NO.ReadOnly = true;
+            resources.ApplyResources(this.新增明細TToolStripMenuItem, "新增明細TToolStripMenuItem");
+            this.新增明細TToolStripMenuItem.Name = "新增明細TToolStripMenuItem";
+            this.新增明細TToolStripMenuItem.Click += new System.EventHandler(this.新增明細TToolStripMenuItem_Click);
             // 
-            // P_NAME
+            // 插入明細UToolStripMenuItem
             // 
-            this.P_NAME.DataPropertyName = "P_NAME";
-            resources.ApplyResources(this.P_NAME, "P_NAME");
-            this.P_NAME.Name = "P_NAME";
-            this.P_NAME.ReadOnly = true;
+            resources.ApplyResources(this.插入明細UToolStripMenuItem, "插入明細UToolStripMenuItem");
+            this.插入明細UToolStripMenuItem.Name = "插入明細UToolStripMenuItem";
+            this.插入明細UToolStripMenuItem.Click += new System.EventHandler(this.插入明細UToolStripMenuItem_Click);
             // 
-            // COLOR
+            // 刪除明細VToolStripMenuItem
             // 
-            this.COLOR.DataPropertyName = "COLOR";
-            resources.ApplyResources(this.COLOR, "COLOR");
-            this.COLOR.Name = "COLOR";
-            this.COLOR.ReadOnly = true;
+            resources.ApplyResources(this.刪除明細VToolStripMenuItem, "刪除明細VToolStripMenuItem");
+            this.刪除明細VToolStripMenuItem.Name = "刪除明細VToolStripMenuItem";
+            this.刪除明細VToolStripMenuItem.Click += new System.EventHandler(this.刪除明細VToolStripMenuItem_Click);
             // 
-            // P_NAME3
+            // 訂單明細WToolStripMenuItem
             // 
-            this.P_NAME3.DataPropertyName = "P_NAME3";
-            resources.ApplyResources(this.P_NAME3, "P_NAME3");
-            this.P_NAME3.Name = "P_NAME3";
-            this.P_NAME3.ReadOnly = true;
+            resources.ApplyResources(this.訂單明細WToolStripMenuItem, "訂單明細WToolStripMenuItem");
+            this.訂單明細WToolStripMenuItem.Name = "訂單明細WToolStripMenuItem";
+            this.訂單明細WToolStripMenuItem.Click += new System.EventHandler(this.訂單明細WToolStripMenuItem_Click);
             // 
-            // BQTY
+            // 產品挑選XToolStripMenuItem
             // 
-            this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle1.Format = "N2";
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
-            resources.ApplyResources(this.BQTY, "BQTY");
-            this.BQTY.Name = "BQTY";
-            this.BQTY.ReadOnly = true;
+            resources.ApplyResources(this.產品挑選XToolStripMenuItem, "產品挑選XToolStripMenuItem");
+            this.產品挑選XToolStripMenuItem.Name = "產品挑選XToolStripMenuItem";
+            this.產品挑選XToolStripMenuItem.Click += new System.EventHandler(this.產品挑選XToolStripMenuItem_Click);
             // 
-            // PRICE
+            // 儲ToolStripMenuItem
             // 
-            this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle2.Format = "N2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.PRICE, "PRICE");
-            this.PRICE.Name = "PRICE";
-            this.PRICE.ReadOnly = true;
+            resources.ApplyResources(this.儲ToolStripMenuItem, "儲ToolStripMenuItem");
+            this.儲ToolStripMenuItem.Name = "儲ToolStripMenuItem";
+            this.儲ToolStripMenuItem.Click += new System.EventHandler(this.儲ToolStripMenuItem_Click);
             // 
-            // AMOUNT
+            // 放ToolStripMenuItem
             // 
-            this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle3.Format = "N2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle3;
-            resources.ApplyResources(this.AMOUNT, "AMOUNT");
-            this.AMOUNT.Name = "AMOUNT";
-            this.AMOUNT.ReadOnly = true;
-            // 
-            // OR_NO
-            // 
-            this.OR_NO.DataPropertyName = "OR_NO";
-            resources.ApplyResources(this.OR_NO, "OR_NO");
-            this.OR_NO.Name = "OR_NO";
-            this.OR_NO.ReadOnly = true;
-            // 
-            // CAL_YM
-            // 
-            resources.ApplyResources(this.CAL_YM, "CAL_YM");
-            this.CAL_YM.Name = "CAL_YM";
-            this.CAL_YM.ReadOnly = true;
-            // 
-            // MEMO
-            // 
-            this.MEMO.DataPropertyName = "MEMO";
-            resources.ApplyResources(this.MEMO, "MEMO");
-            this.MEMO.Name = "MEMO";
-            this.MEMO.ReadOnly = true;
-            // 
-            // COLOR_c
-            // 
-            this.COLOR_c.DataPropertyName = "COLOR_c";
-            resources.ApplyResources(this.COLOR_c, "COLOR_c");
-            this.COLOR_c.Name = "COLOR_c";
-            this.COLOR_c.ReadOnly = true;
-            // 
-            // P_NAME1
-            // 
-            this.P_NAME1.DataPropertyName = "P_NAME1";
-            resources.ApplyResources(this.P_NAME1, "P_NAME1");
-            this.P_NAME1.Name = "P_NAME1";
-            this.P_NAME1.ReadOnly = true;
-            // 
-            // QTY
-            // 
-            this.QTY.DataPropertyName = "QTY";
-            resources.ApplyResources(this.QTY, "QTY");
-            this.QTY.Name = "QTY";
-            this.QTY.ReadOnly = true;
+            resources.ApplyResources(this.放ToolStripMenuItem, "放ToolStripMenuItem");
+            this.放ToolStripMenuItem.Name = "放ToolStripMenuItem";
+            this.放ToolStripMenuItem.Click += new System.EventHandler(this.放ToolStripMenuItem_Click);
             // 
             // FrmMain2E
             // 
@@ -708,6 +752,7 @@ namespace WTERP.WSEXE.Module2._2E
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV1)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -766,7 +811,6 @@ namespace WTERP.WSEXE.Module2._2E
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DataGridView DGV1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -777,6 +821,7 @@ namespace WTERP.WSEXE.Module2._2E
         private System.Windows.Forms.ToolStripStatusLabel lbIPAddrees;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.DataGridView DGV1;
         private System.Windows.Forms.DataGridViewTextBoxColumn NR;
         private System.Windows.Forms.DataGridViewTextBoxColumn P_NO;
         private System.Windows.Forms.DataGridViewTextBoxColumn P_NAME;
@@ -788,8 +833,16 @@ namespace WTERP.WSEXE.Module2._2E
         private System.Windows.Forms.DataGridViewTextBoxColumn OR_NO;
         private System.Windows.Forms.DataGridViewTextBoxColumn CAL_YM;
         private System.Windows.Forms.DataGridViewTextBoxColumn MEMO;
-        private System.Windows.Forms.DataGridViewTextBoxColumn COLOR_c;
-        private System.Windows.Forms.DataGridViewTextBoxColumn P_NAME1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn COLOR_C;
+        private System.Windows.Forms.DataGridViewTextBoxColumn COLOR_E;
         private System.Windows.Forms.DataGridViewTextBoxColumn QTY;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 新增明細TToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 插入明細UToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 刪除明細VToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 訂單明細WToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 產品挑選XToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 儲ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 放ToolStripMenuItem;
     }
 }
