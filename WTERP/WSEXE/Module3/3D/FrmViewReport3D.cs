@@ -24,8 +24,7 @@ namespace WTERP.WSEXE.Module3._3D
         private void FrmViewReport3D_Load(object sender, EventArgs e)
         {
             dt = connect.readdata(frm3DF7.Share_SQL);
-            reportViewer1.View(dt, "PRDMK1", "WTERP.WSEXE.Module3._3D.Report1.rdlc");
-            //reportViewer1.View(dt, "PRDMK1", "WTERP.WSEXE.Module3._3D.ReportSample.rdlc");
+            reportViewer1.View(dt, "PRDMK1", "WTERP.WSEXE.Module3._3D.ReportSample.rdlc");
             this.reportViewer1.RefreshReport();
             connect.CreateStripButton(reportViewer1, Printer_Click, "Printer", 12, Resources.printing);
         }

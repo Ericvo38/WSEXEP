@@ -1,7 +1,7 @@
 ﻿
 namespace WTERP
 {
-    partial class frm2CF7
+    partial class frm2CF7_Old
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,8 @@ namespace WTERP
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm2CF7));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm2CF7_Old));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label5 = new System.Windows.Forms.Label();
@@ -57,16 +54,17 @@ namespace WTERP
             this.txtSoLH_E = new System.Windows.Forms.TextBox();
             this.txtSoLH_S = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -79,21 +77,6 @@ namespace WTERP
             this.f2ToolStripMenuItem,
             this.f4ToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
-            // 
-            // f1ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
-            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
-            // 
-            // f2ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
-            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
-            // 
-            // f4ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
-            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
             // 
             // tabControl1
             // 
@@ -258,17 +241,10 @@ namespace WTERP
             // 
             // label1
             // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Name = "label1";
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
@@ -286,11 +262,25 @@ namespace WTERP
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frm2CF7
+            // f1ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
+            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
+            // 
+            // f2ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
+            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
+            // 
+            // f4ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
+            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
+            // 
+            // frm2CF7_Old
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -300,7 +290,7 @@ namespace WTERP
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frm2CF7";
+            this.Name = "frm2CF7_Old";
             this.Load += new System.EventHandler(this.frm2CF7_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -313,7 +303,6 @@ namespace WTERP
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,7 +337,6 @@ namespace WTERP
         private System.Windows.Forms.TextBox txtInDonGia;
         private System.Windows.Forms.TextBox txtSoLH_E;
         private System.Windows.Forms.TextBox txtSoLH_S;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtPOCongViec;
     }

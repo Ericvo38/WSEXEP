@@ -43,7 +43,7 @@ namespace WTERP.WSEXE.Module2._2E
                 MessageBox.Show(ex.Message);
             }
         }
-        void Search()
+        void Search() 
         {
             string SQL1 = "SELECT NR, OR_NO,C_NO,C_NAME_E, COLOR_E,dbo.FormatString1(WS_DATE) AS WS_DATE,P_NAME_E,THICK,QTY,P_NO,K_NO,PATT_C,PATT_E,MODEL_E FROM ORDB WHERE 1=1";
             if (!string.IsNullOrEmpty(txtP_NO.Text)) SQL1 = SQL1 + " AND P_NO LIKE '%" + txtP_NO.Text + "%'";
@@ -192,5 +192,12 @@ namespace WTERP.WSEXE.Module2._2E
             if (e.KeyCode == Keys.Enter) Search();
         }
         #endregion
+
+        private void txtWS_DATE_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            LibraryCalender.FromCalender fm = new LibraryCalender.FromCalender();
+            fm.ShowDialog();
+            if (LibraryCalender.FromCalender.Flags) txtWS_DATE.Text = LibraryCalender.FromCalender.getDate.ToString("yyMMdd");
+        }
     }
 }

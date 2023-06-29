@@ -377,6 +377,7 @@ namespace WTERP
             // 
             // txt1_4
             // 
+            this.txt1_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_4, "txt1_4");
             this.txt1_4.Name = "txt1_4";
             this.txt1_4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_4_KeyDown);
@@ -390,6 +391,7 @@ namespace WTERP
             // 
             // txt1_3
             // 
+            this.txt1_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_3, "txt1_3");
             this.txt1_3.Name = "txt1_3";
             this.txt1_3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_3_KeyDown);
@@ -403,6 +405,7 @@ namespace WTERP
             // 
             // txt1_2
             // 
+            this.txt1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_2, "txt1_2");
             this.txt1_2.Name = "txt1_2";
             this.txt1_2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_2_KeyDown);
@@ -416,6 +419,7 @@ namespace WTERP
             // 
             // txt1_1
             // 
+            this.txt1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_1, "txt1_1");
             this.txt1_1.Name = "txt1_1";
             this.txt1_1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_1_KeyDown);
@@ -446,6 +450,7 @@ namespace WTERP
             // 
             // tb5t2
             // 
+            this.tb5t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb5t2, "tb5t2");
             this.tb5t2.Name = "tb5t2";
             this.tb5t2.DoubleClick += new System.EventHandler(this.tb5t2_DoubleClick);
@@ -453,6 +458,7 @@ namespace WTERP
             // 
             // tb4t2
             // 
+            this.tb4t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb4t2, "tb4t2");
             this.tb4t2.Name = "tb4t2";
             this.tb4t2.DoubleClick += new System.EventHandler(this.tb4t2_DoubleClick);
@@ -460,6 +466,7 @@ namespace WTERP
             // 
             // tb3t2
             // 
+            this.tb3t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb3t2, "tb3t2");
             this.tb3t2.Name = "tb3t2";
             this.tb3t2.DoubleClick += new System.EventHandler(this.tb3t2_DoubleClick);
@@ -517,6 +524,7 @@ namespace WTERP
             // 
             // tb2t2
             // 
+            this.tb2t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb2t2, "tb2t2");
             this.tb2t2.Name = "tb2t2";
             this.tb2t2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb2t2_KeyDown);
@@ -529,6 +537,7 @@ namespace WTERP
             // 
             // tb1t2
             // 
+            this.tb1t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb1t2, "tb1t2");
             this.tb1t2.Name = "tb1t2";
             this.tb1t2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb1t2_KeyDown);
@@ -568,6 +577,7 @@ namespace WTERP
             // 
             // txt3_7
             // 
+            this.txt3_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_7, "txt3_7");
             this.txt3_7.Name = "txt3_7";
             this.txt3_7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_7_KeyDown);
@@ -575,6 +585,7 @@ namespace WTERP
             // 
             // txt3_8
             // 
+            this.txt3_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_8, "txt3_8");
             this.txt3_8.Name = "txt3_8";
             this.txt3_8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_8_KeyDown);
@@ -582,6 +593,7 @@ namespace WTERP
             // 
             // txt3_4
             // 
+            this.txt3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_4, "txt3_4");
             this.txt3_4.Name = "txt3_4";
             this.txt3_4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_4_KeyDown);
@@ -589,6 +601,7 @@ namespace WTERP
             // 
             // txt3_3
             // 
+            this.txt3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_3, "txt3_3");
             this.txt3_3.Name = "txt3_3";
             this.txt3_3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_3_KeyDown);
@@ -710,6 +723,7 @@ namespace WTERP
             // 
             // txt3_6
             // 
+            this.txt3_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_6, "txt3_6");
             this.txt3_6.Name = "txt3_6";
             this.txt3_6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_6_KeyDown);
@@ -735,6 +749,7 @@ namespace WTERP
             // 
             // txt3_9
             // 
+            this.txt3_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_9, "txt3_9");
             this.txt3_9.Name = "txt3_9";
             this.txt3_9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_9_KeyDown);
@@ -748,6 +763,7 @@ namespace WTERP
             // 
             // txt3_5
             // 
+            this.txt3_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_5, "txt3_5");
             this.txt3_5.Name = "txt3_5";
             this.txt3_5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_5_KeyDown);
@@ -767,6 +783,7 @@ namespace WTERP
             // 
             // txt3_2
             // 
+            this.txt3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_2, "txt3_2");
             this.txt3_2.Name = "txt3_2";
             this.txt3_2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_2_KeyDown);
@@ -780,6 +797,7 @@ namespace WTERP
             // 
             // txt3_1
             // 
+            this.txt3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_1, "txt3_1");
             this.txt3_1.Name = "txt3_1";
             this.txt3_1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_1_KeyDown);
@@ -833,6 +851,7 @@ namespace WTERP
             // 
             // txt4_14
             // 
+            this.txt4_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_14, "txt4_14");
             this.txt4_14.Name = "txt4_14";
             this.txt4_14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_14_KeyDown);
@@ -840,6 +859,7 @@ namespace WTERP
             // 
             // txt4_11
             // 
+            this.txt4_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_11, "txt4_11");
             this.txt4_11.Name = "txt4_11";
             this.txt4_11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_11_KeyDown);
@@ -847,6 +867,7 @@ namespace WTERP
             // 
             // txt4_10
             // 
+            this.txt4_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_10, "txt4_10");
             this.txt4_10.Name = "txt4_10";
             this.txt4_10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_10_KeyDown);
@@ -854,6 +875,7 @@ namespace WTERP
             // 
             // txt4_4
             // 
+            this.txt4_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_4, "txt4_4");
             this.txt4_4.Name = "txt4_4";
             this.txt4_4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_4_KeyDown);
@@ -861,6 +883,7 @@ namespace WTERP
             // 
             // txt4_3
             // 
+            this.txt4_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_3, "txt4_3");
             this.txt4_3.Name = "txt4_3";
             this.txt4_3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_3_KeyDown);
@@ -900,12 +923,14 @@ namespace WTERP
             // 
             // txt4_16
             // 
+            this.txt4_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_16, "txt4_16");
             this.txt4_16.Name = "txt4_16";
             this.txt4_16.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_16_KeyDown);
             // 
             // txt4_15
             // 
+            this.txt4_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_15, "txt4_15");
             this.txt4_15.Name = "txt4_15";
             this.txt4_15.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_15_KeyDown);
@@ -924,6 +949,7 @@ namespace WTERP
             // 
             // txt4_13
             // 
+            this.txt4_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_13, "txt4_13");
             this.txt4_13.Name = "txt4_13";
             this.txt4_13.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_13_KeyDown);
@@ -936,6 +962,7 @@ namespace WTERP
             // 
             // txt4_12
             // 
+            this.txt4_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_12, "txt4_12");
             this.txt4_12.Name = "txt4_12";
             this.txt4_12.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_12_KeyDown);
@@ -965,30 +992,35 @@ namespace WTERP
             // 
             // txt4_9
             // 
+            this.txt4_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_9, "txt4_9");
             this.txt4_9.Name = "txt4_9";
             this.txt4_9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_9_KeyDown);
             // 
             // txt4_8
             // 
+            this.txt4_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_8, "txt4_8");
             this.txt4_8.Name = "txt4_8";
             this.txt4_8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_8_KeyDown);
             // 
             // txt4_7
             // 
+            this.txt4_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_7, "txt4_7");
             this.txt4_7.Name = "txt4_7";
             this.txt4_7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_7_KeyDown);
             // 
             // txt4_6
             // 
+            this.txt4_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_6, "txt4_6");
             this.txt4_6.Name = "txt4_6";
             this.txt4_6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_6_KeyDown);
             // 
             // txt4_5
             // 
+            this.txt4_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_5, "txt4_5");
             this.txt4_5.Name = "txt4_5";
             this.txt4_5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_5_KeyDown);
@@ -1037,6 +1069,7 @@ namespace WTERP
             // 
             // txt4_2
             // 
+            this.txt4_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_2, "txt4_2");
             this.txt4_2.Name = "txt4_2";
             this.txt4_2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_2_KeyDown);
@@ -1050,6 +1083,7 @@ namespace WTERP
             // 
             // txt4_1
             // 
+            this.txt4_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_1, "txt4_1");
             this.txt4_1.Name = "txt4_1";
             this.txt4_1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_1_KeyDown);
@@ -1082,6 +1116,7 @@ namespace WTERP
             // 
             // tb2t5
             // 
+            this.tb2t5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb2t5, "tb2t5");
             this.tb2t5.Name = "tb2t5";
             this.tb2t5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb2t5_KeyDown);
@@ -1089,6 +1124,7 @@ namespace WTERP
             // 
             // tb1t5
             // 
+            this.tb1t5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb1t5, "tb1t5");
             this.tb1t5.Name = "tb1t5";
             this.tb1t5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb1t5_KeyDown);
@@ -1152,6 +1188,7 @@ namespace WTERP
             // 
             // tb5t5
             // 
+            this.tb5t5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb5t5, "tb5t5");
             this.tb5t5.Name = "tb5t5";
             this.tb5t5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb5t5_KeyDown);
@@ -1165,6 +1202,7 @@ namespace WTERP
             // 
             // tb4t5
             // 
+            this.tb4t5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb4t5, "tb4t5");
             this.tb4t5.Name = "tb4t5";
             this.tb4t5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb4t5_KeyDown);
@@ -1178,6 +1216,7 @@ namespace WTERP
             // 
             // tb3t5
             // 
+            this.tb3t5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tb3t5, "tb3t5");
             this.tb3t5.Name = "tb3t5";
             this.tb3t5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb3t5_KeyDown);
@@ -1232,6 +1271,7 @@ namespace WTERP
             // 
             // txt2t6
             // 
+            this.txt2t6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt2t6, "txt2t6");
             this.txt2t6.Name = "txt2t6";
             this.txt2t6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt2t6_KeyDown);
@@ -1246,6 +1286,7 @@ namespace WTERP
             // 
             // txt1t6
             // 
+            this.txt1t6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1t6, "txt1t6");
             this.txt1t6.Name = "txt1t6";
             this.txt1t6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1t6_KeyDown);
@@ -1341,6 +1382,7 @@ namespace WTERP
             // 
             // txt5t6
             // 
+            this.txt5t6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt5t6, "txt5t6");
             this.txt5t6.Name = "txt5t6";
             this.txt5t6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt5t6_KeyDown);
@@ -1354,6 +1396,7 @@ namespace WTERP
             // 
             // txt4t6
             // 
+            this.txt4t6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4t6, "txt4t6");
             this.txt4t6.Name = "txt4t6";
             this.txt4t6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4t6_KeyDown);
@@ -1367,6 +1410,7 @@ namespace WTERP
             // 
             // txt3t6
             // 
+            this.txt3t6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3t6, "txt3t6");
             this.txt3t6.Name = "txt3t6";
             this.txt3t6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3t6_KeyDown);
@@ -1434,6 +1478,7 @@ namespace WTERP
             // 
             // txt5_t7
             // 
+            this.txt5_t7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt5_t7, "txt5_t7");
             this.txt5_t7.Name = "txt5_t7";
             this.txt5_t7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt5_t7_KeyDown_1);
@@ -1441,6 +1486,7 @@ namespace WTERP
             // 
             // txt4_t7
             // 
+            this.txt4_t7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_t7, "txt4_t7");
             this.txt4_t7.Name = "txt4_t7";
             this.txt4_t7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_t7_KeyDown_1);
@@ -1448,6 +1494,7 @@ namespace WTERP
             // 
             // txt1_t7
             // 
+            this.txt1_t7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_t7, "txt1_t7");
             this.txt1_t7.Name = "txt1_t7";
             this.txt1_t7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_t7_KeyDown_1);
@@ -1515,6 +1562,7 @@ namespace WTERP
             // 
             // txt3_t7
             // 
+            this.txt3_t7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_t7, "txt3_t7");
             this.txt3_t7.Name = "txt3_t7";
             this.txt3_t7.DoubleClick += new System.EventHandler(this.txt3_t7_DoubleClick);
@@ -1528,6 +1576,7 @@ namespace WTERP
             // 
             // txt2_t7
             // 
+            this.txt2_t7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt2_t7, "txt2_t7");
             this.txt2_t7.Name = "txt2_t7";
             this.txt2_t7.DoubleClick += new System.EventHandler(this.txt2_t7_DoubleClick);
@@ -1571,6 +1620,7 @@ namespace WTERP
             // 
             // txt4_t8
             // 
+            this.txt4_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_t8, "txt4_t8");
             this.txt4_t8.Name = "txt4_t8";
             this.txt4_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_t8_KeyDown_1);
@@ -1578,6 +1628,7 @@ namespace WTERP
             // 
             // txt3_t8
             // 
+            this.txt3_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_t8, "txt3_t8");
             this.txt3_t8.Name = "txt3_t8";
             this.txt3_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_t8_KeyDown_1);
@@ -1585,6 +1636,7 @@ namespace WTERP
             // 
             // txt2_t8
             // 
+            this.txt2_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt2_t8, "txt2_t8");
             this.txt2_t8.Name = "txt2_t8";
             this.txt2_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt2_t8_KeyDown_1);
@@ -1592,6 +1644,7 @@ namespace WTERP
             // 
             // txt1_t8
             // 
+            this.txt1_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_t8, "txt1_t8");
             this.txt1_t8.Name = "txt1_t8";
             this.txt1_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_t8_KeyDown_1);
@@ -1599,18 +1652,21 @@ namespace WTERP
             // 
             // txt8t8
             // 
+            this.txt8t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt8t8, "txt8t8");
             this.txt8t8.Name = "txt8t8";
             this.txt8t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt8t8_KeyDown);
             // 
             // txt7_t8
             // 
+            this.txt7_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt7_t8, "txt7_t8");
             this.txt7_t8.Name = "txt7_t8";
             this.txt7_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt7_t8_KeyDown);
             // 
             // txt6_t8
             // 
+            this.txt6_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt6_t8, "txt6_t8");
             this.txt6_t8.Name = "txt6_t8";
             this.txt6_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt6_t8_KeyDown);
@@ -1731,6 +1787,7 @@ namespace WTERP
             // 
             // txt5_t8
             // 
+            this.txt5_t8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt5_t8, "txt5_t8");
             this.txt5_t8.Name = "txt5_t8";
             this.txt5_t8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt5_t8_KeyDown);
@@ -1787,6 +1844,7 @@ namespace WTERP
             // 
             // txt2_t9
             // 
+            this.txt2_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt2_t9, "txt2_t9");
             this.txt2_t9.Name = "txt2_t9";
             this.txt2_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt2_t9_KeyDown_1);
@@ -1794,6 +1852,7 @@ namespace WTERP
             // 
             // txt1_t9
             // 
+            this.txt1_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt1_t9, "txt1_t9");
             this.txt1_t9.Name = "txt1_t9";
             this.txt1_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt1_t9_KeyDown_1);
@@ -1801,18 +1860,21 @@ namespace WTERP
             // 
             // txt6_t9
             // 
+            this.txt6_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt6_t9, "txt6_t9");
             this.txt6_t9.Name = "txt6_t9";
             this.txt6_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt6_t9_KeyDown);
             // 
             // txt5_t9
             // 
+            this.txt5_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt5_t9, "txt5_t9");
             this.txt5_t9.Name = "txt5_t9";
             this.txt5_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt5_t9_KeyDown);
             // 
             // txt4_t9
             // 
+            this.txt4_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt4_t9, "txt4_t9");
             this.txt4_t9.Name = "txt4_t9";
             this.txt4_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt4_t9_KeyDown);
@@ -1925,6 +1987,7 @@ namespace WTERP
             // 
             // txt3_t9
             // 
+            this.txt3_t9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txt3_t9, "txt3_t9");
             this.txt3_t9.Name = "txt3_t9";
             this.txt3_t9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt3_t9_KeyDown);

@@ -14,10 +14,10 @@ using static WTERP.WSEXE.Report;
 
 namespace WTERP
 {
-    public partial class frm2CF7 : Form
+    public partial class frm2CF7_Old : Form
     {
         DataProvider data = new DataProvider();
-        public frm2CF7()
+        public frm2CF7_Old()
         {
             this.ShowInTaskbar = false;
             data.choose_languege();

@@ -130,7 +130,6 @@ namespace WTERP
                 string BB = dr["WS_NO1"].ToString();
                 string CC = dr["WS_NO1"].ToString();
 
-
                 int FirstChr_CV = CC.IndexOf(CV);
                 int FirstChr = BB.IndexOf(TS);
 
@@ -138,19 +137,13 @@ namespace WTERP
                 {
                     dr["BQTY"] = (-(float.Parse(dr["BQTY"].ToString()))).ToString();
                 }
-
             }
-
-
             for (int i = 0; i <= dt.Rows.Count - 2; i++)
             {
                 for (int j = i + 1; j <= dt.Rows.Count - 1; j++)
                 {
-
                     string AA = dt.Rows[i]["WS_NO"].ToString();
                     string AB = dt.Rows[j]["WS_NO"].ToString();
-                    //string OVER = dt.Rows[j]["OVER01"].ToString();
-
                     if (!AA.Equals("") && !AB.Equals(""))
                     {
                         if (AA == AB)
@@ -167,11 +160,8 @@ namespace WTERP
                             }
                         }
                     }
-
                 }
-
             }
-
             int x = 0;
             for (int i = x + 1; i <= dt.Rows.Count - 1; i++)
             {
@@ -216,7 +206,6 @@ namespace WTERP
                     string BC = BB.Substring(0, 2);
                 }
             }
-
             foreach (DataRow dr in dt.Rows)
             {
                 if (dr["TOTAL"].ToString() == "")
@@ -230,8 +219,6 @@ namespace WTERP
             Cr_F2D_Tab4 crp = new Cr_F2D_Tab4();
             crp.SetDataSource(dt);
             crystalReportViewer1.ReportSource = crp;
-            //this.crystalReportViewer1.ShowPrintButton = false;
-
         }
         public void Creat_PRDM()
         {

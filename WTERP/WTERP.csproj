@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>47</ApplicationRevision>
+    <ApplicationRevision>50</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -379,6 +379,18 @@
     <Compile Include="WSEXE\Module2\2C\frm2CF5_search.designer.cs">
       <DependentUpon>frm2CF5_search.cs</DependentUpon>
     </Compile>
+    <Compile Include="WSEXE\Module2\2C\Frm2CF7_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WSEXE\Module2\2C\Frm2CF7_Print.Designer.cs">
+      <DependentUpon>Frm2CF7_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSEXE\Module2\2C\FrmView2C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WSEXE\Module2\2C\FrmView2C.Designer.cs">
+      <DependentUpon>FrmView2C.cs</DependentUpon>
+    </Compile>
     <Compile Include="WSEXE\Module2\2D\frm2D_Tab5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -390,12 +402,6 @@
     </Compile>
     <Compile Include="WSEXE\Module2\2D\FrmViewsReport.Designer.cs">
       <DependentUpon>FrmViewsReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WSEXE\Module2\2E\frm2EF6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WSEXE\Module2\2E\frm2EF6.Designer.cs">
-      <DependentUpon>frm2EF6.cs</DependentUpon>
     </Compile>
     <Compile Include="WSEXE\FormSearch\frmSearchCARB.cs">
       <SubType>Form</SubType>
@@ -1422,12 +1428,6 @@
     </Compile>
     <Compile Include="WSEXE\Module2\2D\frm2D_Tab4.designer.cs">
       <DependentUpon>frm2D_Tab4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WSEXE\Module2\2E\frm2E.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WSEXE\Module2\2E\frm2E.designer.cs">
-      <DependentUpon>frm2E.cs</DependentUpon>
     </Compile>
     <Compile Include="WSEXE\Module2\2E\frm2EF5.cs">
       <SubType>Form</SubType>
@@ -3259,6 +3259,18 @@
     <EmbeddedResource Include="WSEXE\Module2\2C\frm2CF7.zh-TW.resx">
       <DependentUpon>frm2CF7.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\Frm2CF7_Print.en.resx">
+      <DependentUpon>Frm2CF7_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\Frm2CF7_Print.resx">
+      <DependentUpon>Frm2CF7_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\Frm2CF7_Print.vi.resx">
+      <DependentUpon>Frm2CF7_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\Frm2CF7_Print.zh-TW.resx">
+      <DependentUpon>Frm2CF7_Print.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2C\frm2C_1.en.resx">
       <DependentUpon>frm2C_1.cs</DependentUpon>
     </EmbeddedResource>
@@ -3267,6 +3279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2C\frm2C_1.zh-TW.resx">
       <DependentUpon>frm2C_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\FrmView2C.resx">
+      <DependentUpon>FrmView2C.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2D\frm2D.en.resx">
       <DependentUpon>frm2D.cs</DependentUpon>
@@ -3284,15 +3299,6 @@
       <DependentUpon>FrmViewsReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2D\ReportView\Report_Tab4.rdlc" />
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2E.en.resx">
-      <DependentUpon>frm2E.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2E.vi.resx">
-      <DependentUpon>frm2E.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2E.zh-TW.resx">
-      <DependentUpon>frm2E.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF5.en.resx">
       <DependentUpon>frm2EF5.cs</DependentUpon>
     </EmbeddedResource>
@@ -3302,13 +3308,6 @@
     <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF5.zh-TW.resx">
       <DependentUpon>frm2EF5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF6.en.resx">
-      <DependentUpon>frm2EF6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF6.resx">
-      <DependentUpon>frm2EF6.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\FormSearch\frmSearchCARB.resx">
       <DependentUpon>frmSearchCARB.cs</DependentUpon>
     </EmbeddedResource>
@@ -3317,13 +3316,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2C\frm2C_1.resx">
       <DependentUpon>frm2C_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF6.vi.resx">
-      <DependentUpon>frm2EF6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF6.zh-TW.resx">
-      <DependentUpon>frm2EF6.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2E\Frm2EF6New.resx">
       <DependentUpon>Frm2EF6New.cs</DependentUpon>
@@ -4550,9 +4542,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2D\frm2D_Tab4.resx">
       <DependentUpon>frm2D_Tab4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WSEXE\Module2\2E\frm2E.resx">
-      <DependentUpon>frm2E.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WSEXE\Module2\2E\frm2EF5.resx">
       <DependentUpon>frm2EF5.cs</DependentUpon>

@@ -240,9 +240,10 @@ namespace WTERP.WSEXE.Module2._2E
             {
                 if (string.IsNullOrEmpty(txtC_NO.Text))
                 {
-                    if (frmLogin.Lang_ID == 0) throw new Exception("Vui lòng nhập mã khách hàng!");
-                    else if(frmLogin.Lang_ID == 1) throw new Exception("Please enter customer code!");
-                    else if(frmLogin.Lang_ID == 2) throw new Exception("请输入客户代码！");
+                    txtC_NO.Focus();
+                    if (frmLogin.Lang_ID == 1) throw new Exception("Vui lòng nhập mã khách hàng!");
+                    else if(frmLogin.Lang_ID == 2) throw new Exception("Please enter customer code!");
+                    else if(frmLogin.Lang_ID == 3) throw new Exception("请输入客户代码！");
                     else throw new Exception("Vui lòng nhập mã khách hàng!");
                     
                 }
@@ -340,6 +341,7 @@ namespace WTERP.WSEXE.Module2._2E
             LoadFirst();
         }
         #endregion
+
         private void LoadData()
         {
             try
@@ -521,7 +523,18 @@ namespace WTERP.WSEXE.Module2._2E
             }
             return Result;
         }
-        
+        private void getDataCust()
+        {
+            string ST = "Exec getRCV_DATE_2E '" + txtWS_DATE.Text.Replace("/", "") + "', '" + txtC_NO.Text + "'";
+            DataTable dt = connect.readdata(ST);
+            foreach (DataRow dr in dt.Rows)
+            {
+                txtC_NO.Text = dr["C_NO"].ToString();
+                txtC_NAME.Text = dr["C_NAME2"].ToString();
+                DateTime date = DateTime.Parse(dr["RCV_DATE"].ToString());
+                txtCAL_YM.Text = date.ToString("yyyyMM");
+            }
+        }
         public void ADD_DGV()
         {
             getDataCust();
@@ -685,8 +698,7 @@ namespace WTERP.WSEXE.Module2._2E
             {
                 MessageBox.Show(ex.Message);
             }
-        }
-        
+        }      
         #endregion
 
         #region Delete Data
@@ -787,7 +799,7 @@ namespace WTERP.WSEXE.Module2._2E
         }
         private void txtWS_DATE_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            if(Functions == 2 || Functions == 4 || Functions == 6)
+            if(Functions == 2 || Functions == 4)
             {
                 LibraryCalender.FromCalender fm = new LibraryCalender.FromCalender();
                 fm.ShowDialog();
@@ -822,104 +834,18 @@ namespace WTERP.WSEXE.Module2._2E
         private void DGV1_MouseClick(object sender, MouseEventArgs e)
         {
            
-            if(Functions==2 || Functions == 4 || Functions == 6)
+            if(Functions==2 || Functions == 4)
             {
                 if (e.Button == MouseButtons.Right)
                 {
                     this.contextMenuStrip1.Show(this.DGV1, e.Location);
                     contextMenuStrip1.Show(Cursor.Position);
-
-                    //ContextMenuStrip menu = new ContextMenuStrip();
-                    //int position_xy_mouse_row = DGV1.HitTest(e.X, e.Y).RowIndex;
-                    //menu.Items.Add("Insert").Name = "Insert";
-                    //menu.Items.Add("Edit").Name = "Edit";
-                    //menu.Items.Add("Delete").Name = "Del";
-
-                    //menu.Show(DGV1, new Point(e.X, e.Y));
-                    //menu.ItemClicked += Menu_ItemClicked;
                 }
             }
         }
-        private void Menu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-            getDataCust();
-            switch (e.ClickedItem.Name.ToString())
-            {
-                case "Insert":
-                    try
-                    {
-                        Insert_Item();
-                        //if (!string.IsNullOrEmpty(txtWS_NO.Text))
-                        //{
-                        //    frm2E_DGV fr1 = new frm2E_DGV();
-                        //    fr1.ShowDialog();
-
-                        //    int NR = 1;
-                        //    DataTable dataTable = (DataTable)DGV1.DataSource;
-                        //    for (int i = 0; i < frm2E_DGV.DT.LV.Count; i++)
-                        //    {
-                        //        NR = dataTable.Rows.Count + 1;
-                        //        string AA = NR.ToString("D" + 3);
-
-                        //        string BB = frm2E_DGV.DT.LV[i];
-                        //        string BC = frm2E_DGV.DT.LV1[i];
-                        //        string BD = frm2E_DGV.DT.LV2[i];
-
-                        //        dataTable.Rows.Add(AA, BB, BC, "", "", "1", "1.00", "1.00", "", txtCAL_YM.Text, "", "", "", BD, "0");
-                        //        dataTable.Rows.Add(AA, BB, BC, "", "", "1", "1.00", "1.00", "", txtCAL_YM.Text, "", "", "", BD, "0");
-                        //    }
-                        //    DGV1.DataSource = dataTable;
-                        //    txtTOT.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
-                        //    txtTOTAL.Text = dataTable.AsEnumerable().Sum(s => s.Field<double>("AMOUNT")).ToString();
-                        //}
-                        //else
-                        //{
-                        //    txtWS_KIND.Focus();
-                        //    if (frmLogin.Lang_ID == 1) throw new Exception("Loại đơn hàng không được để trống!");
-                        //    else if (frmLogin.Lang_ID == 2) throw new Exception("Order type cannot be blank!");
-                        //    else if (frmLogin.Lang_ID == 3) throw new Exception("訂單類型不能為空！");
-                        //    else throw new Exception("Loại đơn hàng không được để trống!");
-                        //}
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message, connect.MessaError(), MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    break;
-                case "Delete":
-                    foreach (DataGridViewCell oneCell in DGV1.SelectedCells)
-                    {
-                        if (oneCell.Selected)
-                        {
-                            DGV1.Rows.RemoveAt(oneCell.RowIndex);
-                            int NR = 1;
-                            for (int i = 0; i < DGV1.Rows.Count - 1; i++)
-                            {
-                                DGV1[0, i].Value = NR.ToString("D" + 3);
-                                NR++;
-                            }
-                        }
-                    }
-                    break;
-            }
-        }
-        
-        private void getDataCust()
-        {
-            string ST = "Exec getRCV_DATE_2E '" + txtWS_DATE.Text.Replace("/","") + "', '" + txtC_NO.Text + "'";
-            DataTable dt = connect.readdata(ST);
-            foreach (DataRow dr in dt.Rows)
-            {
-                txtC_NO.Text = dr["C_NO"].ToString();
-                txtC_NAME.Text = dr["C_NAME2"].ToString();
-                DateTime date = DateTime.Parse(dr["RCV_DATE"].ToString());
-                txtCAL_YM.Text = date.ToString("yyyyMM");
-            }
-        }
-
         private void DGV1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            if (Functions == 2 || Functions == 4 || Functions == 6)
+            if (Functions == 2 || Functions == 4)
             {
                 float Va = float.Parse(DGV1.Rows[DGV1.CurrentRow.Index].Cells["BQTY"].Value.ToString());
                 float Va1 = float.Parse(DGV1.Rows[DGV1.CurrentRow.Index].Cells["PRICE"].Value.ToString());
@@ -945,9 +871,46 @@ namespace WTERP.WSEXE.Module2._2E
 
             }
         }
+        private void DGV1_CellEndEdit_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (Functions == 2 || Functions == 4)
+            {
+                DGV1.CurrentRow.Cells["AMOUNT"].Value = SubData(DGV1.CurrentRow.Cells["BQTY"].Value.ToString(), DGV1.CurrentRow.Cells["PRICE"].Value.ToString()).ToString();
+                float Sum = 0;
+                if (DGV1.Rows.Count > 0)
+                {
+                    for (int i = 0; i < DGV1.RowCount; i++)
+                    {
+                        Sum = Sum + SubData(DGV1.Rows[i].Cells["BQTY"].Value.ToString(), DGV1.Rows[i].Cells["PRICE"].Value.ToString());
+                    }
+                }
+                txtTOT.Text = Math.Round(Sum, 2).ToString();
+                txtTOTAL.Text = Math.Round(Sum, 2).ToString();
+            }
+        }
+        private void DGV1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (Functions == 2 || Functions == 4)
+            {
+                if (rowIndex < 0) return;
+                if (this.DGV1.CurrentCell.OwningColumn.Name == "P_NO")
+                {
+                    if (string.IsNullOrEmpty(DGV1.CurrentRow.Cells["P_NO"].Value.ToString()))
+                    {
+                        frm2E_DGV fr1 = new frm2E_DGV();
+                        fr1.ShowDialog();
+
+                        string NR = (rowIndex + 1).ToString("000");
+                        UpdateTableDGV(NR);
+                    }
+
+                }
+            }
+        }
+
         private void txtC_NO_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            if (Functions == 2 || Functions == 4 || Functions == 6)
+            if (Functions == 2 || Functions == 4)
             {
                 frm2CustSearch fr = new frm2CustSearch();
                 fr.ShowDialog();
@@ -980,23 +943,7 @@ namespace WTERP.WSEXE.Module2._2E
         {
             if (Functions == 2 || Functions == 4 || Functions == 6) getDataCust();
         }
-        private void DGV1_CellEndEdit_1(object sender, DataGridViewCellEventArgs e)
-        {
-            if(Functions==2 || Functions == 4 || Functions == 6)
-            {
-                DGV1.CurrentRow.Cells["AMOUNT"].Value = SubData(DGV1.CurrentRow.Cells["BQTY"].Value.ToString(), DGV1.CurrentRow.Cells["PRICE"].Value.ToString()).ToString();
-                float Sum = 0;
-                if (DGV1.Rows.Count > 0)
-                {
-                    for (int i = 0; i < DGV1.RowCount; i++)
-                    {
-                        Sum = Sum + SubData(DGV1.Rows[i].Cells["BQTY"].Value.ToString(), DGV1.Rows[i].Cells["PRICE"].Value.ToString());
-                    }
-                }
-                txtTOT.Text = Math.Round(Sum, 2).ToString();
-                txtTOTAL.Text = Math.Round(Sum, 2).ToString();
-            }
-        }
+        
         private float SubData(string s1, string s2)
         {
             float Num1=0, Num2 = 0;
@@ -1004,57 +951,32 @@ namespace WTERP.WSEXE.Module2._2E
             float.TryParse(s2, out Num2);
             return Num1 * Num2;
         }
-
         private void txtWS_DATE_TextChanged(object sender, EventArgs e)
         {
             if (Functions == 2) txtWS_NO.Text = CreateWS_NO(txtWS_KIND.Text);
         }
 
-        private void DGV1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if(Functions == 2 || Functions == 4)
-            {
-                if (this.DGV1.CurrentCell.OwningColumn.Name == "P_NO")
-                {
-                    if (string.IsNullOrEmpty(DGV1.CurrentRow.Cells["P_NO"].Value.ToString()))
-                    {
-                        if (rowIndex < -1) return;
-                        frm2E_DGV fr1 = new frm2E_DGV();
-                        fr1.ShowDialog();
-
-                        string NR = (rowIndex + 1).ToString("000");
-                        UpdateTableDGV(NR);
-                    }
-                    
-                }
-            }
-        }
-
+        #region Menu ContentStrip
         private void 新增明細TToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Add_Item();
         }
-
         private void 插入明細UToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Insert_Item();
         }
-
         private void 刪除明細VToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Delete_Item();
         }
-
         private void 訂單明細WToolStripMenuItem_Click(object sender, EventArgs e)
         {
             f6ToolStripMenuItem.PerformClick();
         }
-
         private void 產品挑選XToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SelectProduct();
         }
-
         private void 儲ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             btnOK.PerformClick();
@@ -1063,9 +985,9 @@ namespace WTERP.WSEXE.Module2._2E
         {
             LoadFirst();
         }
+
         private void Add_Item()
         {
-            if (rowIndex < -1) return;
             string NRNEW = (TableGRV.Rows.Count+1).ToString("D" + 3);
             TableGRV.Rows.Add(txtWS_NO.Text, NRNEW, txtWS_DATE.Text.Replace("/", ""), "", "", "", "", "", "", "", "", "", "", 1, 0, "", 0, 0, 0, 0, "", "", "", "", "", "", txtCAL_YM.Text.Replace("/", ""), txtWS_KIND.Text, "", "", null, null, null, 0, "N");
             TableGRV.AcceptChanges();
@@ -1074,7 +996,6 @@ namespace WTERP.WSEXE.Module2._2E
         }
         private void Insert_Item()
         {
-            if (rowIndex < -1) return;
             foreach (DataRow dr in TableGRV.Rows)
             {
                 int.TryParse(dr["NR"].ToString(), out int NR);
@@ -1092,6 +1013,7 @@ namespace WTERP.WSEXE.Module2._2E
         }
         private void Delete_Item()
         {
+            if (rowIndex < 0) return;
             if (TableGRV.Rows.Count > 0)
             {
                 DataRow row = TableGRV.Rows[rowIndex];
@@ -1116,7 +1038,6 @@ namespace WTERP.WSEXE.Module2._2E
         {
             try
             {
-                if (rowIndex < -1) return;
                 frm2E_DGV fr1 = new frm2E_DGV();
                 fr1.ShowDialog();
                 if(frm2E_DGV.DT.LV.Count > 0)
@@ -1153,5 +1074,7 @@ namespace WTERP.WSEXE.Module2._2E
             }
             DGV1.DataSource = TableGRV;
         }
+        #endregion
+
     }
 }

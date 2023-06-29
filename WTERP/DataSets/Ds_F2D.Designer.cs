@@ -4531,6 +4531,8 @@ namespace WTERP.DataSets {
             
             private global::System.Data.DataColumn columnREMARKS;
             
+            private global::System.Data.DataColumn columnType;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public _2D_Tab4DataTable() {
@@ -4774,6 +4776,14 @@ namespace WTERP.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn TypeColumn {
+                get {
+                    return this.columnType;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -4835,7 +4845,8 @@ namespace WTERP.DataSets {
                         string MEMO, 
                         string OVER01, 
                         string TOTAL, 
-                        string REMARKS) {
+                        string REMARKS, 
+                        short Type) {
                 _2D_Tab4Row row_2D_Tab4Row = ((_2D_Tab4Row)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         WS_DATE,
@@ -4863,7 +4874,8 @@ namespace WTERP.DataSets {
                         MEMO,
                         OVER01,
                         TOTAL,
-                        REMARKS};
+                        REMARKS,
+                        Type};
                 row_2D_Tab4Row.ItemArray = columnValuesArray;
                 this.Rows.Add(row_2D_Tab4Row);
                 return row_2D_Tab4Row;
@@ -4912,6 +4924,7 @@ namespace WTERP.DataSets {
                 this.columnOVER01 = base.Columns["OVER01"];
                 this.columnTOTAL = base.Columns["TOTAL"];
                 this.columnREMARKS = base.Columns["REMARKS"];
+                this.columnType = base.Columns["Type"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4969,6 +4982,8 @@ namespace WTERP.DataSets {
                 base.Columns.Add(this.columnTOTAL);
                 this.columnREMARKS = new global::System.Data.DataColumn("REMARKS", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnREMARKS);
+                this.columnType = new global::System.Data.DataColumn("Type", typeof(short), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnType);
                 this.ExtendedProperties.Add("Generator_TableVarName", "table2D_Tab4");
                 this.ExtendedProperties.Add("Generator_UserTableName", "2D_Tab4");
             }
@@ -8494,6 +8509,22 @@ namespace WTERP.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public short Type {
+                get {
+                    try {
+                        return ((short)(this[this.table2D_Tab4.TypeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Type\' in table \'2D_Tab4\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.table2D_Tab4.TypeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsWS_DATENull() {
                 return this.IsNull(this.table2D_Tab4.WS_DATEColumn);
             }
@@ -8802,6 +8833,18 @@ namespace WTERP.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetREMARKSNull() {
                 this[this.table2D_Tab4.REMARKSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsTypeNull() {
+                return this.IsNull(this.table2D_Tab4.TypeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetTypeNull() {
+                this[this.table2D_Tab4.TypeColumn] = global::System.Convert.DBNull;
             }
         }
         

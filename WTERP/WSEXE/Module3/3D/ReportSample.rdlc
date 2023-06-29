@@ -206,6 +206,7 @@
                   <CellContents>
                     <Textbox Name="C_ANAME">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -214,7 +215,7 @@
                               <Value>=Fields!C_ANAME.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!C_ANAME.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -271,6 +272,7 @@
                   <CellContents>
                     <Textbox Name="COLOR_E">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -279,7 +281,7 @@
                               <Value>=Fields!COLOR_E.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!COLOR_E.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -341,7 +343,7 @@
                               <Value>=Fields!P_NAME.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>11pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!P_NAME.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -526,7 +528,7 @@
                               <Value>=Fields!MODEL_C.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!MODEL_C.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -664,7 +666,7 @@
                               <Value>=Fields!CLRCARD.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!CLRCARD.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -859,7 +861,7 @@
                               <Value>=Fields!P_NAME2.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>11pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!P_NAME2.Value)&gt;30, "10pt", "12pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -881,6 +883,7 @@
                       </Style>
                     </Textbox>
                     <ColSpan>2</ColSpan>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell />
@@ -1162,7 +1165,7 @@
                               <Value>=Fields!M_TOT.Value</Value>
                               <Style>
                                 <FontFamily>SimSun</FontFamily>
-                                <FontSize>11pt</FontSize>
+                                <FontSize>=IIF(Len(Fields!C_ANAME.Value)&gt;220, "9pt", "11pt")</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>

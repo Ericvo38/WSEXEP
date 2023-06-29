@@ -732,7 +732,10 @@ namespace WTERP
             if (!string.IsNullOrEmpty(txtNgayGiao.Text) && txtNgayGiao.MaskFull == true)
             {
                 F2c.sodonhang = txtLoHang.Text;
-                frm2CF7 fm = new frm2CF7();
+                //frm2CF7_Old fm = new frm2CF7_Old();
+                WSEXE.Module2._2C.Frm2CF7_Print fm = new WSEXE.Module2._2C.Frm2CF7_Print();
+                fm.txtWS_NO_S.Text = txtLoHang.Text;
+                fm.txtWS_NO_E.Text = txtLoHang.Text;
                 fm.ShowDialog();
             }
             else

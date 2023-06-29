@@ -270,11 +270,12 @@ namespace WTERP.WSEXE.Module2._2E
             // 
             this.txtWS_DATE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtWS_DATE.Location = new System.Drawing.Point(198, 134);
-            this.txtWS_DATE.Mask = "0000/00/00";
+            this.txtWS_DATE.Mask = "00/00/00";
             this.txtWS_DATE.Name = "txtWS_DATE";
             this.txtWS_DATE.Size = new System.Drawing.Size(101, 26);
             this.txtWS_DATE.TabIndex = 3;
             this.txtWS_DATE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_DATE_KeyDown);
+            this.txtWS_DATE.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtWS_DATE_MouseDoubleClick);
             // 
             // DGV1
             // 
@@ -335,7 +336,7 @@ namespace WTERP.WSEXE.Module2._2E
             this.OR_NO.MinimumWidth = 6;
             this.OR_NO.Name = "OR_NO";
             this.OR_NO.ReadOnly = true;
-            this.OR_NO.Width = 131;
+            this.OR_NO.Width = 120;
             // 
             // C_NO
             // 
@@ -344,7 +345,7 @@ namespace WTERP.WSEXE.Module2._2E
             this.C_NO.MinimumWidth = 6;
             this.C_NO.Name = "C_NO";
             this.C_NO.ReadOnly = true;
-            this.C_NO.Width = 82;
+            this.C_NO.Width = 56;
             // 
             // C_NAME_E
             // 
@@ -474,7 +475,9 @@ namespace WTERP.WSEXE.Module2._2E
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1033, 647);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1033, 647);
             this.Name = "Frm2EF6New";
             this.Text = "2EF6  - Tìm kiếm đơn hàng";
