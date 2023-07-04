@@ -5012,6 +5012,31 @@ FROM dbo.CARB INNER JOIN dbo.CARH ON CARH.WS_NO = CARB.WS_NO
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="Frm2CF7_Tab1" msprop:Generator_TableClassName="Frm2CF7_Tab1DataTable" msprop:Generator_TableVarName="tableFrm2CF7_Tab1" msprop:Generator_RowChangedName="Frm2CF7_Tab1RowChanged" msprop:Generator_TablePropName="Frm2CF7_Tab1" msprop:Generator_RowDeletingName="Frm2CF7_Tab1RowDeleting" msprop:Generator_RowChangingName="Frm2CF7_Tab1RowChanging" msprop:Generator_RowEvHandlerName="Frm2CF7_Tab1RowChangeEventHandler" msprop:Generator_RowDeletedName="Frm2CF7_Tab1RowDeleted" msprop:Generator_RowClassName="Frm2CF7_Tab1Row" msprop:Generator_UserTableName="Frm2CF7_Tab1" msprop:Generator_RowEvArgName="Frm2CF7_Tab1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WS_NO" msprop:Generator_ColumnVarNameInTable="columnWS_NO" msprop:Generator_ColumnPropNameInRow="WS_NO" msprop:Generator_ColumnPropNameInTable="WS_NOColumn" msprop:Generator_UserColumnName="WS_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="WS_DATE" msprop:Generator_ColumnVarNameInTable="columnWS_DATE" msprop:Generator_ColumnPropNameInRow="WS_DATE" msprop:Generator_ColumnPropNameInTable="WS_DATEColumn" msprop:Generator_UserColumnName="WS_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="C_ANAME1" msprop:Generator_ColumnVarNameInTable="columnC_ANAME1" msprop:Generator_ColumnPropNameInRow="C_ANAME1" msprop:Generator_ColumnPropNameInTable="C_ANAME1Column" msprop:Generator_UserColumnName="C_ANAME1" type="xs:string" minOccurs="0" />
+              <xs:element name="C_NAME1" msprop:Generator_ColumnVarNameInTable="columnC_NAME1" msprop:Generator_ColumnPropNameInRow="C_NAME1" msprop:Generator_ColumnPropNameInTable="C_NAME1Column" msprop:Generator_UserColumnName="C_NAME1" type="xs:string" minOccurs="0" />
+              <xs:element name="C_OTYPE" msprop:Generator_ColumnVarNameInTable="columnC_OTYPE" msprop:Generator_ColumnPropNameInRow="C_OTYPE" msprop:Generator_ColumnPropNameInTable="C_OTYPEColumn" msprop:Generator_UserColumnName="C_OTYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="ADR1" msprop:Generator_ColumnVarNameInTable="columnADR1" msprop:Generator_ColumnPropNameInRow="ADR1" msprop:Generator_ColumnPropNameInTable="ADR1Column" msprop:Generator_UserColumnName="ADR1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO3" msprop:Generator_ColumnVarNameInTable="columnMEMO3" msprop:Generator_ColumnPropNameInRow="MEMO3" msprop:Generator_ColumnPropNameInTable="MEMO3Column" msprop:Generator_UserColumnName="MEMO3" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO4" msprop:Generator_ColumnVarNameInTable="columnMEMO4" msprop:Generator_ColumnPropNameInRow="MEMO4" msprop:Generator_ColumnPropNameInTable="MEMO4Column" msprop:Generator_UserColumnName="MEMO4" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO7" msprop:Generator_ColumnVarNameInTable="columnMEMO7" msprop:Generator_ColumnPropNameInRow="MEMO7" msprop:Generator_ColumnPropNameInTable="MEMO7Column" msprop:Generator_UserColumnName="MEMO7" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO8" msprop:Generator_ColumnVarNameInTable="columnMEMO8" msprop:Generator_ColumnPropNameInRow="MEMO8" msprop:Generator_ColumnPropNameInTable="MEMO8Column" msprop:Generator_UserColumnName="MEMO8" type="xs:string" minOccurs="0" />
+              <xs:element name="USR_NAME" msprop:Generator_ColumnVarNameInTable="columnUSR_NAME" msprop:Generator_ColumnPropNameInRow="USR_NAME" msprop:Generator_ColumnPropNameInTable="USR_NAMEColumn" msprop:Generator_UserColumnName="USR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="OR_NO" msprop:Generator_ColumnVarNameInTable="columnOR_NO" msprop:Generator_ColumnPropNameInRow="OR_NO" msprop:Generator_ColumnPropNameInTable="OR_NOColumn" msprop:Generator_UserColumnName="OR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" msprop:Generator_ColumnVarNameInTable="columnP_NAME" msprop:Generator_ColumnPropNameInRow="P_NAME" msprop:Generator_ColumnPropNameInTable="P_NAMEColumn" msprop:Generator_UserColumnName="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME3" msprop:Generator_ColumnVarNameInTable="columnP_NAME3" msprop:Generator_ColumnPropNameInRow="P_NAME3" msprop:Generator_ColumnPropNameInTable="P_NAME3Column" msprop:Generator_UserColumnName="P_NAME3" type="xs:string" minOccurs="0" />
+              <xs:element name="BQTY" msprop:Generator_ColumnVarNameInTable="columnBQTY" msprop:Generator_ColumnPropNameInRow="BQTY" msprop:Generator_ColumnPropNameInTable="BQTYColumn" msprop:Generator_UserColumnName="BQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" msprop:Generator_UserColumnName="PRICE" type="xs:double" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="MK_NO1" msprop:Generator_ColumnVarNameInTable="columnMK_NO1" msprop:Generator_ColumnPropNameInRow="MK_NO1" msprop:Generator_ColumnPropNameInTable="MK_NO1Column" msprop:Generator_UserColumnName="MK_NO1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO" msprop:Generator_ColumnVarNameInTable="columnMEMO" msprop:Generator_ColumnPropNameInRow="MEMO" msprop:Generator_ColumnPropNameInTable="MEMOColumn" msprop:Generator_UserColumnName="MEMO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="Constraint1" msdata:PrimaryKey="true">

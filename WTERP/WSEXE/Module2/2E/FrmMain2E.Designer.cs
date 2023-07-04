@@ -127,6 +127,7 @@ namespace WTERP.WSEXE.Module2._2E
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.f1ToolStripMenuItem,
@@ -343,6 +344,7 @@ namespace WTERP.WSEXE.Module2._2E
             this.bt.ForeColor = System.Drawing.Color.Green;
             this.bt.Name = "bt";
             this.bt.UseVisualStyleBackColor = true;
+            this.bt.Click += new System.EventHandler(this.bt_Click);
             // 
             // btnMoveNext
             // 
@@ -609,6 +611,7 @@ namespace WTERP.WSEXE.Module2._2E
             resources.ApplyResources(this.txtC_NO, "txtC_NO");
             this.txtC_NO.Name = "txtC_NO";
             this.txtC_NO.TextChanged += new System.EventHandler(this.txtC_NO_TextChanged);
+            this.txtC_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtC_NO_KeyDown);
             this.txtC_NO.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtC_NO_MouseDoubleClick);
             // 
             // txtWS_NO
@@ -616,9 +619,9 @@ namespace WTERP.WSEXE.Module2._2E
             this.txtWS_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
             this.txtWS_NO.Name = "txtWS_NO";
-            this.txtWS_NO.ReadOnly = true;
             this.txtWS_NO.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtWS_NO_MouseClick);
             this.txtWS_NO.TextChanged += new System.EventHandler(this.txtWS_NO_TextChanged);
+            this.txtWS_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_NO_KeyDown);
             // 
             // txtWS_KIND
             // 
@@ -626,6 +629,7 @@ namespace WTERP.WSEXE.Module2._2E
             resources.ApplyResources(this.txtWS_KIND, "txtWS_KIND");
             this.txtWS_KIND.Name = "txtWS_KIND";
             this.txtWS_KIND.TextChanged += new System.EventHandler(this.txtWS_KIND_TextChanged);
+            this.txtWS_KIND.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_KIND_KeyDown);
             this.txtWS_KIND.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtWS_KIND_MouseDoubleClick);
             // 
             // label13
@@ -678,6 +682,7 @@ namespace WTERP.WSEXE.Module2._2E
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.新增明細TToolStripMenuItem,
             this.插入明細UToolStripMenuItem,

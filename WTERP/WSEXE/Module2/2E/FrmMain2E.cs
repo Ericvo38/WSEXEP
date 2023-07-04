@@ -475,34 +475,29 @@ namespace WTERP.WSEXE.Module2._2E
                 {
                     if (txtWS_KIND.Text.Equals("C") || txtWS_KIND.Text.Equals("T") || txtWS_KIND.Text.Equals("B"))
                     {
-                        string Like = string.Empty;
+                        string where = string.Empty;
                         if (Type.Equals("T"))
                         {
-                            Like = Type + "V" + txtWS_DATE.Text.Replace("/", "").Substring(2, 4);
+                            where = Type + "V" + txtWS_DATE.Text.Replace("/", "").Substring(2, 2);
                         }
                         else if (Type.Equals("C"))
                         {
-                            Like = Type + "V" + txtWS_DATE.Text.Replace("/", "").Substring(2, 2);
+                            where = Type + "V" + txtWS_DATE.Text.Replace("/", "").Substring(2, 2);
                         }
                         else if (Type.Equals("B"))
                         {
-                            Like = Type + txtWS_DATE.Text.Replace("/", "").Substring(2, 2);
+                            where = Type + txtWS_DATE.Text.Replace("/", "").Substring(2, 2);
                         }
 
-                        if (!string.IsNullOrEmpty(Like))
+                        if (!string.IsNullOrEmpty(where))
                         {
-                            string SQL = "SELECT * FROM GIBH WHERE WS_NO LIKE '" + Like + "%' ";
-                            DataTable dt = connect.readdata(SQL);
+                            string SQL = "SELECT TOP 1 CAST(REPLACE(SUBSTRING(WS_NO,CHARINDEX('-',WS_NO)+1,4),'/','') AS INTEGER) AS NR FROM GIBH WHERE WS_NO LIKE '"+ where+ "%' ORDER BY NR DESC ";
+                            string NR = connect.ExecuteScalar(SQL);
                             int Cur = 0;
-                            foreach (DataRow dr in dt.Rows)
-                            {
-                                string S = dr["WS_NO"].ToString();
-                                S = S.Substring(S.LastIndexOf("-") + 1, ((S.Length - 1) - S.LastIndexOf("-")));
-                                int.TryParse(S, out int x);
-                                if (x > Cur) Cur = x;
-                            }
+                            int.TryParse(NR, out Cur);
                             Cur++;
-                            Result = Like + "-" + Cur.ToString("0000");
+                            if(txtWS_KIND.Text.Equals("T")) where = where+ txtWS_DATE.Text.Replace("/", "").Substring(4, 2);
+                            Result = where + "-" + Cur.ToString("0000");
                         }
                     }
                     else
@@ -533,6 +528,48 @@ namespace WTERP.WSEXE.Module2._2E
                 txtC_NAME.Text = dr["C_NAME2"].ToString();
                 DateTime date = DateTime.Parse(dr["RCV_DATE"].ToString());
                 txtCAL_YM.Text = date.ToString("yyyyMM");
+            }
+        }
+        private void getCust()
+        {
+            try
+            {
+
+                if (string.IsNullOrEmpty(txtC_NO.Text)) return;
+                if (txtWS_DATE.MaskCompleted)
+                {
+                    DateTime.TryParse(txtWS_DATE.Text, out DateTime date);
+                    int DateDefault = DateTime.DaysInMonth(date.Year, date.Month);
+                    int DateCreate = date.Day;
+                    int Date_RCV = 0;
+                    string SQL = "SELECT C_NO, C_NAME2, RCV_DATE FROM dbo.CUST WHERE C_NO='" + txtC_NO.Text + "' ";
+                    DataTable dt = connect.readdata(SQL);
+                    foreach(DataRow dr in dt.Rows)
+                    {
+                        txtC_NO.Text = dr["C_NO"].ToString();
+                        txtC_NAME.Text = dr["C_NAME2"].ToString();
+                        int.TryParse(dr["RCV_DATE"].ToString(), out Date_RCV);
+                    }
+                    if (Date_RCV == 0) Date_RCV = DateDefault; //DateDefault End of the day in the month
+                    else //Payment monthsau 
+                    {
+                        if (Date_RCV < DateCreate)
+                        {
+                            //After Payment day is Next Month
+                            date = date.AddMonths(1);
+                            txtCAL_YM.Text = date.ToString("yyyyMM");
+                        }
+                        else
+                        {
+                            //Before payment date is this Month
+                            txtCAL_YM.Text = date.ToString("yyyyMM");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, connect.MessaError(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public void ADD_DGV()
@@ -941,7 +978,7 @@ namespace WTERP.WSEXE.Module2._2E
         }
         private void txtC_NO_TextChanged(object sender, EventArgs e)
         {
-            if (Functions == 2 || Functions == 4 || Functions == 6) getDataCust();
+            if (Functions == 2 || Functions == 4 || Functions == 6) getCust();
         }
         
         private float SubData(string s1, string s2)
@@ -953,7 +990,11 @@ namespace WTERP.WSEXE.Module2._2E
         }
         private void txtWS_DATE_TextChanged(object sender, EventArgs e)
         {
-            if (Functions == 2) txtWS_NO.Text = CreateWS_NO(txtWS_KIND.Text);
+            if (Functions == 2)
+            {
+                txtWS_NO.Text = CreateWS_NO(txtWS_KIND.Text);
+                getCust();
+            }
         }
 
         #region Menu ContentStrip
@@ -1076,5 +1117,24 @@ namespace WTERP.WSEXE.Module2._2E
         }
         #endregion
 
+        private void bt_Click(object sender, EventArgs e)
+        {
+        }
+
+        
+
+        private void txtWS_KIND_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) txtWS_NO.Focus();
+        }
+
+        private void txtWS_NO_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) txtC_NO.Focus();
+        }
+        private void txtC_NO_KeyDown(object sender, KeyEventArgs e)
+        {
+            getCust();
+        }
     }
 }

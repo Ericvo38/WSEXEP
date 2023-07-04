@@ -31,6 +31,9 @@ namespace WTERP
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm2CF7_Old));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label5 = new System.Windows.Forms.Label();
@@ -56,9 +59,6 @@ namespace WTERP
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.f4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -69,8 +69,8 @@ namespace WTERP
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.f1ToolStripMenuItem,
@@ -78,15 +78,31 @@ namespace WTERP
             this.f4ToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
             // 
+            // f1ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
+            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
+            // 
+            // f2ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
+            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
+            // 
+            // f4ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
+            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
+            // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
             resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             // 
             // tabPage1
             // 
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.txtPOCongViec);
             this.tabPage1.Controls.Add(this.label4);
@@ -98,7 +114,6 @@ namespace WTERP
             this.tabPage1.Controls.Add(this.txtInDonGia);
             this.tabPage1.Controls.Add(this.txtSoLH_E);
             this.tabPage1.Controls.Add(this.txtSoLH_S);
-            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
@@ -134,9 +149,9 @@ namespace WTERP
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.radioButton10);
             this.groupBox3.Controls.Add(this.radioButton12);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -156,10 +171,10 @@ namespace WTERP
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.radioButton6);
             this.groupBox2.Controls.Add(this.radioButton7);
             this.groupBox2.Controls.Add(this.radioButton8);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -185,11 +200,11 @@ namespace WTERP
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -241,8 +256,8 @@ namespace WTERP
             // 
             // label1
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.label1, "label1");
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Name = "label1";
             // 
@@ -261,21 +276,6 @@ namespace WTERP
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // f1ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f1ToolStripMenuItem, "f1ToolStripMenuItem");
-            this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
-            // 
-            // f2ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f2ToolStripMenuItem, "f2ToolStripMenuItem");
-            this.f2ToolStripMenuItem.Name = "f2ToolStripMenuItem";
-            // 
-            // f4ToolStripMenuItem
-            // 
-            resources.ApplyResources(this.f4ToolStripMenuItem, "f4ToolStripMenuItem");
-            this.f4ToolStripMenuItem.Name = "f4ToolStripMenuItem";
             // 
             // frm2CF7_Old
             // 

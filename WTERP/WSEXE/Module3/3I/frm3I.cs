@@ -143,6 +143,7 @@ namespace WTERP
             table_DGV = con.readdata(sql);
             DGV1.DataSource = table_DGV;
             DGV1.DataGridViewFormat();
+            InsertItem();
         }
         private void f3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -176,14 +177,13 @@ namespace WTERP
         private void f5ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Function = 5;
-
             frm3IF5 fm = new frm3IF5();
             fm.ShowDialog();
             if (!string.IsNullOrEmpty(frm3IF5.GetWS_NO))
             {
                 LoadData();
                 Bdsource.Position = Bdsource.Find("WS_NO", frm3IF5.GetWS_NO);
-                LoadData();
+                ShowRecord();
             }
 
         }     
@@ -252,7 +252,6 @@ namespace WTERP
         }
         private void f10ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Function = 10;
         }
         private void f12ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -652,14 +651,12 @@ namespace WTERP
         {
             if (Function == 2 || Function == 4 || Function == 6)
             {
-
-
                 if (DGV1.Rows.Count == 0) return;
                 int Cur = int.Parse(DGV1.CurrentCell.ColumnIndex.ToString());
                 if (this.DGV1.CurrentCell.OwningColumn.Name == "NR")
                 {
                     DeleteItem();
-                    //Delete();
+                    return;
                 }
 
                 if (this.DGV1.CurrentCell.OwningColumn.Name == "P_NO")
@@ -699,9 +696,18 @@ namespace WTERP
             {
                 if (this.DGV1.CurrentCell.OwningColumn.Name == "QTY")
                 {
-                    double converttxtWKG = (!string.IsNullOrEmpty(txtWKG.Text.ToString()) ? double.Parse(txtWKG.Text.ToString()) : 0);
-                    this.DGV1["BQTY", DGV1.CurrentRow.Index].Value = double.Parse(this.DGV1[DGV1.CurrentCell.ColumnIndex, DGV1.CurrentRow.Index].Value.ToString()) * converttxtWKG / 100;
-                    this.DGV1["AMOUNT", DGV1.CurrentRow.Index].Value = double.Parse(DGV1["BQTY", DGV1.CurrentRow.Index].Value.ToString()) * double.Parse(this.DGV1["PRICE", DGV1.CurrentRow.Index].Value.ToString());
+                    float WKG, QTY, BQTY, PRICE;
+                    float.TryParse(txtWKG.Text, out WKG);
+                    float.TryParse(this.DGV1.CurrentRow.Cells["QTY"].Value.ToString(), out QTY);
+                    float.TryParse(this.DGV1.CurrentRow.Cells["BQTY"].Value.ToString(), out BQTY);
+                    float.TryParse(this.DGV1.CurrentRow.Cells["PRICE"].Value.ToString(), out PRICE);
+
+                    this.DGV1.CurrentRow.Cells["BQTY"].Value = (QTY * WKG) / 100;
+                    this.DGV1.CurrentRow.Cells["AMOUNT"].Value = BQTY * PRICE;
+
+                    //double converttxtWKG = (!string.IsNullOrEmpty(txtWKG.Text.ToString()) ? double.Parse(txtWKG.Text.ToString()) : 0);
+                    //this.DGV1["BQTY", DGV1.CurrentRow.Index].Value = double.Parse(this.DGV1[DGV1.CurrentCell.ColumnIndex, DGV1.CurrentRow.Index].Value.ToString()) * converttxtWKG / 100;
+                    //this.DGV1["AMOUNT", DGV1.CurrentRow.Index].Value = double.Parse(DGV1["BQTY", DGV1.CurrentRow.Index].Value.ToString()) * double.Parse(this.DGV1["PRICE", DGV1.CurrentRow.Index].Value.ToString());
 
                 }
             }
@@ -858,13 +864,21 @@ namespace WTERP
             {
                 if (DGV1.Rows.Count > 0)
                 {
+                    float WKG= 0, QTY= 0, BQTY= 0, PRICE= 0;
+                    if (!string.IsNullOrEmpty(txtWKG.Text)) float.TryParse(txtWKG.Text, out WKG);
                     foreach (DataGridViewRow item in DGV1.Rows)
                     {
-                        if (!string.IsNullOrEmpty(item.Cells["QTY"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["BQTY"].Value.ToString()))
-                            item.Cells["BQTY"].Value = ConvertFloat(item.Cells["QTY"].Value.ToString()) * ConvertFloat(txtWKG.Text) / 100;
+                        if(!string.IsNullOrEmpty(item.Cells["QTY"].Value.ToString())) float.TryParse(item.Cells["QTY"].Value.ToString(), out QTY);
+                        if (!string.IsNullOrEmpty(item.Cells["BQTY"].Value.ToString())) float.TryParse(item.Cells["BQTY"].Value.ToString(), out BQTY);
+                        if (!string.IsNullOrEmpty(item.Cells["PRICE"].Value.ToString())) float.TryParse(item.Cells["PRICE"].Value.ToString(), out PRICE);
 
-                        if (!string.IsNullOrEmpty(item.Cells["AMOUNT"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["BQTY"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["PRICE"].Value.ToString()))
-                            item.Cells["AMOUNT"].Value = ConvertFloat(item.Cells["BQTY"].Value.ToString()) * ConvertFloat(item.Cells["PRICE"].Value.ToString());
+                        item.Cells["BQTY"].Value = (QTY * WKG) / 100;
+                        item.Cells["AMOUNT"].Value = BQTY * PRICE;
+                        //if (!string.IsNullOrEmpty(item.Cells["QTY"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["BQTY"].Value.ToString()))
+                        //    item.Cells["BQTY"].Value = ConvertFloat(item.Cells["QTY"].Value.ToString()) * ConvertFloat(txtWKG.Text) / 100;
+
+                        //if (!string.IsNullOrEmpty(item.Cells["AMOUNT"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["BQTY"].Value.ToString()) || !string.IsNullOrEmpty(item.Cells["PRICE"].Value.ToString()))
+                        //    item.Cells["AMOUNT"].Value = ConvertFloat(item.Cells["BQTY"].Value.ToString()) * ConvertFloat(item.Cells["PRICE"].Value.ToString());
                     }
                 }
             }
@@ -901,16 +915,20 @@ namespace WTERP
         }
         private void InsertItem()
         {
-            if (rowIndex == -1) return;
-            foreach (DataRow dr in table_DGV.Rows)
+            //if (rowIndex == -1) return;
+            if (rowIndex > -1)
             {
-                int.TryParse(dr["NR"].ToString(), out int NR);
-                if (NR > rowIndex + 1)
+                foreach (DataRow dr in table_DGV.Rows)
                 {
-                    dr["NR"] = (NR + 1).ToString("D" + 3);
-                    table_DGV.AcceptChanges();
+                    int.TryParse(dr["NR"].ToString(), out int NR);
+                    if (NR > rowIndex + 1)
+                    {
+                        dr["NR"] = (NR + 1).ToString("D" + 3);
+                        table_DGV.AcceptChanges();
+                    }
                 }
             }
+                
             string NRNEW = (rowIndex + 2).ToString("D" + 3);
             table_DGV.Rows.Add(NRNEW, "", "", 0, 0,"","",0,0,"", "","");
             table_DGV.AcceptChanges();
@@ -941,7 +959,6 @@ namespace WTERP
                 DGV1.Rows[rowIndex].Cells["W_CHK"].Value = "";
 
             }
-            
             DGV1.DataGridViewFormat();
             this.DGV1.Sort(this.DGV1.Columns["NR"], ListSortDirection.Ascending);
             DGV1.DataSource = table_DGV;
@@ -1039,6 +1056,15 @@ namespace WTERP
         {//W
             DeleteItem();
         }
+
+        private void DGV1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Down)
+            {
+                InsertItem();
+            }
+        }
+
         private void 产品挑选XToolStripMenuItem_Click(object sender, EventArgs e)
         {// Choice Item
             Insert_DGV();

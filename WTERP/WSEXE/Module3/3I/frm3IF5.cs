@@ -15,7 +15,6 @@ namespace WTERP
     {
         DataProvider con = new DataProvider();
         public static string GetWS_NO;
-        string WhereSearch = string.Empty;
         public frm3IF5()
         {
             this.ShowInTaskbar = false;
@@ -36,18 +35,18 @@ namespace WTERP
         }
         private void Search()
         {
-            WhereSearch = string.Empty;
+            frm3I.Where = string.Empty;
             string SQL2 = "SELECT WS_NO, dbo.FormatString2(WS_DATE) AS WS_DATE, C_NO, P_NAME, C_NAME, CLRCARD, MK_NOA FROM COSTH WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(txtWS_NO.Text)) WhereSearch = WhereSearch + " AND WS_NO LIKE '%" + txtWS_NO.Text + "%' ";
-            if (txtWS_DATE.MaskCompleted) WhereSearch = WhereSearch + " AND WS_DATE LIKE '" + txtWS_DATE.Text.Replace("/","") + "%' ";
-            if (!string.IsNullOrEmpty(txtC_NO.Text)) WhereSearch = WhereSearch + " AND C_NO LIKE '" + txtC_NO.Text + "%' ";
-            if (!string.IsNullOrEmpty(txtP_NAME.Text)) WhereSearch = WhereSearch + " AND P_NAME LIKE '%" + txtP_NAME.Text + "%' ";
-            if (!string.IsNullOrEmpty(txtC_NAME.Text)) WhereSearch = WhereSearch + " AND C_NAME LIKE '" + txtC_NAME.Text + "%' ";
-            if (!string.IsNullOrEmpty(txtMK_NOA.Text)) WhereSearch = WhereSearch + " AND MK_NOA LIKE '" + txtMK_NOA.Text + "%' ";
-            if (!string.IsNullOrEmpty(txtMK_NO.Text)) WhereSearch = WhereSearch + " AND MK_NO LIKE '" + txtMK_NO.Text + "%' ";
+            if (!string.IsNullOrEmpty(txtWS_NO.Text)) frm3I.Where = frm3I.Where + " AND WS_NO LIKE '%" + txtWS_NO.Text + "%' ";
+            if (txtWS_DATE.MaskCompleted) frm3I.Where = frm3I.Where + " AND WS_DATE LIKE '" + txtWS_DATE.Text.Replace("/","") + "%' ";
+            if (!string.IsNullOrEmpty(txtC_NO.Text)) frm3I.Where = frm3I.Where + " AND C_NO LIKE '" + txtC_NO.Text + "%' ";
+            if (!string.IsNullOrEmpty(txtP_NAME.Text)) frm3I.Where = frm3I.Where + " AND P_NAME LIKE '%" + txtP_NAME.Text + "%' ";
+            if (!string.IsNullOrEmpty(txtC_NAME.Text)) frm3I.Where = frm3I.Where + " AND C_NAME LIKE '" + txtC_NAME.Text + "%' ";
+            if (!string.IsNullOrEmpty(txtMK_NOA.Text)) frm3I.Where = frm3I.Where + " AND MK_NOA LIKE '" + txtMK_NOA.Text + "%' ";
+            if (!string.IsNullOrEmpty(txtMK_NO.Text)) frm3I.Where = frm3I.Where + " AND MK_NO LIKE '" + txtMK_NO.Text + "%' ";
 
-            SQL2 = SQL2 + WhereSearch + " ORDER BY WS_DATE DESC";
+            SQL2 = SQL2 + frm3I.Where + " ORDER BY WS_DATE DESC";
             DataTable dt1 = con.readdata(SQL2);
             DGV2.DataSource = dt1;
             DataGridViewFormat(DGV2);
@@ -125,7 +124,7 @@ namespace WTERP
         private void DGV2_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             GetWS_NO = DGV2.CurrentRow.Cells["WS_NO"].Value.ToString();
-            frm3I.Where = WhereSearch;
+            //frm3I.Where = WhereSearch;
             this.Close();
         }
 
@@ -134,7 +133,7 @@ namespace WTERP
         {
             if (!string.IsNullOrEmpty(GetWS_NO))
             {
-                frm3I.Where = WhereSearch;
+                //frm3I.Where = WhereSearch;
                 this.Close();
             }
             else
@@ -147,7 +146,6 @@ namespace WTERP
         private void btnClose_Click(object sender, EventArgs e)
         {
             GetWS_NO = string.Empty;
-            WhereSearch = string.Empty;
             this.Close();
         }
 

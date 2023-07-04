@@ -9226,7 +9226,6 @@ E:\WSEXEP\WTERP\obj\Debug\WTERP.application
 E:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.CopyComplete
 E:\WSEXEP\WTERP\obj\Debug\WTERP.exe
 E:\WSEXEP\WTERP\obj\Debug\WTERP.pdb
-E:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.AssemblyReference.cache
 E:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module2._2C.Frm2CF7_Print.resources
 E:\WSEXEP\WTERP\obj\Debug\WTERP.frm2CF7_Old.resources
 E:\WSEXEP\WTERP\obj\Debug\WTERP.frm2CF7_Old.en.resources
@@ -9235,3 +9234,5 @@ E:\WSEXEP\WTERP\obj\Debug\WTERP.frm2CF7_Old.zh-TW.resources
 E:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module2._2C.Frm2CF7_Print.en.resources
 E:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module2._2C.Frm2CF7_Print.vi.resources
 E:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module2._2C.Frm2CF7_Print.zh-TW.resources
+E:\WSEXEP\WTERP\obj\Debug\WTERP.WSEXE.Module2._2C.FrmView2C.resources
+E:\WSEXEP\WTERP\obj\Debug\WTERP.csproj.AssemblyReference.cache

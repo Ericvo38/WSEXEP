@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>50</ApplicationRevision>
+    <ApplicationRevision>57</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -3283,6 +3283,8 @@
     <EmbeddedResource Include="WSEXE\Module2\2C\FrmView2C.resx">
       <DependentUpon>FrmView2C.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WSEXE\Module2\2C\Report2.rdlc" />
+    <EmbeddedResource Include="WSEXE\Module2\2C\Report1.rdlc" />
     <EmbeddedResource Include="WSEXE\Module2\2D\frm2D.en.resx">
       <DependentUpon>frm2D.cs</DependentUpon>
     </EmbeddedResource>

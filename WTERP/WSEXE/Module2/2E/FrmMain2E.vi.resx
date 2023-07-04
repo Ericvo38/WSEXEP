@@ -350,17 +350,32 @@
         M0H8BM5qhx5sAUQNAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="txtCAL_YM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1260, 633</value>
+  </data>
+  <data name="txtTOTAL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 529</value>
+  </data>
+  <data name="txtTOT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1274, 486</value>
+  </data>
+  <data name="txtC_NAME.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 71</value>
+  </data>
+  <data name="txtC_NO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 70</value>
+  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>610, 13</value>
+    <value>940, 16</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 13</value>
+    <value>503, 15</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 13</value>
   </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 158</value>
+    <value>316, 228</value>
   </data>
   <data name="新增明細TToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -376,7 +391,7 @@
 </value>
   </data>
   <data name="新增明細TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="新增明細TToolStripMenuItem.Text" xml:space="preserve">
     <value>Thêm chi tiết</value>
@@ -390,7 +405,7 @@
 </value>
   </data>
   <data name="插入明細UToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="插入明細UToolStripMenuItem.Text" xml:space="preserve">
     <value>Chèn chi tiết</value>
@@ -405,7 +420,7 @@
 </value>
   </data>
   <data name="刪除明細VToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="刪除明細VToolStripMenuItem.Text" xml:space="preserve">
     <value>Xóa chi tiết</value>
@@ -422,7 +437,7 @@
 </value>
   </data>
   <data name="訂單明細WToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="訂單明細WToolStripMenuItem.Text" xml:space="preserve">
     <value>Chi Tiết Đặt Hàng</value>
@@ -438,7 +453,7 @@
 </value>
   </data>
   <data name="產品挑選XToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="產品挑選XToolStripMenuItem.Text" xml:space="preserve">
     <value>Lựa chọn sản phẩm</value>
@@ -455,7 +470,7 @@
 </value>
   </data>
   <data name="儲ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="儲ToolStripMenuItem.Text" xml:space="preserve">
     <value>Lưu</value>
@@ -470,7 +485,7 @@
 </value>
   </data>
   <data name="放ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>315, 32</value>
   </data>
   <data name="放ToolStripMenuItem.Text" xml:space="preserve">
     <value>Hủy bỏ</value>

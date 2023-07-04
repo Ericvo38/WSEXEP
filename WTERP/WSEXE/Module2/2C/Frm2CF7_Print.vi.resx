@@ -184,23 +184,14 @@
   <data name="label1.Text" xml:space="preserve">
     <value>IN THÔNG TIN BÁN HÀNG</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>  Lô hàng</value>
-  </data>
   <data name="grbCust.Text" xml:space="preserve">
     <value>Thông tin khách hàng</value>
   </data>
   <data name="txtMK_NOA.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 35</value>
   </data>
-  <data name="txtMK_NOA.Text" xml:space="preserve">
-    <value>N</value>
-  </data>
   <data name="txtPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 35</value>
-  </data>
-  <data name="txtPrice.Text" xml:space="preserve">
-    <value>N</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 172</value>
@@ -238,6 +229,30 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Số lô hàng bắt đầu:</value>
   </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>  Lô hàng</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>587, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>xxxxx</value>
+  </data>
+  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
+    <value>Người dùng:</value>
+  </data>
+  <data name="toolStripStatusLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="btnCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAPVJREFUSEtj
@@ -265,30 +280,6 @@
   </data>
   <data name="btnOK.Text" xml:space="preserve">
     <value>Xem[&amp;V]</value>
-  </data>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 30</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>Thông tin</value>
-  </data>
-  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>595, 30</value>
-  </data>
-  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
-    <value>xxxxx</value>
-  </data>
-  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 30</value>
-  </data>
-  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
-    <value>Người dùng:</value>
-  </data>
-  <data name="toolStripStatusLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblUSR_NAME.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 30</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4800,12 +4791,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1020, 679</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1020, 670</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Frm2CF7 - IN THÔNG TIN BÁN HÀNG</value>

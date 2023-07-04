@@ -133,6 +133,12 @@
         XqM4FOYySsVDfNqpEIeFXEZdYa5jLe7xKShh5mqmTdpc8yj6BTpzd6ACNIDUAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="f1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 24</value>
+  </data>
+  <data name="f1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F1. Query</value>
+  </data>
   <data name="f2ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAWlJREFUWEft
@@ -144,6 +150,12 @@
         /czoA4kJuB3trLbIpX4mnTBJ5Yfm7F4Jdh4FbDfi8NDIIYoIBaylhzBpIblZzM1NjYTS640BDqfRiif6
         xAcAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="f2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="f2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F2. Preview</value>
   </data>
   <data name="f4ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -160,15 +172,108 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAOxJREFUOE9j
-        +KVgsfSXgvlMUvBvRfM1/xkcWBhA4Je8+WIwgwQAtLTvv5qxCJRj/uC3gsUqUjBQz02EARS7AGrAD0UT
-        9a+y1lIg/EvO3Bgb/ilnqg3Wg90AC79fSqamYKxonoYN/1S0CAPrwWbATwXzRiCOAGFs/gZhoN/7wXqw
-        GUAKwGrAb0WzUqDt/iAMi290/FPBogGsh9QwABpuC1YMBb8VzNz/q3iygzkIA3DHwndFK3mgpjIsYTKP
-        6DDApg4s9kve4vJPBbMOfBjkZJwG/FcwEPgvZyOIFwP9i9MAYgHlBiiYz8cMRPNjAFKeDNIs6sD0AAAA
-        AElFTkSuQmCC
-</value>
+  <data name="f4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="f4ToolStripMenuItem.Text" xml:space="preserve">
+    <value>F4. Exit</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 18</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Is the unit price printed:</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Finished lot number:</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 18</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Starting lot number:</value>
+  </data>
+  <data name="radioButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="radioButton10.Text" xml:space="preserve">
+    <value>Not printed</value>
+  </data>
+  <data name="radioButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 24</value>
+  </data>
+  <data name="radioButton12.Text" xml:space="preserve">
+    <value>Print the brand, the person ordering</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Report Format</value>
+  </data>
+  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="radioButton6.Text" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="radioButton7.Text" xml:space="preserve">
+    <value>English and Chinese</value>
+  </data>
+  <data name="radioButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="radioButton8.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 24</value>
+  </data>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>English name and product parameters</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 24</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Chinese name and product parameters</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>English name</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>Chinese name</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Report Format</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>PRINT SALE INFORMATION</value>
   </data>
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -180,18 +285,27 @@
         RSAQ+FEIeQKEAJ4vIjevYgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 503</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAblJREFUaEPt
-        mMFKw0AQhnPxBbShqIjowdKoJ59RfSDxKuiT9KKi97aChzoJfx1c/5FNzTTdsh98h3X/ycxASzFFJmVm
-        VblYp2jbPayZp2jbPe4NQF4klrxIS/IiseRFWpIXiSUv0pK8SM3iqtiR4ttZNZgsH7S5DibTqrypZ8b4
-        igRkCVa0ucoy1xhfkYuXMJiAzxhfIaEkxPgKC6UgxldYqHfH5d18NDz5uByezqvynmUwvsJCvXuxe4Tx
-        ivl4/5hlcK2wUO+e7R1ivKJeimVwrbBQ78pHazoaHNQLpf3RihDjKyyUghhfYaEUxPgKC6UgxldYKAUx
-        vsJCKYjxFRayRIkbrKclShQWskSJG6ynJUoUFrJEiRuspyVKFBayREmDnJ/C+xV8xOMayL0pShQWskRJ
-        g5z/u8in+IDHNQT3f4oShYUsUeIG62mJEkX++BqGLFHiButpSP/VjX75gJIGOa/y0frxnQgheSp9+fD9
-        Oui8fA8LQlHSIOe2i/z6ToQEeeab+ToohuWDcHTDvc9WLyJnt98RHLuHNZCz2+8Ijt3j3gDkRWLZukXW
-        Jdp2D2vmKdpmEqQovgDsFfoEjd9BcwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAOxJREFUOE9j
+        +KVgsfSXgvlMUvBvRfM1/xkcWBhA4Je8+WIwgwQAtLTvv5qxCJRj/uC3gsUqUjBQz02EARS7AGrAD0UT
+        9a+y1lIg/EvO3Bgb/ilnqg3Wg90AC79fSqamYKxonoYN/1S0CAPrwWbATwXzRiCOAGFs/gZhoN/7wXqw
+        GUAKwGrAb0WzUqDt/iAMi290/FPBogGsh9QwABpuC1YMBb8VzNz/q3iygzkIA3DHwndFK3mgpjIsYTKP
+        6DDApg4s9kve4vJPBbMOfBjkZJwG/FcwEPgvZyOIFwP9i9MAYgHlBiiYz8cMRPNjAFKeDNIs6sD0AAAA
+        AElFTkSuQmCC
 </value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 503</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&amp;Preview</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -290,77 +404,5 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>PRINT SALES DATA [2CF7]</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Preview</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>&amp;Exit</value>
-  </data>
-  <data name="f1ToolStripMenuItem.Text" xml:space="preserve">
-    <value>F1. Query</value>
-  </data>
-  <data name="f2ToolStripMenuItem.Text" xml:space="preserve">
-    <value>F2. Preview</value>
-  </data>
-  <data name="f4ToolStripMenuItem.Text" xml:space="preserve">
-    <value>F4. Exit</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Report Format</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Report Format</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>PRINT SALE INFORMATION</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Starting lot number:</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Finished lot number:</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Is the unit price printed:</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="radioButton1.Text" xml:space="preserve">
-    <value>Chinese name</value>
-  </data>
-  <data name="radioButton10.Text" xml:space="preserve">
-    <value>Not printed</value>
-  </data>
-  <data name="radioButton12.Text" xml:space="preserve">
-    <value>Print the brand, the person ordering</value>
-  </data>
-  <data name="radioButton2.Text" xml:space="preserve">
-    <value>Chinese name and product parameters</value>
-  </data>
-  <data name="radioButton3.Text" xml:space="preserve">
-    <value>English name</value>
-  </data>
-  <data name="radioButton4.Text" xml:space="preserve">
-    <value>English name and product parameters</value>
-  </data>
-  <data name="radioButton6.Text" xml:space="preserve">
-    <value>Chinese</value>
-  </data>
-  <data name="radioButton7.Text" xml:space="preserve">
-    <value>English and Chinese</value>
-  </data>
-  <data name="radioButton8.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Shipment</value>
-  </data>
-  <data name="txtInDonGia.Text" xml:space="preserve">
-    <value>N</value>
   </data>
 </root>

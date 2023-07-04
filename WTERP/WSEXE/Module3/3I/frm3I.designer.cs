@@ -31,10 +31,10 @@ namespace WTERP
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm3I));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.f1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.f2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,18 +52,6 @@ namespace WTERP
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txtWS_DATE = new System.Windows.Forms.MaskedTextBox();
             this.DGV1 = new System.Windows.Forms.DataGridView();
-            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UNIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BUNIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.M_TRAN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BMEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.W_CHK = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtCARNO = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.txtCLRCARD = new System.Windows.Forms.TextBox();
@@ -123,6 +111,18 @@ namespace WTERP
             this.产品挑选XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.储存YToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.放弃ZToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.NR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UNIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BUNIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.M_TRAN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BMEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.W_CHK = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -133,7 +133,6 @@ namespace WTERP
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.BackColor = System.Drawing.Color.LightBlue;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -149,6 +148,7 @@ namespace WTERP
             this.f12ToolStripMenuItem,
             this.f8ToolStripMenuItem,
             this.f11ToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // f1ToolStripMenuItem
@@ -213,24 +213,23 @@ namespace WTERP
             // 
             // f8ToolStripMenuItem
             // 
-            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
             this.f8ToolStripMenuItem.Name = "f8ToolStripMenuItem";
+            resources.ApplyResources(this.f8ToolStripMenuItem, "f8ToolStripMenuItem");
             // 
             // f11ToolStripMenuItem
             // 
-            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
             this.f11ToolStripMenuItem.Name = "f11ToolStripMenuItem";
+            resources.ApplyResources(this.f11ToolStripMenuItem, "f11ToolStripMenuItem");
             // 
             // tabControl1
             // 
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage1);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             // 
             // tabPage1
             // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Controls.Add(this.txtWS_DATE);
             this.tabPage1.Controls.Add(this.DGV1);
             this.tabPage1.Controls.Add(this.txtCARNO);
@@ -260,13 +259,14 @@ namespace WTERP
             this.tabPage1.Controls.Add(this.txtWS_NO);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // txtWS_DATE
             // 
-            resources.ApplyResources(this.txtWS_DATE, "txtWS_DATE");
             this.txtWS_DATE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtWS_DATE, "txtWS_DATE");
             this.txtWS_DATE.Name = "txtWS_DATE";
             this.txtWS_DATE.TextChanged += new System.EventHandler(this.txtWS_DATE_TextChanged);
             this.txtWS_DATE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_DATE_KeyDown);
@@ -274,7 +274,6 @@ namespace WTERP
             // 
             // DGV1
             // 
-            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.AllowUserToAddRows = false;
             this.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.DGV1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
@@ -293,101 +292,19 @@ namespace WTERP
             this.M_TRAN,
             this.BMEMO,
             this.W_CHK});
+            resources.ApplyResources(this.DGV1, "DGV1");
             this.DGV1.Name = "DGV1";
             this.DGV1.RowTemplate.Height = 15;
             this.DGV1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellClick);
             this.DGV1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV1_CellEndEdit);
             this.DGV1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseClick);
             this.DGV1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGV1_CellMouseDoubleClick);
-            // 
-            // NR
-            // 
-            this.NR.DataPropertyName = "NR";
-            resources.ApplyResources(this.NR, "NR");
-            this.NR.Name = "NR";
-            // 
-            // P_NO
-            // 
-            this.P_NO.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.P_NO.DataPropertyName = "P_NO";
-            resources.ApplyResources(this.P_NO, "P_NO");
-            this.P_NO.Name = "P_NO";
-            // 
-            // P_NAME
-            // 
-            this.P_NAME.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.P_NAME.DataPropertyName = "P_NAME";
-            resources.ApplyResources(this.P_NAME, "P_NAME");
-            this.P_NAME.Name = "P_NAME";
-            // 
-            // QTY
-            // 
-            this.QTY.DataPropertyName = "QTY";
-            resources.ApplyResources(this.QTY, "QTY");
-            this.QTY.Name = "QTY";
-            // 
-            // BQTY
-            // 
-            this.BQTY.DataPropertyName = "BQTY";
-            dataGridViewCellStyle1.Format = "N3";
-            dataGridViewCellStyle1.NullValue = null;
-            this.BQTY.DefaultCellStyle = dataGridViewCellStyle1;
-            resources.ApplyResources(this.BQTY, "BQTY");
-            this.BQTY.Name = "BQTY";
-            // 
-            // UNIT
-            // 
-            this.UNIT.DataPropertyName = "UNIT";
-            resources.ApplyResources(this.UNIT, "UNIT");
-            this.UNIT.Name = "UNIT";
-            // 
-            // BUNIT
-            // 
-            this.BUNIT.DataPropertyName = "BUNIT";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = null;
-            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.BUNIT, "BUNIT");
-            this.BUNIT.Name = "BUNIT";
-            // 
-            // PRICE
-            // 
-            this.PRICE.DataPropertyName = "PRICE";
-            dataGridViewCellStyle3.Format = "N3";
-            this.PRICE.DefaultCellStyle = dataGridViewCellStyle3;
-            resources.ApplyResources(this.PRICE, "PRICE");
-            this.PRICE.Name = "PRICE";
-            // 
-            // AMOUNT
-            // 
-            this.AMOUNT.DataPropertyName = "AMOUNT";
-            dataGridViewCellStyle4.Format = "N3";
-            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle4;
-            resources.ApplyResources(this.AMOUNT, "AMOUNT");
-            this.AMOUNT.Name = "AMOUNT";
-            // 
-            // M_TRAN
-            // 
-            this.M_TRAN.DataPropertyName = "M_TRAN";
-            resources.ApplyResources(this.M_TRAN, "M_TRAN");
-            this.M_TRAN.Name = "M_TRAN";
-            // 
-            // BMEMO
-            // 
-            this.BMEMO.DataPropertyName = "BMEMO";
-            resources.ApplyResources(this.BMEMO, "BMEMO");
-            this.BMEMO.Name = "BMEMO";
-            // 
-            // W_CHK
-            // 
-            this.W_CHK.DataPropertyName = "W_CHK";
-            resources.ApplyResources(this.W_CHK, "W_CHK");
-            this.W_CHK.Name = "W_CHK";
+            this.DGV1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DGV1_KeyDown);
             // 
             // txtCARNO
             // 
-            resources.ApplyResources(this.txtCARNO, "txtCARNO");
             this.txtCARNO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCARNO, "txtCARNO");
             this.txtCARNO.Name = "txtCARNO";
             this.txtCARNO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCARNO_KeyDown);
             this.txtCARNO.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtCARNO_MouseDoubleClick);
@@ -400,8 +317,8 @@ namespace WTERP
             // 
             // txtCLRCARD
             // 
-            resources.ApplyResources(this.txtCLRCARD, "txtCLRCARD");
             this.txtCLRCARD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCLRCARD, "txtCLRCARD");
             this.txtCLRCARD.Name = "txtCLRCARD";
             this.txtCLRCARD.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCLRCARD_KeyDown);
             // 
@@ -413,8 +330,8 @@ namespace WTERP
             // 
             // txtMK_NOA1
             // 
-            resources.ApplyResources(this.txtMK_NOA1, "txtMK_NOA1");
             this.txtMK_NOA1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtMK_NOA1, "txtMK_NOA1");
             this.txtMK_NOA1.Name = "txtMK_NOA1";
             this.txtMK_NOA1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMK_NOA1_KeyDown);
             // 
@@ -426,8 +343,8 @@ namespace WTERP
             // 
             // txtPSF
             // 
-            resources.ApplyResources(this.txtPSF, "txtPSF");
             this.txtPSF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtPSF, "txtPSF");
             this.txtPSF.Name = "txtPSF";
             this.txtPSF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPSF_KeyDown);
             this.txtPSF.Leave += new System.EventHandler(this.txtPSF_Leave);
@@ -440,8 +357,8 @@ namespace WTERP
             // 
             // txtWKG
             // 
-            resources.ApplyResources(this.txtWKG, "txtWKG");
             this.txtWKG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtWKG, "txtWKG");
             this.txtWKG.Name = "txtWKG";
             this.txtWKG.TextChanged += new System.EventHandler(this.txtWKG_TextChanged);
             this.txtWKG.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWKG_KeyDown);
@@ -455,8 +372,8 @@ namespace WTERP
             // 
             // txtK_NO
             // 
-            resources.ApplyResources(this.txtK_NO, "txtK_NO");
             this.txtK_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtK_NO, "txtK_NO");
             this.txtK_NO.Name = "txtK_NO";
             this.txtK_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtK_NO_KeyDown);
             // 
@@ -468,8 +385,8 @@ namespace WTERP
             // 
             // txtTHICK
             // 
-            resources.ApplyResources(this.txtTHICK, "txtTHICK");
             this.txtTHICK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtTHICK, "txtTHICK");
             this.txtTHICK.Name = "txtTHICK";
             this.txtTHICK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTHICK_KeyDown);
             // 
@@ -481,8 +398,8 @@ namespace WTERP
             // 
             // txtSOURCE
             // 
-            resources.ApplyResources(this.txtSOURCE, "txtSOURCE");
             this.txtSOURCE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtSOURCE, "txtSOURCE");
             this.txtSOURCE.Name = "txtSOURCE";
             this.txtSOURCE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSOURCE_KeyDown);
             this.txtSOURCE.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtSOURCE_MouseDoubleClick);
@@ -495,8 +412,8 @@ namespace WTERP
             // 
             // txtP_NAME
             // 
-            resources.ApplyResources(this.txtP_NAME, "txtP_NAME");
             this.txtP_NAME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtP_NAME, "txtP_NAME");
             this.txtP_NAME.Name = "txtP_NAME";
             this.txtP_NAME.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtP_NAME_KeyDown);
             // 
@@ -508,8 +425,8 @@ namespace WTERP
             // 
             // txtW_KIND
             // 
-            resources.ApplyResources(this.txtW_KIND, "txtW_KIND");
             this.txtW_KIND.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtW_KIND, "txtW_KIND");
             this.txtW_KIND.Name = "txtW_KIND";
             this.txtW_KIND.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtW_KIND_KeyDown);
             this.txtW_KIND.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtW_KIND_MouseDoubleClick);
@@ -522,8 +439,8 @@ namespace WTERP
             // 
             // txtC_NAME
             // 
-            resources.ApplyResources(this.txtC_NAME, "txtC_NAME");
             this.txtC_NAME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtC_NAME, "txtC_NAME");
             this.txtC_NAME.Name = "txtC_NAME";
             this.txtC_NAME.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtC_NAME_KeyDown);
             // 
@@ -535,8 +452,8 @@ namespace WTERP
             // 
             // txtMK_NOA
             // 
-            resources.ApplyResources(this.txtMK_NOA, "txtMK_NOA");
             this.txtMK_NOA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtMK_NOA, "txtMK_NOA");
             this.txtMK_NOA.Name = "txtMK_NOA";
             this.txtMK_NOA.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtMK_NOA_MouseClick);
             this.txtMK_NOA.TextChanged += new System.EventHandler(this.txtMK_NOA_TextChanged);
@@ -551,8 +468,8 @@ namespace WTERP
             // 
             // txtWS_NO
             // 
-            resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
             this.txtWS_NO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtWS_NO, "txtWS_NO");
             this.txtWS_NO.Name = "txtWS_NO";
             this.txtWS_NO.ReadOnly = true;
             this.txtWS_NO.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtWS_NO_KeyDown);
@@ -614,9 +531,9 @@ namespace WTERP
             // 
             // lbUserName
             // 
-            resources.ApplyResources(this.lbUserName, "lbUserName");
             this.lbUserName.ForeColor = System.Drawing.Color.Brown;
             this.lbUserName.Name = "lbUserName";
+            resources.ApplyResources(this.lbUserName, "lbUserName");
             // 
             // toolStripStatusLabel2
             // 
@@ -625,9 +542,9 @@ namespace WTERP
             // 
             // lbNamePC
             // 
-            resources.ApplyResources(this.lbNamePC, "lbNamePC");
             this.lbNamePC.ForeColor = System.Drawing.Color.Brown;
             this.lbNamePC.Name = "lbNamePC";
+            resources.ApplyResources(this.lbNamePC, "lbNamePC");
             // 
             // toolStripStatusLabel3
             // 
@@ -636,25 +553,25 @@ namespace WTERP
             // 
             // lbIP
             // 
-            resources.ApplyResources(this.lbIP, "lbIP");
             this.lbIP.ForeColor = System.Drawing.Color.Brown;
             this.lbIP.Name = "lbIP";
+            resources.ApplyResources(this.lbIP, "lbIP");
             // 
             // toolStripStatusLabel4
             // 
-            resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
             this.toolStripStatusLabel4.ForeColor = System.Drawing.Color.Transparent;
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
             // 
             // toolStripStatusLabel5
             // 
-            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
+            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
             // 
             // txtUSR_NAME
             // 
-            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
             this.txtUSR_NAME.Name = "txtUSR_NAME";
+            resources.ApplyResources(this.txtUSR_NAME, "txtUSR_NAME");
             // 
             // timer1
             // 
@@ -705,7 +622,6 @@ namespace WTERP
             // 
             // contextMenuStrip1
             // 
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.新增明細UToolStripMenuItem,
@@ -715,6 +631,7 @@ namespace WTERP
             this.储存YToolStripMenuItem,
             this.放弃ZToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // 新增明細UToolStripMenuItem
             // 
@@ -724,44 +641,44 @@ namespace WTERP
             // 
             // 插入明細VToolStripMenuItem
             // 
-            resources.ApplyResources(this.插入明細VToolStripMenuItem, "插入明細VToolStripMenuItem");
             this.插入明細VToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
             this.toolStripMenuItem4,
             this.rowsToolStripMenuItem,
             this.rowsToolStripMenuItem1});
+            resources.ApplyResources(this.插入明細VToolStripMenuItem, "插入明細VToolStripMenuItem");
             this.插入明細VToolStripMenuItem.Name = "插入明細VToolStripMenuItem";
             this.插入明細VToolStripMenuItem.Click += new System.EventHandler(this.插入明細VToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
-            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // rowsToolStripMenuItem
             // 
-            resources.ApplyResources(this.rowsToolStripMenuItem, "rowsToolStripMenuItem");
             this.rowsToolStripMenuItem.Name = "rowsToolStripMenuItem";
+            resources.ApplyResources(this.rowsToolStripMenuItem, "rowsToolStripMenuItem");
             this.rowsToolStripMenuItem.Click += new System.EventHandler(this.rowsToolStripMenuItem_Click);
             // 
             // rowsToolStripMenuItem1
             // 
-            resources.ApplyResources(this.rowsToolStripMenuItem1, "rowsToolStripMenuItem1");
             this.rowsToolStripMenuItem1.Name = "rowsToolStripMenuItem1";
+            resources.ApplyResources(this.rowsToolStripMenuItem1, "rowsToolStripMenuItem1");
             this.rowsToolStripMenuItem1.Click += new System.EventHandler(this.rowsToolStripMenuItem1_Click);
             // 
             // 删除明細WToolStripMenuItem
@@ -787,6 +704,100 @@ namespace WTERP
             resources.ApplyResources(this.放弃ZToolStripMenuItem, "放弃ZToolStripMenuItem");
             this.放弃ZToolStripMenuItem.Name = "放弃ZToolStripMenuItem";
             this.放弃ZToolStripMenuItem.Click += new System.EventHandler(this.放弃ZToolStripMenuItem_Click);
+            // 
+            // NR
+            // 
+            this.NR.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.NR.DataPropertyName = "NR";
+            resources.ApplyResources(this.NR, "NR");
+            this.NR.Name = "NR";
+            // 
+            // P_NO
+            // 
+            this.P_NO.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.P_NO.DataPropertyName = "P_NO";
+            resources.ApplyResources(this.P_NO, "P_NO");
+            this.P_NO.Name = "P_NO";
+            // 
+            // P_NAME
+            // 
+            this.P_NAME.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.P_NAME.DataPropertyName = "P_NAME";
+            resources.ApplyResources(this.P_NAME, "P_NAME");
+            this.P_NAME.Name = "P_NAME";
+            // 
+            // QTY
+            // 
+            this.QTY.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.QTY.DataPropertyName = "QTY";
+            resources.ApplyResources(this.QTY, "QTY");
+            this.QTY.Name = "QTY";
+            // 
+            // BQTY
+            // 
+            this.BQTY.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.BQTY.DataPropertyName = "BQTY";
+            dataGridViewCellStyle5.Format = "N3";
+            dataGridViewCellStyle5.NullValue = null;
+            this.BQTY.DefaultCellStyle = dataGridViewCellStyle5;
+            resources.ApplyResources(this.BQTY, "BQTY");
+            this.BQTY.Name = "BQTY";
+            // 
+            // UNIT
+            // 
+            this.UNIT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.UNIT.DataPropertyName = "UNIT";
+            resources.ApplyResources(this.UNIT, "UNIT");
+            this.UNIT.Name = "UNIT";
+            // 
+            // BUNIT
+            // 
+            this.BUNIT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.BUNIT.DataPropertyName = "BUNIT";
+            dataGridViewCellStyle6.Format = "d";
+            dataGridViewCellStyle6.NullValue = null;
+            this.BUNIT.DefaultCellStyle = dataGridViewCellStyle6;
+            resources.ApplyResources(this.BUNIT, "BUNIT");
+            this.BUNIT.Name = "BUNIT";
+            // 
+            // PRICE
+            // 
+            this.PRICE.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.PRICE.DataPropertyName = "PRICE";
+            dataGridViewCellStyle7.Format = "N3";
+            this.PRICE.DefaultCellStyle = dataGridViewCellStyle7;
+            resources.ApplyResources(this.PRICE, "PRICE");
+            this.PRICE.Name = "PRICE";
+            // 
+            // AMOUNT
+            // 
+            this.AMOUNT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.AMOUNT.DataPropertyName = "AMOUNT";
+            dataGridViewCellStyle8.Format = "N3";
+            this.AMOUNT.DefaultCellStyle = dataGridViewCellStyle8;
+            resources.ApplyResources(this.AMOUNT, "AMOUNT");
+            this.AMOUNT.Name = "AMOUNT";
+            // 
+            // M_TRAN
+            // 
+            this.M_TRAN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.M_TRAN.DataPropertyName = "M_TRAN";
+            resources.ApplyResources(this.M_TRAN, "M_TRAN");
+            this.M_TRAN.Name = "M_TRAN";
+            // 
+            // BMEMO
+            // 
+            this.BMEMO.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.BMEMO.DataPropertyName = "BMEMO";
+            resources.ApplyResources(this.BMEMO, "BMEMO");
+            this.BMEMO.Name = "BMEMO";
+            // 
+            // W_CHK
+            // 
+            this.W_CHK.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.W_CHK.DataPropertyName = "W_CHK";
+            resources.ApplyResources(this.W_CHK, "W_CHK");
+            this.W_CHK.Name = "W_CHK";
             // 
             // frm3I
             // 
